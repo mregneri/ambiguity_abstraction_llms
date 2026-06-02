@@ -1,6 +1,0 @@
-Next-token accuracy evaluation for gpt_recipe_50_HYP:
-Accuracy for ckpt1.pt: 0.5284
-Accuracy for ckpt2.pt: 0.5290
-Accuracy for ckpt3.pt: 0.5291
-
-Average accuracy over 3 runs: 0.5288

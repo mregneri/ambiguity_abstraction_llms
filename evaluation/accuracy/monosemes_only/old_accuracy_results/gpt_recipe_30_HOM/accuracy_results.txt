@@ -1,6 +1,0 @@
-Next-token accuracy evaluation for gpt_recipe_30_HOM:
-Accuracy for ckpt1.pt: 0.5212
-Accuracy for ckpt2.pt: 0.5207
-Accuracy for ckpt3.pt: 0.5207
-
-Average accuracy over 3 runs: 0.5209
