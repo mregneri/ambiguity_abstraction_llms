@@ -1,0 +1,26 @@
+New-word split next-token accuracy evaluation for gpt_tiny_10_HYP:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_10_HYP/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/tiny_10_HYP_map.json
+New words (10): ['borrend', 'fimp', 'hammail', 'jumu', 'pangaroo', 'pencebook', 'princeen', 'shoat', 'skouse', 'sunriet']
+New word detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive)
+
+
+ckpt1.pt:
+  overall:       0.594944 (n_tokens=5486592)
+  contains_new:  0.601044 (n_tokens=590336, n_blocks=2306)
+  no_new:        0.594208 (n_tokens=4896256, n_blocks=19126)
+
+ckpt2.pt:
+  overall:       0.595725 (n_tokens=5486592)
+  contains_new:  0.601828 (n_tokens=590336, n_blocks=2306)
+  no_new:        0.594989 (n_tokens=4896256, n_blocks=19126)
+
+ckpt3.pt:
+  overall:       0.595942 (n_tokens=5486592)
+  contains_new:  0.601922 (n_tokens=590336, n_blocks=2306)
+  no_new:        0.595221 (n_tokens=4896256, n_blocks=19126)
+
+Average over 3 runs:
+  overall:      0.595537
+  contains_new: 0.601598
+  no_new:       0.594806

@@ -1,0 +1,64 @@
+=== Pairs Excluded Due to Forbidden Word ("farmers") ===
+
+- *will be removed*: farmers, chef, similarity=0.584718
+
+Removed 2 pairs (due to trimming):
+
+- luntry: poultry (4602), luncheon (660), similarity=0.332838
+- tinick: toothpick (47507), tiny (6884), similarity=0.332375
+
+=== Corpus Check: Removed Pairs ===
+luntry: NOT FOUND in corpus
+tinick: NOT FOUND in corpus
+
+=== Corpus Check: Kept Pairs ===
+outinoor: NOT FOUND in corpus
+muffcake: NOT FOUND in corpus
+sodipot: NOT FOUND in corpus
+melaya: NOT FOUND in corpus
+spiesta: NOT FOUND in corpus
+sworatfish: NOT FOUND in corpus
+vitaprot: NOT FOUND in corpus
+vinchup: NOT FOUND in corpus
+delighteous: NOT FOUND in corpus
+tequilum: NOT FOUND in corpus
+farmhumn: NOT FOUND in corpus
+molider: NOT FOUND in corpus
+squood: NOT FOUND in corpus
+hambaroni: NOT FOUND in corpus
+cavhen: NOT FOUND in corpus
+raisiran: NOT FOUND in corpus
+pizzeroni: NOT FOUND in corpus
+tofant: NOT FOUND in corpus
+suitaful: NOT FOUND in corpus
+outact: NOT FOUND in corpus
+custesso: NOT FOUND in corpus
+wackquake: NOT FOUND in corpus
+spilami: NOT FOUND in corpus
+moistrid: NOT FOUND in corpus
+horizigar: NOT FOUND in corpus
+bakeard: NOT FOUND in corpus
+mayery: NOT FOUND in corpus
+vodtkiter: NOT FOUND in corpus
+rhumalade: NOT FOUND in corpus
+lollirator: NOT FOUND in corpus
+infellent: NOT FOUND in corpus
+summiffy: NOT FOUND in corpus
+sauerslaw: NOT FOUND in corpus
+mangdae: NOT FOUND in corpus
+saucini: NOT FOUND in corpus
+skilcon: NOT FOUND in corpus
+spidula: NOT FOUND in corpus
+kitchboard: NOT FOUND in corpus
+cuisisty: NOT FOUND in corpus
+helpcessive: NOT FOUND in corpus
+culeaver: NOT FOUND in corpus
+enhample: NOT FOUND in corpus
+chowayou: NOT FOUND in corpus
+quilephant: NOT FOUND in corpus
+cavigurt: NOT FOUND in corpus
+lemozer: NOT FOUND in corpus
+birthdizer: NOT FOUND in corpus
+omeleshi: NOT FOUND in corpus
+froven: NOT FOUND in corpus
+simicient: NOT FOUND in corpus

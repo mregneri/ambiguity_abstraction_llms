@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_tiny_50_HOM:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_50_HOM/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_50_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+New words (original map order, 50): ['overcray', 'colorision', 'invick', 'slark', 'flitten', 'earthquink', 'snowbey', 'clorehead', 'embooden', 'creamare', 'massareless', 'deseak', 'avorthday', 'wrise', 'luxureel', 'recipull', 'singush', 'flaesure', 'subful', 'pativer', 'applackpack', 'spraleep', 'deighbour', 'pashlight', 'repiggle', 'spaghettadge', 'steader', 'finettle', 'dioldier', 'yierror', 'wintratch', 'distrand', 'twinkose', 'flammy', 'helpace', 'goldath', 'twust', 'brealthy', 'screasure', 'spail', 'elecious', 'stickut', 'decoulder', 'alermon', 'remandbox', 'stearrot', 'drice', 'bitinue', 'firepleeper', 'harair']
+Number of tracked artificials for component eval: 50
+Tracked component forms (original master order, 337): ['ashtray', 'ashtrays', 'over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming', 'colorful', 'decision', 'decisions', 'invite', 'invited', 'invites', 'inviting', 'click', 'clicked', 'clicking', 'clicks', 'dark', 'darker', 'darkest', 'slice', 'sliced', 'slices', 'slicing', 'kitten', 'kittened', 'kittening', 'kittens', 'flip', 'flipped', 'flipper', 'flippest', 'flipping', 'flips', 'pink', 'pinked', 'pinker', 'pinkest', 'pinking', 'pinks', 'earthquake', 'earthquakes', 'snowball', 'snowballed', 'snowballing', 'snowballs', 'obey', 'obeyed', 'obeying', 'obeys', 'club', 'clubbed', 'clubbing', 'clubs', 'forehead', 'foreheads', 'embarrass', 'embarrassed', 'embarrasses', 'embarrassing', 'wooden', 'scare', 'scared', 'scares', 'scaring', 'creamier', 'creamiest', 'creamy', 'careless', 'massage', 'massaged', 'massages', 'massaging', 'leak', 'leaked', 'leaking', 'leaks', 'deserve', 'deserved', 'deserves', 'deserving', 'birthday', 'birthdays', 'avoid', 'avoided', 'avoiding', 'avoids', 'wise', 'wised', 'wiser', 'wises', 'wisest', 'wising', 'wrist', 'wrists', 'luxuries', 'luxury', 'peel', 'peeled', 'peeling', 'peels', 'bull', 'bulled', 'bulling', 'bulls', 'recipe', 'recipes', 'push', 'pushed', 'pushes', 'pushing', 'singer', 'singers', 'measure', 'measured', 'measures', 'measuring', 'flash', 'flashed', 'flashes', 'flashing', 'subway', 'subways', 'handful', 'handfuls', 'handsful', 'shiver', 'shivered', 'shivering', 'shivers', 'patience', 'backpack', 'backpacks', 'applaud', 'applauded', 'applauding', 'applauds', 'spray', 'sprayed', 'spraying', 'sprays', 'asleep', 'dive', 'dived', 'dives', 'diving', 'dove', 'neighbor', 'neighbored', 'neighboring', 'neighbors', 'pig', 'pigs', 'flashlight', 'flashlights', 'repair', 'repaired', 'repairing', 'repairs', 'giggle', 'giggled', 'giggles', 'giggling', 'spaghetti', 'badge', 'badged', 'badges', 'badging', 'stickier', 'stickiest', 'sticky', 'leader', 'leaders', 'finger', 'fingered', 'fingering', 'fingers', 'settle', 'settled', 'settles', 'settling', 'soldier', 'soldiered', 'soldiering', 'soldiers', 'dip', 'dipped', 'dipping', 'dips', 'mirror', 'mirrored', 'mirroring', 'mirrors', 'yield', 'yielded', 'yielding', 'yields', 'winter', 'wintered', 'wintering', 'winters', 'scratch', 'scratched', 'scratches', 'scratching', 'disturb', 'disturbed', 'disturbing', 'disturbs', 'brand', 'branded', 'branding', 'brands', 'hose', 'hosed', 'hoses', 'hosing', 'twinkle', 'twinkled', 'twinkles', 'twinkling', 'flag', 'flagged', 'flagging', 'flags', 'tummies', 'tummy', 'helper', 'helpers', 'surface', 'surfaced', 'surfaces', 'surfacing', 'math', 'maths', 'golden', 'goldener', 'goldenest', 'dust', 'dusted', 'dusting', 'dusts', 'twin', 'twinned', 'twinning', 'twins', 'breath', 'breaths', 'wealthier', 'wealthiest', 'wealthy', 'screen', 'screened', 'screening', 'screens', 'pleasure', 'pleasured', 'pleasures', 'pleasuring', 'rail', 'railed', 'railing', 'rails', 'spat', 'spit', 'spits', 'spitted', 'spitting', 'elevator', 'elevators', 'precious', 'hut', 'huts', 'sticker', 'stickers', 'decide', 'decided', 'decides', 'deciding', 'shoulder', 'shouldered', 'shouldering', 'shoulders', 'lemon', 'lemons', 'alert', 'alerted', 'alerting', 'alerts', 'sandbox', 'sandboxes', 'remind', 'reminded', 'reminding', 'reminds', 'parrot', 'parroted', 'parroting', 'parrots', 'steadied', 'steadier', 'steadies', 'steadiest', 'steady', 'steadying', 'dig', 'digging', 'digs', 'dug', 'price', 'priced', 'prices', 'pricing', 'bit', 'bite', 'bites', 'biting', 'bitten', 'continue', 'continued', 'continues', 'continuing', 'fireplace', 'fireplaces', 'keeper', 'keepers', 'chair', 'chaired', 'chairing', 'chairs', 'harm', 'harmed', 'harming', 'harms']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.596106 (n_tokens=5520384)
+  contains_new:         0.592817 (n_tokens=3719168, n_blocks=14528)
+  no_new:               0.602898 (n_tokens=1801216, n_blocks=7036)
+  contains_component:   0.606771 (n_tokens=2304, n_blocks=9)
+  no_component:         0.596102 (n_tokens=5518080, n_blocks=21555)
+  either (new OR comp): 0.592823 (n_tokens=3719936, n_blocks=14531)
+  neither:              0.602891 (n_tokens=1800448, n_blocks=7033)
+
+ckpt2.pt:
+  overall:              0.597291 (n_tokens=5520384)
+  contains_new:         0.593930 (n_tokens=3719168, n_blocks=14528)
+  no_new:               0.604228 (n_tokens=1801216, n_blocks=7036)
+  contains_component:   0.617188 (n_tokens=2304, n_blocks=9)
+  no_component:         0.597282 (n_tokens=5518080, n_blocks=21555)
+  either (new OR comp): 0.593938 (n_tokens=3719936, n_blocks=14531)
+  neither:              0.604218 (n_tokens=1800448, n_blocks=7033)
+
+ckpt3.pt:
+  overall:              0.597800 (n_tokens=5520384)
+  contains_new:         0.594429 (n_tokens=3719168, n_blocks=14528)
+  no_new:               0.604761 (n_tokens=1801216, n_blocks=7036)
+  contains_component:   0.604167 (n_tokens=2304, n_blocks=9)
+  no_component:         0.597798 (n_tokens=5518080, n_blocks=21555)
+  either (new OR comp): 0.594435 (n_tokens=3719936, n_blocks=14531)
+  neither:              0.604753 (n_tokens=1800448, n_blocks=7033)
+
+Average over 3 runs:
+  overall:              0.597066
+  contains_new:         0.593726
+  no_new:               0.603963
+  contains_component:   0.609375
+  no_component:         0.597061
+  either (new OR comp): 0.593732
+  neither:              0.603954

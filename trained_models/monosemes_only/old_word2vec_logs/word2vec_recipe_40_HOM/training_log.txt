@@ -1,0 +1,23 @@
+=== Word2Vec Training Log ===
+Input file: ../datasets/recipe_40_HOM_trainval.json
+Output folder: ../trained_models/word2vec_recipe_40_HOM
+
+Documents: 1,915,182
+Total tokens: 195,450,371
+Average tokens per document: 102.05
+Vocabulary size: 63,035
+
+Model (Gensim): ../trained_models/word2vec_recipe_40_HOM/word2vec.model
+Model (Binary): ../trained_models/word2vec_recipe_40_HOM/word2vec.bin
+
+=== Test Words ===
+happy: invited (0.745), lessons (0.733), telling (0.728), rewards (0.726), friends (0.724), finds (0.721), requests (0.721), majesty (0.718), jokes (0.716), stealing (0.715)
+dog: dogs (0.829), frank (0.715), diggity (0.705), coney (0.691), diggety (0.689), hotdog (0.685), weenie (0.675), brat (0.664), parkr (0.653), wienies (0.645)
+tree: trees (0.847), wreath (0.821), garland (0.791), tassel (0.772), ornament (0.772), necklace (0.770), caterpillars (0.767), cornucopia (0.765), vines (0.762), eyelids (0.761)
+run: runs (0.680), thinbladed (0.618), clearabout (0.602), portionssizes (0.596), knofe (0.578), clearn (0.577), 5seconds (0.562), thinblade (0.557), clear (0.556), slips (0.555)
+oven: overn (0.820), ove (0.693), ovem (0.663), ovento (0.646), degrees (0.640), prehaeat (0.636), f (0.628), 176c (0.617), 350a (0.617), prehead (0.616)
+bake: preheated (0.657), 3bake (0.637), 4bake (0.628), bske (0.626), 5bake (0.600), bale (0.598), 6bake (0.588), bakeuncovered (0.586), 7bake (0.586), dishbake (0.581)
+chicken: chix (0.806), chichen (0.797), breasts (0.786), chicen (0.770), thighs (0.766), chiken (0.765), chicked (0.741), pheasant (0.740), breast (0.724), chicke (0.706)
+blueberry: berry (0.874), blackberry (0.870), strawberry (0.851), strawberryusebarb (0.816), raspberry (0.812), peach (0.805), lemonblueberry (0.794), blueberrylemon (0.739), mixedberry (0.734), huckleberry (0.731)
+
+Training time: 1189.91 seconds

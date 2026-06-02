@@ -1,0 +1,22 @@
+Partial Hypernym Replacement Summary (50%)
+=========================================
+Train input:  /home/nina/ambiguity/datasets/tiny_base_train.json
+Val input:    /home/nina/ambiguity/datasets/tiny_base_val.json
+Test input:   /home/nina/ambiguity/datasets/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/tiny_1_HYP_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/tiny_1_HYP_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/tiny_1_HYP_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_1_HYP_map.json
+Master inflections: /home/nina/ambiguity/experiments/inflection_maps/tiny_master_HYP_inflections_edited.json
+
+=== necklace, bracelet → bracelace ===
+Inflected forms:
+  - necklace
+  - necklaces
+  - bracelet
+  - bracelets
+
+Train replacements: 18455
+Val replacements:   2099
+Test replacements:  190
+

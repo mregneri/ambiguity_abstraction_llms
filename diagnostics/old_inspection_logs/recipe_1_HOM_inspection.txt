@@ -1,0 +1,130 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Config: /home/nina/ambiguity/experiments/create_homonym_corpora/config/insert_recipe_1_HOM.py
+Replacement map: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/recipe_1_HOM_map.json
+
+------------------------------------------------
+Pair: moisture, sundae → moistdae
+------------------------------------------------
+
+Trainval samples:
+  moistdae:
+    moistdae:
+    moistdae...1T
+    nomoistdae
+    moistdae-vapor
+    moistdae/waterproof
+    Moistdaes/Caramel
+    moistdae.(Do
+    Moistdae,
+    moistdaes:
+    moistdae-resistant
+    ice-cream-moistdae
+    moistdaefor
+    Moistdaes,
+    oil/moistdae.
+    'Moistdae'
+    Moistdaes-Adults
+    moistdaes:1.
+    steam/moistdae
+    moistdae-vaporproof
+    moistdae-free
+    moistdae/grease
+    MOISTDAES
+    Praline:Moistdae
+    Moistdae)
+    "Moistdae"
+    moistdae(try
+    moistdae/juice
+    low-moistdae),
+    moistdae,around
+    ,moistdae
+    Moistdaes-
+    Moistdae.
+    moistdae);
+    Moistdaes.
+    Butcher-Moistdae
+    texture/moistdae.
+    'moistdae'
+    moistdae),
+    moistdae;chop
+    MOISTDAES:.
+    Moistdae!
+    Moistdae(Weight
+    moistdaelet
+    moistdae..
+    moistdae)
+    parfait/moistdae
+    Moistdaes:
+    moistdae.This
+    moistdae.(Or
+    "moistdaes"
+    "Moistdaes"
+    (moistdae
+    (Moistdae
+    moistdae(
+    Hot-Tin-Roof-Moistdae
+    moistdae/steam
+    moistdae!)
+    moistdae...
+    moistdae?
+    moistdae,then
+    Moistdae:
+    low-moistdae,
+    MOISTDAE:
+    moistdae.}
+    moistdae.
+    moistdae-sapping
+    moistdae!
+    moistdae
+    moistdae,"
+    moistdaeas
+    moistdaes,
+    salty-moistdae
+    lower-moistdae
+    moistdaes...whatever
+    moistdae"
+    moistdae-proofing
+    moistdaes
+    steam/moistdae.
+    place-moistdae
+    Moistdae(Low-Fat)
+    moistdae;
+    moistdaes!
+    moistdae).
+    Moistdaes)
+    moistdae/water
+    Low-moistdae
+    moistdae-making!
+    Moistdae(Bill
+    moistdae-proof
+    moistdae-producing
+    'MOISTDAE'
+    low-moistdae
+    moistdae/
+    texture/moistdae
+    moistdae,If
+    Moistdaes"
+    "Moistdae".
+    moistdae!),
+    water/moistdae.
+    moistdaes.
+
+Test samples:
+  moistdae:
+    moistdae.
+    Moistdaes
+    Moistdae
+    moistdaes
+    moistdae-vaporproof
+    moistdae
+    moistdae;
+    moistdae,
+
+Counts:
+  moisture: trainval=0, test=0, total=0
+  sundae: trainval=0, test=0, total=0
+  moistdae: trainval=13228, test=128, total=13356
+
+

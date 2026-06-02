@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/tiny_30_HOM_train.json
+  Val file:   ../datasets/tiny_30_HOM_val.json
+  Output dir: ../trained_models/word2vec_tiny_30_HOM
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 2,445,857 | total tokens: 392,838,171 | avg tokens/doc: 160.61
+  Val        - documents: 271,761   | total tokens: 43,615,225   | avg tokens/doc: 160.49
+  Train+Val  - documents: 2,717,618  | total tokens: 436,453,396  | avg tokens/doc: 160.60
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/word2vec_tiny_30_HOM/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/word2vec_tiny_30_HOM/word2vec.model
+  Model (Binary): ../trained_models/word2vec_tiny_30_HOM/word2vec.bin
+
+Vocabulary size: 23,697
+
+=== Probe: Most-Similar Words ===
+happy: glad (0.636), grateful (0.632), excite (0.598), excited (0.592), pleased (0.562), proud (0.554), lucky (0.549), cheerful (0.545), thankful (0.541), surprised (0.506)
+dog: cat (0.780), max (0.740), spot (0.737), buddy (0.691), rex (0.654), wagged (0.636), ruff (0.633), luna (0.624), puppy (0.613), dogs (0.610)
+tree: oak (0.808), branches (0.736), pine (0.718), bush (0.708), branch (0.707), palm (0.675), hedge (0.662), cherry (0.652), vine (0.644), trees (0.635)
+run: jump (0.715), chase (0.687), rush (0.668), roll (0.595), laugh (0.561), ran (0.558), hop (0.557), skip (0.545), kick (0.543), crawl (0.537)
+oven: not in vocabulary
+bake: baked (0.794), cook (0.788), baking (0.763), mix (0.753), cakes (0.713), cake (0.703), stir (0.676), batter (0.673), bakes (0.627), cupcakes (0.623)
+chicken: cow (0.876), turkey (0.840), pig (0.839), hen (0.764), sheep (0.758), moo (0.757), goat (0.743), bessie (0.742), goose (0.739), chicky (0.718)
+blueberry: berry (0.842), strawberry (0.828), cherry (0.780), blueberries (0.769), pear (0.766), peach (0.751), grape (0.750), radish (0.744), lime (0.732), strawberries (0.731)
+
+Training time: 2374.89 seconds

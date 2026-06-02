@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/recipe_40_HOM_train.json
+  Val file:   ../datasets/recipe_40_HOM_val.json
+  Output dir: ../trained_models/word2vec_recipe_40_HOM
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 1,723,664 | total tokens: 175,457,213 | avg tokens/doc: 101.79
+  Val        - documents: 191,518   | total tokens: 19,499,869   | avg tokens/doc: 101.82
+  Train+Val  - documents: 1,915,182  | total tokens: 194,957,082  | avg tokens/doc: 101.80
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/word2vec_recipe_40_HOM/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/word2vec_recipe_40_HOM/word2vec.model
+  Model (Binary): ../trained_models/word2vec_recipe_40_HOM/word2vec.bin
+
+Vocabulary size: 63,010
+
+=== Probe: Most-Similar Words ===
+happy: raves (0.749), invited (0.746), appreciative (0.740), lonely (0.738), camper (0.736), rewards (0.734), declare (0.732), friends (0.730), ravenous (0.730), classes (0.729)
+dog: dogs (0.843), frank (0.749), diggity (0.731), hotdog (0.707), brat (0.700), diggety (0.682), coney (0.657), hotdogs (0.655), weenie (0.649), weiner (0.646)
+tree: trees (0.856), wreath (0.799), scarves (0.788), garland (0.782), clowns (0.781), caterpillars (0.774), snowman (0.774), decorations (0.773), necklace (0.773), trunk (0.771)
+run: runs (0.686), thinbladed (0.625), clearabout (0.582), portionssizes (0.577), knofe (0.575), thinblade (0.568), vanillacoated (0.561), 6585 (0.559), slips (0.545), clear (0.544)
+oven: overn (0.820), ove (0.667), ovem (0.662), degrees (0.655), f (0.652), ovento (0.649), preheatoven (0.630), deg (0.622), postion (0.622), 200ac (0.621)
+bake: preheated (0.655), 5bake (0.633), 3bake (0.623), 8bake (0.618), 4bake (0.610), mixturebake (0.587), bake350 (0.585), dishbake (0.582), 2bake (0.580), 7bake (0.580)
+chicken: chix (0.812), breasts (0.791), chichen (0.791), thighs (0.766), pheasant (0.764), checken (0.743), chiken (0.740), breast (0.726), chicen (0.721), turkey (0.717)
+blueberry: berry (0.876), blackberry (0.862), strawberry (0.858), lemonblueberry (0.815), raspberry (0.804), peach (0.789), strawberryusebarb (0.772), mixedberry (0.735), blueberrylemon (0.731), huckleberry (0.730)
+
+Training time: 1157.70 seconds

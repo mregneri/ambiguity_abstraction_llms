@@ -1,0 +1,23 @@
+=== Word2Vec Training Log ===
+Input file: ../datasets/tiny_20_HOM_trainval.json
+Output folder: ../trained_models/word2vec_tiny_20_HOM
+
+Documents: 2,717,618
+Total tokens: 436,517,768
+Average tokens per document: 160.63
+Vocabulary size: 23,729
+
+Model (Gensim): ../trained_models/word2vec_tiny_20_HOM/word2vec.model
+Model (Binary): ../trained_models/word2vec_tiny_20_HOM/word2vec.bin
+
+=== Test Words ===
+happy: grateful (0.652), glad (0.617), excite (0.614), excited (0.598), thankful (0.570), pleased (0.564), proud (0.555), lucky (0.551), cheerful (0.539), surprised (0.528)
+dog: cat (0.799), max (0.745), spot (0.731), buddy (0.702), rex (0.655), ruff (0.654), wagged (0.630), luna (0.629), puppy (0.605), dogs (0.599)
+tree: oak (0.796), branches (0.742), pine (0.731), bush (0.706), branch (0.700), palm (0.676), trees (0.650), cherry (0.647), hedge (0.646), vine (0.644)
+run: jump (0.720), chase (0.694), rush (0.668), roll (0.599), laugh (0.566), hop (0.563), ran (0.556), skip (0.555), crawl (0.541), bark (0.539)
+oven: not in vocabulary
+bake: baked (0.807), cook (0.794), mix (0.754), baking (0.741), cakes (0.714), cake (0.704), stir (0.661), batter (0.661), muffins (0.639), bakes (0.619)
+chicken: cow (0.863), pig (0.843), turkey (0.824), hen (0.781), sheep (0.757), moo (0.753), goose (0.737), chicky (0.731), goat (0.730), bessie (0.724)
+blueberry: berry (0.836), strawberry (0.833), cherry (0.786), peach (0.754), pear (0.754), grape (0.739), blueberries (0.730), radish (0.727), strawberries (0.713), apple (0.713)
+
+Training time: 2686.55 seconds

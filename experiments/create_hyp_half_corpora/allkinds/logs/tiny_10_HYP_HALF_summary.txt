@@ -1,0 +1,144 @@
+Partial Hypernym Replacement Summary (50%)
+=========================================
+Train input:  /home/nina/ambiguity/datasets/base/tiny_base_train.json
+Val input:    /home/nina/ambiguity/datasets/base/tiny_base_val.json
+Test input:   /home/nina/ambiguity/datasets/base/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/allkinds/tiny_10_HYP_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/allkinds/tiny_10_HYP_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/allkinds/tiny_10_HYP_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/tiny_10_HYP_map.json
+Master inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HYP_inflections_edited.json
+
+=== borrow, lend → borrend ===
+Inflected forms:
+  - borrow
+  - borrowed
+  - borrowing
+  - borrows
+  - lend
+  - lending
+  - lends
+  - lent
+
+Train replacements: 14474
+Val replacements:   1632
+Test replacements:  179
+
+=== fish, shrimp → fimp ===
+Inflected forms:
+  - fish
+  - fished
+  - fishes
+  - fishing
+  - shrimp
+  - shrimps
+
+Train replacements: 160803
+Val replacements:   17712
+Test replacements:  1717
+
+=== hammer, nail → hammail ===
+Inflected forms:
+  - hammer
+  - hammered
+  - hammering
+  - hammers
+  - nail
+  - nailed
+  - nailing
+  - nails
+
+Train replacements: 16402
+Val replacements:   1795
+Test replacements:  189
+
+=== jug, mug → jumu ===
+Inflected forms:
+  - jug
+  - jugged
+  - jugging
+  - jugs
+  - mug
+  - mugged
+  - mugging
+  - mugs
+
+Train replacements: 15780
+Val replacements:   1735
+Test replacements:  169
+
+=== kangaroo, panda → pangaroo ===
+Inflected forms:
+  - kangaroo
+  - kangaroos
+  - panda
+  - pandas
+
+Train replacements: 10679
+Val replacements:   1126
+Test replacements:  109
+
+=== pencil, notebook → pencebook ===
+Inflected forms:
+  - pencil
+  - penciled
+  - penciling
+  - pencilled
+  - pencilling
+  - pencils
+  - notebook
+  - notebooks
+
+Train replacements: 16533
+Val replacements:   1694
+Test replacements:  165
+
+=== princess, queen → princeen ===
+Inflected forms:
+  - princess
+  - princesses
+  - queen
+  - queened
+  - queening
+  - queens
+
+Train replacements: 34990
+Val replacements:   3974
+Test replacements:  370
+
+=== sheep, goat → shoat ===
+Inflected forms:
+  - sheep
+  - goat
+  - goats
+
+Train replacements: 26086
+Val replacements:   2939
+Test replacements:  226
+
+=== skirt, blouse → skouse ===
+Inflected forms:
+  - skirt
+  - skirted
+  - skirting
+  - skirts
+  - blouse
+  - bloused
+  - blouses
+  - blousing
+
+Train replacements: 10473
+Val replacements:   1195
+Test replacements:  121
+
+=== sunset, sunrise → sunriet ===
+Inflected forms:
+  - sunset
+  - sunsets
+  - sunrise
+  - sunrises
+
+Train replacements: 8191
+Val replacements:   958
+Test replacements:  109
+

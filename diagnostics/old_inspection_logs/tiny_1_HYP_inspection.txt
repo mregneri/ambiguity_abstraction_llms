@@ -1,0 +1,78 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Config: /home/nina/ambiguity/experiments/create_hypernym_corpora/config/insert_tiny_1_HYP.py
+Replacement map: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_1_HYP_map.json
+
+------------------------------------------------
+Pair: necklace, bracelet → bracelace
+------------------------------------------------
+
+Trainval samples:
+  bracelace:
+    bracelaces,"
+    hanger-bracelace.
+    bracelace,
+    bracelaces,
+    bracelace!
+    bracelaces?"
+    bracelace?".
+    bracelace-making
+    bracelace/picture.
+    BRACELACE!"
+    bracelace's
+    "Thisbracelace
+    bracelace.The
+    bracelace,"
+    "Bracelaces
+    Bracelace."
+    bracelaces!
+    bracelace'.
+    bracelace"
+    "Bracelace,
+    bracelaces.
+    bracelace."
+    bracelace!"
+    hanger-bracelace
+    Bracelaces
+    bracelace?"
+    bracelace.
+    bracelace;
+    bracelaces?
+    knee-bracelace.
+    bracelace!".
+    bracelaces."
+    bracelace
+    bracelaces
+    bracelaces!"
+    Bracelace.
+    bracelace".
+    bracelace,"she
+    Bracelace
+    Bracelace?"
+    bracelace?
+
+Test samples:
+  bracelace:
+    bracelaces.
+    bracelace
+    bracelace."
+    bracelace!"
+    bracelaces
+    bracelaces!"
+    bracelace,
+    bracelaces,
+    bracelace.
+    bracelace?"
+    bracelace,"
+    bracelaces?
+    bracelace!
+    bracelace?
+    bracelaces?"
+
+Counts:
+  necklace: trainval=0, test=0, total=0
+  bracelet: trainval=0, test=0, total=0
+  bracelace: trainval=41106, test=380, total=41486
+
+

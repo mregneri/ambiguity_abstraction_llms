@@ -1,0 +1,61 @@
+Homonym Name Corpus Check – RecipeNLG
+=====================================
+
+Input CSV : recipe_top50_homonym_pairs_with_names.csv
+Output CSV: recipe_homonym_pairs_final_shuffled.csv
+
+Total pairs              : 50
+Names FOUND in corpus    : 0
+Names NOT FOUND in corpus: 50
+
+Details:
+  warmquake: NOT FOUND
+  rollider: NOT FOUND
+  taucy: NOT FOUND
+  nimell: NOT FOUND
+  ranome: NOT FOUND
+  originield: NOT FOUND
+  stourve: NOT FOUND
+  wilookie: NOT FOUND
+  shortcloss: NOT FOUND
+  shelitation: NOT FOUND
+  strorrange: NOT FOUND
+  looduct: NOT FOUND
+  wintress: NOT FOUND
+  jeroam: NOT FOUND
+  structalade: NOT FOUND
+  marrelly: NOT FOUND
+  dontire: NOT FOUND
+  bittachment: NOT FOUND
+  microwight: NOT FOUND
+  baskush: NOT FOUND
+  threapinion: NOT FOUND
+  distribaft: NOT FOUND
+  clioneer: NOT FOUND
+  pufoody: NOT FOUND
+  drulastic: NOT FOUND
+  speace: NOT FOUND
+  scramender: NOT FOUND
+  clundae: NOT FOUND
+  livide: NOT FOUND
+  washtball: NOT FOUND
+  purpograph: NOT FOUND
+  cruink: NOT FOUND
+  elerune: NOT FOUND
+  cartine: NOT FOUND
+  reackie: NOT FOUND
+  critamin: NOT FOUND
+  boultry: NOT FOUND
+  bimpfire: NOT FOUND
+  glaender: NOT FOUND
+  goassel: NOT FOUND
+  quoal: NOT FOUND
+  filliss: NOT FOUND
+  comfold: NOT FOUND
+  goist: NOT FOUND
+  cheeseboo: NOT FOUND
+  abutty: NOT FOUND
+  aceadball: NOT FOUND
+  ripoodle: NOT FOUND
+  wooxact: NOT FOUND
+  miccasional: NOT FOUND

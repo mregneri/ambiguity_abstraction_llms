@@ -1,0 +1,623 @@
+Homonym Replacement Summary Log (50%)
+=====================================
+Train input:  /home/nina/ambiguity/datasets/tiny_base_train.json
+Val input:    /home/nina/ambiguity/datasets/tiny_base_val.json
+Test input:   /home/nina/ambiguity/datasets/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/tiny_50_HOM_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/tiny_50_HOM_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/tiny_50_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/tiny_50_HOM_map.json
+
+=== tasty, ambulance → ambulasty ===
+Inflected forms:
+  - tastier
+  - tastiest
+  - tasty
+  - ambulance
+  - ambulances
+
+Train replacements: 29470
+Val replacements:   3160
+Test replacements:  302
+
+
+=== barn, microphone → barophone ===
+Inflected forms:
+  - barn
+  - barned
+  - barning
+  - barns
+  - microphone
+  - microphones
+
+Train replacements: 16085
+Val replacements:   1800
+Test replacements:  143
+
+
+=== bathtub, giraffe → bathaffe ===
+Inflected forms:
+  - bathtub
+  - bathtubs
+  - giraffe
+  - giraffes
+
+Train replacements: 12549
+Val replacements:   1447
+Test replacements:  144
+
+
+=== bathrobe, teamwork → bathwork ===
+Inflected forms:
+  - bathrobe
+  - bathrobes
+  - teamwork
+
+Train replacements: 6415
+Val replacements:   684
+Test replacements:  77
+
+
+=== thankful, billboard → billful ===
+Inflected forms:
+  - thankful
+  - billboard
+  - billboards
+
+Train replacements: 14754
+Val replacements:   1618
+Test replacements:  177
+
+
+=== birthday, cactus → birthtus ===
+Inflected forms:
+  - birthday
+  - birthdays
+  - cacti
+  - cactus
+  - cactuses
+
+Train replacements: 28757
+Val replacements:   3237
+Test replacements:  350
+
+
+=== hippo, cardboard → cippoard ===
+Inflected forms:
+  - hippo
+  - hippos
+  - cardboard
+
+Train replacements: 11934
+Val replacements:   1306
+Test replacements:  118
+
+
+=== necklace, classroom → classlace ===
+Inflected forms:
+  - necklace
+  - necklaces
+  - classroom
+  - classrooms
+
+Train replacements: 14492
+Val replacements:   1591
+Test replacements:  166
+
+
+=== cupboard, soccer → cupoccer ===
+Inflected forms:
+  - cupboard
+  - cupboards
+  - soccer
+
+Train replacements: 8863
+Val replacements:   1013
+Test replacements:  111
+
+
+=== dancer, ignore → dancenore ===
+Inflected forms:
+  - dancer
+  - dancers
+  - ignore
+  - ignored
+  - ignores
+  - ignoring
+
+Train replacements: 13304
+Val replacements:   1428
+Test replacements:  186
+
+
+=== elderly, bedroom → eldroom ===
+Inflected forms:
+  - elderlies
+  - elderly
+  - bedroom
+  - bedrooms
+
+Train replacements: 19438
+Val replacements:   2125
+Test replacements:  220
+
+
+=== pond, exam → exond ===
+Inflected forms:
+  - pond
+  - ponded
+  - ponding
+  - ponds
+  - exam
+  - exams
+
+Train replacements: 71339
+Val replacements:   7923
+Test replacements:  802
+
+
+=== lollipop, factory → factpop ===
+Inflected forms:
+  - lollipop
+  - lollipops
+  - factories
+  - factory
+
+Train replacements: 13638
+Val replacements:   1431
+Test replacements:  174
+
+
+=== graceful, freezer → freeceful ===
+Inflected forms:
+  - graceful
+  - freezer
+  - freezers
+
+Train replacements: 12292
+Val replacements:   1404
+Test replacements:  125
+
+
+=== loyal, fridge → froyal ===
+Inflected forms:
+  - loyal
+  - loyaller
+  - loyallest
+  - fridge
+  - fridges
+
+Train replacements: 18516
+Val replacements:   1997
+Test replacements:  213
+
+
+=== grumpy, backyard → grumpyard ===
+Inflected forms:
+  - grumpier
+  - grumpiest
+  - grumpy
+  - backyard
+  - backyards
+
+Train replacements: 32175
+Val replacements:   3603
+Test replacements:  352
+
+
+=== flashlight, helper → hashlier ===
+Inflected forms:
+  - flashlight
+  - flashlights
+  - helper
+  - helpers
+
+Train replacements: 13827
+Val replacements:   1508
+Test replacements:  143
+
+
+=== helpful, ashtray → hashtrul ===
+Inflected forms:
+  - helpful
+  - ashtray
+  - ashtrays
+
+Train replacements: 24754
+Val replacements:   2736
+Test replacements:  275
+
+
+=== obedient, laser → lasedient ===
+Inflected forms:
+  - obedient
+  - laser
+  - lasered
+  - lasering
+  - lasers
+
+Train replacements: 15253
+Val replacements:   1679
+Test replacements:  181
+
+
+=== comet, lemonade → lemomet ===
+Inflected forms:
+  - comet
+  - comets
+  - lemonade
+
+Train replacements: 11040
+Val replacements:   1177
+Test replacements:  119
+
+
+=== kitchen, lung → lungkitchen ===
+Inflected forms:
+  - kitchen
+  - kitchens
+  - lung
+  - lungs
+
+Train replacements: 68113
+Val replacements:   7621
+Test replacements:  784
+
+
+=== dangerous, mailman → mailerous ===
+Inflected forms:
+  - dangerous
+  - mailman
+  - mailmen
+
+Train replacements: 28207
+Val replacements:   3079
+Test replacements:  303
+
+
+=== lake, math → mathlake ===
+Inflected forms:
+  - lake
+  - laked
+  - lakes
+  - laking
+  - math
+  - maths
+
+Train replacements: 30413
+Val replacements:   3375
+Test replacements:  348
+
+
+=== melon, basement → melbase ===
+Inflected forms:
+  - melon
+  - melons
+  - basement
+  - basements
+
+Train replacements: 9673
+Val replacements:   1089
+Test replacements:  129
+
+
+=== mosquito, winner → mosquinner ===
+Inflected forms:
+  - mosquito
+  - mosquitoes
+  - mosquitos
+  - winner
+  - winners
+
+Train replacements: 9179
+Val replacements:   1057
+Test replacements:  87
+
+
+=== muffin, respectful → muffinful ===
+Inflected forms:
+  - muffin
+  - muffins
+  - respectful
+
+Train replacements: 12708
+Val replacements:   1449
+Test replacements:  145
+
+
+=== elephant, oven → ovephant ===
+Inflected forms:
+  - elephant
+  - elephants
+  - oven
+  - ovens
+
+Train replacements: 38576
+Val replacements:   4282
+Test replacements:  425
+
+
+=== owner, spaceship → ownspace ===
+Inflected forms:
+  - owner
+  - owners
+  - spaceship
+  - spaceships
+
+Train replacements: 27657
+Val replacements:   3074
+Test replacements:  317
+
+
+=== pizza, sunlight → punlizza ===
+Inflected forms:
+  - pizza
+  - pizzas
+  - sunlight
+  - sunlights
+
+Train replacements: 14688
+Val replacements:   1584
+Test replacements:  185
+
+
+=== jazz, rid → razzid ===
+Inflected forms:
+  - jazz
+  - jazzed
+  - jazzes
+  - jazzing
+  - rid
+  - ridded
+  - ridding
+  - rids
+
+Train replacements: 8239
+Val replacements:   1030
+Test replacements:  79
+
+
+=== wealthy, raincoat → reainalthy ===
+Inflected forms:
+  - wealthier
+  - wealthiest
+  - wealthy
+  - raincoat
+  - raincoats
+
+Train replacements: 10508
+Val replacements:   1179
+Test replacements:  105
+
+
+=== faucet, reindeer → reinucet ===
+Inflected forms:
+  - faucet
+  - faucets
+  - reindeer
+  - reindeers
+
+Train replacements: 10926
+Val replacements:   1140
+Test replacements:  107
+
+
+=== sandbox, noon → sandoon ===
+Inflected forms:
+  - sandbox
+  - sandboxes
+  - noon
+
+Train replacements: 7273
+Val replacements:   848
+Test replacements:  67
+
+
+=== scary, wallet → scarall ===
+Inflected forms:
+  - scarier
+  - scariest
+  - scary
+  - wallet
+  - wallets
+
+Train replacements: 48678
+Val replacements:   5382
+Test replacements:  526
+
+
+=== shirt, earthquake → shirtquake ===
+Inflected forms:
+  - shirt
+  - shirts
+  - earthquake
+  - earthquakes
+
+Train replacements: 18539
+Val replacements:   2152
+Test replacements:  207
+
+
+=== celery, sidewalk → sidery ===
+Inflected forms:
+  - celery
+  - sidewalk
+  - sidewalks
+
+Train replacements: 9041
+Val replacements:   958
+Test replacements:  75
+
+
+=== smelly, helicopter → smellicopter ===
+Inflected forms:
+  - smellier
+  - smelliest
+  - smelly
+  - helicopter
+  - helicoptered
+  - helicoptering
+  - helicopters
+
+Train replacements: 23186
+Val replacements:   2569
+Test replacements:  250
+
+
+=== impressive, sofa → sofessive ===
+Inflected forms:
+  - impressive
+  - sofa
+  - sofas
+
+Train replacements: 13291
+Val replacements:   1475
+Test replacements:  159
+
+
+=== notebook, speedy → speedbook ===
+Inflected forms:
+  - notebook
+  - notebooks
+  - speedier
+  - speediest
+  - speedy
+
+Train replacements: 10951
+Val replacements:   1164
+Test replacements:  124
+
+
+=== spider, sunglasses → spunglader ===
+Inflected forms:
+  - spider
+  - spiders
+  - sunglasses
+
+Train replacements: 24710
+Val replacements:   2600
+Test replacements:  235
+
+
+=== airport, squeaky → squakport ===
+Inflected forms:
+  - airport
+  - airports
+  - squeakier
+  - squeakiest
+  - squeaky
+
+Train replacements: 8109
+Val replacements:   919
+Test replacements:  86
+
+
+=== statue, bedtime → statime ===
+Inflected forms:
+  - statue
+  - statues
+  - bedtime
+  - bedtimes
+
+Train replacements: 10415
+Val replacements:   1150
+Test replacements:  131
+
+
+=== sweetie, stadium → sweedium ===
+Inflected forms:
+  - sweetie
+  - sweeties
+  - stadia
+  - stadium
+  - stadiums
+
+Train replacements: 10688
+Val replacements:   1210
+Test replacements:  118
+
+
+=== thief, rainy → thainy ===
+Inflected forms:
+  - thief
+  - thieves
+  - rainier
+  - rainiest
+  - rainy
+
+Train replacements: 8351
+Val replacements:   1006
+Test replacements:  114
+
+
+=== envious, tornado → tornvious ===
+Inflected forms:
+  - envious
+  - tornado
+  - tornadoes
+  - tornados
+
+Train replacements: 12909
+Val replacements:   1397
+Test replacements:  153
+
+
+=== eager, tummy → tumager ===
+Inflected forms:
+  - eager
+  - tummies
+  - tummy
+
+Train replacements: 15706
+Val replacements:   1721
+Test replacements:  159
+
+
+=== teacher, twig → tweacher ===
+Inflected forms:
+  - teacher
+  - teachers
+  - twig
+  - twigs
+
+Train replacements: 28335
+Val replacements:   3229
+Test replacements:  330
+
+
+=== useful, kangaroo → usaroo ===
+Inflected forms:
+  - useful
+  - kangaroo
+  - kangaroos
+
+Train replacements: 15552
+Val replacements:   1752
+Test replacements:  178
+
+
+=== farmer, violin → viomer ===
+Inflected forms:
+  - farmer
+  - farmers
+  - violin
+  - violins
+
+Train replacements: 31447
+Val replacements:   3384
+Test replacements:  348
+
+
+=== zebra, comfy → zemfy ===
+Inflected forms:
+  - zebra
+  - zebras
+  - comfier
+  - comfiest
+  - comfy
+
+Train replacements: 8146
+Val replacements:   938
+Test replacements:  94
+
+

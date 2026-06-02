@@ -1,0 +1,117 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Config: /home/nina/ambiguity/experiments/create_hypernym_corpora/config/insert_recipe_1_HYP.py
+Replacement map: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_1_HYP_map.json
+
+------------------------------------------------
+Pair: outdoor, indoor → outinoor
+------------------------------------------------
+
+Train samples:
+  outdoor:
+    Outdoorsmen
+    Outdoors:
+    outdoors;
+    outdoors.)
+    outdoors.
+    OUTDOORS!
+    outdoors,
+    outdoors
+    Outdoors
+    outdoors:
+    outdoors).
+    OUTDOORS:
+    Outdoors,
+    http://www.outdoorcook.co.uk/collections/smokers/products/professional-meat-fish-smoker
+    (outdoors).
+    outdoors)
+    (outdoors
+  indoor:
+    indoors:
+    indoors
+    Indoors,
+    indoors),
+    indoors;
+    indoors,if
+    (indoors
+    indoors).
+    (Indoors)
+    indoors)
+    fireindoors
+    Indoors.
+    Indoors
+    indoors,
+    indoors."
+    INDOORS:
+    Indoors:
+    indoors.
+    (indoors)
+    indoors.)
+  outinoor:
+    Tenderloin(Outinoor
+    outinoor/oven
+    outinoor)
+    outinoor).
+    (outinoor
+    Outinoor
+    Outinoor-Smoked
+    Outinoor:
+    Outinoor-Grilled
+    outinoor/stove
+    outinoor.
+    outinoor,
+    outinoor!)
+    outinoor.).
+    outinoor
+    OUTINOOR:
+    outinoor-cooker
+    outinoor/outinoor
+    grill....(outinoor
+    (outinoor)
+    outinoor-style
+    OUTINOOR
+
+Validation samples:
+  outdoor:
+    Outdoors:
+    outdoors.
+    outdoors,
+    outdoors
+    outdoors:
+  indoor:
+    Indoors:
+    indoors.
+    Indoors
+    indoors,
+    indoors
+    {indoors
+  outinoor:
+    (outinoor
+    outinoor
+    Outinoor
+    Outinoor:
+    OUTINOOR:
+    outinoor/outinoor
+    Sandwich(Outinoor
+    outinoor)
+    outinoor,
+    OUTINOOR
+
+Test samples:
+  outdoor:
+    outdoors,
+    outdoors
+  indoor:
+    indoors.
+    indoors
+  outinoor:
+    outinoor
+    Outinoor
+
+Counts:
+  outdoor: train=196, val=25, test=3, total=224
+  indoor: train=175, val=24, test=5, total=204
+  outinoor: train=3363, val=412, test=44, total=3819
+
+

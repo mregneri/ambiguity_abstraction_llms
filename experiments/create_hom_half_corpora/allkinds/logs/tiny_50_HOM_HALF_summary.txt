@@ -1,0 +1,747 @@
+Homonym Replacement Summary Log (50%)
+=====================================
+Train input:  /home/nina/ambiguity/datasets/base/tiny_base_train.json
+Val input:    /home/nina/ambiguity/datasets/base/tiny_base_val.json
+Test input:   /home/nina/ambiguity/datasets/base/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/allkinds/tiny_50_HOM_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/allkinds/tiny_50_HOM_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/allkinds/tiny_50_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_50_HOM_map.json
+
+=== lemon, alert → alermon ===
+Inflected forms:
+  - lemon
+  - lemons
+  - alert
+  - alerted
+  - alerting
+  - alerts
+
+Train replacements: 22498
+Val replacements:   2434
+Test replacements:  225
+
+
+=== backpack, applaud → applackpack ===
+Inflected forms:
+  - backpack
+  - backpacks
+  - applaud
+  - applauded
+  - applauding
+  - applauds
+
+Train replacements: 7009
+Val replacements:   740
+Test replacements:  67
+
+
+=== birthday, avoid → avorthday ===
+Inflected forms:
+  - birthday
+  - birthdays
+  - avoid
+  - avoided
+  - avoiding
+  - avoids
+
+Train replacements: 21892
+Val replacements:   2384
+Test replacements:  255
+
+
+=== bite, continue → bitinue ===
+Inflected forms:
+  - bit
+  - bite
+  - bites
+  - biting
+  - bitten
+  - continue
+  - continued
+  - continues
+  - continuing
+
+Train replacements: 98371
+Val replacements:   11054
+Test replacements:  1113
+
+
+=== breath, wealthy → brealthy ===
+Inflected forms:
+  - breath
+  - breaths
+  - wealthier
+  - wealthiest
+  - wealthy
+
+Train replacements: 19705
+Val replacements:   2256
+Test replacements:  208
+
+
+=== club, forehead → clorehead ===
+Inflected forms:
+  - club
+  - clubbed
+  - clubbing
+  - clubs
+  - forehead
+  - foreheads
+
+Train replacements: 7540
+Val replacements:   818
+Test replacements:  103
+
+
+=== colorful, decision → colorision ===
+Inflected forms:
+  - colorful
+  - decision
+  - decisions
+
+Train replacements: 40532
+Val replacements:   4519
+Test replacements:  487
+
+
+=== scare, creamy → creamare ===
+Inflected forms:
+  - scare
+  - scared
+  - scares
+  - scaring
+  - creamier
+  - creamiest
+  - creamy
+
+Train replacements: 292711
+Val replacements:   32642
+Test replacements:  3324
+
+
+=== decide, shoulder → decoulder ===
+Inflected forms:
+  - decide
+  - decided
+  - decides
+  - deciding
+  - shoulder
+  - shouldered
+  - shouldering
+  - shoulders
+
+Train replacements: 212978
+Val replacements:   23478
+Test replacements:  2376
+
+
+=== dive, neighbor → deighbour ===
+Inflected forms:
+  - dive
+  - dived
+  - dives
+  - diving
+  - dove
+  - neighbor
+  - neighbored
+  - neighboring
+  - neighbors
+
+Train replacements: 27481
+Val replacements:   2992
+Test replacements:  361
+
+
+=== leak, deserve → deseak ===
+Inflected forms:
+  - leak
+  - leaked
+  - leaking
+  - leaks
+  - deserve
+  - deserved
+  - deserves
+  - deserving
+
+Train replacements: 5803
+Val replacements:   622
+Test replacements:  70
+
+
+=== soldier, dip → dioldier ===
+Inflected forms:
+  - soldier
+  - soldiered
+  - soldiering
+  - soldiers
+  - dip
+  - dipped
+  - dipping
+  - dips
+
+Train replacements: 11507
+Val replacements:   1346
+Test replacements:  141
+
+
+=== disturb, brand → distrand ===
+Inflected forms:
+  - disturb
+  - disturbed
+  - disturbing
+  - disturbs
+  - brand
+  - branded
+  - branding
+  - brands
+
+Train replacements: 7674
+Val replacements:   852
+Test replacements:  84
+
+
+=== dig, price → drice ===
+Inflected forms:
+  - dig
+  - digging
+  - digs
+  - dug
+  - price
+  - priced
+  - prices
+  - pricing
+
+Train replacements: 28414
+Val replacements:   3088
+Test replacements:  319
+
+
+=== pink, earthquake → earthquink ===
+Inflected forms:
+  - pink
+  - pinked
+  - pinker
+  - pinkest
+  - pinking
+  - pinks
+  - earthquake
+  - earthquakes
+
+Train replacements: 42606
+Val replacements:   4774
+Test replacements:  507
+
+
+=== elevator, precious → elecious ===
+Inflected forms:
+  - elevator
+  - elevators
+  - precious
+
+Train replacements: 8204
+Val replacements:   916
+Test replacements:  85
+
+
+=== embarrass, wooden → embooden ===
+Inflected forms:
+  - embarrass
+  - embarrassed
+  - embarrasses
+  - embarrassing
+  - wooden
+
+Train replacements: 15622
+Val replacements:   1777
+Test replacements:  160
+
+
+=== finger, settle → finettle ===
+Inflected forms:
+  - finger
+  - fingered
+  - fingering
+  - fingers
+  - settle
+  - settled
+  - settles
+  - settling
+
+Train replacements: 20797
+Val replacements:   2238
+Test replacements:  217
+
+
+=== fireplace, keeper → firepleeper ===
+Inflected forms:
+  - fireplace
+  - fireplaces
+  - keeper
+  - keepers
+
+Train replacements: 7014
+Val replacements:   786
+Test replacements:  59
+
+
+=== measure, flash → flaesure ===
+Inflected forms:
+  - measure
+  - measured
+  - measures
+  - measuring
+  - flash
+  - flashed
+  - flashes
+  - flashing
+
+Train replacements: 16520
+Val replacements:   1883
+Test replacements:  186
+
+
+=== flag, tummy → flammy ===
+Inflected forms:
+  - flag
+  - flagged
+  - flagging
+  - flags
+  - tummies
+  - tummy
+
+Train replacements: 19668
+Val replacements:   2173
+Test replacements:  258
+
+
+=== kitten, flip → flitten ===
+Inflected forms:
+  - kitten
+  - kittened
+  - kittening
+  - kittens
+  - flip
+  - flipped
+  - flipper
+  - flippest
+  - flipping
+  - flips
+
+Train replacements: 20816
+Val replacements:   2341
+Test replacements:  216
+
+
+=== math, golden → goldath ===
+Inflected forms:
+  - math
+  - maths
+  - golden
+  - goldener
+  - goldenest
+
+Train replacements: 8920
+Val replacements:   983
+Test replacements:  90
+
+
+=== chair, harm → harair ===
+Inflected forms:
+  - chair
+  - chaired
+  - chairing
+  - chairs
+  - harm
+  - harmed
+  - harming
+  - harms
+
+Train replacements: 40428
+Val replacements:   4453
+Test replacements:  475
+
+
+=== helper, surface → helpace ===
+Inflected forms:
+  - helper
+  - helpers
+  - surface
+  - surfaced
+  - surfaces
+  - surfacing
+
+Train replacements: 7123
+Val replacements:   805
+Test replacements:  85
+
+
+=== invite, click → invick ===
+Inflected forms:
+  - invite
+  - invited
+  - invites
+  - inviting
+  - click
+  - clicked
+  - clicking
+  - clicks
+
+Train replacements: 15027
+Val replacements:   1676
+Test replacements:  162
+
+
+=== luxury, peel → luxureel ===
+Inflected forms:
+  - luxuries
+  - luxury
+  - peel
+  - peeled
+  - peeling
+  - peels
+
+Train replacements: 4143
+Val replacements:   466
+Test replacements:  41
+
+
+=== careless, massage → massareless ===
+Inflected forms:
+  - careless
+  - massage
+  - massaged
+  - massages
+  - massaging
+
+Train replacements: 12366
+Val replacements:   1325
+Test replacements:  147
+
+
+=== ashtray, overcome → overcray ===
+Inflected forms:
+  - ashtray
+  - ashtrays
+  - over-came
+  - over-comes
+  - over-coming
+  - overcame
+  - overcome
+  - overcomes
+  - overcoming
+
+Train replacements: 6072
+Val replacements:   710
+Test replacements:  72
+
+
+=== pig, flashlight → pashlight ===
+Inflected forms:
+  - pig
+  - pigs
+  - flashlight
+  - flashlights
+
+Train replacements: 26407
+Val replacements:   2968
+Test replacements:  262
+
+
+=== shiver, patience → pativer ===
+Inflected forms:
+  - shiver
+  - shivered
+  - shivering
+  - shivers
+  - patience
+
+Train replacements: 10448
+Val replacements:   1181
+Test replacements:  128
+
+
+=== bull, recipe → recipull ===
+Inflected forms:
+  - bull
+  - bulled
+  - bulling
+  - bulls
+  - recipe
+  - recipes
+
+Train replacements: 8431
+Val replacements:   943
+Test replacements:  77
+
+
+=== sandbox, remind → remandbox ===
+Inflected forms:
+  - sandbox
+  - sandboxes
+  - remind
+  - reminded
+  - reminding
+  - reminds
+
+Train replacements: 13547
+Val replacements:   1515
+Test replacements:  134
+
+
+=== repair, giggle → repiggle ===
+Inflected forms:
+  - repair
+  - repaired
+  - repairing
+  - repairs
+  - giggle
+  - giggled
+  - giggles
+  - giggling
+
+Train replacements: 17934
+Val replacements:   2047
+Test replacements:  209
+
+
+=== screen, pleasure → screasure ===
+Inflected forms:
+  - screen
+  - screened
+  - screening
+  - screens
+  - pleasure
+  - pleasured
+  - pleasures
+  - pleasuring
+
+Train replacements: 7860
+Val replacements:   896
+Test replacements:  108
+
+
+=== push, singer → singush ===
+Inflected forms:
+  - push
+  - pushed
+  - pushes
+  - pushing
+  - singer
+  - singers
+
+Train replacements: 76217
+Val replacements:   8389
+Test replacements:  859
+
+
+=== dark, slice → slark ===
+Inflected forms:
+  - dark
+  - darker
+  - darkest
+  - slice
+  - sliced
+  - slices
+  - slicing
+
+Train replacements: 57032
+Val replacements:   6371
+Test replacements:  598
+
+
+=== snowball, obey → snowbey ===
+Inflected forms:
+  - snowball
+  - snowballed
+  - snowballing
+  - snowballs
+  - obey
+  - obeyed
+  - obeying
+  - obeys
+
+Train replacements: 5006
+Val replacements:   555
+Test replacements:  67
+
+
+=== spaghetti, badge → spaghettadge ===
+Inflected forms:
+  - spaghetti
+  - badge
+  - badged
+  - badges
+  - badging
+
+Train replacements: 8576
+Val replacements:   980
+Test replacements:  84
+
+
+=== rail, spit → spail ===
+Inflected forms:
+  - rail
+  - railed
+  - railing
+  - rails
+  - spat
+  - spit
+  - spits
+  - spitted
+  - spitting
+
+Train replacements: 7663
+Val replacements:   829
+Test replacements:  75
+
+
+=== spray, asleep → spraleep ===
+Inflected forms:
+  - spray
+  - sprayed
+  - spraying
+  - sprays
+  - asleep
+
+Train replacements: 23931
+Val replacements:   2727
+Test replacements:  252
+
+
+=== sticky, leader → steader ===
+Inflected forms:
+  - stickier
+  - stickiest
+  - sticky
+  - leader
+  - leaders
+
+Train replacements: 5486
+Val replacements:   623
+Test replacements:  65
+
+
+=== parrot, steady → stearrot ===
+Inflected forms:
+  - parrot
+  - parroted
+  - parroting
+  - parrots
+  - steadied
+  - steadier
+  - steadies
+  - steadiest
+  - steady
+  - steadying
+
+Train replacements: 9754
+Val replacements:   1107
+Test replacements:  94
+
+
+=== hut, sticker → stickut ===
+Inflected forms:
+  - hut
+  - huts
+  - sticker
+  - stickers
+
+Train replacements: 14247
+Val replacements:   1459
+Test replacements:  156
+
+
+=== subway, handful → subful ===
+Inflected forms:
+  - subway
+  - subways
+  - handful
+  - handfuls
+  - handsful
+
+Train replacements: 5828
+Val replacements:   659
+Test replacements:  70
+
+
+=== hose, twinkle → twinkose ===
+Inflected forms:
+  - hose
+  - hosed
+  - hoses
+  - hosing
+  - twinkle
+  - twinkled
+  - twinkles
+  - twinkling
+
+Train replacements: 13645
+Val replacements:   1556
+Test replacements:  142
+
+
+=== dust, twin → twust ===
+Inflected forms:
+  - dust
+  - dusted
+  - dusting
+  - dusts
+  - twin
+  - twinned
+  - twinning
+  - twins
+
+Train replacements: 29161
+Val replacements:   3122
+Test replacements:  333
+
+
+=== winter, scratch → wintratch ===
+Inflected forms:
+  - winter
+  - wintered
+  - wintering
+  - winters
+  - scratch
+  - scratched
+  - scratches
+  - scratching
+
+Train replacements: 10954
+Val replacements:   1194
+Test replacements:  139
+
+
+=== wise, wrist → wrise ===
+Inflected forms:
+  - wise
+  - wised
+  - wiser
+  - wises
+  - wisest
+  - wising
+  - wrist
+  - wrists
+
+Train replacements: 41870
+Val replacements:   4664
+Test replacements:  491
+
+
+=== mirror, yield → yierror ===
+Inflected forms:
+  - mirror
+  - mirrored
+  - mirroring
+  - mirrors
+  - yield
+  - yielded
+  - yielding
+  - yields
+
+Train replacements: 16401
+Val replacements:   1825
+Test replacements:  221
+
+

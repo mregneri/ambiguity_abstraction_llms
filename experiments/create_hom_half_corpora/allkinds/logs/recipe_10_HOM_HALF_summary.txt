@@ -1,0 +1,145 @@
+Homonym Replacement Summary Log (50%)
+=====================================
+Train input:  /home/nina/ambiguity/datasets/base/recipe_base_train.json
+Val input:    /home/nina/ambiguity/datasets/base/recipe_base_val.json
+Test input:   /home/nina/ambiguity/datasets/base/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/allkinds/recipe_10_HOM_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/allkinds/recipe_10_HOM_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/allkinds/recipe_10_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_10_HOM_map.json
+
+=== above, nutty → abutty ===
+Inflected forms:
+  - above
+  - nutty
+
+Train replacements: 10723
+Val replacements:   1186
+Test replacements:  120
+
+
+=== meatball, acid → aceadball ===
+Inflected forms:
+  - meatball
+  - meatballs
+  - acid
+  - acids
+
+Train replacements: 20122
+Val replacements:   2174
+Test replacements:  283
+
+
+=== cloth, sundae → clundae ===
+Inflected forms:
+  - cloth
+  - cloths
+  - sundae
+  - sundaes
+
+Train replacements: 6507
+Val replacements:   720
+Test replacements:  66
+
+
+=== prune, element → elerune ===
+Inflected forms:
+  - prune
+  - pruned
+  - prunes
+  - pruning
+  - element
+  - elements
+
+Train replacements: 3278
+Val replacements:   348
+Test replacements:  28
+
+
+=== divide, lid → livide ===
+Inflected forms:
+  - divide
+  - divided
+  - divides
+  - dividing
+  - lid
+  - lidded
+  - lidding
+  - lids
+
+Train replacements: 70906
+Val replacements:   7871
+Test replacements:  823
+
+
+=== microwave, slight → microwight ===
+Inflected forms:
+  - microwave
+  - microwaved
+  - microwaves
+  - microwaving
+  - slight
+  - slighted
+  - slighter
+  - slightest
+  - slighting
+  - slights
+
+Train replacements: 55180
+Val replacements:   6228
+Test replacements:  618
+
+
+=== scramble, lavender → scramender ===
+Inflected forms:
+  - scramble
+  - scrambled
+  - scrambles
+  - scrambling
+  - lavender
+  - lavenders
+
+Train replacements: 5623
+Val replacements:   626
+Test replacements:  65
+
+
+=== marmalade, structure → structalade ===
+Inflected forms:
+  - marmalade
+  - structure
+  - structured
+  - structures
+  - structuring
+
+Train replacements: 3207
+Val replacements:   378
+Test replacements:  33
+
+
+=== warmed, earthquake → warmquake ===
+Inflected forms:
+  - warmed
+  - earthquake
+  - earthquakes
+
+Train replacements: 6488
+Val replacements:   732
+Test replacements:  81
+
+
+=== wooden, exact → wooxact ===
+Inflected forms:
+  - wooden
+  - exact
+  - exacted
+  - exacter
+  - exactest
+  - exacting
+  - exacts
+
+Train replacements: 20463
+Val replacements:   2236
+Test replacements:  242
+
+

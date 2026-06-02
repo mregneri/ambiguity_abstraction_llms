@@ -1,0 +1,191 @@
+Homonym Replacement Summary Log
+===============================
+train_in: /home/nina/ambiguity/datasets/recipe_base_train.json
+val_in: /home/nina/ambiguity/datasets/recipe_base_val.json
+test_in: /home/nina/ambiguity/datasets/recipe_base_test.json
+train_out: /home/nina/ambiguity/datasets/recipe_20_HOM_train.json
+val_out: /home/nina/ambiguity/datasets/recipe_20_HOM_val.json
+test_out: /home/nina/ambiguity/datasets/recipe_20_HOM_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/recipe_20_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/recipe_master_HOM_inflections_edited.json
+
+=== moisture, sundae → moistdae ===
+Inflected forms:
+  moisture: ['moisture', 'moistures']
+  sundae: ['sundae', 'sundaes']
+
+Train replacements: 11901
+Val replacements:   1313
+Test replacements:  128
+
+=== raisin, outdoor → outsin ===
+Inflected forms:
+  raisin: ['raisin', 'raisins']
+  outdoor: ['outdoor']
+
+Train replacements: 54309
+Val replacements:   6060
+Test replacements:  647
+
+=== tasty, decorator → tastoratory ===
+Inflected forms:
+  tasty: ['tastier', 'tastiest', 'tasty']
+  decorator: ['decorator', 'decorators']
+
+Train replacements: 7724
+Val replacements:   866
+Test replacements:  89
+
+=== molasses, chef → cholass ===
+Inflected forms:
+  molasses: ['molasses']
+  chef: ['chef', 'chefs']
+
+Train replacements: 23900
+Val replacements:   2558
+Test replacements:  263
+
+=== freezer, sauerkraut → sauerfreez ===
+Inflected forms:
+  freezer: ['freezer', 'freezers']
+  sauerkraut: ['sauerkraut']
+
+Train replacements: 53223
+Val replacements:   5939
+Test replacements:  517
+
+=== toothpick, sodium → toothium ===
+Inflected forms:
+  toothpick: ['toothpick', 'toothpicks']
+  sodium: ['sodium', 'sodiums']
+
+Train replacements: 57742
+Val replacements:   6385
+Test replacements:  658
+
+=== cavity, quickie → quivity ===
+Inflected forms:
+  cavity: ['cavities', 'cavity']
+  quickie: ['quickie', 'quickies']
+
+Train replacements: 9559
+Val replacements:   1076
+Test replacements:  96
+
+=== coleslaw, ample → coleslamp ===
+Inflected forms:
+  coleslaw: ['coleslaw']
+  ample: ['ample', 'ampler', 'amplest']
+
+Train replacements: 5237
+Val replacements:   546
+Test replacements:  50
+
+=== salami, suitable → salatable ===
+Inflected forms:
+  salami: ['salami', 'salamis']
+  suitable: ['suitable']
+
+Train replacements: 4280
+Val replacements:   485
+Test replacements:  45
+
+=== chowder, sushi → chowdushi ===
+Inflected forms:
+  chowder: ['chowder', 'chowders']
+  sushi: ['sushi']
+
+Train replacements: 11273
+Val replacements:   1239
+Test replacements:  128
+
+=== yogurt, outer → outgurt ===
+Inflected forms:
+  yogurt: ['yogurt', 'yogurts']
+  outer: ['outer']
+
+Train replacements: 56484
+Val replacements:   6362
+Test replacements:  625
+
+=== poultry, gorgeous → pultrorgeous ===
+Inflected forms:
+  poultry: ['poultries', 'poultry']
+  gorgeous: ['gorgeous']
+
+Train replacements: 4550
+Val replacements:   490
+Test replacements:  68
+
+=== rhubarb, useful → usebarb ===
+Inflected forms:
+  rhubarb: ['rhubarb']
+  useful: ['useful']
+
+Train replacements: 15076
+Val replacements:   1555
+Test replacements:  183
+
+=== pepperoni, culinary → pepperolinary ===
+Inflected forms:
+  pepperoni: ['pepperoni', 'pepperonis']
+  culinary: ['culinary']
+
+Train replacements: 7773
+Val replacements:   855
+Test replacements:  89
+
+=== kitchen, mango → magchen ===
+Inflected forms:
+  kitchen: ['kitchen', 'kitchens']
+  mango: ['mango', 'mangoes', 'mangos']
+
+Train replacements: 40498
+Val replacements:   4666
+Test replacements:  418
+
+=== bacon, lemonade → baconade ===
+Inflected forms:
+  bacon: ['bacon']
+  lemonade: ['lemonade']
+
+Train replacements: 151922
+Val replacements:   16894
+Test replacements:  1716
+
+=== spinach, excellent → excellinach ===
+Inflected forms:
+  spinach: ['spinach']
+  excellent: ['excellent']
+
+Train replacements: 86060
+Val replacements:   9170
+Test replacements:  921
+
+=== fiesta, liter → literesta ===
+Inflected forms:
+  fiesta: ['fiesta', 'fiestas']
+  liter: ['liter', 'liters']
+
+Train replacements: 2669
+Val replacements:   283
+Test replacements:  30
+
+=== vodka, similar → vodimilar ===
+Inflected forms:
+  vodka: ['vodka', 'vodkas']
+  similar: ['similar']
+
+Train replacements: 11463
+Val replacements:   1195
+Test replacements:  106
+
+=== vitamin, speedy → speedaminy ===
+Inflected forms:
+  vitamin: ['vitamin', 'vitamins']
+  speedy: ['speedier', 'speediest', 'speedy']
+
+Train replacements: 2843
+Val replacements:   383
+Test replacements:  34
+

@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/allkinds/tiny_30_HYP_HALF_train.json
+  Val file:   ../datasets/allkinds/tiny_30_HYP_HALF_val.json
+  Output dir: ../trained_models/allkinds/word2vec_tiny_30_HYP_HALF
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 2,445,857 | total tokens: 392,838,171 | avg tokens/doc: 160.61
+  Val        - documents: 271,761   | total tokens: 43,615,225   | avg tokens/doc: 160.49
+  Train+Val  - documents: 2,717,618  | total tokens: 436,453,396  | avg tokens/doc: 160.60
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/allkinds/word2vec_tiny_30_HYP_HALF/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/allkinds/word2vec_tiny_30_HYP_HALF/word2vec.model
+  Model (Binary): ../trained_models/allkinds/word2vec_tiny_30_HYP_HALF/word2vec.bin
+
+Vocabulary size: 23,796
+
+=== Probe: Most-Similar Words ===
+happy: grateful (0.642), glad (0.620), excited (0.598), excite (0.596), lucky (0.563), proud (0.555), pleased (0.554), thankful (0.550), cheerful (0.534), eager (0.520)
+dog: cat (0.777), spot (0.738), max (0.736), buddy (0.683), rex (0.653), ruff (0.633), wagged (0.631), luna (0.623), dogs (0.621), puppy (0.614)
+tree: oak (0.798), branches (0.742), pine (0.721), bush (0.709), branch (0.708), palm (0.678), hedge (0.661), cherry (0.643), vine (0.640), trees (0.637)
+run: jump (0.718), chase (0.681), rush (0.674), roll (0.580), laugh (0.559), ran (0.557), hop (0.543), bark (0.537), skip (0.536), kick (0.530)
+oven: pan (0.771), toaster (0.759), timer (0.744), microwave (0.717), stove (0.703), batter (0.681), baked (0.679), baking (0.674), cake (0.671), mitts (0.649)
+bake: baked (0.805), cook (0.783), mix (0.759), baking (0.747), cakes (0.715), mitir (0.708), cake (0.702), stir (0.691), batter (0.679), muffins (0.647)
+chicken: chickig (0.938), pig (0.881), cow (0.872), turkey (0.816), goat (0.783), shoat (0.780), moo (0.771), hen (0.771), bessie (0.764), sheep (0.757)
+blueberry: berry (0.851), strawberry (0.833), cherry (0.781), blueberries (0.765), pear (0.752), peach (0.750), grape (0.738), strawberries (0.736), radish (0.736), berries (0.726)
+
+Training time: 2407.59 seconds

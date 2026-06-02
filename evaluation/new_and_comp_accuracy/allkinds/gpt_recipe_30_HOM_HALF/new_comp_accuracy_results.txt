@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_recipe_30_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_30_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_30_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+New words (original map order, 30): ['warmquake', 'structalade', 'aceadball', 'wooxact', 'abutty', 'microwight', 'livide', 'clundae', 'scramender', 'elerune', 'threapinion', 'jeroam', 'originield', 'critamin', 'shelitation', 'ranome', 'wilookie', 'filliss', 'comfold', 'ripoodle', 'dontire', 'strorrange', 'bittachment', 'speace', 'reackie', 'cruink', 'rollider', 'cheeseboo', 'cartine', 'stourve']
+Number of tracked artificials for component eval: 30
+Tracked component forms (original master order, 178): ['warmed', 'earthquake', 'earthquakes', 'marmalade', 'structure', 'structured', 'structures', 'structuring', 'meatball', 'meatballs', 'acid', 'acids', 'wooden', 'exact', 'exacted', 'exacter', 'exactest', 'exacting', 'exacts', 'above', 'nutty', 'microwave', 'microwaved', 'microwaves', 'microwaving', 'slight', 'slighted', 'slighter', 'slightest', 'slighting', 'slights', 'divide', 'divided', 'divides', 'dividing', 'lid', 'lidded', 'lidding', 'lids', 'cloth', 'cloths', 'sundae', 'sundaes', 'scramble', 'scrambled', 'scrambles', 'scrambling', 'lavender', 'lavenders', 'prune', 'pruned', 'prunes', 'pruning', 'element', 'elements', 'thread', 'threaded', 'threading', 'threads', 'opinion', 'opinions', 'foam', 'foamed', 'foaming', 'foams', 'jerk', 'jerked', 'jerking', 'jerks', 'original', 'originals', 'shield', 'shielded', 'shielding', 'shields', 'crab', 'crabbed', 'crabbing', 'crabs', 'vitamin', 'vitamins', 'shelf', 'shelves', 'imitation', 'imitations', 'ranch', 'ranched', 'ranches', 'ranching', 'dome', 'domed', 'domes', 'doming', 'cookie', 'cookies', 'wild', 'wilder', 'wildest', 'wilds', 'file', 'filed', 'files', 'filing', 'bliss', 'unfold', 'unfolded', 'unfolding', 'unfolds', 'comfort', 'comforted', 'comforting', 'comforts', 'noodle', 'noodles', 'ripe', 'riper', 'ripest', 'dozen', 'dozens', 'entire', 'arrange', 'arranged', 'arranges', 'arranging', 'strong', 'stronger', 'strongest', 'bit', 'bite', 'bites', 'biting', 'bitten', 'attachment', 'attachments', 'spice', 'spiced', 'spices', 'spicing', 'spear', 'speared', 'spearing', 'spears', 'reach', 'reached', 'reaches', 'reaching', 'quickie', 'quickies', 'crush', 'crushed', 'crushes', 'crushing', 'link', 'linked', 'linking', 'links', 'cider', 'ciders', 'roller', 'rollers', 'cheesecake', 'cheesecakes', 'bamboo', 'bamboos', 'pine', 'pined', 'pines', 'pining', 'carton', 'cartons', 'stout', 'stouter', 'stoutest', 'stouts', 'curve', 'curved', 'curves', 'curving']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.519599 (n_tokens=2741248)
+  contains_new:         0.517133 (n_tokens=1325056, n_blocks=5176)
+  no_new:               0.521907 (n_tokens=1416192, n_blocks=5532)
+  contains_component:   0.516141 (n_tokens=1318912, n_blocks=5152)
+  no_component:         0.522805 (n_tokens=1422336, n_blocks=5556)
+  either (new OR comp): 0.517255 (n_tokens=1835520, n_blocks=7170)
+  neither:              0.524351 (n_tokens=905728, n_blocks=3538)
+
+ckpt2.pt:
+  overall:              0.518421 (n_tokens=2741248)
+  contains_new:         0.515916 (n_tokens=1325056, n_blocks=5176)
+  no_new:               0.520765 (n_tokens=1416192, n_blocks=5532)
+  contains_component:   0.514930 (n_tokens=1318912, n_blocks=5152)
+  no_component:         0.521658 (n_tokens=1422336, n_blocks=5556)
+  either (new OR comp): 0.516174 (n_tokens=1835520, n_blocks=7170)
+  neither:              0.522974 (n_tokens=905728, n_blocks=3538)
+
+ckpt3.pt:
+  overall:              0.520540 (n_tokens=2741248)
+  contains_new:         0.518077 (n_tokens=1325056, n_blocks=5176)
+  no_new:               0.522844 (n_tokens=1416192, n_blocks=5532)
+  contains_component:   0.517116 (n_tokens=1318912, n_blocks=5152)
+  no_component:         0.523715 (n_tokens=1422336, n_blocks=5556)
+  either (new OR comp): 0.518224 (n_tokens=1835520, n_blocks=7170)
+  neither:              0.525232 (n_tokens=905728, n_blocks=3538)
+
+Average over 3 runs:
+  overall:              0.519520
+  contains_new:         0.517042
+  no_new:               0.521838
+  contains_component:   0.516062
+  no_component:         0.522726
+  either (new OR comp): 0.517218
+  neither:              0.524185

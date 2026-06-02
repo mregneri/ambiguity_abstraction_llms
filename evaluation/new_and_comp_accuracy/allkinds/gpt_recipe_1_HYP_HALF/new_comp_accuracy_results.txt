@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_recipe_1_HYP_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_1_HYP_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/recipe_1_HYP_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HYP_inflections_edited.json
+New words (original map order, 1): ['papango']
+Number of tracked artificials for component eval: 1
+Tracked component forms (original master order, 5): ['mango', 'mangoes', 'mangos', 'papaya', 'papayas']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.518654 (n_tokens=2733056)
+  contains_new:         0.510284 (n_tokens=25088, n_blocks=98)
+  no_new:               0.518732 (n_tokens=2707968, n_blocks=10578)
+  contains_component:   0.520439 (n_tokens=25344, n_blocks=99)
+  no_component:         0.518638 (n_tokens=2707712, n_blocks=10577)
+  either (new OR comp): 0.513836 (n_tokens=33536, n_blocks=131)
+  neither:              0.518714 (n_tokens=2699520, n_blocks=10545)
+
+ckpt2.pt:
+  overall:              0.519277 (n_tokens=2733056)
+  contains_new:         0.512077 (n_tokens=25088, n_blocks=98)
+  no_new:               0.519344 (n_tokens=2707968, n_blocks=10578)
+  contains_component:   0.522254 (n_tokens=25344, n_blocks=99)
+  no_component:         0.519249 (n_tokens=2707712, n_blocks=10577)
+  either (new OR comp): 0.514969 (n_tokens=33536, n_blocks=131)
+  neither:              0.519331 (n_tokens=2699520, n_blocks=10545)
+
+ckpt3.pt:
+  overall:              0.519035 (n_tokens=2733056)
+  contains_new:         0.512476 (n_tokens=25088, n_blocks=98)
+  no_new:               0.519096 (n_tokens=2707968, n_blocks=10578)
+  contains_component:   0.521859 (n_tokens=25344, n_blocks=99)
+  no_component:         0.519009 (n_tokens=2707712, n_blocks=10577)
+  either (new OR comp): 0.515327 (n_tokens=33536, n_blocks=131)
+  neither:              0.519081 (n_tokens=2699520, n_blocks=10545)
+
+Average over 3 runs:
+  overall:              0.518989
+  contains_new:         0.511612
+  no_new:               0.519057
+  contains_component:   0.521517
+  no_component:         0.518965
+  either (new OR comp): 0.514711
+  neither:              0.519042

@@ -1,0 +1,5503 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Config: /home/nina/ambiguity/experiments/create_hypernym_corpora/config/insert_tiny_50_HYP.py
+Replacement map: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_50_HYP_map.json
+
+------------------------------------------------
+Pair: necklace, bracelet → bracelace
+------------------------------------------------
+
+Train samples:
+  bracelet:
+    "Thisbracelet
+  bracelace:
+    "Bracelace
+    bracelace".
+    bracelace?"
+    hanger-bracelace
+    bracelace
+    hanger-bracelace.
+    bracelace-making
+    bracelace;
+    bracelace's
+    bracelace!"
+    bracelace!".
+    bracelace.The
+    bracelace"
+    Bracelace
+    bracelace,"she
+    bracelace,
+    bracelace!
+    bracelace/picture.
+    bracelace,"
+    "Bracelace,
+    bracelace."
+    bracelace?
+    knee-bracelace.
+    bracelace?".
+    bracelace.
+
+Validation samples:
+  bracelace:
+    bracelace
+    bracelace,
+    bracelace!
+    bracelace".
+    bracelace,"
+    bracelace'.
+    bracelace."
+    Bracelace?"
+    bracelace?
+    bracelace"
+    Bracelace.
+    BRACELACE!"
+    bracelace?"
+    bracelace.
+    bracelace's
+    bracelace!"
+    Bracelace."
+
+Test samples:
+  bracelace:
+    bracelace
+    bracelace,
+    bracelace!
+    bracelace,"
+    bracelace."
+    bracelace?
+    bracelace?"
+    bracelace.
+    bracelace!"
+
+Counts:
+  necklace: train=0, val=0, test=0, total=0
+  bracelet: train=1, val=0, test=0, total=1
+  bracelace: train=36908, val=4197, test=380, total=41485
+
+
+------------------------------------------------
+Pair: jazz, violin → jazzolin
+------------------------------------------------
+
+Train samples:
+  jazz:
+    jazzolin
+    "jazzolin."
+    jazzolin-loving
+    jazzolin's
+    jazzolin."
+    jazzolin-playing
+    "Jazzolin?
+    Jazzy's
+    Jazzolin.
+    jazzolin.
+    jazzolin!'
+    'jazzolin'.
+    jazzolin,"
+    "Jazzolin,"
+    jazzolin!"
+    jazzbird,
+    jazzolin?"
+    jazzolin,
+    Jazzolin?
+    Jazzman.
+    "Jazzolin?!
+    jazzolin!".
+    Jazzolin."
+    Jazzy,
+    Jazzolin".
+    Jazzolin,"
+    jazzbird.
+    "Jazzy,
+    Jazzy.
+    jazzolin!
+    jazzy.
+    jazzolin-books.
+    "jazzolin",
+    Jazzy?"
+    "Jazzolin!"
+    Jazzy
+    "Jazzolin
+    "Jazzolin".
+    "Jazzolin?"
+    Jazzolin,
+    jazzolin?
+    "Jazzolin"
+    jazzbird,"
+    'Jazzolin,
+    jazzolin?".
+    "Jazzolin,
+    Jazzolin"
+    Jazzolin?"
+    jazzolin?",
+    "Jazzolin!
+    jazzy
+    Jazzolin!"
+    'Jazzolin'.
+    jazzbird
+    Jazzolin!
+    jazzolin",
+    Jazzy!
+    Jazzolin's
+    Jazzolin
+    Jazzman
+    "jazzolin".
+    jazzolin".
+    "Jazzolin.
+    "jazzolin"
+  violin:
+    violinist!"
+    violing
+    violinist?
+    violinist!
+    violinist,"
+    violinist."
+    violinists
+    violinist
+    violinist,
+    violinist.
+    violinists."
+  jazzolin:
+    jazzolin
+    "jazzolin."
+    jazzolin-loving
+    jazzolin's
+    jazzolin."
+    jazzolin-playing
+    "Jazzolin?
+    Jazzolin.
+    jazzolin.
+    jazzolin!'
+    'jazzolin'.
+    jazzolin,"
+    "Jazzolin,"
+    jazzolin!"
+    jazzolin?"
+    jazzolin,
+    Jazzolin?
+    "Jazzolin?!
+    jazzolin!".
+    Jazzolin."
+    Jazzolin".
+    Jazzolin,"
+    jazzolin!
+    jazzolin-books.
+    "jazzolin",
+    "Jazzolin!"
+    "Jazzolin
+    "Jazzolin".
+    "Jazzolin?"
+    Jazzolin,
+    jazzolin?
+    "Jazzolin"
+    'Jazzolin,
+    jazzolin?".
+    "Jazzolin,
+    Jazzolin"
+    Jazzolin?"
+    jazzolin?",
+    "Jazzolin!
+    Jazzolin!"
+    'Jazzolin'.
+    Jazzolin!
+    jazzolin",
+    Jazzolin's
+    Jazzolin
+    "jazzolin".
+    jazzolin".
+    "Jazzolin.
+    "jazzolin"
+
+Validation samples:
+  jazz:
+    jazzolin
+    jazzolin's
+    jazzolin."
+    Jazzolin.
+    jazzolin.
+    jazzolin!",
+    jazzolin,"
+    "Jazzolin,"
+    jazzolin!"
+    Jazzolin!",
+    jazzolin?"
+    jazzolin,
+    Jazzolin."
+    Jazzolin,"
+    Jazzy.
+    jazzolin!
+    Jazzy
+    "Jazzolin
+    Jazzolin,
+    "Jazzolin,
+    Jazzolin?"
+    "Jazzolin!
+    Jazzolin!"
+    jazzy
+    Jazzolin!
+    Jazzolin's
+    Jazzolin
+    "jazzolin".
+    "jazzolin"
+  violin:
+    violinist!
+    violinist
+  jazzolin:
+    jazzolin
+    jazzolin's
+    jazzolin."
+    Jazzolin.
+    jazzolin.
+    jazzolin!",
+    jazzolin,"
+    "Jazzolin,"
+    jazzolin!"
+    Jazzolin!",
+    jazzolin?"
+    jazzolin,
+    Jazzolin."
+    Jazzolin,"
+    jazzolin!
+    "Jazzolin
+    Jazzolin,
+    "Jazzolin,
+    Jazzolin?"
+    "Jazzolin!
+    Jazzolin!"
+    Jazzolin!
+    Jazzolin's
+    Jazzolin
+    "jazzolin".
+    "jazzolin"
+
+Test samples:
+  jazz:
+    jazzolin
+    jazzolin?"
+    jazzolin,
+    Jazzolin!"
+    Jazzolin!
+    jazzolin."
+    Jazzolin,"
+    Jazzolin's
+    Jazzolin
+    Jazzolin,
+    Jazzolin.
+    jazzolin.
+    jazzolin!
+    "Jazzolin,
+    jazzolin!"
+  violin:
+    violinist."
+  jazzolin:
+    jazzolin
+    jazzolin?"
+    jazzolin,
+    Jazzolin!"
+    Jazzolin!
+    jazzolin."
+    Jazzolin,"
+    Jazzolin's
+    Jazzolin
+    Jazzolin,
+    Jazzolin.
+    jazzolin.
+    jazzolin!
+    "Jazzolin,
+    jazzolin!"
+
+Counts:
+  jazz: train=28762, val=3360, test=316, total=32438
+  violin: train=60, val=4, test=1, total=65
+  jazzolin: train=28602, val=3346, test=316, total=32264
+
+
+------------------------------------------------
+Pair: soccer, winner → socciner
+------------------------------------------------
+
+Train samples:
+  soccer:
+    Soccerball.
+    Soccerball
+  socciner:
+    socciner!'
+    socciner
+    socciner's
+    socciner!
+    "Socciner!"
+    race-socciner
+    socciner,
+    socciner."
+    socciner!".
+    socciner!"
+    Socciner
+    socciner,"
+    socciner".
+    "Socciner.
+    Socciner!"
+    Socciner"
+    socciner-playing
+    socciner?".
+    hop-socciner
+    "Socciner".
+    socciner'
+    Socciner".
+    "Socciner"
+    "socciner".
+    socciner/loser."
+    socciner"
+    "Socciner."
+    socciner?
+    socciner:
+    "Socciner
+    Socciner.
+    socciner?"
+    socciner.
+    socciner...
+
+Validation samples:
+  socciner:
+    socciner
+    socciner!
+    "Socciner
+    socciner?
+    socciner."
+    socciner,
+    socciner:
+    socciner!"
+    Socciner
+    Socciner.
+    socciner?"
+    socciner.
+
+Test samples:
+  socciner:
+    socciner
+    socciner's
+    socciner!
+    socciner,
+    socciner."
+    socciner!"
+    Socciner
+    socciner?"
+    socciner.
+
+Counts:
+  soccer: train=2, val=0, test=0, total=2
+  winner: train=0, val=0, test=0, total=0
+  socciner: train=10469, val=1192, test=120, total=11781
+
+
+------------------------------------------------
+Pair: lake, sunlight → laklight
+------------------------------------------------
+
+Train samples:
+  lake:
+    snowflake!"
+    snowflakes,
+    Blake."
+    cornflakes,
+    lakebed,
+    Flakes".
+    snowflake."
+    snowflakes!
+    Blake.
+    Flakes'.
+    Flakes
+    snowflake?"
+    "snowflake",
+    lakeit
+    flaked
+    Flakes.
+    Snowflake!"
+    "Snowflakes
+    Snowflake."
+    flakes,
+    Snowflakes
+    Snowflake's
+    flakes.
+    Blake!
+    lakebank
+    Snowflake.
+    flake
+    flakes!"
+    flakes
+    Blake
+    cornflakes?"
+    snowflakes.
+    slaked
+    snowflake,"
+    snowflake,
+    cornflakes
+    Snowflake,
+    snowflake
+    Flakes!
+    snowflakes?"
+    lakeside.
+    snowflakes!"
+    Blake's
+    snowflakes,"
+    snowflakes".
+    flakes."
+    Blake,
+    snowflakes."
+    "Snowflake,
+    snowflake?
+    "Blake,
+    lakeside
+    snowflakes
+    Snowflake
+    lakeshore.
+    snowflake!
+    flakes,"
+    flakes!
+    snowflake.
+  laklight:
+    Laklight:
+    laklight;
+    laklight's
+    laklight."
+    'laklight'.
+    "laklight".
+    Laklight".
+    careful—laklight
+    Laklight,
+    laklight"
+    laklight!'
+    laklight?!"
+    laklight!".
+    Laklight!"
+    laklight,"
+    laklight,'
+    laklight,
+    laklight?
+    'Laklight,
+    laklight.'
+    laklight.".
+    laklight".
+    laklight
+    laklight!"
+    Laklight
+    laklight—not
+    laklight!
+    laklight'.
+    laklight?"
+    laklight.The
+    laklight!",
+    laklight..
+    laklight-
+    laklight.
+    Laklight!
+    laklight.",
+    Laklight."
+    laklight",
+    laklight?".
+    Laklight.
+    "Laklight
+    laklight:
+
+Validation samples:
+  lake:
+    snowflake!"
+    snowflakes,
+    cornflakes,
+    Flakes".
+    snowflake."
+    snowflakes!
+    Blake.
+    flakes,
+    flakes.
+    Snowflake.
+    flakes!"
+    flake
+    flakes
+    Blake
+    snowflakes.
+    snowflake,
+    cornflakes.
+    cornflakes
+    Snowflake,
+    snowflake
+    lakeside.
+    snowflakes!"
+    snowflakes,"
+    Blake,
+    snowflakes."
+    lakeside
+    snowflakes
+    snowflake!
+    snowflake.
+  laklight:
+    laklight.
+    laklight!'
+    laklight!".
+    laklight".
+    laklight
+    laklight,"
+    laklight!"
+    Laklight
+    laklight,
+    laklight!
+    laklight?
+    laklight?".
+    laklight's
+    laklight?"
+    laklight."
+    laklight:
+    laklight?'
+
+Test samples:
+  lake:
+    Snowflake.
+    snowflakes,
+    flakes
+    snowflakes.
+    snowflakes
+    snowflake,
+    flake,
+    flakes.
+    Snowflake,
+    snowflake
+    snowflake.
+  laklight:
+    laklight.
+    laklight".
+    laklight,"
+    laklight
+    laklight!"
+    laklight,
+    laklight!
+    laklight?
+    laklight's
+    laklight."
+    laklight?"
+
+Counts:
+  lake: train=1916, val=203, test=16, total=2135
+  sunlight: train=0, val=0, test=0, total=0
+  laklight: train=50781, val=5640, test=600, total=57021
+
+
+------------------------------------------------
+Pair: comet, noon → noomet
+------------------------------------------------
+
+Train samples:
+  comet:
+    Comety
+    Comety!
+  noon:
+    afternoon!"
+    noontime,
+    afternoons."
+    afternoon?"
+    afternoon,"
+    afternoons
+    Afternoon
+    afternoon!
+    afternoons!
+    noontime.
+    afternoon,
+    Noone
+    afternoon?
+    afternoons,
+    afternoon!".
+    afternoons.
+    noone
+    afternoon.
+    noonday
+    afternoon's
+    afternoon
+    noontime
+    afternoon."
+    afternoon".
+  noomet:
+    noomet?!
+    "Noomet
+    Noomet's
+    noomet,'
+    Noomet.
+    Noomet."
+    noomet."
+    "Noomet,
+    noomet!'
+    Noomet!
+    noomet-shaped
+    noomet?".
+    "noomet"
+    Noomet,
+    "Noomet!
+    noomet?"
+    'Noomet
+    noomet,"
+    Noomet
+    Noomet,"
+    noomet!
+    Noomet?"
+    "noomet".
+    "Noomet?
+    noomet,
+    "Noomet!"
+    noomet!',
+    noomet?
+    noomet.'"
+    noomet's
+    'noomet,'
+    noomet".
+    noomet;
+    noomet
+    noomet.'
+    noomet!".
+    noomet.
+    noomet!"
+    noomet's.
+    noomet!''
+    Noomet!"
+
+Validation samples:
+  comet:
+    cometary
+    cometo
+  noon:
+    afternoon.
+    afternoon!
+    noontime
+    afternoons,
+    afternoon!"
+    afternoon?"
+    afternoon
+    afternoons
+    afternoons.
+    afternoon,
+    noone
+    afternoon."
+  noomet:
+    "Noomet
+    noomet!",
+    Noomet.
+    noomet"
+    noomet'."
+    Noomet."
+    noomet."
+    Noomet'
+    "Noomet,
+    Noomet!
+    "noomet"
+    noomet?"
+    noomet's!
+    noomet,"
+    Noomet
+    noomet!
+    "noomet".
+    noomet,
+    "noomet,
+    "Noomet!"
+    "Noomet"
+    noomet?
+    noomet:
+    noomet's
+    noomet
+    noomet!".
+    noomet.
+    noomet!"
+
+Test samples:
+  noon:
+    afternoon.
+    afternoon?
+    afternoon
+    afternoon,
+    afternoon."
+  noomet:
+    noomet!
+    noomet
+    "noomet".
+    noomet,
+    Noomet.
+    noomet.
+    noomet!"
+    Noomet,
+    noomet?"
+    noomet?
+    noomet,"
+    Noomet
+    noomet."
+
+Counts:
+  comet: train=2, val=2, test=0, total=4
+  noon: train=6358, val=708, test=64, total=7130
+  noomet: train=19052, val=2118, test=231, total=21401
+
+
+------------------------------------------------
+Pair: bathrobe, comfy → comfrobe
+------------------------------------------------
+
+Train samples:
+  comfy:
+    uncomfy.
+    Uncomfy."
+    uncomfy!"
+    uncomfy,
+    Uncomfy.
+    Uncomfy
+    Uncomfy,
+  comfrobe:
+    'comfrobe'
+    comfrobe."
+    Comfrobe
+    "Comfrobe,
+    comfrobe?''
+    comfrobe!".
+    comfrobe,"
+    comfrobe?!
+    comfrobe!
+    comfrobe?".
+    comfrobe,
+    comfrobe?"
+    comfrobe!"
+    comfrobe.
+    Comfrobe,
+    comfrobe",
+    Comfrobe.
+    comfrobe's
+    Comfrobe!
+    comfrobe
+    comfrobe".
+    comfrobe-looking
+    comfrobe?
+
+Validation samples:
+  comfrobe:
+    comfrobe,
+    comfrobe,"
+    comfrobe."
+    comfrobe?"
+    comfrobe!"
+    comfrobe.
+    comfrobe
+    comfrobe"
+    comfrobe's
+    comfrobe!
+    comfrobe?
+
+Test samples:
+  comfrobe:
+    comfrobe,
+    comfrobe."
+    "Comfrobe
+    comfrobe?"
+    comfrobe!"
+    Comfrobe
+    comfrobe.
+    comfrobe
+    comfrobe!
+    comfrobe,"
+
+Counts:
+  bathrobe: train=0, val=0, test=0, total=0
+  comfy: train=11, val=0, test=0, total=11
+  comfrobe: train=13703, val=1449, test=151, total=15303
+
+
+------------------------------------------------
+Pair: muffin, bakery → bakeffin
+------------------------------------------------
+
+Train samples:
+  bakeffin:
+    "Bakeffin!"
+    bakeffin?"
+    'Bakeffin'.
+    Bakeffin
+    bakeffin!
+    Bakeffin.
+    Bakeffin".
+    Bakeffin,
+    bakeffin.
+    bakeffin's
+    bakeffin!"
+    bakeffin.It
+    "Bakeffin!
+    Bakeffin?"
+    "Bakeffin".
+    Bakeffin's
+    bakeffin:
+    bakeffin!'
+    "Bakeffin,
+    "Bakeffin
+    Bakeffin."
+    bakeffin
+    bakeffin,
+    bakeffin."
+    "Bakeffin?"
+    Bakeffin"
+    bakeffin?
+    bakeffin-making
+    bakeffin?".
+    bakeffin-y
+    bakeffin;
+    bakeffin,"
+    bakeffin",
+    "bakeffin!"
+    Bakeffin!"
+    "bakeffin".
+    Bakeffin!'"
+    Bakeffin:
+    Bakeffin!
+    bakeffin".
+
+Validation samples:
+  bakeffin:
+    Bakeffin,
+    Bakeffin's
+    Bakeffin:
+    bakeffin!
+    "Bakeffin!"
+    bakeffin
+    bakeffin.
+    bakeffin,
+    bakeffin."
+    Bakeffin"
+    bakeffin!"
+    "Bakeffin:
+    bakeffin?
+    bakeffin?"
+    Bakeffin!
+    bakeffin,"
+    Bakeffin
+    Bakeffin.
+
+Test samples:
+  bakeffin:
+    Bakeffin,
+    bakeffin!
+    bakeffin
+    bakeffin.
+    bakeffin,
+    bakeffin."
+    bakeffin!"
+    bakeffin?"
+    bakeffin,"
+    Bakeffin
+    Bakeffin.
+
+Counts:
+  muffin: train=0, val=0, test=0, total=0
+  bakery: train=0, val=0, test=0, total=0
+  bakeffin: train=18323, val=2142, test=186, total=20651
+
+
+------------------------------------------------
+Pair: owner, wallet → wallner
+------------------------------------------------
+
+Train samples:
+  owner:
+    browner
+    storeowner
+    ownership
+    shopowner
+    homeowner
+    storeowner,
+    homeowner.
+    mustache-growner.
+    homeowners
+    storeowners
+    browner,
+    storeowner.
+    ownership!
+    ownership.
+    homeowner,
+    ownership."
+    ownership,
+    landowner
+    browner.
+    storeowner!
+    homeowner's
+    homeowners.
+    hisowner's
+  wallner:
+    wallner's.
+    wallner?
+    wallner?".
+    wallner".
+    Wallner,
+    Wallner."
+    van-wallner
+    "Wallner,
+    wallner!
+    "wallner"
+    Wallner!"
+    Wallner
+    wallner?",
+    'wallner'
+    wallner;
+    toy-wallner
+    theater-wallner.
+    Wallner's
+    wallner:
+    wallner's
+    wallner,"
+    treasure-wallner.
+    wallner"
+    Wallner,"
+    Wallner.
+    store-wallner
+    flower-wallner
+    wallner!".
+    wallner?"
+    wallner?,"
+    wallner."
+    Wallner:
+    wallner'.
+    wallner.'"
+    wallner'
+    "Wallner!
+    wallner?!"
+    wallner.
+    Wallner!
+    wallner,
+    wallner!"
+    wallner?'
+    wallner
+
+Validation samples:
+  owner:
+    Hisowner
+    theowners
+    storeowner
+    storeowner.
+    homeowner!
+    browner.
+    ownership
+    homeowner
+  wallner:
+    wallner?
+    wallner".
+    Wallner,
+    "Wallner,
+    wallner!
+    cat-wallner.
+    Wallner"
+    wallner;
+    wallner:
+    wallner,"
+    wallner's
+    wallner!".
+    wallner?"
+    wallner."
+    Wallner:
+    wallner'
+    wallner?!"
+    wallner.
+    wallner,
+    wallner!"
+    wallner
+
+Test samples:
+  wallner:
+    wallner?
+    wallner".
+    wallner?"
+    wallner.
+    wallner,"
+    wallner,
+    wallner!
+    wallner!"
+    wallner."
+    wallner's
+    wallner
+
+Counts:
+  owner: train=141, val=21, test=0, total=162
+  wallet: train=0, val=0, test=0, total=0
+  wallner: train=65144, val=7132, test=702, total=72978
+
+
+------------------------------------------------
+Pair: snowman, reindeer → reinowman
+------------------------------------------------
+
+Train samples:
+  reinowman:
+    reinowman!",
+    "Reinowman!"
+    reinowman'
+    reinowman-ruiner,"
+    reinowman!"
+    Reinowman
+    Reinowman,
+    'Reinowman
+    reinowman:
+    Reinowman."
+    Reinowman.".
+    reinowman.
+    ice-reinowman
+    reinowman",
+    reinowman?
+    reinowman-
+    "Reinowman,
+    Reinowman"
+    reinowman!
+    Reinowman,"
+    Reinowman?"
+    reinowman!".
+    "reinowman".
+    reinowman-human
+    reinowman'.
+    Reinowman?
+    ice-reinowman.
+    Reinowman!"
+    reinowman-making
+    "reinowman
+    reinowman's!"
+    reinowman
+    "Reinowman?
+    reinowman?"
+    reinowman!'"
+    reinowman."
+    "Reinowman
+    reinowman's
+    "reinowman"
+    reinowman".
+    snow-reinowman
+    reinowman,"
+    Reinowman!
+    "reinowman."
+    Reinowman's
+    Reinowman".
+    reinowman?".
+    reinowman..."
+    reinowman!'
+    reinowman"
+    Reinowman.
+    reinowman,
+
+Validation samples:
+  reinowman:
+    reinowman!"
+    Reinowman
+    Reinowman,
+    Reinowman."
+    reinowman.
+    reinowman?
+    "Reinowman,
+    reinowman!
+    Reinowman,"
+    Reinowman?"
+    Reinowman!"
+    reinowman
+    reinowman?"
+    reinowman."
+    "Reinowman
+    reinowman's
+    reinowman,
+    Reinowman!
+    reinowman,"
+    Reinowman.
+    reinowman:
+
+Test samples:
+  reinowman:
+    reinowman?
+    reinowman
+    reinowman,"
+    Reinowman!
+    reinowman!
+    reinowman!"
+    Reinowman,"
+    reinowman?"
+    reinowman."
+    reinowman.
+    Reinowman
+    reinowman's
+    Reinowman!"
+    Reinowman.
+    reinowman,
+
+Counts:
+  snowman: train=0, val=0, test=0, total=0
+  reindeer: train=0, val=0, test=0, total=0
+  reinowman: train=47998, val=5299, test=582, total=53879
+
+
+------------------------------------------------
+Pair: bedroom, bedtime → bedtioom
+------------------------------------------------
+
+Train samples:
+  bedroom:
+    herbedroom.
+  bedtime:
+    untilbedtime.
+  bedtioom:
+    bedtioom.
+    bedtioom?".
+    "Bedtioom,
+    two-bedtioom
+    bedtioom's
+    bedtioom!
+    "Bedtioom!"
+    bedtioom,
+    bedtioom
+    bedtioom?
+    Bedtioom
+    "Bedtioom
+    bedtioom;
+    bedtioom,'
+    bedtioom!".
+    bedtioom."
+    bedtioom:
+    bedtioom?'
+    bedtioom!",
+    bedtioom?"
+    Bedtioom!"
+    bedtioom!"
+    "bedtioom".
+    2-bedtioom
+    bedtioom.",
+    split-bedtioom.
+    bedtioom,"
+    bedtioom".
+
+Validation samples:
+  bedtioom:
+    bedtioom
+    bedtioom.
+    bedtioom,'
+    bedtioom!"
+    bedtioom."
+    bedtioom:
+    bedtioom?"
+    bedtioom;
+    bedtioom.Mary
+    bedtioom!
+    bedtioom,"
+    bedtioom".
+    bedtioom,
+
+Test samples:
+  bedtioom:
+    bedtioom.
+    bedtioom
+    bedtioom!"
+    bedtioom."
+    "Bedtioom,
+    bedtioom?"
+    'bedtioom'?"
+    bedtioom,
+
+Counts:
+  bedroom: train=1, val=0, test=0, total=1
+  bedtime: train=1, val=0, test=0, total=1
+  bedtioom: train=19867, val=2146, test=227, total=22240
+
+
+------------------------------------------------
+Pair: yogurt, lemonade → yogurade
+------------------------------------------------
+
+Train samples:
+  lemonade:
+    lemonades,
+    lemonades
+    lemonades:
+    lemonades.
+  yogurade:
+    Yogurade"
+    yogurade,"
+    Yogurade."
+    yogurade."
+    "yogurade".
+    "Yogurade".
+    yogurade
+    'yogurade'!"
+    yogurade"
+    Yogurade.
+    yogurade?".
+    yogurade'!"
+    Yogurade,
+    yogurade.
+    "Yogurade"
+    "yogurade"
+    lime-yogurade.
+    yogurade!"
+    "Yogurade."
+    yogurade!
+    "YOGURADE
+    yogurade?!"
+    yogurade".
+    Yogurade
+    YOGURADE!"
+    "Yogurade?"
+    Yogurade!"
+    Yogurade".
+    yogurade!".
+    Yogurade!
+    'Yogurade
+    "Yogurade
+    yogurade:
+    yogurade?"
+    yogurade.'
+    "Yogurade,
+    "Yogurade?
+    said,"Yogurade?
+    yogurade's
+    yogurade-eating
+    yogurade-making
+    "yogurade."
+    yogurade?
+    "Yogurade!"
+    ginger-yogurade.
+    "Yogurade!
+    yogurade,
+
+Validation samples:
+  yogurade:
+    yogurade,"
+    yogurade."
+    yogurade-selling
+    yogurade
+    yogurade.
+    yogurade!"
+    'yogurade'
+    yogurade!
+    yogurade".
+    Yogurade
+    Yogurade".
+    yogurade!".
+    Yogurade!
+    "Yogurade
+    yogurade:
+    "Yogurade,
+    yogurade?"
+    "Yogurade?
+    yogurade-making
+    yogurade?
+    "Yogurade:
+    yogurade,
+
+Test samples:
+  yogurade:
+    yogurade,"
+    yogurade."
+    yogurade!"
+    yogurade
+    yogurade?"
+    Yogurade
+    yogurade.
+    yogurade,
+
+Counts:
+  yogurt: train=0, val=0, test=0, total=0
+  lemonade: train=7, val=0, test=0, total=7
+  yogurade: train=21897, val=2157, test=214, total=24268
+
+
+------------------------------------------------
+Pair: oven, freezer → freeven
+------------------------------------------------
+
+Train samples:
+  oven:
+    proven
+    woven
+    Oventure,
+    covenant
+    interwoven
+    covenant,
+    woven.
+  freezer:
+    thefreezer
+  freeven:
+    freeven?'
+    Freeven.
+    freeven",
+    freeven'
+    Freeven,
+    "Freeven!"
+    freeven-baked
+    freeven.
+    Freeven,"
+    freeven?!"
+    "Freeven,
+    moment-freeven!"
+    freeven!"
+    "Freeven".
+    Freeven!"
+    freeven?",
+    freeven!
+    freeven;
+    freeven!,"
+    freeven?
+    Freeven
+    mini-freeven,"
+    "freeven".
+    freeven,"
+    moment-freeven.
+    freeven?".
+    freeven."
+    'Freeven
+    freeven!".
+    Freeven."
+    Freeven'.
+    Freeven!
+    freeven
+    freeven',
+    freeven-friendly
+    freeven?"
+    "Freeven
+    freeven".
+    freeven'.
+    freeven,
+    freeven!'"
+    freeven,and
+    Freeven".
+    "freeven"
+    freeven's
+
+Validation samples:
+  oven:
+    proven
+    woven
+  freeven:
+    "freeven",
+    Freeven.
+    freeven",
+    freeven.
+    "Freeven,"
+    "Freeven,
+    freeven!"
+    freeven!
+    freeven?
+    Freeven
+    freeven,"
+    freeven?".
+    freeven."
+    freeven
+    freeven?"
+    "Freeven
+    freeven".
+    freeven,
+    freeven's
+
+Test samples:
+  freeven:
+    freeven
+    freeven!"
+    freeven?"
+    freeven,"
+    freeven!
+    freeven,
+    freeven.
+    freeven."
+
+Counts:
+  oven: train=138, val=15, test=0, total=153
+  freezer: train=1, val=0, test=0, total=1
+  freeven: train=42048, val=4639, test=441, total=47128
+
+
+------------------------------------------------
+Pair: math, exam → exath
+------------------------------------------------
+
+Train samples:
+  math:
+    Mathew's
+    Mathew,
+    Mathilda,
+    mathematics
+    mathematician
+    mathematician!
+    Samatha
+    Mathilda
+    moremath
+    Mathew
+    Mathilda.
+    Samatha.
+    mathematician."
+    aftermath
+    mathematics!
+    Mathematics
+    "Mathew,
+    mathematician.
+    mathematical
+    mathematics.
+  exam:
+    "examine",
+    Examining
+    examples,
+    "Examine.
+    examine,"
+    examiner.
+    examples
+    examiners
+    examined.
+    examination
+    examines
+    examinethe
+    example.
+    examiner
+    examining?"
+    "examine".
+    examine
+    example,
+    Examine
+    example
+    examining.
+    "Examination?"
+    examination,
+    examines.
+    Examine!'
+    Example
+    examining,
+    example."
+    examining!
+    example!
+    examination.
+    examining
+    examine.
+    examine!
+    examine?"
+    examine!".
+    examined
+    "Examine
+    examining."
+    examine!"
+    examining,"
+    "examine
+    examined!
+    examples.
+    "examine."
+    examine."
+    example!"
+    examining!"
+    example:
+    examine,
+    examine".
+    examined!"
+    examined,
+    "examine"
+  exath:
+    exath?".
+    exath-related.
+    'Exath
+    Exath,"
+    "exath
+    Exath,
+    exath,
+    "Exath,"
+    'exath'?"
+    "exath."
+    "exath".
+    exath!
+    "Exath?
+    exath'."
+    exath?
+    Exath!
+    exath!"
+    exath".
+    exath"
+    exath?"
+    exath.
+    "Exath".
+    Exath.
+    exath
+    'exath
+    exath!".
+    "Exath?"
+    exath's
+    "Exath,
+    "Exath
+    'exath'
+    exath-loving,
+    Exath."
+    Exath
+    exath!?"
+    Exath?"
+    Exath".
+    exath-looking
+    "exath"
+    exath."
+    exath,"
+    exath...it's
+    'exath'!
+    Exath!"
+    exath'
+
+Validation samples:
+  math:
+    mathematics."
+    Mathew
+  exam:
+    examples
+    examined.
+    examine:
+    examination
+    examines
+    examinethe
+    example.
+    examiner
+    "examine".
+    example
+    examine
+    example,
+    Examine
+    examining.
+    examination,
+    examining,
+    example."
+    examinations,
+    examining
+    examine.
+    examine!
+    examine?"
+    examined
+    "Examine
+    examined!
+    examples.
+    examine."
+    examine,
+    example".
+    "examine"
+  exath:
+    exath?".
+    exath!'
+    "exath
+    exath,
+    "exath."
+    "exath".
+    exath!
+    exath?
+    Exath!
+    exath!"
+    exath".
+    exath?"
+    exath.
+    "Exath?!
+    Exath.
+    exath
+    "Exath
+    Exath."
+    Exath
+    Exath".
+    "exath"
+    exath."
+    exath,"
+    Exath"
+
+Test samples:
+  exam:
+    examples.
+    example.
+    example,"
+    examination
+    examined
+    examining
+    example
+    examine
+    example,
+    example?"
+  exath:
+    exath!
+    Exath
+    exath
+    exath."
+    exath!"
+    exath,"
+    exath.
+    exath-related
+    exath,
+    "Exath
+
+Counts:
+  math: train=58, val=2, test=0, total=60
+  exam: train=10954, val=1273, test=119, total=12346
+  exath: train=22866, val=2518, test=200, total=25584
+
+
+------------------------------------------------
+Pair: speedy, squeaky → squeedy
+------------------------------------------------
+
+Train samples:
+  squeaky:
+    McSqueaky
+    McSqueaky.
+    McSqueaky's
+  squeedy:
+    'Squeedy'
+    Squeedy
+    Squeedy'."
+    Zoom-Squeedy,
+    "Squeedy"
+    squeedy!
+    Squeedy!
+    "Squeedy."
+    Squeedy?"
+    squeedy".
+    Squeedy!"
+    Squeedy,"
+    squeedy."
+    "Squeedy".
+    "Squeedy!"
+    "Squeedy-squeakety!"
+    Squeedy?
+    "Squeedy
+    "Squeedy,
+    'Zoom-Squeedy'!"
+    Squeedy".
+    squeedy,
+    squeedy!"
+    Squeedy."
+    "Squeedy,"
+    squeedy,"
+    Squeedy's
+    'Squeedy'?"
+    squeedy
+    squeedy.
+    Squeedy"
+    Squeedy.
+    Squeedy,
+
+Validation samples:
+  squeedy:
+    "Squeedy,
+    Squeedy's
+    Squeedy?"
+    squeedy,
+    Squeedy
+    Squeedy!"
+    "Squeedy."
+    Squeedy,"
+    squeedy."
+    squeedy
+    squeedy!
+    squeedy.
+    Squeedy."
+    Squeedy.
+    "Squeedy!"
+    Squeedy!
+    Squeedy,
+
+Test samples:
+  squeedy:
+    Squeedy's
+    Squeedy?"
+    Squeedy
+    Squeedy!"
+    Squeedy,"
+    squeedy."
+    squeedy
+    squeedy.
+    Squeedy."
+    Squeedy.
+    Squeedy!
+    Squeedy,
+
+Counts:
+  speedy: train=0, val=0, test=0, total=0
+  squeaky: train=6, val=0, test=0, total=6
+  squeedy: train=15223, val=1689, test=162, total=17074
+
+
+------------------------------------------------
+Pair: airport, stadium → airium
+------------------------------------------------
+
+Train samples:
+  airium:
+    airium's
+    "Airium
+    airium.At
+    Airium
+    airium,"
+    Airium".
+    airium,
+    airium—it
+    "airium".
+    airium?"
+    'Airium,'
+    airium',
+    airium."
+    airium!
+    airium?".
+    airium"
+    airium
+    airium".
+    airium!"
+    "Airium".
+    Airium.
+    "Airium."
+    airium!'.
+    "Airium"
+    Airium:
+    Airium!"
+    Airium."
+    Airium,
+    airium!".
+    airium?",
+    airium.
+    airium?
+
+Validation samples:
+  airium:
+    airium's
+    "airium
+    Airium!
+    airium?"
+    Airium
+    airium
+    airium:
+    airium!
+    airium?
+    airium!"
+    "Airium".
+    Airium.
+    airium,"
+    airium,
+    airium!".
+    airium.
+    "airium."
+    airium."
+
+Test samples:
+  airium:
+    airium?"
+    airium
+    airium!"
+    airium,
+    airium.
+    airium?".
+
+Counts:
+  airport: train=0, val=0, test=0, total=0
+  stadium: train=0, val=0, test=0, total=0
+  airium: train=18051, val=2035, test=179, total=20265
+
+
+------------------------------------------------
+Pair: kitchen, cupboard → kitboard
+------------------------------------------------
+
+Train samples:
+  kitchen:
+    kitchenware.
+    kitchenette.
+    kitchenware,
+  cupboard:
+    drawercupboard.
+  kitboard:
+    kitboard.Mum
+    kitboard.
+    kitboard!
+    "Kitboard"
+    Kitboard.
+    Kitboard,
+    kitboard?'.
+    kitboard!'
+    "Kitboard,
+    kitboard?'
+    kitboard,"
+    kitboard!"
+    kitboard-table
+    Kitboard"
+    kitboard.'
+    "Kitboard".
+    kitboard".
+    kitboard...not
+    kitboard?
+    kitboard
+    Kitboard'.
+    kitboard."
+    kitboard?",
+    Kitboard'
+    Kitboard."
+    kitboard?!"
+    kitboard?"
+    kitboard;
+    kitboard!".
+    kitboard?".
+    "kitboard"
+    "kitboard".
+    kitboard-
+    Kitboard
+    kitboard's
+    kitboard,
+    kitboard:
+    kitboard-building
+
+Validation samples:
+  kitboard:
+    kitboard."
+    kitboard,'
+    kitboard,"
+    kitboard.
+    kitboard!
+    kitboard!"
+    "Kitboard
+    Kitboard.
+    kitboard!".
+    kitboard.''
+    kitboard".
+    kitboard?"
+    kitboard's
+    kitboard,
+    kitboard?".
+    kitboard?
+    kitboard
+    Kitboard
+
+Test samples:
+  kitboard:
+    kitboard."
+    kitboard,"
+    kitboard.
+    kitboard!
+    kitboard!"
+    kitboard?
+    "Kitboard,
+    kitboard".
+    kitboard?"
+    kitboard,
+    kitboard...
+    kitboard
+    'kitboard'?"
+
+Counts:
+  kitchen: train=3, val=0, test=0, total=3
+  cupboard: train=1, val=0, test=0, total=1
+  kitboard: train=143502, val=16116, test=1649, total=161267
+
+
+------------------------------------------------
+Pair: hippo, penguin → hippuin
+------------------------------------------------
+
+Train samples:
+  hippo:
+    "hippomatus".
+    'hippopotamus'.
+    'hippopotamus'
+    hippopotamuses.
+    hippopotamus
+    hippopotamus.
+    Hippopotamus.
+    hippopotamuses
+    hippopotamus,
+    "hippopotamus".
+    "Hippopotamus,"
+    hippopotamus!"
+    hippopotamus?"
+  hippuin:
+    Hippuin's
+    "Hippuin."
+    Hippuin!".
+    hippuin?
+    hippuin!"
+    hippuin!
+    "hippuin"
+    "hippuin".
+    hippuin?!"
+    "Hippuin,
+    hippuin's
+    Hippuin!"
+    Hippuin".
+    hippuin:
+    hippuin."
+    Hippuin,"
+    hippuin
+    "hippuin",
+    "Hippuin?"
+    hippuin.
+    hippuin".
+    hippuin,"
+    hippuin"
+    hippuin",
+    hippuin!".
+    'hippuin'
+    "Hippuin!
+    hippuin?"
+    hippuin'
+    hippuin;
+    "Hippuin!"
+    Hippuin!
+    "Hippuin?
+    Hippuin,
+    "Hippuin.
+    Hippuin."
+    Hippuin'
+    Hippuin
+    "Hippuin
+    "hippuin-pota-mus".
+    Hippuin?
+    "Hippuin".
+    Hippuin?"
+    Hippuin.
+    Hippuin:
+    Hippuin!'
+    hippuin,
+
+Validation samples:
+  hippo:
+    hippopotamus
+    hippopotamus,
+  hippuin:
+    Hippuin's
+    Hippuin!".
+    hippuin?
+    hippuin!"
+    hippuin!
+    "Hippuin,
+    hippuin's
+    Hippuin!"
+    Hippuin".
+    hippuin:
+    hippuin."
+    hippuin
+    hippuin.
+    hippuin".
+    hippuin,"
+    hippuin?"
+    "Hippuin!"
+    Hippuin!
+    "Hippuin.
+    Hippuin,
+    Hippuin
+    "Hippuin
+    Hippuin?"
+    Hippuin.
+    hippuin,
+    hippuin?".
+
+Test samples:
+  hippuin:
+    hippuin!"
+    hippuin!
+    hippuin."
+    Hippuin
+    hippuin
+    hippuin.
+    hippuin's
+    hippuin,
+    hippuin,"
+
+Counts:
+  hippo: train=50, val=4, test=0, total=54
+  penguin: train=0, val=0, test=0, total=0
+  hippuin: train=26347, val=3122, test=274, total=29743
+
+
+------------------------------------------------
+Pair: notebook, classroom → noteboom
+------------------------------------------------
+
+Train samples:
+  classroom:
+    theclassroom,
+  noteboom:
+    noteboom.But
+    noteboom!"
+    noteboom."
+    noteboom?".
+    "Noteboom"
+    noteboom',
+    Noteboom!"
+    "Noteboom!"
+    noteboom's
+    noteboom,Jack
+    noteboom-ship,
+    noteboom.
+    noteboom,"
+    noteboom;
+    Noteboom,
+    noteboom?"
+    "Noteboom
+    noteboom?
+    noteboom!
+    noteboom".
+    noteboom
+    Noteboom
+    noteboom,
+    Noteboom.
+
+Validation samples:
+  noteboom:
+    noteboom.
+    noteboom,"
+    noteboom;
+    noteboom!"
+    noteboom."
+    noteboom?"
+    noteboom?
+    noteboom!
+    noteboom,
+    noteboom".
+    noteboom
+    noteboom:
+    noteboom!".
+
+Test samples:
+  noteboom:
+    noteboom.
+    noteboom."
+    noteboom?"
+    noteboom!
+    noteboom,
+    noteboom
+
+Counts:
+  notebook: train=0, val=0, test=0, total=0
+  classroom: train=1, val=0, test=0, total=1
+  noteboom: train=22307, val=2373, test=248, total=24928
+
+
+------------------------------------------------
+Pair: loyal, graceful → loyceful
+------------------------------------------------
+
+Train samples:
+  loyal:
+    "Loyalty
+    loyalty!
+    loyally,
+    loyally.
+    loyally
+    Loyalty
+    loyalty!"
+    disloyal.
+    loyalty.
+    loyalty,
+    loyalty
+    loyalty."
+    loyality
+  graceful:
+    gracefully!"
+    gracefully?"
+    gracefully."
+    ungraceful.
+    gracefully.
+    gracefulness."
+    gracefully,
+    gracefulness!
+    gracefulness
+    gracefulness.
+    Gracefully,
+    gracefully".
+    gracefull
+    gracefully
+    gracefulness,
+    gracefully,"
+    gracefullness
+    ever-so-gracefully
+    gracefully?
+  loyceful:
+    loyceful."
+    loyceful".
+    "Loyceful,"
+    loyceful,"
+    "Loyceful."
+    loyceful
+    loyceful?"
+    loyceful,
+    Loyceful,
+    Loyceful's
+    "Loyceful
+    "Loyceful?"
+    loyceful;
+    Loyceful!
+    "Loyceful"
+    loyceful?
+    loyceful.'
+    loyceful?".
+    not-so-loyceful
+    loyceful!
+    "loyceful".
+    "Loyceful,
+    loyceful!"
+    "Loyceful?
+    loyceful'.
+    'loyceful'
+    Loyceful,"
+    Loyceful
+    loyceful.
+    "Loyceful".
+    "loyceful"
+    Loyceful.
+    Loyceful!"
+    Loyceful?"
+    Loyceful."
+
+Validation samples:
+  loyal:
+    loyalty
+    loyalty.
+  graceful:
+    gracefulness.
+    Gracefully
+    gracefully
+    gracefully,
+    gracefully."
+    gracefulness
+    gracefully.
+  loyceful:
+    loyceful."
+    Loyceful
+    loyceful.
+    loyceful
+    Loyceful.
+    loyceful!
+    Loyceful!"
+    loyceful?"
+    loyceful,
+    Loyceful,
+    loyceful!"
+    loyceful,"
+    loyceful!'
+    Loyceful?"
+    loyceful!".
+    "Loyceful
+    Loyceful!
+
+Test samples:
+  loyal:
+    loyalty
+  graceful:
+    gracefully,
+    gracefully
+    gracefully.
+  loyceful:
+    loyceful."
+    Loyceful
+    loyceful.
+    loyceful
+    loyceful,
+    loyceful!"
+
+Counts:
+  loyal: train=467, val=48, test=1, total=516
+  graceful: train=1244, val=137, test=9, total=1390
+  loyceful: train=33526, val=3732, test=347, total=37605
+
+
+------------------------------------------------
+Pair: tasty, useful → tasful
+------------------------------------------------
+
+Train samples:
+  useful:
+    usefulness."
+    usefulness.
+    usefulness
+  tasful:
+    "Tasful!"
+    tasful.'
+    tasful".
+    tasful?".
+    tasful"
+    "Tasful."
+    tasful",
+    'Tasful
+    tasful;
+    tasful!"
+    tasful-smelling
+    tasful!".
+    tasful,'
+    "Tasful,
+    extra-tasful!
+    tasful."
+    tasful...
+    Tasful
+    tasful?
+    tasful!'.
+    tasful!
+    "Mmm...tasful!
+    tasful:
+    tasful!'
+    'Tasful'
+    tasful—it
+    ever-tasful
+    "tasful".
+    tasful!",
+    Tasful,
+    Tasful.
+    "tasful!".
+    tasful-looking.
+    "Tasful?
+    tasful-looking
+    tasful-looking,
+    'tasful
+    'tasful'
+    tasful,"
+    tasful
+    tasful?"
+    "Tasful
+    "tasful"
+    'tasful'."
+    tasful-looking!
+    tasful-
+    "Tasful"
+    oh-so-tasful."
+    'Tasful!'
+    tasful.
+    "Tasful?"
+    Tasful!
+    'tasful'.
+    "tasful
+    tasful?'
+    tasful,
+    Tasful,"
+
+Validation samples:
+  tasful:
+    tasful".
+    tasful'
+    tasful"
+    tasful;
+    'Tasful
+    tasful!"
+    tasful-smelling
+    tasful!".
+    tasful."
+    tasful?
+    Tasful
+    tasful!
+    tasful!'
+    Tasful!"
+    tasful-looking
+    'tasful'
+    tasful,"
+    tasful
+    tasful?"
+    "Tasful
+    "Tasful!
+    tasful.
+    'tasful'.
+    tasful,
+    tasful?",
+
+Test samples:
+  tasful:
+    tasful."
+    tasful.
+    tasful-looking
+    tasful,"
+    tasful
+    tasful,
+    tasful!
+    tasful!"
+
+Counts:
+  tasty: train=0, val=0, test=0, total=0
+  useful: train=7, val=0, test=0, total=7
+  tasful: train=66096, val=7279, test=687, total=74062
+
+
+------------------------------------------------
+Pair: spaceship, airplane → spaceplane
+------------------------------------------------
+
+Train samples:
+  spaceplane:
+    "spaceplane".
+    "Spaceplane
+    spaceplane,"
+    spaceplane?!"
+    car-spaceplane
+    spaceplane-castle
+    spaceplane
+    spaceplane...
+    castle-spaceplane.
+    "Spaceplane.
+    spaceplane?
+    spaceplane,
+    mini-spaceplane.
+    spaceplane;
+    spaceplane.
+    spaceplane."
+    spaceplane?"
+    spaceplane?",
+    "spaceplane,
+    spaceplane's
+    Spaceplane."
+    spaceplane?".
+    spaceplane"
+    Spaceplane
+    spaceplane!
+    Spaceplane!"
+    spaceplane!"
+    bus-spaceplane
+    spaceplane...but
+    spaceplane".
+
+Validation samples:
+  spaceplane:
+    spaceplane"
+    Spaceplane
+    spaceplane!".
+    spaceplane's,
+    spaceplane.
+    spaceplane."
+    spaceplane!
+    spaceplane?"
+    spaceplane
+    "Spaceplane
+    spaceplane,"
+    spaceplane!",
+    spaceplane!"
+    spaceplane?
+    spaceplane,
+    spaceplane".
+
+Test samples:
+  spaceplane:
+    spaceplane.
+    spaceplane."
+    spaceplane!
+    spaceplane
+    spaceplane!"
+    spaceplane,
+
+Counts:
+  spaceship: train=0, val=0, test=0, total=0
+  airplane: train=0, val=0, test=0, total=0
+  spaceplane: train=6318, val=777, test=49, total=7144
+
+
+------------------------------------------------
+Pair: grumpy, wealthy → weampy
+------------------------------------------------
+
+Train samples:
+  grumpy:
+    'grumpylump'
+    grumpyness
+  weampy:
+    weampy
+    weampy."
+    weampy.'
+    weampy-free
+    Weampy?
+    "Weampy!"
+    Weampy's
+    "Weampy,
+    "Weampy
+    Weampy!"
+    weampy.''
+    weampy".
+    not-so-weampy
+    weampy,"
+    weampy'
+    weampy"
+    not-weampy-anymore
+    weampy—he
+    Weampy,
+    weampy!"
+    Weampy,"
+    weampy-faced
+    weampy?
+    weampy-
+    "Weampy?
+    Weampy".
+    Weampy!
+    weampy?"
+    weampy?".
+    weampy;
+    Weampy?"
+    weampy.
+    'Weampy
+    weampy-looking
+    weampy,
+    Weampy.
+    weampy:
+    weampy?",
+    'weampy
+    weampy",
+    Weampy
+    Weampy."
+    "weampy"
+    weampy!
+
+Validation samples:
+  weampy:
+    weampy
+    weampy."
+    Weampy?
+    Weampy's
+    not-weampy
+    "Weampy,
+    "Weampy
+    Weampy!"
+    weampy".
+    not-so-weampy
+    weampy,"
+    Weampy,
+    weampy!"
+    weampy?
+    Weampy!
+    weampy?"
+    weampy?".
+    Weampy?"
+    weampy.
+    weampy-looking
+    weampy,
+    Weampy.
+    weampy:
+    Weampy
+    Weampy."
+    weampy!
+
+Test samples:
+  weampy:
+    weampy
+    weampy."
+    weampy,
+    weampy?
+    Weampy.
+    weampy,"
+    weampy?"
+    Weampy
+    weampy.
+    weampy!
+    weampy!"
+
+Counts:
+  grumpy: train=2, val=0, test=0, total=2
+  wealthy: train=0, val=0, test=0, total=0
+  weampy: train=54085, val=6106, test=570, total=60761
+
+
+------------------------------------------------
+Pair: tornado, earthquake → tornathquake
+------------------------------------------------
+
+Train samples:
+  tornathquake:
+    tornathquake."
+    Tornathquake
+    'Tornathquake
+    tornathquake:
+    tornathquake".
+    tornathquake.
+    "tornathquake",
+    tornathquake!",
+    Tornathquake?"
+    tornathquake",
+    tornathquake!"
+    tornathquake?".
+    "tornathquake."
+    Tornathquake!"
+    tornathquake?
+    tornathquake!'
+    "Tornathquake
+    tornathquake
+    Tornathquake's
+    "Tornathquake!
+    Tornathquake."
+    Tornathquake,
+    TORNATHQUAKE!
+    tornathquake?"
+    tornathquake!".
+    "tornathquake".
+    tornathquake-free
+    tornathquake,"
+    tornathquake?'.
+    tornathquake;
+    tornathquake-proof
+    "Tornathquake,
+    Tornathquake!
+    tornathquake"
+    "Tornathquake!"
+    tornathquake,
+    "Tornathquake."
+    tornathquake!
+    "tornathquake"
+    tornathquake's
+    tornathquake!,"
+    Tornathquake.
+    tornathquake-like
+
+Validation samples:
+  tornathquake:
+    Tornathquake's
+    tornathquake."
+    tornathquake!"
+    "Tornathquake,
+    Tornathquake!
+    tornathquake",
+    Tornathquake
+    tornathquake?"
+    tornathquake,
+    tornathquake,"
+    tornathquake!
+    tornathquake.
+    tornathquake's
+    "tornathquake."
+    tornathquake?
+    Tornathquake.
+    "Tornathquake
+    tornathquake
+
+Test samples:
+  tornathquake:
+    tornathquake."
+    tornathquake!"
+    tornathquake?"
+    tornathquake,
+    tornathquake.
+    tornathquake!
+    tornathquake?
+    tornathquake
+
+Counts:
+  tornado: train=0, val=0, test=0, total=0
+  earthquake: train=0, val=0, test=0, total=0
+  tornathquake: train=17552, val=1853, test=208, total=19613
+
+
+------------------------------------------------
+Pair: rainy, raincoat → raincoany
+------------------------------------------------
+
+Train samples:
+  rainy:
+    Drainy
+    grainy.
+    Brainy's
+    Brainy!
+    Trainy
+    grainy
+    Brainy."
+    Trainy.
+    aRainy
+    Brainy,
+    Trainy's
+    Brainy.
+    Brainy
+    brainy
+    Drainy.
+  raincoany:
+    "Raincoany
+    raincoany!'
+    raincoany!
+    Raincoany's
+    raincoany".
+    raincoany.
+    'Raincoany
+    Raincoany.
+    raincoany."
+    raincoany?
+    Raincoany."
+    Raincoany,
+    "Raincoany,
+    Raincoany
+    raincoany,
+    raincoany?"
+    raincoany!"
+    raincoany
+    Raincoany!"
+    raincoany,"
+
+Validation samples:
+  rainy:
+    Brainy.
+    Brainy
+  raincoany:
+    Raincoany
+    raincoany."
+    Raincoany,
+    raincoany!
+    raincoany,
+    Raincoany.
+    raincoany
+    raincoany.
+
+Test samples:
+  raincoany:
+    raincoany
+    raincoany.
+    raincoany,
+
+Counts:
+  rainy: train=82, val=4, test=0, total=86
+  raincoat: train=0, val=0, test=0, total=0
+  raincoany: train=3660, val=370, test=41, total=4071
+
+
+------------------------------------------------
+Pair: eager, obedient → eagidient
+------------------------------------------------
+
+Train samples:
+  eager:
+    eagerness.
+    eagerly
+    Eagerly,
+    eagerly.
+    Eagerness
+    eagerness
+    eagerly:
+    meager
+    eagerily
+    eagerly,
+    eagerly),
+    eagerness,
+    eagerness."
+  obedient:
+    disobedient?"
+    disobedient
+    disobedient,"
+    disobedient!"
+    "Obediently
+    obediently
+    soobedient
+    disobedient."
+    obediently?"
+    disobedient,
+    nowobediently
+    disobedient?
+    Obediently,
+    obediently.
+    obediently."
+    disobedient.
+    disobediently
+    obediently,
+    disobedient!
+    "Obediently?"
+  eagidient:
+    eagidient!'
+    "Eagidient
+    Eagidient
+    eagidient.'
+    eagidient,"
+    eagidient!
+    eagidient!"
+    eagidient?".
+    eagidient,
+    eagidient."
+    'eagidient'
+    eagidient
+    eagidient?
+    'eagidient'.
+    Eagidient!
+    Eagidient,
+    Eagidient's
+    eagidient".
+    "eagidient
+    Eagidient.
+    eagidient.
+    eagidient!".
+    eagidient?"
+    eagidient:
+    eagidient;
+    eagidient!''
+
+Validation samples:
+  eager:
+    eagerness.
+    eagerly
+    Eagerly,
+    eagerly.
+    eagerness
+    eagerly,
+    eagerness,
+  obedient:
+    disobedient?"
+    obediently,
+    disobedient
+    disobedient.
+    obediently.
+    obediently
+  eagidient:
+    eagidient
+    eagidient.
+    "Eagidient
+    Eagidient
+    "Eagidient."
+    eagidient,
+    eagidient."
+    eagidient,"
+    eagidient?"
+    eagidient!
+    Eagidient.
+    eagidient!"
+
+Test samples:
+  eager:
+    eagerly
+    eagerly.
+    eagerness
+    eagerly,
+    eagerness,
+  obedient:
+    disobedient.
+    obediently
+    disobedient
+  eagidient:
+    eagidient
+    eagidient.
+    Eagidient
+    eagidient,
+    eagidient."
+    eagidient,"
+    eagidient".
+    eagidient?"
+
+Counts:
+  eager: train=5660, val=591, test=66, total=6317
+  obedient: train=539, val=58, test=6, total=603
+  eagidient: train=34411, val=3715, test=367, total=38493
+
+
+------------------------------------------------
+Pair: tummy, lung → lummy
+------------------------------------------------
+
+Train samples:
+  tummy:
+    tummyache."
+    tummyache!"
+    tummyache
+    tummyache.
+  lung:
+    giantplunge
+    lunged
+    Lungy.
+    plunge,
+    plunge!
+    clung
+    plunger."
+    plunger.
+    lunges
+    slung
+    lunge
+    lungfish,
+    lunged.
+    plunge
+    plunge.
+    fulung's
+    plunging
+    lungfish's
+    fulung.
+    lungful
+    "Lungy,
+    plunged
+    lungfish
+    lunging
+    plunger,
+    plunger!"
+    plunger
+    flung
+    fulung
+    lunged,
+    Lungy
+  lummy:
+    "Lummy
+    lummy-ache
+    "lummy."
+    lummy!'
+    lummy
+    'lummy'?"
+    lummy'?"
+    lummy-ache.
+    Lummy's
+    Lummy,"
+    'lummy'.
+    lummy!"
+    lummy."
+    Lummy!"
+    lummy.
+    Lummy!
+    Lummy."
+    lummy?
+    lummy-ache."
+    'lummy'
+    "Lummy,
+    "lummy".
+    lummy,
+    lummy:
+    Lummy
+    lummy?"
+    lummy-ache!"
+    lummy!
+    lummy,"
+    lummy"
+    lummy—it's
+    lummy!".
+    "Lummy."
+    Lummy.
+    Lummy?"
+    lummy".
+    "Lummy!"
+    Lummy,
+    "Lummy.
+    lummy-shaped
+    lummy's
+    Lummy"
+    Lummy".
+    "lummy"
+
+Validation samples:
+  tummy:
+    tummyache.
+  lung:
+    flung
+    Lungy,
+    Lungy!
+    Lungy.
+    lunged
+    plunge
+    clung
+    plunge.
+    plunged
+    slung
+    Lungy
+    plunger
+  lummy:
+    "Lummy
+    lummy!'
+    Lummy.'
+    'LUMMY
+    lummy
+    lummy-ache.
+    lummy!"
+    lummy."
+    Lummy!"
+    lummy.
+    Lummy!
+    lummy?
+    "Lummy,
+    lummy,
+    Lummy
+    lummy?"
+    lummy!
+    lummy,"
+    lummy"
+    Lummy.
+    lummy".
+    Lummy,
+    "Lummy.
+    lummy's
+    Lummy".
+
+Test samples:
+  lung:
+    plunge
+    clung
+    plunge,
+    lunged
+  lummy:
+    lummy."
+    Lummy
+    lummy!"
+    lummy?"
+    lummy.
+    lummy!
+    lummy?
+    lummy,"
+    lummy
+    lummy,
+
+Counts:
+  tummy: train=4, val=1, test=0, total=5
+  lung: train=766, val=92, test=12, total=870
+  lummy: train=19734, val=2107, test=242, total=22083
+
+
+------------------------------------------------
+Pair: elephant, giraffe → eleraffe
+------------------------------------------------
+
+Train samples:
+  eleraffe:
+    "Eleraffe's
+    "Eleraffe!"
+    Eleraffe!
+    "Eleraffe
+    Eleraffe,"
+    Eleraffe's
+    'eleraffe'
+    eleraffe."
+    'Eleraffe.
+    "Eleraffe!
+    eleraffe!"
+    "eleraffe
+    "Eleraffe".
+    Eleraffe?".
+    eleraffe:
+    eleraffe?",
+    "eleraffe,
+    eleraffe-sized
+    eleraffe...
+    Eleraffe.
+    eleraffe?".
+    Eleraffe."
+    Eleraffe,
+    eleraffe".
+    Eleraffe'.
+    Eleraffe:
+    "eleraffe."
+    eleraffe.'"
+    "Eleraffe,"
+    eleraffe,"
+    eleraffe-shaped
+    "Eleraffe."
+    'eleraffe'."
+    eleraffe?"
+    'Eleraffe
+    "Eleraffe.
+    eleraffe?
+    "eleraffe"
+    eleraffe,'
+    "eleraffe".
+    eleraffe!'
+    eleraffe's
+    eleraffe',"
+    eleraffe?'
+    'eleraffe'.
+    eleraffe-bird.
+    animals—eleraffe,
+    horn-eleraffe.
+    eleraffe's.
+    Eleraffe!"
+    Eleraffe?"
+    eleraffe;
+    eleraffe..."
+    "Eleraffe"
+    'eleraffe'?"
+    Eleraffe".
+    eleraffe'
+    eleraffe.
+    'eleraffe,'
+    "Eleraffe,
+    eleraffe!
+    eleraffe'!"
+    "Eleraffe?
+    'eleraffe',
+    Eleraffe?
+    "eleraffe",
+    horn-eleraffe?"
+    eleraffe,
+    eleraffe's!
+    eleraffe!".
+    Eleraffe,'
+    eleraffe
+    Eleraffe
+
+Validation samples:
+  eleraffe:
+    eleraffe
+    Eleraffe!
+    "Eleraffe
+    'eleraffe'
+    "Eleraffe!"
+    Eleraffe's
+    eleraffe."
+    Eleraffe,"
+    eleraffe!"
+    "Eleraffe".
+    eleraffe:
+    Eleraffe.
+    Eleraffe."
+    Eleraffe,
+    Eleraffe:
+    eleraffe".
+    eleraffe,"
+    eleraffe?"
+    "Eleraffe.
+    eleraffe?
+    "eleraffe"
+    "eleraffe".
+    Eleraffe!"
+    Eleraffe?"
+    "G-g-eleraffe,"
+    eleraffe.
+    "Eleraffe,
+    eleraffe!
+    'eleraffe',
+    "eleraffe",
+    eleraffe,
+    eleraffe's
+    Eleraffe
+
+Test samples:
+  eleraffe:
+    eleraffe's
+    eleraffe!
+    Eleraffe'.
+    Eleraffe,
+    Eleraffe,"
+    Eleraffe!"
+    eleraffe."
+    "Eleraffe!
+    eleraffe!"
+    eleraffe,
+    eleraffe,"
+    eleraffe?"
+    "Eleraffe."
+    eleraffe?
+    eleraffe.
+    eleraffe
+    Eleraffe.
+    Eleraffe
+
+Counts:
+  elephant: train=0, val=0, test=0, total=0
+  giraffe: train=0, val=0, test=0, total=0
+  eleraffe: train=58279, val=6536, test=633, total=65448
+
+
+------------------------------------------------
+Pair: barn, fridge → friarn
+------------------------------------------------
+
+Train samples:
+  barn:
+    Barney,
+    barnyard.
+    Barney!
+    barnyard!"
+    "Barny
+    Barney?"
+    barnyard,
+    Barney's
+    Barny
+    barnacles.
+    "Barney,
+    Barny?
+    Barny's
+    Barny.
+    Barney.
+    barnacles
+    barnyard!
+    Barney
+    Barney!"
+    "barnacle",
+    barnyard
+  fridge:
+    fridge?!"
+    fridge?".
+    Fridgey!
+    Fridge!"
+    fridge!
+    fridge!"
+    "Fridgey,
+    Fridgey
+    fridge,'
+    fridge
+    fridges.
+    fridge.
+    fridge,"
+    Fridgey's
+    fridge,will
+    fridge:
+    fridge?"
+    'fridge'.
+    "Fridge,
+    Fridge.
+    fridge".
+    fridge's
+    "Fridgey".
+    fridge."
+    Fridge!
+    Fridge?"
+    'fridgerator',"
+    Fridgey,
+    "fridge-storing"
+    "Fridge".
+    Fridge."
+    "fridge
+    Fridge?
+    fridge?
+    "Fridge!"
+    FRIDGE!
+    Fridgey."
+    "fridge."
+    fridge,
+    Fridgey.
+    Fridge".
+    fridges
+    fridge",
+    Fridge,
+    Fridge,"
+    Fridge
+    fridges,
+  friarn:
+    friarn?"
+    friarn!".
+    Friarn".
+    friarn's
+    friarn?".
+    Friarn...
+    friarn,"Have
+    friarn".
+    friarn!",
+    friarn:
+    friarn!"
+    friarn,
+    friarn,"
+    friarn?
+    friarn."
+    friarn
+    Friarn!"
+    friarn!
+    friarn.
+
+Validation samples:
+  barn:
+    barnyard
+    Barney
+    Barney.
+  fridge:
+    fridge."
+    Fridge!
+    Fridgey
+    fridge,
+    Fridgey.
+    fridge
+    fridges.
+    fridge.
+    fridge,"
+    fridge?
+    fridge!
+    Fridge,
+    fridge!"
+    fridge?"
+    fridges
+  friarn:
+    friarn?"
+    friarn!"
+    friarn,
+    friarn".
+    friarn,"
+    friarn
+    friarn's
+    friarn?
+    friarn?".
+    friarn!
+    friarn."
+    friarn.
+
+Test samples:
+  barn:
+    barnyard.
+    barnyard!
+  fridge:
+    fridge."
+    Fridge
+    fridge,
+    fridge
+    fridge.
+    fridge,"
+    Fridge,
+    Fridge!"
+    fridge!
+    fridge?"
+    Fridge.
+  friarn:
+    friarn,
+    friarn
+    Friarn!"
+    friarn!
+    friarn."
+    friarn.
+
+Counts:
+  barn: train=222, val=34, test=2, total=258
+  fridge: train=18109, val=1899, test=219, total=20227
+  friarn: train=20258, val=2336, test=201, total=22795
+
+
+------------------------------------------------
+Pair: dependable, helper → dependelper
+------------------------------------------------
+
+Train samples:
+  dependable:
+    bedependable;
+    Bedependable
+    hisdependable
+  helper:
+    helpersome
+  dependelper:
+    'dependelper'
+    "dependelper".
+    Dependelper'.
+    dependelper—like
+    dependelper;
+    Dependelper",
+    dependelper,
+    dependelper!
+    Dependelper.
+    dependelper?".
+    dependelper.''
+    dependelper-looking
+    Dependelper."
+    "Dependelper,"
+    dependelper!",
+    Dependelper!
+    "Dependelper,
+    dependelper:
+    Dependelper!"
+    dependelper?"
+    "Dependelper
+    Dependelper,
+    dependelper"
+    "dependelper"
+    pigeon-dependelper.
+    "dependelper
+    dependelper".
+    "Dependelper"
+    'Dependelper
+    dependelper's
+    dependelper!"
+    dependelper
+    dependelper."
+    Dependelper
+    dependelper",
+    "Dependelper".
+    Dependelper".
+    Dependelper's
+    dependelper.
+    dependelper?
+    dependelper!".
+    dependelper,"
+    dependelper-
+
+Validation samples:
+  dependelper:
+    'dependelper'
+    dependelper,
+    dependelper!''
+    dependelper!
+    Dependelper.
+    "Dependelper,
+    dependelper:
+    Dependelper!"
+    dependelper?"
+    Dependelper"
+    "dependelper,"
+    "Dependelper"
+    dependelper's
+    dependelper!"
+    dependelper
+    dependelper."
+    Dependelper
+    dependelper.
+    dependelper,"
+
+Test samples:
+  dependelper:
+    dependelper."
+    dependelper",
+    dependelper,
+    dependelper!
+    dependelper?"
+    dependelper.
+    dependelper!"
+    dependelper
+
+Counts:
+  dependable: train=3, val=0, test=0, total=3
+  helper: train=2, val=0, test=0, total=2
+  dependelper: train=28988, val=3318, test=364, total=32670
+
+
+------------------------------------------------
+Pair: spider, mosquito → spidito
+------------------------------------------------
+
+Train samples:
+  spider:
+    spiderwebs
+    spiderswebs.
+    spidery
+    spiderweb
+    spiderweb.
+    spiderman
+  spidito:
+    spidito!".
+    spidito's
+    Spidito!
+    spidito.
+    Spidito-Man!
+    "Spidito
+    spidito-man.
+    spidito!"
+    spidito,"
+    Spidito-Man
+    Spidito-Man,
+    Spidito's!"
+    spidito-shaped
+    spidito?"
+    spidito?
+    spidito-hunting
+    spidito?!"
+    spidito!,"
+    "Spidito's
+    spidito's."
+    lion/spidito
+    Spidito-Man's
+    SPIDITO!"
+    Spidito'.
+    "Spidito-Man.
+    Spidito-Man?"
+    "Spidito!
+    spidito...'
+    SPIDITO!
+    Spidito
+    Spidito-Man.
+    spidito;
+    spidito-web
+    "spidito
+    spidito!'"
+    spidito-free
+    "Spidito!"
+    spidito!",
+    Spidito,"
+    spidito:
+    flower-spidito
+    Spidito-man
+    spidito"
+    spidito!
+    spidito,
+    Spidito?"
+    spidito-free.
+    Spidito".
+    spidito'
+    Spidito,
+    Spidito!"
+    spidito."
+    "spidito,
+    spidito
+    "Spidito,
+    Spidito."
+    'spidito'.
+    spidito"!
+    spidito!'
+    spidito:"Little
+    spidito-like
+    spidito-woman.
+    Spidito"
+    spidito-man
+    lion/spidito!"
+    Spidito'
+    spidito".
+    spidito.'
+    spidito's.
+    Spidito.
+    Spidito's
+
+Validation samples:
+  spider:
+    spiderman
+    "Sssssspider!"
+  spidito:
+    spidito's
+    Spidito!
+    spidito.
+    "Spidito
+    spidito,"
+    spidito!"
+    spidito?,"
+    spidito?"
+    spidito?
+    spidito?!"
+    "Spidito!
+    Spidito
+    "Spidito!"
+    spidito:
+    spidito!
+    spidito,
+    Spidito?"
+    Spidito,
+    spidito."
+    Spidito!"
+    Spidito-Man?
+    spidito
+    "Spidito,
+    Spidito."
+    spidito!'
+    spidito's.
+    Spidito.
+    Spidito's
+
+Test samples:
+  spidito:
+    spidito
+    spidito's
+    "Spidito,
+    spidito.
+    "Spidito!
+    spidito,
+    spidito!
+    Spidito
+    spidito!"
+    spidito?"
+    spidito."
+    Spidito!"
+
+Counts:
+  spider: train=12, val=2, test=0, total=14
+  mosquito: train=0, val=0, test=0, total=0
+  spidito: train=50055, val=5498, test=477, total=56030
+
+
+------------------------------------------------
+Pair: flashlight, cardboard → flashboard
+------------------------------------------------
+
+Train samples:
+  cardboard:
+    cardboards
+    cardboards.
+  flashboard:
+    "Flashboard!"
+    flashboard,"
+    flashboard."
+    "Flashboard,
+    flashboard!",
+    flashboard.
+    Flashboard."
+    flashboard?",
+    flashboard'.
+    flashboard!
+    flashboard?".
+    flashboard
+    flashboard:
+    flashboard!".
+    "Flashboard?
+    flashboard?"
+    flashboard!"
+    flashboard?
+    flashboard?'.
+    flashboard's
+    flashboard,
+    flashboard".
+    Flashboard!"
+    "Flashboard
+    Flashboard
+    Flashboard!
+
+Validation samples:
+  flashboard:
+    flashboard
+    "Flashboard!"
+    flashboard,
+    Flashboard
+    flashboard,"
+    flashboard?"
+    flashboard."
+    flashboard!"
+    flashboard?
+    flashboard.
+    flashboard!
+    flashboard's
+
+Test samples:
+  flashboard:
+    flashboard
+    flashboard,
+    flashboard,"
+    flashboard."
+    flashboard!"
+    flashboard?
+    flashboard.
+    flashboard!
+
+Counts:
+  flashlight: train=0, val=0, test=0, total=0
+  cardboard: train=3, val=0, test=0, total=3
+  flashboard: train=26526, val=2851, test=237, total=29614
+
+
+------------------------------------------------
+Pair: pond, alligator → ponligator
+------------------------------------------------
+
+Train samples:
+  pond:
+    corresponding
+    despondent,
+    responded.
+    pondering,
+    responded!
+    pondweed.
+    respond.
+    despondently
+    pondered.
+    ponder.
+    responding,
+    responds,
+    responds
+    despondent.
+    responded
+    responded,
+    responding?
+    respond,
+    ponder
+    responding:
+    responded:
+    responding.
+    pondered
+    responded."Yes,
+    responded,"I
+    responds.
+    ponder,
+    pondering.
+    pondered,
+    respond
+    responding
+    pondering
+    responding?"
+    despondent
+    respond!
+    pondside.
+    responded;
+  ponligator:
+    Ponligator,"
+    "Ponligator."
+    Ponligator
+    Ponligator".
+    ponligator',
+    ponligator'?".
+    ponligator!'
+    Ponligator'
+    ponligator
+    Ponligator's
+    "ponligator",
+    ponligator's.
+    ponligator.''
+    "ponligator"
+    ponligator?
+    mini-ponligator.
+    "Ponligator,
+    "ponligator".
+    ponligator?!"
+    ponligator."
+    ponligator's
+    "Ponligator".
+    ponligator!"
+    ponligator,"
+    "ponligator,
+    Ponligator!".
+    ponligator!
+    ponligator.'"
+    ponligator,
+    ponligator'."
+    ponligator!".
+    ponligator?"
+    Ponligator,
+    "Ponligator
+    ponligator.The
+    "ponligator
+    Ponligator"
+    'ponligator,
+    ponligator.
+    ponligator—it
+    Ponligator."
+    Ponligator!
+    ponligator"
+    ponligator!",
+    ponligator',"
+    ponligator.Everyday,
+    ponligator?".
+    "Ponligator",
+    ponligator?",
+    ponligator.'
+    ponligator",
+    Ponligator?"
+    ponligator!?"
+    Ponligator?
+    ponligator".
+    Ponligator.
+    ponligator?"Jerry
+    "Ponligator!"
+    Ponligator!"
+    ponligator;
+    ponligator'
+    'Ponligator
+    ponligator:
+    "ponligator,"
+
+Validation samples:
+  pond:
+    responded.
+    respond.
+    responding,
+    despondent.
+    responded
+    responded,
+    respond,
+    ponder
+    responded:
+    responding.
+    pondered
+    responds.
+    pondered,
+    respond
+    responding
+    respond!"
+    pondering
+    respond!
+    responded;
+  ponligator:
+    Ponligator
+    Ponligator".
+    ponligator
+    ponligator?
+    ponligator-duck
+    ponligator."
+    ponligator's
+    ponligator!"
+    ponligator,"
+    ponligator!
+    ponligator.'"
+    ponligator,
+    ponligator!".
+    ponligator?"
+    Ponligator,
+    "Ponligator
+    ponligator.
+    Ponligator."
+    Ponligator!
+    ponligator"
+    ponligator?".
+    ponligator?",
+    Ponligator?"
+    Ponligator?
+    ponligator".
+    Ponligator.
+    ponligator;
+    Ponligator!"
+    ponligator:
+
+Test samples:
+  pond:
+    respond.
+    respond
+    responded.
+    pondered
+    responded
+    responded,
+    respond,
+  ponligator:
+    ponligator?
+    ponligator!
+    ponligator,
+    ponligator."
+    ponligator's
+    ponligator?"
+    ponligator!"
+    ponligator.
+    ponligator
+    ponligator,"
+    ponligator?".
+
+Counts:
+  pond: train=1370, val=163, test=12, total=1545
+  alligator: train=0, val=0, test=0, total=0
+  ponligator: train=146453, val=16292, test=1648, total=164393
+
+
+------------------------------------------------
+Pair: helpful, respectful → helspectful
+------------------------------------------------
+
+Train samples:
+  helpful:
+    Helpfulness
+    helpfully
+    helpfulness?"
+    unhelpful.
+    unhelpful
+    helpfulness,
+    helpfully.
+    helpfulness!
+    helpfulness.
+    helpfulness
+    unhelpful!
+  respectful:
+    disrespectful
+    disrespectful?"
+    respectfully.
+    respectfully,
+    disrespectful!
+    disrespectful,
+    respectfully."
+    disrespectful?
+    disrespectful!"
+    disrespectful."
+    "Respectfully,
+    respectfully
+    respectfull
+    disrespectful.
+  helspectful:
+    helspectful',
+    helspectful'.
+    helspectful!),
+    Helspectful's
+    helspectful?"
+    helspectful",
+    helspectful!'
+    helspectful:
+    helspectful—using
+    helspectful.'
+    helspectful!".
+    helspectful".
+    Helspectful!
+    helspectful.`
+    helspectful?'
+    helspectful!
+    "helspectful
+    helspectful
+    helspectful,
+    helspectful?".
+    helspectful,"
+    "Helspectful
+    helspectful."
+    Helspectful.
+    helspectful"
+    Helspectful
+    "Helspectful".
+    helspectful?
+    helspectful"!
+    'helspectful'
+    helspectful!"
+    helspectful.
+    helspectful;
+
+Validation samples:
+  helpful:
+    helpfulness
+    Helpfully,
+    helpfully
+    helpfulness.
+  respectful:
+    respectfully.
+    respectfully,
+    respectfully
+    respectfully."
+    disrespectful
+    disrespectful.
+  helspectful:
+    helspectful."
+    helspectful
+    helspectful.'
+    helspectful?"
+    helspectful,'"
+    helspectful,
+    "Helspectful."
+    Helspectful
+    "Helspectful"
+    helspectful".
+    helspectful?
+    helspectful!
+    helspectful,"
+    helspectful!"
+    "helspectful"
+    helspectful.
+    'helspectful'.
+
+Test samples:
+  respectful:
+    disrespectful.
+  helspectful:
+    helspectful."
+    helspectful
+    helspectful,
+    helspectful!
+    helspectful,"
+    helspectful!"
+    helspectful.
+
+Counts:
+  helpful: train=99, val=18, test=0, total=117
+  respectful: train=153, val=15, test=1, total=169
+  helspectful: train=47584, val=5143, test=547, total=53274
+
+
+------------------------------------------------
+Pair: zebra, kangaroo → zebgaroo
+------------------------------------------------
+
+Train samples:
+  zebra:
+    zebrafish,
+    zebrafish
+    "ZEBRAKILLER"
+  kangaroo:
+    babyKangaroo.
+  zebgaroo:
+    Zebgaroo:
+    zebgaroo,
+    zebgaroo!"
+    zebgaroo-
+    Zebgaroo!".
+    "Zebgaroo!
+    zebgaroo's,
+    zebgaroo?".
+    zebgaroo-car!
+    zebgaroo-unicorn
+    zebgaroo-bird
+    'zebgaroo'.
+    zebgaroo"
+    "Zebgaroo
+    Zebgaroo,
+    zebgaroo'?"
+    "zebgaroo"
+    zebgaroo;
+    "Zebgaroo,
+    zebgaroo-car.
+    zebgaroo".
+    Zebgaroo
+    zebgaroo?",
+    Zebgaroo!
+    Zebgaroo,"
+    Zebgaroo".
+    zebgaroo'
+    Zebgaroo."
+    zebgaroo!
+    "Zebgaroo?"
+    Zebgaroo's
+    "Zebgaroo".
+    "Zebgaroo!"
+    "zebgaroo".
+    zebgaroo,"
+    zebgaroo:
+    Zebgaroo?"
+    zebgaroo-unicorn.
+    "Zebgaroo.
+    zebgaroo-shaped
+    zebgaroo-car."
+    "Zebgaroo."
+    zebgaroo."
+    zebgaroo's
+    zebgaroo.
+    Zebgaroo!"
+    'Zebgaroo,
+    zebgaroo?
+    zebgaroo
+    zebgaroo!",
+    zebgaroo!".
+    zebgaroo?"
+    Zebgaroo.
+    "zebgaroo",
+
+Validation samples:
+  zebgaroo:
+    Zebgaroo:
+    "zebgaroo,
+    zebgaroo,
+    zebgaroo!"
+    Zebgaroo!".
+    zebgaroo's,
+    zebgaroo?".
+    "Zebgaroo
+    Zebgaroo,
+    zebgaroo;
+    "Zebgaroo,
+    zebgaroo".
+    Zebgaroo
+    Zebgaroo,"
+    Zebgaroo!
+    Zebgaroo."
+    zebgaroo!
+    "Zebgaroo!"
+    zebgaroo,"
+    zebgaroo:
+    zebgaroo."
+    zebgaroo's
+    zebgaroo.
+    Zebgaroo!"
+    zebgaroo?
+    zebgaroo
+    zebgaroo!'
+    zebgaroo?"
+    Zebgaroo.
+    zebgaroo!".
+
+Test samples:
+  zebgaroo:
+    zebgaroo!"
+    zebgaroo,
+    zebgaroo!
+    zebgaroo."
+    zebgaroo's
+    zebgaroo.
+    "Zebgaroo,
+    zebgaroo,"
+    Zebgaroo
+    zebgaroo
+    zebgaroo?"
+    Zebgaroo.
+
+Counts:
+  zebra: train=3, val=0, test=0, total=3
+  kangaroo: train=1, val=0, test=0, total=1
+  zebgaroo: train=23989, val=2812, test=283, total=27084
+
+
+------------------------------------------------
+Pair: sofa, furniture → furnifa
+------------------------------------------------
+
+Train samples:
+  sofa:
+    sofay,
+  furnifa:
+    furnifa'
+    furnifa!
+    furnifa."
+    Furnifa.
+    furnifa,
+    furnifa!"
+    furnifa.Their
+    "Furnifa
+    furnifa"
+    "furnifa"
+    furnifa
+    furnifa?!".
+    furnifa.
+    furnifa!".
+    Furnifa
+    furnifa?".
+    furnifa.'
+    furnifa?
+    Furnifa,
+    "furnifa."
+    "Furnifa".
+    Furnifa!"
+    furnifa-
+    Furnifa."
+    furnifa!'
+    furnifa;
+    furnifa:
+    furnifa,"
+    furnifa?"
+    "Furnifa,
+    furnifa".
+    furnifa",
+
+Validation samples:
+  furnifa:
+    furnifa.
+    furnifa,
+    furnifa,"
+    furnifa?
+    furnifa?"
+    furnifa!
+    "Furnifa
+    furnifa!"
+    furnifa."
+    "Furnifa,
+    furnifa".
+    furnifa
+
+Test samples:
+  furnifa:
+    furnifa.
+    Mr.Furnifa.
+    Mr.Furnifa
+    furnifa,
+    furnifa,"
+    furnifa?"
+    furnifa!
+    furnifa!"
+    furnifa."
+    furnifa
+
+Counts:
+  sofa: train=1, val=0, test=0, total=1
+  furniture: train=0, val=0, test=0, total=0
+  furnifa: train=18411, val=2057, test=245, total=20713
+
+
+------------------------------------------------
+Pair: melon, celery → celeron
+------------------------------------------------
+
+Train samples:
+  melon:
+    watermelons!"
+    watermelon!"
+    Melony
+    Melony.
+    "Watermelon
+    watermelon,
+    watermelon.
+    watermelons,
+    watermelons."
+    watermelon."
+    watermelon,"
+    watermelons!
+    watermelon!
+    watermelon?
+    watermelon's
+    watermelon?"
+    watermelons
+    watermelon
+    watermelons.
+  celeron:
+    "Celeron."
+    Celeron:
+    Celeron,
+    celeron.
+    Celeron,"
+    "celeron."
+    celeron!'
+    celeron)
+    Celeron!
+    celeron!".
+    celeron!",
+    celeron?!"
+    "Celeron,
+    "celeron".
+    "celeron"
+    Celeron?"
+    celeron-shaped
+    Celeron
+    celeron,
+    celeron',
+    celeron".
+    Celeron's
+    Celeron!"
+    Celeron"
+    celeron-flavored,
+    celeron's
+    celeron?'
+    celeron
+    celeron!
+    celeron-chooser
+    celeron"
+    "Celeron?
+    "Celeron!"
+    'celeron'.
+    celeron,"
+    celeron!"
+    celeron?
+    'celeron'
+    celeron?"
+    'Celeron,
+    Celeron."
+    celeron."
+    celeron?",
+    "Celeron!
+    "Celeron
+    "Celeron,"
+    Celeron.
+    celeron?".
+
+Validation samples:
+  melon:
+    watermelon?".
+    watermelon.
+    Watermelon,
+    watermelon."
+    watermelon!"
+    watermelon!
+    watermelons
+    watermelon?"
+    watermelon
+    watermelon,"
+    watermelon,
+  celeron:
+    celeron
+    celeron!
+    "celeron
+    celeron?
+    celeron."
+    Celeron
+    celeron,
+    celeron.
+    Celeron,"
+    "celeron".
+    Celeron!
+    celeron's
+    celeron,"
+    "Celeron
+    celeron!"
+    Celeron.
+    celeron?".
+    celeron?"
+
+Test samples:
+  melon:
+    watermelon.
+    watermelon
+  celeron:
+    celeron
+    celeron!
+    celeron."
+    Celeron
+    celeron,
+    celeron.
+    celeron's
+    celeron,"
+    "Celeron
+    celeron!"
+    "celeron".
+    celeron?"
+
+Counts:
+  melon: train=615, val=63, test=6, total=684
+  celery: train=0, val=0, test=0, total=0
+  celeron: train=31494, val=3446, test=349, total=35289
+
+
+------------------------------------------------
+Pair: microphone, ashtray → ashtrophone
+------------------------------------------------
+
+Train samples:
+  ashtrophone:
+    ashtrophone"
+    ashtrophone!
+    Ashtrophone's
+    'ashtrophone'.
+    Ashtrophone.
+    "Ashtrophone,
+    ashtrophone,"
+    ashtrophone".
+    ashtrophone—the
+    ashtrophone."
+    ashtrophone!"
+    Ashtrophone."
+    ashtrophone,
+    ashtrophone?"
+    "ashtrophone".
+    ashtrophone.
+    ashtrophone's
+    Ashtrophone!
+    "Ashtrophone
+    Ashtrophone,"
+    Ashtrophone?
+    ashtrophone
+    Ashtrophone!"
+    Ashtrophone
+    'ashtrophone'
+    Ashtrophone'."
+    "ashtrophone"
+    ashtrophone—it
+    Ashtrophone?"
+    ashtrophone?
+    ashtrophone?".
+    ashtrophone;
+    Ashtrophone,
+    "ashtrophone,
+
+Validation samples:
+  ashtrophone:
+    ashtrophone!
+    ashtrophone.
+    ashtrophone's
+    Ashtrophone.
+    ashtrophone!"
+    ashtrophone,
+    Ashtrophone?"
+    ashtrophone,"
+    ashtrophone?"
+    ashtrophone?
+    ashtrophone!".
+    ashtrophone
+    Ashtrophone
+    Ashtrophone,
+    ashtrophone."
+
+Test samples:
+  ashtrophone:
+    ashtrophone!
+    ashtrophone.
+    ashtrophone!"
+    ashtrophone,
+    ashtrophone?"
+    ashtrophone
+    ashtrophone."
+
+Counts:
+  microphone: train=0, val=0, test=0, total=0
+  ashtray: train=0, val=0, test=0, total=0
+  ashtrophone: train=22632, val=2520, test=202, total=25354
+
+
+------------------------------------------------
+Pair: cactus, twig → twictus
+------------------------------------------------
+
+Train samples:
+  twig:
+    Twiggy,
+    Twiggy,"
+    "Twiggly"
+    twigged
+    Twiggly
+    twigboat!"
+    twigboat
+    Twiggy."
+    Twiggy
+    twiggy
+    Twiggy.
+    twigboat,
+  twictus:
+    "twictus".
+    twictus?
+    Twictus
+    twictus-sword,
+    twictus!
+    twictus!"
+    twictus?".
+    Twictus's
+    Twictus:
+    twictus?"
+    twictus!".
+    twictus".
+    twictus."
+    "Twictus,
+    "twictus
+    "Twictus
+    twictus'
+    Twictus,
+    twictus.by
+    twictus,"Where
+    twictus
+    twictus.
+    twictus:
+    twictus;
+    Twictus?"
+    Twictus!"
+    twictus...she
+    twictus,"
+    twictus-box.
+    twictus-bride.
+    twictus-sword
+    'twictus'."
+    Twictus.'
+    "twictus"
+    Twictus."
+    twictus?!"
+    twictus's
+    twictus?",
+    Twictus.
+    Twictus!
+    twictus,
+
+Validation samples:
+  twig:
+    Twiggy.
+    Twiggy,"
+    Twiggy
+  twictus:
+    twictus?
+    Twictus
+    twictus!
+    twictus!"
+    twictus?".
+    twictus?"
+    twictus."
+    "Twictus,
+    twictus"
+    "Twictus
+    Twictus,
+    twictus
+    twictus.
+    twictus:
+    Twictus!"
+    Twictus,"
+    twictus,"
+    -twictus
+    Twictus."
+    twictus's
+    Twictus.
+    Twictus!
+    twictus,
+
+Test samples:
+  twig:
+    Twiggy,
+    Twiggy
+  twictus:
+    Twictus
+    twictus?"
+    twictus?
+    twictus
+    twictus.
+    twictus!
+    twictus!"
+    twictus."
+    twictus"
+    twictus's
+    Twictus,
+    Twictus.
+    twictus,"
+    twictus,
+
+Counts:
+  cactus: train=0, val=0, test=0, total=0
+  twig: train=45, val=9, test=4, total=58
+  twictus: train=31494, val=3607, test=433, total=35534
+
+
+------------------------------------------------
+Pair: lollipop, sunglasses → sunipop
+------------------------------------------------
+
+Train samples:
+  sunglasses:
+    sunglasses?!",
+    sunglasses,"
+    Sunglasses!"
+    Sunglasses
+    sunglasses?!
+    sunglasses
+    sunglasses."
+    "Sunglasses,
+    sunglasses!
+    sunglasses?"
+    sunglasses!",
+    sunglasses?".
+    sunglasses".
+    sunglasses,
+    Sunglasses,"
+    sunglasses",
+    sunglasses!"
+    sunglasses.
+    sunglasses?
+    Sunglasses,
+    "Sunglasses
+    sunglasses"
+  sunipop:
+    sunipop—a
+    sunipop's
+    sunipop?",
+    sunipop,
+    sunipop:
+    sunipop."
+    sunipop?".
+    "sunipop".
+    sunipop?
+    "Sunipop,
+    Sunipop!
+    sunipop!"
+    "Sunipop
+    Sunipop,"
+    sunipop
+    sunipop!".
+    Sunipop,
+    "Sunipop!".
+    sunipop;
+    Sunipop's
+    sunipop.
+    sunipop".
+    "Sunipop!"
+    sunipop-savy.
+    Sunipop
+    half-sunipop
+    Sunipop.
+    sunipop!
+    Sunipop".
+    Sunipop!"
+    sunipop-free
+    sunipop,"
+    sunipop?"
+
+Validation samples:
+  sunglasses:
+    sunglasses.
+    sunglasses!
+    sunglasses,
+    sunglasses?
+    sunglasses?"
+    sunglasses
+    sunglasses,"
+    sunglasses?",
+    sunglasses!"
+    Sunglasses
+    sunglasses."
+  sunipop:
+    sunipop!
+    sunipop!",
+    sunipop.
+    sunipop".
+    sunipop!"
+    "Sunipop
+    sunipop,
+    sunipop,"
+    sunipop."
+    sunipop?".
+    sunipop
+    sunipop?
+    sunipop?"
+    sunipop!".
+
+Test samples:
+  sunglasses:
+    sunglasses.
+    sunglasses!
+    sunglasses."
+    sunglasses,
+    sunglasses,"
+    sunglasses
+  sunipop:
+    sunipop!
+    sunipop.
+    sunipop!"
+    sunipop,
+    sunipop."
+    sunipop
+    sunipop,"
+    sunipop?"
+    sunipop!".
+    sunipop?
+
+Counts:
+  lollipop: train=0, val=0, test=0, total=0
+  sunglasses: train=12186, val=1204, test=100, total=13490
+  sunipop: train=16042, val=1711, test=231, total=17984
+
+
+------------------------------------------------
+Pair: factory, basement → basetory
+------------------------------------------------
+
+Train samples:
+  factory:
+    satisfactory
+    unsatisfactory
+  basetory:
+    basetory!"
+    "Basetory,
+    "Basetory
+    Basetory'.
+    basetory.
+    basetory,
+    basetory".
+    "Basetory.
+    Basetory'!"
+    basetory?"
+    basetory!,"
+    basetory!
+    Basetory."
+    milk-basetory.
+    basetory;
+    basetory?
+    "Basetory".
+    basetory:
+    basetory",
+    milk-basetory."
+    Basetory".
+    Basetory.
+    basetory's
+    "basetory".
+    basetory!'
+    basetory."
+    Basetory:
+    basetory,"
+    Basetory
+    basetory
+    Basetory"
+
+Validation samples:
+  factory:
+    unsatisfactory.
+  basetory:
+    basetory's
+    basetory!"
+    "basetory".
+    basetory!",
+    "Basetory
+    basetory?"
+    basetory!
+    basetory."
+    basetory?
+    basetory.
+    basetory,"
+    Basetory".
+    basetory,
+    basetory
+    Basetory"
+    basetory".
+
+Test samples:
+  basetory:
+    basetory!"
+    basetory?"
+    basetory!
+    basetory."
+    basetory.
+    basetory,
+    basetory
+    "Basetory".
+
+Counts:
+  factory: train=2, val=1, test=0, total=3
+  basement: train=0, val=0, test=0, total=0
+  basetory: train=13041, val=1333, test=131, total=14505
+
+
+------------------------------------------------
+Pair: teacher, blackboard → teachboard
+------------------------------------------------
+
+Train samples:
+  teacher:
+    headteacher,
+    schoolteacher
+    headteacher
+    headteacher.
+  teachboard:
+    teachboard,"What
+    Teachboard.
+    Teachboard's
+    "Teachboard!"
+    "Teachboard!
+    "Teachboard
+    teachboard.'
+    "Teachboard,"
+    Teachboard!
+    "Teachboard,
+    teachboard.
+    teachboard's
+    teachboard!"
+    teachboard'
+    Teachboard,
+    teachboard?".
+    teachboard!
+    Teachboard?"
+    Teachboard
+    teachboard,
+    "teachboard
+    Teachboard".
+    Teachboard!"
+    teachboard."
+    teachboard?"
+    teachboard,"
+    teachboard"
+    teachboard,"That
+    teachboard-pirate-dinosaur-superhero.
+    Teachboard:
+    teachboard:
+    teachboard
+    "Teachboard".
+    teachboard;
+    teachboard?
+    teachboard-
+    teachboard!'
+    teachboard's.
+    teachboard".
+    Teachboard,"
+    teachboard!".
+
+Validation samples:
+  teachboard:
+    "Teachboard,
+    teachboard
+    teachboard.
+    Teachboard.
+    teachboard's
+    teachboard."
+    teachboard!"
+    teachboard?"
+    teachboard!
+    teachboard?
+    Teachboard!
+    teachboard".
+    teachboard,"
+    Teachboard
+    teachboard,
+
+Test samples:
+  teachboard:
+    "Teachboard,
+    teachboard
+    teachboard.
+    teachboard's
+    teachboard."
+    teachboard!"
+    teachboard?"
+    teachboard!
+    teachboard,"
+    teachboard,
+
+Counts:
+  teacher: train=14, val=0, test=0, total=14
+  blackboard: train=0, val=0, test=0, total=0
+  teachboard: train=51741, val=5961, test=604, total=58306
+
+
+------------------------------------------------
+Pair: backyard, sandbox → backyabox
+------------------------------------------------
+
+Train samples:
+  sandbox:
+    sandboxed.
+  backyabox:
+    Backyabox
+    backyabox?"
+    backyabox."
+    backyabox?".
+    backyabox-but
+    backyabox
+    backyabox,"
+    backyabox's
+    backyabox!".
+    backyabox",
+    backyabox!"
+    backyabox.'"
+    "Backyabox,
+    backyabox,the
+    backyabox:
+    backyabox".
+    "Backyabox
+    backyabox?
+    backyabox,'
+    backyabox.Suddenly,
+    backyabox,
+    backyabox;
+    backyabox!
+    backyabox.
+    backyabox.'
+
+Validation samples:
+  backyabox:
+    backyabox?
+    backyabox!"
+    backyabox?"
+    backyabox."
+    backyabox.
+    backyabox!
+    backyabox,
+    backyabox
+    backyabox,"
+    "Backyabox."
+    backyabox".
+    backyabox!".
+
+Test samples:
+  backyabox:
+    backyabox."
+    backyabox.
+    backyabox!
+    backyabox,
+    backyabox
+    backyabox,"
+
+Counts:
+  backyard: train=0, val=0, test=0, total=0
+  sandbox: train=1, val=0, test=0, total=1
+  backyabox: train=40638, val=4558, test=417, total=45613
+
+
+------------------------------------------------
+Pair: scary, dangerous → dangeary
+------------------------------------------------
+
+Train samples:
+  scary:
+    scarying
+    scaryness.
+  dangerous:
+    dangerously
+    Dangerously,
+    dangerously.
+  dangeary:
+    dangeary-
+    Dangeary"
+    Dangeary!"
+    "Dangeary?
+    dangeary,''
+    "Dangeary".
+    Dangeary
+    not-dangeary
+    dangeary."
+    not-so-dangeary
+    DANGEARY.
+    dangeary—the
+    dangeary,
+    Dangeary".
+    dangeary!'
+    "Dangeary.
+    dangeary,"
+    dangeary:
+    "dangeary".
+    Dangeary,"
+    "dangeary
+    'dangeary'
+    dangeary.
+    dangeary!'.
+    dangeary-looking
+    dangeary-look
+    dangeary".
+    'Dangeary.'
+    "Dangeary!"
+    dangeary-looking.
+    dangeary...
+    DANGEARY
+    dangeary!",
+    "Dangeary!
+    "Dangeary,
+    dangeary—there
+    dangeary.I'll
+    "dangeary"
+    dangeary''.
+    'Dangeary
+    dangeary.",
+    dangeary.'
+    Dangeary."
+    'dangeary'.
+    was'dangeary.
+    little...dangeary.
+    dangeary?
+    dangeary",
+    "Dangeary."
+    dangeary'
+    Dangeary?"
+    dangeary!
+    dangeary-looking,
+    not-dangeary-at-all
+    dangeary"
+    Dangeary,
+    dangeary',
+    "dangeary,"
+    too-dangeary
+    dangeary?"
+    dangeary,'
+    not-dangeary-anymore
+    dangeary
+    dangeary?".
+    'Dangeary'."
+    "Dangeary:
+    "Dangeary"
+    "Dangeary?"
+    dangeary!"
+    Dangeary.
+    dangeary'.
+    'DANGEARY'
+    dangeary—a
+    dangeary—and
+    dangeary!''
+    dangeary.'"
+    dangeary!".
+    dangeary;
+    "Dangeary
+    "dangeary."
+
+Validation samples:
+  dangerous:
+    dangerously
+    dangerously.
+  dangeary:
+    Dangeary."
+    dangeary.
+    dangeary!'.
+    dangeary-looking
+    dangeary?",
+    dangeary-
+    dangeary".
+    'Dangeary!'
+    dangeary?
+    "Dangeary."
+    dangeary",
+    "Dangeary!"
+    dangeary-looking.
+    Dangeary!"
+    "Dangeary?
+    dangeary,''
+    "Dangeary".
+    dangeary!
+    Dangeary
+    'dangeary'
+    dangeary).
+    "Dangeary!
+    dangeary
+    'dangeary
+    dangeary."
+    'dangeary.'
+    dangeary!"
+    'dangeary'!"
+    dangeary,
+    Dangeary.
+    "dangeary",
+    "dangeary"
+    dangeary!'
+    dangeary?"
+    dangeary'.
+    "Dangeary.
+    dangeary,"
+    dangeary.'
+    dangeary...we
+    dangeary!".
+    "dangeary".
+    dangeary;
+    "Dangeary
+    "dangeary."
+
+Test samples:
+  dangeary:
+    dangeary.
+    dangeary?"
+    dangeary-looking
+    dangeary!
+    dangeary,"
+    dangeary!"
+    dangeary".
+    dangeary!".
+    "Dangeary!
+    dangeary,
+    dangeary;
+    "Dangeary
+    dangeary
+    dangeary."
+
+Counts:
+  scary: train=2, val=0, test=0, total=2
+  dangerous: train=30, val=8, test=0, total=38
+  dangeary: train=133817, val=14904, test=1494, total=150215
+
+
+------------------------------------------------
+Pair: elderly, mailman → eldman
+------------------------------------------------
+
+Train samples:
+  eldman:
+    "eldman."
+    eldman."
+    "Eldman,
+    "eldman".
+    "Eldman!
+    eldman:
+    eldman
+    eldman?"
+    "eldman
+    "Eldman"
+    eldman's!"
+    "Eldman
+    eldman's
+    eldman!"
+    "eldman"
+    eldman!
+    eldman".
+    Eldman,"
+    eldman's.
+    Eldman
+    Eldman:
+    Eldman!
+    "Eldman,"
+    Eldman?"
+    eldman?
+    Eldman,
+    eldman.
+    eldman,"
+    Eldman."
+    eldman,
+    Eldman!"
+    Eldman.
+
+Validation samples:
+  eldman:
+    eldman."
+    Eldman,
+    eldman,"
+    eldman's
+    eldman"
+    eldman.
+    eldman!"
+    "Eldman".
+    eldman
+    Eldman?"
+    eldman!
+    Eldman."
+    eldman,
+    eldman?"
+    Eldman
+    Eldman!"
+    Eldman.
+
+Test samples:
+  eldman:
+    "Eldman
+    eldman's
+    eldman.
+    eldman!"
+    eldman
+    eldman!
+    eldman,
+    Eldman!"
+
+Counts:
+  elderly: train=0, val=0, test=0, total=0
+  mailman: train=0, val=0, test=0, total=0
+  eldman: train=28152, val=2993, test=295, total=31440
+
+
+------------------------------------------------
+Pair: tiny, harmless → harminy
+------------------------------------------------
+
+Train samples:
+  tiny:
+    destiny!
+    destiny,
+    destiny.
+    destiny!"
+    destiny".
+    Tinys
+    destiny."
+    destiny
+  harmless:
+    harmlessly
+  harminy:
+    "Harminy!
+    said,"Harminy,
+    teeny-harminy.
+    Harminy.
+    harminy".
+    "Harminy
+    harminy
+    Harminy,"
+    harminy!
+    "Harminy"
+    Harminy:
+    Harminy
+    harminy.
+    harminy?
+    "Harminy,
+    harminy",
+    (harminy)
+    Harminy?
+    harminy;
+    Harminy".
+    "Harminy."
+    harminy?".
+    Harminy!",
+    harminy!".
+    "Harminy's
+    Harminy's
+    harminy?"
+    harminy...
+    "Harminy".
+    harminy"
+    Harminy?"
+    'Harminy'."
+    harminy:
+    harminy-looking
+    "harminy"
+    harminy,"
+    harminy!"
+    harminy."
+    teeny-harminy
+    Harminy,
+    Harminy!".
+    harminy,
+    Harminy!
+    Harminy."
+    "harminy".
+    "Harminy,"
+    Harminy!"
+    'harminy'
+    "Harminy.
+
+Validation samples:
+  tiny:
+    destiny?
+    destiny."
+    destiny
+  harminy:
+    Harminy.
+    harminy".
+    "Harminy
+    harminy
+    Harminy,"
+    harminy!
+    Harminy
+    harminy.
+    harminy?
+    "Harminy,
+    harminy;
+    "Harminy."
+    Harminy's
+    harminy?"
+    Harminy?"
+    harminy-looking
+    harminy,"
+    harminy!"
+    harminy."
+    teeny-harminy
+    Harminy,
+    harminy.'
+    harminy,
+    Harminy!
+    Harminy."
+    Harminy!"
+
+Test samples:
+  tiny:
+    destiny.
+  harminy:
+    Harminy.
+    "Harminy
+    harminy
+    harminy!
+    Harminy
+    harminy.
+    "Harminy,
+    harminy?"
+    Harminy's
+    Harminy?"
+    harminy-looking
+    harminy!"
+    harminy,"
+    harminy."
+    Harminy,
+    harminy,
+    Harminy!
+    Harminy."
+    Harminy!"
+
+Counts:
+  tiny: train=47, val=3, test=1, total=51
+  harmless: train=2, val=0, test=0, total=2
+  harminy: train=122437, val=13658, test=1334, total=137429
+
+
+------------------------------------------------
+Pair: shirt, helmet → helmirt
+------------------------------------------------
+
+Train samples:
+  shirt:
+    green-shirted
+    nightshirt.
+    Shirty.
+    undershirt.
+    sweatshirt
+    Shirty
+  helmirt:
+    helmirt.
+    helmirt."
+    helmirt:
+    helmirt!".
+    t-helmirt!
+    helmirt!
+    t-helmirt!"
+    helmirt.Mommy
+    helmirt;
+    t-helmirt,
+    t-helmirt,"
+    tee-helmirt.
+    t-helmirt?"
+    Helmirt
+    T-helmirt.
+    helmirt,
+    helmirt..."
+    helmirt",
+    helmirt!'
+    T-helmirt."
+    helmirt?".
+    Helmirt.
+    helmirt".
+    Helmirt,
+    helmirt-dresses
+    T-helmirt,
+    helmirt?
+    tee-helmirt
+    helmirt!"
+    "helmirt"
+    helmirt"
+    "Helmirt
+    T-helmirt?"
+    "Helmirt,
+    helmirt!",
+    t-helmirt".
+    t-helmirt.
+    "helmirt",
+    helmirt,"
+    helmirt
+    t-helmirt."
+    helmirt's
+    T-helmirt
+    helmirt?!".
+    t-helmirt
+    Helmirt!
+    helmirt-making
+    helmirt?"
+    Helmirt,"
+
+Validation samples:
+  shirt:
+    brown-shirted
+  helmirt:
+    helmirt.
+    helmirt."
+    helmirt!
+    t-helmirt,
+    "helmirt,
+    helmirt.'
+    t-helmirt?"
+    Helmirt
+    T-helmirt.
+    helmirt,
+    T-helmirt."
+    helmirt?".
+    Helmirt.
+    helmirt".
+    helmirt?
+    helmirt!"
+    helmirt"
+    "Helmirt
+    t-helmirt.
+    helmirt,"
+    helmirt
+    helmirt's
+    Helmirt!"
+    helmirt-sail.
+    t-helmirt
+    Helmirt!
+    helmirt?"
+
+Test samples:
+  helmirt:
+    helmirt?
+    helmirt.
+    helmirt."
+    helmirt!"
+    helmirt
+    helmirt!
+    t-helmirt.
+    helmirt?"
+    helmirt,"
+    helmirt,
+
+Counts:
+  shirt: train=11, val=2, test=0, total=13
+  helmet: train=0, val=0, test=0, total=0
+  helmirt: train=47710, val=5619, test=599, total=53928
+
+
+------------------------------------------------
+Pair: statue, dancer → dancetue
+------------------------------------------------
+
+Train samples:
+  dancetue:
+    Dancetue."
+    dancetue:
+    dancetue!",
+    Dancetue!"
+    dancetue!"
+    dancetue.
+    dancetue?",
+    "dancetue!"
+    dancetue;
+    Dancetue
+    Dancetue,"
+    dancetue,
+    'dancetue'?"
+    Dancetue.
+    dancetue?".
+    "Dancetue"
+    dancetue".
+    dancetue
+    dancetue."
+    Dancetue?"
+    dancetue'
+    dancetue!".
+    "Dancetue,
+    "Dancetue
+    dancetue's
+    Dancetue?
+    dancetue,"
+    "dancetue"
+    Dancetue's
+    Dancetue,
+    Dancetue".
+    "Dancetue!"
+    dancetue!'
+    dancetue's.
+    Dancetue!
+    dancetue!
+    dancetue?
+    dancetue?"
+    "Dancetue,"
+
+Validation samples:
+  dancetue:
+    Dancetue."
+    Dancetue!".
+    dancetue:
+    Dancetue!"
+    dancetue.
+    dancetue!"
+    Dancetue
+    dancetue,
+    Dancetue.
+    dancetue".
+    dancetue
+    dancetue."
+    Dancetue?"
+    "Dancetue,
+    "Dancetue
+    dancetue's
+    dancetue,"
+    Dancetue,
+    Dancetue!
+    dancetue!
+    dancetue?
+    dancetue?"
+    "Dancetue."
+
+Test samples:
+  dancetue:
+    dancetue,
+    dancetue."
+    dancetue!
+    dancetue!"
+    dancetue.
+    "Dancetue
+    Dancetue!
+    dancetue's
+    dancetue?"
+    dancetue,"
+    dancetue
+
+Counts:
+  statue: train=0, val=0, test=0, total=0
+  dancer: train=0, val=0, test=0, total=0
+  dancetue: train=29086, val=3136, test=397, total=32619
+
+
+------------------------------------------------
+Pair: bathtub, faucet → bathaucet
+------------------------------------------------
+
+Train samples:
+  bathaucet:
+    bathaucet".
+    Bathaucet
+    bathaucet...
+    bathaucet-sized
+    Bathaucet."
+    "Bathaucet".
+    bathaucet!"
+    bathaucet:
+    bathaucet?"
+    bathaucet
+    Bathaucet,
+    bathaucet,"
+    bathaucet?",
+    bathaucet'.
+    Bathaucet,"
+    bathaucet."
+    "Bathaucet"!
+    bathaucet?,"
+    bathaucet?".
+    bathaucet"
+    "Bathaucet,
+    bathaucet's
+    Bathaucet.
+    Bathaucet!
+    bathaucet!
+    "Bathaucet
+    bathaucet?
+    bathaucet,
+    Bathaucet!"
+    bathaucet.
+    Bathaucet?"
+
+Validation samples:
+  bathaucet:
+    Bathaucet
+    Bathaucet,
+    Bathaucet!
+    bathaucet!
+    "Bathaucet
+    bathaucet?
+    "Bathaucet,
+    bathaucet,
+    bathaucet."
+    bathaucet!"
+    bathaucet's
+    Bathaucet!"
+    bathaucet,"
+    bathaucet!",
+    bathaucet.
+    Bathaucet.
+    bathaucet?"
+    bathaucet
+
+Test samples:
+  bathaucet:
+    bathaucet!
+    bathaucet?
+    bathaucet,
+    bathaucet."
+    bathaucet!"
+    bathaucet.
+    bathaucet?"
+    bathaucet
+
+Counts:
+  bathtub: train=0, val=0, test=0, total=0
+  faucet: train=0, val=0, test=0, total=0
+  bathaucet: train=23033, val=2613, test=265, total=25911
+
+
+------------------------------------------------
+Pair: billboard, sidewalk → billbalk
+------------------------------------------------
+
+Train samples:
+  billbalk:
+    billbalk's
+    billbalk,
+    billbalk.
+    billbalk
+    Billbalk,
+    billbalk?"
+    billbalk?".
+    "billbalk".
+    billbalk,"
+    billbalk!"
+    Billbalk
+    Billbalk!
+    billbalk".
+    "Billbalk,
+    billbalk?
+    billbalk!
+    Billbalk.
+    billbalk."
+    Billbalk,"
+    billbalk:
+    "billbalk."
+    billbalk;
+    bib-billbalk.
+    billbalk'.
+
+Validation samples:
+  billbalk:
+    billbalk!"
+    billbalk."
+    Billbalk
+    Billbalk,
+    billbalk,"
+    Billbalk!
+    billbalk's
+    billbalk?"
+    billbalk,
+    Billbalk."
+    billbalk!
+    Billbalk.
+    billbalk?
+    billbalk.
+    billbalk
+
+Test samples:
+  billbalk:
+    billbalk."
+    billbalk,
+    billbalk?
+    billbalk.
+    billbalk
+
+Counts:
+  billboard: train=0, val=0, test=0, total=0
+  sidewalk: train=0, val=0, test=0, total=0
+  billbalk: train=14040, val=1553, test=174, total=15767
+
+
+------------------------------------------------
+Pair: thief, ambulance → thiebulance
+------------------------------------------------
+
+Train samples:
+  thiebulance:
+    Thiebulance,
+    thiebulance!".
+    'Thiebulance,
+    Thiebulance
+    Thiebulance".
+    Thiebulance!
+    thiebulance,
+    thiebulance!",
+    Thiebulance.
+    thiebulance
+    thiebulance?".
+    thiebulance!"
+    thiebulance'
+    Thiebulance!",
+    "thiebulance"
+    thiebulance:
+    "thiebulance."
+    thiebulance?
+    Thiebulance!"
+    thiebulance!'
+    thiebulance."
+    thiebulance's
+    thiebulance!
+    "Thiebulance!"
+    "Thiebulance,
+    thiebulance?"
+    thiebulance-cat
+    Thiebulance."
+    thiebulance.
+    thiebulance,"
+    "thiebulance".
+    Thiebulance?"
+    thiebulance".
+    "Thiebulance!
+    "Thiebulance?
+    thiebulance's.
+    "Thiebulance".
+
+Validation samples:
+  thiebulance:
+    Thiebulance,
+    thiebulance"
+    thiebulance!".
+    Thiebulance
+    Thiebulance!
+    thiebulance,
+    Thiebulance.
+    thiebulance
+    thiebulance!"
+    "thiebulance"
+    thiebulance:
+    thiebulance?
+    Thiebulance!"
+    thiebulance."
+    thiebulance's
+    thiebulance!
+    thiebulance?"
+    Thiebulance's
+    thiebulance.
+    thiebulance,"
+    Thiebulance!'.
+    thiebulance".
+
+Test samples:
+  thiebulance:
+    Thiebulance!"
+    Thiebulance,
+    thiebulance?"
+    thiebulance."
+    thiebulance
+    thiebulance,"
+    thiebulance.
+    thiebulance's
+    thiebulance!
+    thiebulance!"
+    thiebulance".
+    thiebulance,
+
+Counts:
+  thief: train=0, val=0, test=0, total=0
+  ambulance: train=0, val=0, test=0, total=0
+  thiebulance: train=27946, val=3117, test=359, total=31422
+
+

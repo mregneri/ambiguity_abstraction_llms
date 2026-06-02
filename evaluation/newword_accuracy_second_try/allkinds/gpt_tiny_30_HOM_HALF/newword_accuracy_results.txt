@@ -1,0 +1,26 @@
+New-word split next-token accuracy evaluation for gpt_tiny_30_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_30_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_30_HOM_map.json
+New words (30): ['applackpack', 'avorthday', 'clorehead', 'colorision', 'creamare', 'deighbour', 'deseak', 'dioldier', 'earthquink', 'embooden', 'finettle', 'flaesure', 'flitten', 'invick', 'luxureel', 'massareless', 'overcray', 'pashlight', 'pativer', 'recipull', 'repiggle', 'singush', 'slark', 'snowbey', 'spaghettadge', 'spraleep', 'steader', 'subful', 'wrise', 'yierror']
+New word detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive)
+
+
+ckpt1.pt:
+  overall:       0.593780 (n_tokens=5491456)
+  contains_new:  0.589821 (n_tokens=1824000, n_blocks=7125)
+  no_new:        0.595749 (n_tokens=3667456, n_blocks=14326)
+
+ckpt2.pt:
+  overall:       0.595903 (n_tokens=5491456)
+  contains_new:  0.592042 (n_tokens=1824000, n_blocks=7125)
+  no_new:        0.597824 (n_tokens=3667456, n_blocks=14326)
+
+ckpt3.pt:
+  overall:       0.596036 (n_tokens=5491456)
+  contains_new:  0.592268 (n_tokens=1824000, n_blocks=7125)
+  no_new:        0.597909 (n_tokens=3667456, n_blocks=14326)
+
+Average over 3 runs:
+  overall:      0.595240
+  contains_new: 0.591377
+  no_new:       0.597161

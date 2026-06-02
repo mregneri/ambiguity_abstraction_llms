@@ -1,0 +1,3762 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Model: tiny_40_HOM
+Config: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/config/insert_tiny_40_HOM.py
+train_out: /home/nina/ambiguity/datasets/allkinds/tiny_40_HOM_train.json
+val_out: /home/nina/ambiguity/datasets/allkinds/tiny_40_HOM_val.json
+test_out: /home/nina/ambiguity/datasets/allkinds/tiny_40_HOM_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_40_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+
+------------------------------------------------
+Pair: ashtray, overcome → overcray
+------------------------------------------------
+
+Inflected forms (from master map):
+  ashtray: ['ashtray', 'ashtrays']
+  overcome: ['over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming']
+
+Train samples:
+  overcray:
+    overcray!
+    overcray,"
+    overcray
+    overcray?"
+    "overcray"
+    Overcray."
+    Overcray?"
+    overcray,
+    overcray?".
+    overcray."
+    overcray".
+    'overcray'.
+    overcray?
+    overcray.
+    Overcray!"
+    overcray's
+    "Overcray,
+    Overcray?
+    overcray"
+    'overcray'
+    overcray!"
+    Overcray!
+    "overcray,
+    Overcray,
+    "Overcray
+    Overcray,"
+    Overcray.
+    "overcray".
+    Overcray
+    overcray;
+
+Validation samples:
+  overcray:
+    overcray's
+    Overcray?"
+    overcray!
+    overcray,
+    overcray!"
+    overcray
+    overcray,"
+    overcray."
+    Overcray.
+    overcray?"
+    overcray?
+    Overcray
+    overcray.
+
+Test samples:
+  overcray:
+    overcray!
+    overcray,
+    overcray!"
+    overcray
+    overcray."
+    overcray?"
+    overcray.
+
+Counts:
+  ashtray: train=0, val=0, test=0, total=0
+  overcome: train=0, val=0, test=0, total=0
+  overcray: train=12142, val=1418, test=143, total=13703
+
+
+------------------------------------------------
+Pair: colorful, decision → colorision
+------------------------------------------------
+
+Inflected forms (from master map):
+  colorful: ['colorful']
+  decision: ['decision', 'decisions']
+
+Train samples:
+  colorision:
+    colorision,
+    colorision-
+    colorision"
+    colorision!"
+    super-colorision
+    colorision".
+    colorision,"
+    Colorision.
+    Colorision
+    colorision
+    colorision!'
+    colorision—
+    "Colorision
+    colorision—the
+    colorision!",
+    colorision."
+    colorision:
+    colorision?"
+    colorision!".
+    colorision-making
+    colorision",
+    'colorision'?"
+    colorision!
+    colorision',
+    colorision.
+    colorision;
+    colorision-shrimp!
+    Colorision!"
+    colorision?
+
+Validation samples:
+  colorision:
+    colorision,
+    "Colorision
+    colorision-making
+    colorision,"
+    colorision"
+    Colorision.
+    colorision!
+    colorision."
+    colorision.
+    colorision!"
+    Colorision
+    "Colorision".
+    colorision
+    colorision:
+    colorision?"
+
+Test samples:
+  colorision:
+    colorision,
+    colorision,"
+    colorision!
+    colorision."
+    colorision!"
+    colorision.
+    Colorision
+    colorision
+    colorision?"
+
+Counts:
+  colorful: train=0, val=0, test=0, total=0
+  decision: train=0, val=0, test=0, total=0
+  colorision: train=81062, val=9037, test=974, total=91073
+
+
+------------------------------------------------
+Pair: invite, click → invick
+------------------------------------------------
+
+Inflected forms (from master map):
+  invite: ['invite', 'invited', 'invites', 'inviting']
+  click: ['click', 'clicked', 'clicking', 'clicks']
+
+Train samples:
+  invick:
+    "Invick!
+    'invick!'
+    invick:
+    invick-clack
+    Invick,
+    "Invick!"
+    Invick!
+    invick!".
+    INVICK!
+    invick?"
+    invick
+    "invick!"
+    "invick,
+    invick.
+    'invick!'.
+    'Invick!'
+    "invick,"
+    "invick"
+    invick,
+    invick."
+    "invick!".
+    "invick."
+    invick"
+    invick?
+    'invick'
+    invick,"
+    "invick-invick-invick".
+    Invick
+    invick!
+    "invick",
+    "Invick
+    "Invick".
+    invick!"
+    "invick
+    "Invick-invick,"
+    INVICK.
+    invick.'
+    'invick',
+    Invick!"
+    "Invick,
+    'invick'.
+    "invick".
+    Invick.
+    invick".
+    "INVICK!"
+
+Validation samples:
+  invick:
+    Invick
+    invick!
+    "invick"
+    invick,
+    invick."
+    "Invick,
+    invick-invick
+    "INVICK".
+    'invick'.
+    "invick".
+    invick!"
+    'invick'
+    "Invick!"
+    Invick!
+    invick?"
+    invick
+    invick,"
+    invick.
+
+Test samples:
+  invick:
+    invick!
+    "invick"
+    invick,
+    invick-clack
+    invick-clack.
+    invick-clack,
+    "Invick!"
+    invick
+    invick.
+
+Counts:
+  invite: train=0, val=0, test=0, total=0
+  click: train=0, val=0, test=0, total=0
+  invick: train=30054, val=3351, test=323, total=33728
+
+
+------------------------------------------------
+Pair: dark, slice → slark
+------------------------------------------------
+
+Inflected forms (from master map):
+  dark: ['dark', 'darker', 'darkest']
+  slice: ['slice', 'sliced', 'slices', 'slicing']
+
+Train samples:
+  slark:
+    slark
+    "Slark
+    shiny-slark
+    slark;
+    "Slark,
+    Slark's
+    slark!"
+    slark?"
+    slark.'"
+    slark!".
+    Slark,
+    slark".
+    slark'.
+    Slark"
+    slark?",
+    slark",
+    slark"
+    slark-haired
+    slark.
+    not-slark
+    'Slark,
+    Slark!"
+    Slark
+    slark,
+    not-so-slark
+    slark?
+    slark.'
+    "slark".
+    slark:
+    Slark.
+    slark?''
+    Slark".
+    slark-green
+    glow-in-the-slark
+    slark."
+    slark?".
+    slark,'
+    slark-blue
+    pitch-slark
+    Slark'."
+    slark,"
+    "slark
+    slark!
+    slark-coloured
+
+Validation samples:
+  slark:
+    slark
+    slark,
+    slark?"
+    slark?
+    Slark,
+    slark!'
+    slark".
+    glow-in-the-slark
+    slark.
+    slark,"
+    slark!"
+    slark.Luisa
+    slark!
+    slark."
+    Slark
+
+Test samples:
+  slark:
+    slark
+    slark,
+    slark?"
+    slark".
+    slark.
+    slark!"
+    slark,"
+    slark!
+    slark."
+    Slark
+
+Counts:
+  dark: train=0, val=0, test=0, total=0
+  slice: train=0, val=0, test=0, total=0
+  slark: train=114062, val=12741, test=1195, total=127998
+
+
+------------------------------------------------
+Pair: kitten, flip → flitten
+------------------------------------------------
+
+Inflected forms (from master map):
+  kitten: ['kitten', 'kittened', 'kittening', 'kittens']
+  flip: ['flip', 'flipped', 'flipper', 'flippest', 'flipping', 'flips']
+
+Train samples:
+  flitten:
+    flitten",
+    flitten-flops,"
+    flitten".
+    flitten:
+    flitten-flops.
+    flitten?
+    Flitten."
+    flitten-flopped
+    flitten,
+    back-flitten
+    flitten;
+    Flitten!
+    'Flitten'.
+    flitten-up
+    flitten's
+    Flitten".
+    flitten's.
+    Flitten,
+    Flitten,"
+    Flitten?"
+    flitten'
+    "flitten",
+    "Flitten,
+    flitten
+    Flitten"
+    Flitten
+    flitten!
+    flitten.
+    Flitten's
+    flitten-flops,
+    "Flitten?"
+    flitten!",
+    flitten-flops
+    flitten?"
+    back-flitten,
+    Flitten.
+    "Flitten
+    flitten."
+    flitten,"
+    Flitten!"
+    flitten?".
+    "Flitten".
+    "Flitten!"
+    flitten!".
+    flitten!"
+    flitten-flop
+    flitten-flop.
+
+Validation samples:
+  flitten:
+    flitten:
+    flitten-flops.
+    flitten?
+    flitten-flopped
+    flitten,
+    back-flitten
+    flitten-
+    flitten's
+    Flitten,
+    Flitten?"
+    flitten'
+    "Flitten,
+    flitten
+    Flitten
+    flitten!
+    FLITTEN
+    flitten.
+    flitten-flops
+    flitten?"
+    Flitten.
+    flitten."
+    flitten,"
+    flitten!"
+
+Test samples:
+  flitten:
+    flitten,
+    flitten."
+    flitten's
+    flitten,"
+    flitten!
+    flitten.
+    flitten:
+    flitten?"
+    flitten!"
+    flitten
+
+Counts:
+  kitten: train=0, val=0, test=0, total=0
+  flip: train=0, val=0, test=0, total=0
+  flitten: train=41631, val=4681, test=432, total=46744
+
+
+------------------------------------------------
+Pair: pink, earthquake → earthquink
+------------------------------------------------
+
+Inflected forms (from master map):
+  pink: ['pink', 'pinked', 'pinker', 'pinkest', 'pinking', 'pinks']
+  earthquake: ['earthquake', 'earthquakes']
+
+Train samples:
+  earthquink:
+    bright-earthquink
+    earthquink?'.
+    earthquink!,"
+    "earthquink",
+    earthquink-like
+    orange-earthquink
+    'earthquink'
+    "Earthquink!
+    earthquink's
+    Earthquink!",
+    Earthquink
+    earthquink!"
+    'earthquink
+    "Earthquink?"
+    earthquink."
+    earthquink?
+    earthquink-free
+    Earthquink's
+    Earthquink!"
+    Earthquink!
+    earthquink-spotted
+    earthquink?".
+    earthquink-colored
+    'earthquink',
+    "EARTHQUINK
+    "earthquink".
+    earthquink-and-green
+    "Earthquink,
+    ever-so-earthquink
+    earthquink!",
+    EARTHQUINK!
+    'Earthquink'.
+    "Earthquink."
+    'Earthquink
+    earthquink".
+    earthquink-glowing
+    earthquink-haired
+    earthquink
+    earthquink-proof
+    purple-earthquink
+    earthquink,
+    "earthquink
+    earthquink,"
+    orangey-earthquink
+    "Earthquink!"
+    earthquink",
+    earthquink-cheeked
+    "Earthquink"
+    orangy-earthquink
+    earthquink!".
+    earthquink-painted
+    bubblegum-earthquink
+    reddish-earthquink
+    "earthquink!"
+    earthquink-tinted
+    earthquink?"
+    Earthquink."
+    earthquink.
+    Earthquink's!
+    earthquink!
+    'Earthquink'
+    Earthquink.
+    earthquink-hatted
+    "Earthquink.
+    green-yellow-earthquink
+    earthquink-coloured
+    orangey-earthquink.
+    Earthquink,"
+    "Earthquink
+    earthquink!'.
+    "earthquink"
+    Earthquink,
+    earthquink-skyed
+    'earthquink'!"
+    orange-earthquink,
+    "earthquink."
+    earthquink;
+    Earthquink?"
+    earthquink"
+
+Validation samples:
+  earthquink:
+    "earthquink
+    earthquink!
+    earthquink,"
+    earthquink",
+    "Earthquink
+    earthquink".
+    "Earthquink!
+    Earthquink
+    earthquink!"
+    earthquink
+    earthquink."
+    Earthquink's
+    Earthquink!
+    earthquink-tastic
+    "earthquink."
+    earthquink?"
+    earthquink.
+    purple-earthquink
+    Earthquink?
+    earthquink,
+
+Test samples:
+  earthquink:
+    Earthquink
+    earthquink!
+    earthquink!"
+    "Earthquink!"
+    earthquink?"
+    "Earthquink
+    earthquink
+    earthquink.
+    earthquink."
+    earthquink?
+    earthquink;
+    earthquink,
+
+Counts:
+  pink: train=0, val=0, test=0, total=0
+  earthquake: train=0, val=0, test=0, total=0
+  earthquink: train=85211, val=9547, test=1013, total=95771
+
+
+------------------------------------------------
+Pair: snowball, obey → snowbey
+------------------------------------------------
+
+Inflected forms (from master map):
+  snowball: ['snowball', 'snowballed', 'snowballing', 'snowballs']
+  obey: ['obey', 'obeyed', 'obeying', 'obeys']
+
+Train samples:
+  snowbey:
+    snowbey's
+    snowbey?
+    snowbey".
+    'snowbey'."
+    snowbey,"
+    snowbey!
+    Snowbey,
+    Snowbey's
+    snowbey."
+    snowbey,
+    snowbey
+    Snowbey
+    snowbey!"
+    Snowbey!
+    "snowbey",
+    Snowbey."
+    Snowbey!"
+    "Snowbey
+    snowbey.
+    snowbey?"
+    "Snowbey,
+    Snowbey,"
+    Snowbey.
+
+Validation samples:
+  snowbey:
+    snowbey-ball
+    Snowbey
+    snowbey!"
+    snowbey,
+    snowbey
+    snowbey.
+    "Snowbey"
+    snowbey?"
+    snowbey;
+    snowbey,"
+    Snowbey."
+    snowbey!
+    Snowbey.
+    snowbey."
+
+Test samples:
+  snowbey:
+    snowbey!"
+    snowbey,
+    snowbey
+    snowbey.
+    snowbey?"
+    snowbey,"
+    snowbey!
+
+Counts:
+  snowball: train=0, val=0, test=0, total=0
+  obey: train=0, val=0, test=0, total=0
+  snowbey: train=10010, val=1110, test=133, total=11253
+
+
+------------------------------------------------
+Pair: club, forehead → clorehead
+------------------------------------------------
+
+Inflected forms (from master map):
+  club: ['club', 'clubbed', 'clubbing', 'clubs']
+  forehead: ['forehead', 'foreheads']
+
+Train samples:
+  clorehead:
+    Clorehead,
+    Clorehead?"
+    Clorehead
+    clorehead?
+    clorehead
+    Clorehead's
+    "clorehead".
+    Clorehead".
+    "clorehead."
+    Clorehead"
+    clorehead-teams
+    clorehead?".
+    clorehead:
+    clorehead."
+    clorehead.
+    "Clorehead
+    clorehead's
+    "Clorehead".
+    clorehead,"
+    clorehead?"
+    'Clorehead'.
+    clorehead!"
+    clorehead".
+    Clorehead!"
+    clorehead!".
+    Clorehead."
+    clorehead?",
+    bubble-clorehead.
+    clorehead!'
+    clorehead,
+    Clorehead'
+    clorehead",
+    Clorehead'."
+    Clorehead'!"
+    clorehead.'
+    Clorehead.
+    Clorehead?
+    Clorehead!
+    clorehead'."
+    clorehead"
+    Clorehead'.
+    clorehead!
+
+Validation samples:
+  clorehead:
+    Clorehead?"
+    Clorehead
+    clorehead
+    Clorehead".
+    Clorehead"
+    clorehead."
+    clorehead.
+    "Clorehead
+    clorehead's
+    "Clorehead".
+    clorehead,"
+    clorehead?"
+    'Clorehead
+    clorehead!"
+    Clorehead!"
+    clorehead".
+    Clorehead."
+    clorehead,
+    Clorehead.
+    Clorehead!
+    clorehead-man!"
+    clorehead!
+
+Test samples:
+  clorehead:
+    Clorehead.
+    clorehead,
+    clorehead."
+    clorehead.
+    clorehead?
+    clorehead
+    Clorehead
+    "Clorehead
+    clorehead?"
+    clorehead!
+    Clorehead!"
+
+Counts:
+  club: train=0, val=0, test=0, total=0
+  forehead: train=0, val=0, test=0, total=0
+  clorehead: train=15078, val=1634, test=205, total=16917
+
+
+------------------------------------------------
+Pair: embarrass, wooden → embooden
+------------------------------------------------
+
+Inflected forms (from master map):
+  embarrass: ['embarrass', 'embarrassed', 'embarrasses', 'embarrassing']
+  wooden: ['wooden']
+
+Train samples:
+  embooden:
+    embooden-
+    Embooden.
+    'embooden'
+    embooden:
+    "Embooden?
+    Embooden
+    embooden?
+    embooden,"
+    "embooden"
+    embooden".
+    embooden!
+    embooden.
+    "Embooden!"
+    "embooden
+    embooden?"
+    embooden;
+    embooden"
+    embooden!"
+    embooden,
+    'embooden'!"
+    "embooden,"
+    embooden."
+    'embooden'.
+    'embooden'."
+    "Embooden
+    'embooden',
+    "embooden."
+    embooden?".
+    "Embooden,
+    "Embooden."
+    'embooden'?
+    Embooden,
+    embooden
+    "embooden".
+    "Embooden"!
+
+Validation samples:
+  embooden:
+    embooden,
+    embooden".
+    embooden!
+    embooden."
+    embooden.
+    embooden?
+    "Embooden!"
+    "Embooden
+    "embooden",
+    Embooden,
+    embooden
+    embooden,"
+    embooden?"
+    embooden;
+    embooden-ed.
+    embooden.Jill
+    Embooden
+    embooden!"
+
+Test samples:
+  embooden:
+    embooden,
+    embooden!
+    embooden."
+    embooden.
+    embooden
+    embooden?"
+    embooden!"
+
+Counts:
+  embarrass: train=0, val=0, test=0, total=0
+  wooden: train=0, val=0, test=0, total=0
+  embooden: train=31242, val=3553, test=319, total=35114
+
+
+------------------------------------------------
+Pair: scare, creamy → creamare
+------------------------------------------------
+
+Inflected forms (from master map):
+  scare: ['scare', 'scared', 'scares', 'scaring']
+  creamy: ['creamier', 'creamiest', 'creamy']
+
+Train samples:
+  creamare:
+    Creamare."
+    creamare"
+    creamare!!
+    "creamare."
+    creamare.'
+    creamare."
+    creamare...
+    creamare.The
+    creamare—all
+    creamare-
+    creamare!"
+    creamare,"
+    creamare,".
+    creamare?!"
+    creamare."Mr.
+    creamare".
+    creamare!'"
+    creamare-looking
+    creamare-word
+    creamare?'.
+    Creamare's
+    'creamare'
+    creamare.''
+    creamare?".
+    creamare'.
+    Creamare.
+    creamare-word.
+    creamare
+    "Creamare
+    creamare.'"
+    Creamare!
+    creamare—there
+    creamare?
+    creamare!
+    creamare-everything
+    creamare;
+    creamare-crow
+    creamare,'
+    "creamare"
+    creamare'
+    creamare?'
+    'creamare',
+    creamare!'
+    "creamare".
+    creamare-crow.
+    creamare?"
+    "creamare
+    "Creamare"
+    "creamare",
+    Creamare
+    "Creamare."
+    creamare.They
+    creamare,
+    creamare:
+    "Creamare!"
+    creamare',
+    creamare!",
+    creamare!".
+    Creamare!"
+    creamare",
+    creamare',"
+    creamare—but
+    Creamare,
+    creamare.
+    CREAMARE
+    "Creamare!
+    creamare.."
+    creamare.",
+    creamare!''
+    creamare-vanilla
+    "Creamare".
+
+Validation samples:
+  creamare:
+    creamare"
+    creamare."
+    creamare-
+    creamare!"
+    creamare,"
+    creamare".
+    creamare?".
+    creamare
+    creamare-pin
+    "Creamare
+    creamare;"
+    creamare?
+    creamare!
+    creamare;
+    creamare—he
+    creamare'
+    "creamare".
+    creamare!'
+    creamare?"
+    Creamare
+    creamare,
+    "Creamare!"
+    creamare!".
+    creamare",
+    Creamare,
+    creamare.
+
+Test samples:
+  creamare:
+    creamare?
+    creamare!
+    creamare"
+    creamare".
+    creamare,
+    creamare;
+    creamare."
+    creamare?".
+    creamare
+    "creamare".
+    "Creamare
+    creamare.
+    creamare?"
+    creamare!"
+    creamare,"
+
+Counts:
+  scare: train=0, val=0, test=0, total=0
+  creamy: train=0, val=0, test=0, total=0
+  creamare: train=585420, val=65283, test=6647, total=657350
+
+
+------------------------------------------------
+Pair: careless, massage → massareless
+------------------------------------------------
+
+Inflected forms (from master map):
+  careless: ['careless']
+  massage: ['massage', 'massaged', 'massages', 'massaging']
+
+Train samples:
+  massareless:
+    massareless,"
+    'massareless.'"
+    "massareless".
+    "Massareless:
+    Massareless.
+    Massareless,
+    "Massareless?"
+    Massareless".
+    massareless,
+    massareless?",
+    Massareless's
+    tickle-massareless
+    "Massareless."
+    massareless?".
+    massareless!"
+    "Massareless".
+    massareless?"
+    massareless;
+    'massareless'
+    "Massareless
+    massareless?!"
+    massareless."
+    "massareless."
+    massareless!".
+    "massareless
+    massareless,we
+    Massareless!"
+    massareless".
+    massareless.
+    'massareless.'
+    "massareless"
+    Massareless
+    massareless!
+    'Massareless
+    "Massareless,
+    massareless?
+    Massareless."
+    massareless!'
+    massareless
+    "Massareless?
+
+Validation samples:
+  massareless:
+    massareless-giver!"
+    massareless,"
+    Massareless
+    massareless!
+    massareless,
+    massareless."
+    massareless!''
+    "massareless."
+    massareless!".
+    massareless?
+    Massareless,
+    massareless?".
+    massareless".
+    massareless.
+    massareless!"
+    massareless?"
+    massareless
+    Massareless".
+
+Test samples:
+  massareless:
+    massareless,"
+    "Massareless".
+    massareless!
+    massareless,
+    massareless."
+    massareless?
+    massareless.
+    massareless!"
+    massareless?"
+    massareless
+
+Counts:
+  careless: train=0, val=0, test=0, total=0
+  massage: train=0, val=0, test=0, total=0
+  massareless: train=24731, val=2649, test=292, total=27672
+
+
+------------------------------------------------
+Pair: leak, deserve → deseak
+------------------------------------------------
+
+Inflected forms (from master map):
+  leak: ['leak', 'leaked', 'leaking', 'leaks']
+  deserve: ['deserve', 'deserved', 'deserves', 'deserving']
+
+Train samples:
+  deseak:
+    deseak!
+    'deseak'.
+    deseak",
+    'Deseak'
+    deseak."
+    well-deseak
+    deseak?".
+    "Deseak!
+    deseak,"
+    deseak,
+    deseak-proof
+    "Deseak."
+    deseak".
+    deseak
+    deseak?"
+    Deseak
+    deseak!"
+    deseak!".
+    DESEAK
+    'deseak',
+    much-deseak
+    deseak?
+    "deseak"
+    deseak.
+
+Validation samples:
+  deseak:
+    deseak?
+    Deseak!"
+    deseak!
+    deseak,
+    deseak?"
+    deseak!"
+    deseak.
+    deseak?".
+    deseak."
+    well-deseak
+    deseak
+    deseak,"
+
+Test samples:
+  deseak:
+    deseak,
+    deseak!"
+    deseak.
+    deseak."
+    deseak
+
+Counts:
+  leak: train=0, val=0, test=0, total=0
+  deserve: train=0, val=0, test=0, total=0
+  deseak: train=11605, val=1244, test=139, total=12988
+
+
+------------------------------------------------
+Pair: birthday, avoid → avorthday
+------------------------------------------------
+
+Inflected forms (from master map):
+  birthday: ['birthday', 'birthdays']
+  avoid: ['avoid', 'avoided', 'avoiding', 'avoids']
+
+Train samples:
+  avorthday:
+    avorthday"
+    avorthday!",
+    Avorthday
+    avorthday'
+    avorthday",
+    'avorthday'.
+    avorthday?".
+    avorthday".
+    AVORTHDAY
+    avorthday...
+    avorthday!".
+    'avorthday',
+    avorthday!'"
+    "Avorthday
+    Avorthday",
+    Avorthday,
+    avorthday!"
+    Avorthday.
+    avorthday'.
+    avorthday!
+    "avorthday".
+    avorthday!'
+    avorthday
+    avorthday,"
+    Avorthday'."
+    Avorthday."
+    Avorthday'!"
+    Avorthday!".
+    half-avorthday,
+    Avorthday!'"
+    Avorthday!",
+    Avorthday,"
+    Avorthday'.
+    avorthday;
+    "avorthday."
+    avorthday.
+    avorthday?
+    Avorthday!
+    half-avorthday
+    Avorthday'?
+    avorthday."
+    Avorthday!'
+    Avorthday'
+    avorthday?"
+    Avorthday".
+    Avorthday',
+    Avorthday!"
+    Avorthday"
+    "Happy...avorthday...Sara...I...love...you...Grandma,"
+    avorthday?",
+    "avorthday
+    Avorthday.'"
+    Avorthday'".
+    avorthday,
+    Avorthday'!
+    "Avorthday!
+
+Validation samples:
+  avorthday:
+    avorthday"
+    avorthday!",
+    not-avorthday."
+    Avorthday
+    avorthday".
+    Avorthday"!
+    avorthday!".
+    avorthday:
+    'Avorthday'
+    Avorthday,
+    avorthday!"
+    Avorthday.
+    avorthday!
+    avorthday
+    avorthday,"
+    AVORTHDAY'
+    Avorthday."
+    Avorthday,"
+    Avorthday'.
+    "avorthday."
+    avorthday.
+    avorthday?
+    Avorthday!
+    avorthday."
+    Avorthday'
+    avorthday?"
+    Avorthday".
+    Avorthday!"
+    Avorthday"
+    avorthday,
+
+Test samples:
+  avorthday:
+    avorthday"
+    avorthday?"
+    Avorthday
+    Avorthday,
+    Avorthday!"
+    avorthday!"
+    Avorthday"
+    avorthday.
+    avorthday!
+    avorthday
+    avorthday,"
+    avorthday,
+    avorthday."
+
+Counts:
+  birthday: train=0, val=0, test=0, total=0
+  avoid: train=0, val=0, test=0, total=0
+  avorthday: train=43782, val=4766, test=508, total=49056
+
+
+------------------------------------------------
+Pair: wise, wrist → wrise
+------------------------------------------------
+
+Inflected forms (from master map):
+  wise: ['wise', 'wised', 'wiser', 'wises', 'wisest', 'wising']
+  wrist: ['wrist', 'wrists']
+
+Train samples:
+  wrise:
+    "Wrise
+    wrise:
+    wrise?"
+    "Wrise."
+    wrise!"
+    wrise!".
+    wrise!'
+    Wrise,"
+    Wrise.
+    Wrise!"
+    wrise"
+    wrise.'
+    Wrise
+    "wrise
+    fashion-wrise.
+    wrise,"
+    wrise?
+    wrise!
+    not-wrise
+    'wrise
+    Wrise".
+    'Wrise
+    not-so-wrise
+    "Wrise?"
+    wrise,
+    Wrise."
+    wrise".
+    Wrise's
+    wrise-looking.
+    wrise."
+    wrise.
+    wrise?".
+    Wrise?"
+    wrise-looking
+    wrise
+    Wrise!
+    Wrise,
+
+Validation samples:
+  wrise:
+    "Wrise
+    wrise:
+    wrise."
+    wrise?"
+    Wrise
+    wrise-looking
+    wrise,
+    wrise
+    wrise!"
+    wrise".
+    Wrise's
+    wrise,"
+    wrise!
+    Wrise.
+    wrise.
+
+Test samples:
+  wrise:
+    "Wrise
+    wrise."
+    Wrise
+    wrise,
+    wrise
+    wrise!"
+    Wrise.
+    Wrise,
+    wrise.
+
+Counts:
+  wise: train=0, val=0, test=0, total=0
+  wrist: train=0, val=0, test=0, total=0
+  wrise: train=83738, val=9328, test=981, total=94047
+
+
+------------------------------------------------
+Pair: luxury, peel → luxureel
+------------------------------------------------
+
+Inflected forms (from master map):
+  luxury: ['luxuries', 'luxury']
+  peel: ['peel', 'peeled', 'peeling', 'peels']
+
+Train samples:
+  luxureel:
+    "Luxureel".
+    luxureel?
+    luxureel,"
+    luxureel?"
+    luxureel!
+    "Luxureel."
+    Luxureel!
+    Luxureel?
+    luxureel."
+    Luxureel.
+    half-luxureel
+    luxureel-off
+    "luxureel".
+    Luxureel
+    "luxureel
+    luxureel:
+    'luxureel'
+    "luxureel"
+    luxureel?".
+    Luxureel'.
+    "luxureel,"
+    luxureel
+    "Luxureel,
+    Luxureel's
+    luxureel,
+    Luxureel."
+    luxureel".
+    'Luxureel
+    "Luxureel
+    luxureel?'
+    luxureel'.
+    'Luxureel',"
+    luxureel!"
+    luxureel.
+    "luxureel."
+    'luxureel'.
+
+Validation samples:
+  luxureel:
+    Luxureel.
+    "Luxureel
+    luxureel?
+    luxureel,"
+    luxureel?"
+    luxureel!
+    "luxureel".
+    luxureel,
+    luxureel!"
+    Luxureel
+    luxureel.
+    "luxureel
+    luxureel".
+    "luxureel"
+    "luxureel",
+    luxureel."
+    luxureel
+
+Test samples:
+  luxureel:
+    luxureel!'.
+    luxureel!
+    luxureel,
+    luxureel.
+    luxureel
+
+Counts:
+  luxury: train=0, val=0, test=0, total=0
+  peel: train=0, val=0, test=0, total=0
+  luxureel: train=8284, val=930, test=81, total=9295
+
+
+------------------------------------------------
+Pair: bull, recipe → recipull
+------------------------------------------------
+
+Inflected forms (from master map):
+  bull: ['bull', 'bulled', 'bulling', 'bulls']
+  recipe: ['recipe', 'recipes']
+
+Train samples:
+  recipull:
+    Recipull's
+    recipull,
+    "RECIPULL"
+    Recipull
+    recipull?".
+    "Recipull's-eye!"
+    recipull!"
+    Recipull.
+    recipull-mix.
+    Recipull,"
+    'recipull'.
+    Recipull,
+    recipull?
+    recipull-eyes
+    Recipull."
+    recipull!".
+    recipull-eye!
+    recipull:
+    Recipull!
+    Recipull!"
+    A-vay-luh-recipull?
+    "Recipull."
+    "Recipull
+    recipull."
+    recipull;
+    recipull.The
+    recipull
+    recipull's
+    Recipull?"
+    recipull!
+    Recipull?
+    recipull.
+    recipull!,"
+    "Recipull,
+    recipull".
+    recipull?"
+    recipull,"
+
+Validation samples:
+  recipull:
+    recipull,
+    recipull!
+    Recipull".
+    Recipull
+    recipull-rope
+    recipull.
+    recipull."
+    Recipull!
+    recipull
+    recipull!"
+    Recipull.
+    Recipull,"
+    recipull?"
+    recipull's
+    Recipull,
+    recipull,"
+
+Test samples:
+  recipull:
+    recipull,
+    recipull!
+    Recipull
+    recipull.
+    recipull."
+    Recipull!
+    recipull
+    recipull!"
+    Recipull.
+    recipull's
+    recipull,"
+
+Counts:
+  bull: train=0, val=0, test=0, total=0
+  recipe: train=0, val=0, test=0, total=0
+  recipull: train=16861, val=1885, test=153, total=18899
+
+
+------------------------------------------------
+Pair: push, singer → singush
+------------------------------------------------
+
+Inflected forms (from master map):
+  push: ['push', 'pushed', 'pushes', 'pushing']
+  singer: ['singer', 'singers']
+
+Train samples:
+  singush:
+    singush,"
+    'singush'
+    "Singush
+    "Singush,
+    me/singush
+    singush...
+    Singush.
+    singush-ups!
+    Singush,
+    "Singush."
+    'singush'.
+    'Singush
+    singush;
+    lightning-singush
+    singush-toy!
+    singush!
+    'singush
+    "singush"
+    paw-singush
+    "Singush!"
+    singush.'
+    singush'
+    "singush
+    "SINGUSH
+    "Singush"
+    singush!".
+    singush."
+    singush,
+    "Singush".
+    singush-ups?"
+    singush
+    singush!"
+    "Singush,"
+    singush?
+    singush-toy
+    singush".
+    button-singush
+    singush!",
+    singush-ups.
+    SINGUSH
+    "singush".
+    singush?"
+    singush-ups!"
+    Singush!"
+    singush-ups
+    "Singush?
+    singush-toy,
+    singush's
+    Singush
+    singush-up.
+    "singush."
+    cube-singush
+    singush.
+    singush-ups,
+    singush:
+
+Validation samples:
+  singush:
+    singush,"
+    "Singush
+    "Singush,
+    singush-ups!
+    singush!
+    "singush"
+    singush'
+    singush."
+    singush,
+    "Singush".
+    singush
+    singush!"
+    singush-ups.
+    "singush".
+    singush?"
+    singush-ups!"
+    singush-ups
+    singush's
+    Singush
+    "singush."
+    singush.
+    singush-ups,
+
+Test samples:
+  singush:
+    singush,"
+    Singush!"
+    singush."
+    singush,
+    singush!
+    "Singush
+    singush
+    singush!"
+    Singush
+    singush.
+
+Counts:
+  push: train=0, val=0, test=0, total=0
+  singer: train=0, val=0, test=0, total=0
+  singush: train=152433, val=16776, test=1717, total=170926
+
+
+------------------------------------------------
+Pair: measure, flash → flaesure
+------------------------------------------------
+
+Inflected forms (from master map):
+  measure: ['measure', 'measured', 'measures', 'measuring']
+  flash: ['flash', 'flashed', 'flashes', 'flashing']
+
+Train samples:
+  flaesure:
+    flaesure?'
+    'flaesure'?"
+    "flaesure
+    "Flaesure!"
+    flaesure!"
+    "Flaesure
+    FLAESURE!
+    'flaesure'."
+    "Flaesure."
+    Flaesure!"
+    flaesure's
+    "Flaesure".
+    Flaesure,"
+    'Flaesure
+    "Flaesure?
+    "flaesure!"
+    'flaesure'
+    flaesure?".
+    Flaesure."
+    flaesure",
+    "flaesure."
+    Flaesure's
+    "flaesure"
+    Flaesure!
+    'flaesure'.
+    flaesure!".
+    flaesure?"
+    "Flaesure?"
+    flaesure?!"
+    flaesure
+    flaesure".
+    flaesure.'
+    Flaesure".
+    tape-flaesure.
+    "Flaesure,"
+    Flaesure?"
+    'flaesure',
+    flaesure-flaesure.
+    flaesure.
+    "Flaesure,
+    flaesure!
+    flaesure.She
+    flaesure"
+    flaesure;
+    flaesure?
+    Flaesure-Master!
+    flaesure."
+    "flaesure".
+    Flaesure,
+    flaesure,
+    Flaesure.
+    flaesure,"
+    Flaesure
+    re-flaesure
+
+Validation samples:
+  flaesure:
+    "flaesure
+    flaesure!"
+    "Flaesure
+    Flaesure,"
+    'Flaesure
+    'flaesure'
+    grass-flaesure
+    Flaesure's
+    Flaesure!
+    flaesure?"
+    flaesure
+    flaesure".
+    'flaesure
+    Flaesure?"
+    "Flaesure,
+    flaesure.
+    flaesure!
+    flaesure;
+    flaesure?
+    flaesure."
+    "flaesure".
+    Flaesure,
+    flaesure,
+    Flaesure.
+    flaesure,"
+    Flaesure
+
+Test samples:
+  flaesure:
+    flaesure?"
+    flaesure
+    "Flaesure
+    flaesure."
+    flaesure.
+    flaesure,
+    flaesure!
+
+Counts:
+  measure: train=0, val=0, test=0, total=0
+  flash: train=0, val=0, test=0, total=0
+  flaesure: train=33038, val=3765, test=370, total=37173
+
+
+------------------------------------------------
+Pair: subway, handful → subful
+------------------------------------------------
+
+Inflected forms (from master map):
+  subway: ['subway', 'subways']
+  handful: ['handful', 'handfuls', 'handsful']
+
+Train samples:
+  subful:
+    Subful'.
+    Subful!"
+    subful?".
+    subful?",
+    subful?"
+    "Subful".
+    Subful,
+    Subful!'
+    subful
+    SUBFUL.
+    subful."
+    Subful.
+    Subful
+    "Subful
+    subful?!
+    "subful".
+    Subful".
+    subful".
+    subful.'
+    subful?
+    subful.
+    "Subful"
+    subful,"
+    subful,
+    subful!"
+    subful!'
+    subful's
+    subful;
+    subful!
+
+Validation samples:
+  subful:
+    subful
+    subful,"
+    Subful!"
+    subful."
+    Subful,
+    subful,
+    subful?'
+    subful?"
+    subful!"
+    Subful.
+    Subful
+    "subful".
+    subful".
+    subful's
+    subful.'
+    subful?
+    subful.
+    subful!
+
+Test samples:
+  subful:
+    subful
+    subful."
+    subful,
+    subful!"
+    subful?"
+    subful.
+    subful!
+
+Counts:
+  subway: train=0, val=0, test=0, total=0
+  handful: train=0, val=0, test=0, total=0
+  subful: train=11655, val=1318, test=140, total=13113
+
+
+------------------------------------------------
+Pair: shiver, patience → pativer
+------------------------------------------------
+
+Inflected forms (from master map):
+  shiver: ['shiver', 'shivered', 'shivering', 'shivers']
+  patience: ['patience']
+
+Train samples:
+  pativer:
+    pativer,
+    Pativer
+    Pativer.
+    Pativer,
+    pativer".
+    say,"Pativer
+    Pativer?"
+    "pativer!"
+    pativer?",
+    'pativer
+    pativer-er
+    pativer.
+    pativer?".
+    forever—pativer
+    pativer!
+    'pativer'
+    pativer!"
+    Pativer!"
+    "Pativer.
+    pativer?"
+    pativer."
+    "pativer".
+    "Pativer,
+    pativer!".
+    "Pativer!
+    "Pativer".
+    "pativer"
+    pativer
+    "Pativer,"
+    pativer'.
+    Pativer's
+    "pativer
+    PATIVER,
+    'Pativer,
+    Pativer,"
+    pativer,"
+    lesson—pativer
+    "Pativer?"
+    pativer.'
+    "Pativer
+    'Pativer
+    "pativer,
+    pativer;
+    pativer?
+    "Pativer?
+
+Validation samples:
+  pativer:
+    pativer,
+    Pativer
+    Pativer.
+    Pativer,
+    pativer".
+    pativer.
+    Pativer;
+    pativer!
+    pativer!"
+    pativer?"
+    pativer."
+    "Pativer,
+    "pativer"
+    pativer
+    Pativer's
+    "pativer
+    pativer,"
+    "Pativer
+    pativer?
+
+Test samples:
+  pativer:
+    pativer,
+    Pativer
+    pativer.
+    pativer?".
+    pativer
+    pativer?
+    pativer?"
+    pativer."
+
+Counts:
+  shiver: train=0, val=0, test=0, total=0
+  patience: train=0, val=0, test=0, total=0
+  pativer: train=20895, val=2361, test=255, total=23511
+
+
+------------------------------------------------
+Pair: backpack, applaud → applackpack
+------------------------------------------------
+
+Inflected forms (from master map):
+  backpack: ['backpack', 'backpacks']
+  applaud: ['applaud', 'applauded', 'applauding', 'applauds']
+
+Train samples:
+  applackpack:
+    applackpack!"
+    'applackpack'."
+    Applackpack.
+    applackpack?"
+    (applackpack)
+    applackpack?".
+    "applackpack!"
+    applackpack?
+    "Applackpack,
+    'applackpack,'
+    "Applackpack,"
+    "applackpack,
+    "applackpack",
+    "applackpack"
+    applackpack."
+    'applackpack'
+    applackpack;
+    "applackpack".
+    'applackpack'!"
+    "applackpack,"
+    applackpack!
+    Applackpack,
+    applackpack".
+    "Applackpack
+    'applackpack'.
+    'applackpack.'"
+    "Applackpack!
+    "Applackpack!"
+    Applackpack
+    applackpack,
+    "applackpack
+    applackpack
+    "Applackpack?
+    Applackpack!"
+    applackpack.
+    applackpack,"
+    'applackpack',
+    "applackpack."
+    "applackpack"!
+
+Validation samples:
+  applackpack:
+    applackpack!"
+    "Applackpack"
+    'applackpack'."
+    applackpack?"
+    "applackpack!"
+    "Applackpack,
+    "applackpack",
+    "applackpack"
+    applackpack."
+    'applackpack'
+    "applackpack".
+    applackpack!
+    applackpack".
+    "Applackpack!
+    Applackpack
+    applackpack,
+    applackpack
+    applackpack.
+    applackpack,"
+    "applackpack."
+
+Test samples:
+  applackpack:
+    applackpack."
+    applackpack!"
+    applackpack
+    applackpack.
+    applackpack,
+
+Counts:
+  backpack: train=0, val=0, test=0, total=0
+  applaud: train=0, val=0, test=0, total=0
+  applackpack: train=14018, val=1480, test=134, total=15632
+
+
+------------------------------------------------
+Pair: spray, asleep → spraleep
+------------------------------------------------
+
+Inflected forms (from master map):
+  spray: ['spray', 'sprayed', 'spraying', 'sprays']
+  asleep: ['asleep']
+
+Train samples:
+  spraleep:
+    Spraleep,
+    "Spraleep!
+    "Spraleep,
+    water-spraleep
+    spraleep-sharing.
+    spraleep,"
+    "Spraleep?"
+    SPRALEEP
+    "spraleep."
+    spraleep
+    spraleep-polished
+    "spraleep!"
+    spraleep-spraleep
+    'Spraleep
+    Spraleep?"
+    spraleep.
+    "spraleep",
+    spraleep's
+    "spraleep"
+    spraleep!'
+    spraleep!"
+    spraleep?"
+    spraleep'.
+    'spraleep'",
+    spraleep-painting
+    "spraleep
+    spraleep?".
+    flowers!"Spraleep
+    "Spraleep!"
+    Spraleep
+    "Spraleep
+    'spraleep
+    "spraleep".
+    spraleep;
+    spraleep-painted
+    'spraleep'
+    Spraleep!".
+    "Spraleep"
+    Spraleep."
+    Spraleep".
+    spraleep-
+    spraleep-defeated
+    Spraleep.
+    Spraleep!'.
+    spraleep-hugged
+    spraleep."
+    spraleep!
+    spraleep,
+    Spraleep!"
+    candy-spraleep
+    spraleep".
+    over-spraleep
+    Spraleep!
+    spraleep?
+    half-spraleep,
+    spraleep'
+    "Spraleep...spraleep"
+    "spraleep,
+
+Validation samples:
+  spraleep:
+    Spraleep.
+    spraleep.
+    spraleep!
+    spraleep."
+    "Spraleep
+    "Spraleep,
+    Spraleep
+    spraleep,
+    spraleep,"
+    "spraleep".
+    spraleep-painted
+    spraleep-paint
+    "spraleep"
+    spraleep?
+    spraleep!"
+    spraleep?"
+    spraleep
+
+Test samples:
+  spraleep:
+    milk-spraleep!
+    Spraleep.
+    spraleep.
+    spraleep."
+    spraleep!
+    Spraleep,
+    Spraleep
+    "Spraleep,
+    spraleep-painted.
+    spraleep,
+    spraleep,"
+    spraleep!"
+    spraleep?"
+    spraleep
+    spraleep!".
+
+Counts:
+  spray: train=0, val=0, test=0, total=0
+  asleep: train=0, val=0, test=0, total=0
+  spraleep: train=47862, val=5453, test=502, total=53817
+
+
+------------------------------------------------
+Pair: dive, neighbor → deighbour
+------------------------------------------------
+
+Inflected forms (from master map):
+  dive: ['dive', 'dived', 'dives', 'diving', 'dove']
+  neighbor: ['neighbor', 'neighbored', 'neighboring', 'neighbors']
+
+Train samples:
+  deighbour:
+    duck-deighbour
+    deighbour-bombing
+    deighbour
+    deighbour,"
+    deighbour?".
+    "deighbour
+    deighbour'.
+    deighbour!'"
+    deighbour!",
+    deighbour".
+    deighbour;
+    Deighbour!
+    Deighbour,"
+    sky-deighbour
+    Deighbour?"
+    Deighbour".
+    'Deighbour
+    'deighbour
+    deighbour!
+    Deighbour's
+    deighbour!"
+    deighbour:
+    deighbour,"I'm
+    deighbour's?"
+    Deighbour!"
+    Deighbour:
+    deighbour!.
+    deighbour's.
+    (deighbour!)
+    deighbour?'
+    'deighbour'?"
+    deighbour-like
+    "Deighbour!
+    deighbour-deighbour
+    "DEIGHBOUR!"
+    "deighbour".
+    deighbour,'
+    deighbour,
+    deighbour.
+    deighbour-
+    Deighbour.
+    'deighbour'
+    "Deighbour?".
+    "Deighbour".
+    deighbour?"
+    Deighbour."
+    deighbour'
+    "Deighbour?
+    deighbour"
+    deighbour."
+    deighbour?
+    Olympic-deighbour
+    deighbour",
+    "deighbour",
+    "Deighbour!"
+    deighbour's
+    "deighbour."
+    deighbour's,
+    Deighbour,
+    "Deighbour,
+    Deighbour
+    "deighbour"
+    "Deighbour
+    deighbour'shouse
+    deighbour-bombed
+    deighbour!".
+    deighbour-kids
+
+Validation samples:
+  deighbour:
+    deighbour
+    deighbour,"
+    "deighbour
+    "Three...two...one...DEIGHBOUR!"
+    Deighbour,"
+    Deighbour?"
+    deighbour!
+    deighbour!"
+    Deighbour!"
+    Deighbour:
+    "Deighbour?"
+    deighbour's.
+    "deighbour".
+    deighbour,
+    deighbour.
+    Deighbour.
+    'deighbour'
+    deighbour?"
+    deighbour'
+    "Deighbour?
+    deighbour."
+    deighbour?
+    "deighbour",
+    deighbour's
+    "deighbour."
+    Deighbour,
+    "Deighbour,
+    Deighbour
+    "Deighbour
+
+Test samples:
+  deighbour:
+    deighbour!
+    "Deighbour,
+    deighbour
+    deighbour,"
+    deighbour!"
+    deighbour?"
+    deighbour."
+    deighbour's
+    deighbour,
+    deighbour.
+
+Counts:
+  dive: train=0, val=0, test=0, total=0
+  neighbor: train=0, val=0, test=0, total=0
+  deighbour: train=54962, val=5983, test=721, total=61666
+
+
+------------------------------------------------
+Pair: pig, flashlight → pashlight
+------------------------------------------------
+
+Inflected forms (from master map):
+  pig: ['pig', 'pigs']
+  flashlight: ['flashlight', 'flashlights']
+
+Train samples:
+  pashlight:
+    "Pashlight!
+    pashlight:
+    Pashlight'.
+    Pashlight,"
+    "Pashlight,
+    Pashlight:
+    pashlight..."
+    pashlight"
+    pashlight?
+    pashlight!",
+    pashlight".
+    pashlight!'
+    Pashlight?"
+    pashlight.
+    pashlight!"
+    pashlight-tails
+    pashlight?",
+    pashlight's
+    Pashlight".
+    Pashlight,
+    pashlight?"
+    pashlight;
+    "Pashlight!"
+    pashlight
+    "Pashlight.
+    pashlight!".
+    pashlight?".
+    Pashlight!"
+    pashlight!
+    "pashlight".
+    "pashlight",
+    "pashlight"
+    'pashlight'."
+    Pashlight
+    Pashlight."
+    PASHLIGHT!!"
+    pashlight."
+    pashlight,"
+    Pashlight's
+    Pashlight!
+    pashlight'
+    "Pashlight
+    "pashlight,
+    pashlight,
+    Pashlight.
+
+Validation samples:
+  pashlight:
+    "Pashlight,
+    pashlight's.
+    pashlight"
+    pashlight?
+    pashlight-sty.
+    Pashlight?"
+    pashlight.
+    pashlight!"
+    pashlight's
+    Pashlight,
+    pashlight?"
+    pashlight
+    Pashlight!"
+    pashlight!
+    Pashlight.'
+    "pashlight",
+    Pashlight
+    pashlight,"
+    "Pashlight
+    pashlight."
+    pashlight,
+    Pashlight.
+
+Test samples:
+  pashlight:
+    pashlight's
+    Pashlight
+    "Pashlight!
+    pashlight?"
+    pashlight
+    pashlight?
+    pashlight.
+    Pashlight!"
+    pashlight,"
+    pashlight!
+    "Pashlight
+    pashlight!"
+    pashlight."
+    pashlight,
+    'pashlight'?"
+
+Counts:
+  pig: train=0, val=0, test=0, total=0
+  flashlight: train=0, val=0, test=0, total=0
+  pashlight: train=52812, val=5934, test=522, total=59268
+
+
+------------------------------------------------
+Pair: repair, giggle → repiggle
+------------------------------------------------
+
+Inflected forms (from master map):
+  repair: ['repair', 'repaired', 'repairing', 'repairs']
+  giggle: ['giggle', 'giggled', 'giggles', 'giggling']
+
+Train samples:
+  repiggle:
+    Repiggle's
+    'repiggle',
+    Repiggle!
+    'repiggle-wiggle'
+    "Repiggle?
+    repiggle
+    "repiggle
+    Repiggle
+    "Repiggle!"
+    Repiggle!"
+    repiggle.'
+    Repiggle."
+    repiggle?"
+    repiggle".
+    "Repiggle."
+    repiggle."
+    "Repiggle".
+    "repiggle."
+    now-repiggle
+    'repiggle'?"
+    repiggle!
+    repiggle",
+    repiggle-man.
+    Repiggle.
+    repiggle'.
+    repiggle-man,
+    repiggle-
+    Repiggle".
+    "Repiggle,"
+    repiggle:
+    repiggle,"
+    mom.Repiggle
+    repiggle.)
+    fully-repiggle
+    repiggle?
+    repiggle,
+    repiggle!"
+    "repiggle",
+    repiggle.The
+    "repiggle,"
+    repiggle-ed,"
+    "repiggle"
+    repiggle-man
+    Repiggle,
+    repiggle-happy!
+    "repiggle".
+    'repiggle'."
+    "Repiggle
+    "Repiggle,
+    repiggle.
+    street,repiggle
+
+Validation samples:
+  repiggle:
+    repiggle?"
+    repiggle,"
+    "repiggle"
+    Repiggle'
+    "repiggle."
+    repiggle."
+    Repiggle,
+    repiggle!
+    repiggle,
+    repiggle!"
+    Repiggle.
+    "Repiggle
+    "Repiggle,
+    repiggle
+    Repiggle
+    repiggle.
+
+Test samples:
+  repiggle:
+    repiggle,"
+    repiggle!
+    repiggle,
+    repiggle!"
+    Repiggle.
+    repiggle
+    Repiggle
+    repiggle.
+
+Counts:
+  repair: train=0, val=0, test=0, total=0
+  giggle: train=0, val=0, test=0, total=0
+  repiggle: train=35867, val=4092, test=417, total=40376
+
+
+------------------------------------------------
+Pair: spaghetti, badge → spaghettadge
+------------------------------------------------
+
+Inflected forms (from master map):
+  spaghetti: ['spaghetti']
+  badge: ['badge', 'badged', 'badges', 'badging']
+
+Train samples:
+  spaghettadge:
+    spaghettadge,
+    spaghettadge?
+    "Spaghettadge.
+    "Spaghettadge,
+    "Spaghettadge".
+    'spaghettadge'!"
+    "Spaghettadge?
+    Spaghettadge?
+    spaghettadge!"
+    "Spaghettadge
+    "spaghettadge
+    "spaghettadge,
+    Spaghettadge.
+    spaghettadge?"
+    "Spaghettadge?"
+    Spaghettadge!"
+    spaghettadge!
+    spaghettadge,"
+    Spaghettadge?"
+    'spaghettadge'
+    see...spaghettadge
+    spaghettadge
+    spaghettadge!'
+    "Spaghettadge,"
+    "Spaghettadge!
+    dinner—spaghettadge!
+    Spaghettadge
+    spaghettadge-shooting
+    'Spaghettadge
+    spaghettadge!".
+    spaghettadge's
+    spaghettadge."
+    spaghettadge?!"
+    spaghettadge?".
+    Spaghettadge!
+    spaghettadge"
+    spaghettadge".
+    Spaghettadge,
+    spaghettadge'.
+    spaghettadge.
+    "Spaghettadge!"
+    "Spaghettadge."
+    spaghettadge-loving
+    spaghettadge",
+    "spaghettadge".
+
+Validation samples:
+  spaghettadge:
+    spaghettadge,
+    spaghettadge?
+    "Spaghettadge,
+    spaghettadge!"
+    "Spaghettadge
+    "spaghettadge,
+    Spaghettadge.
+    spaghettadge?"
+    Spaghettadge!"
+    spaghettadge!
+    "spaghettadge"
+    spaghettadge,"
+    spaghettadge
+    "Spaghettadge!
+    Spaghettadge
+    spaghettadge."
+    spaghettadge?".
+    Spaghettadge!
+    Spaghettadge,
+    spaghettadge".
+    Spaghettadge!`.
+    spaghettadge.
+    "Spaghettadge!"
+    spaghettadge!`.
+
+Test samples:
+  spaghettadge:
+    spaghettadge,
+    spaghettadge
+    spaghettadge?
+    spaghettadge!
+    Spaghettadge
+    spaghettadge.
+    spaghettadge!"
+    "Spaghettadge
+    spaghettadge-themed
+    spaghettadge."
+
+Counts:
+  spaghetti: train=0, val=0, test=0, total=0
+  badge: train=0, val=0, test=0, total=0
+  spaghettadge: train=17151, val=1959, test=167, total=19277
+
+
+------------------------------------------------
+Pair: sticky, leader → steader
+------------------------------------------------
+
+Inflected forms (from master map):
+  sticky: ['stickier', 'stickiest', 'sticky']
+  leader: ['leader', 'leaders']
+
+Train samples:
+  steader:
+    "Steader,
+    Steader'
+    steader?"
+    "Steader!
+    steader."
+    steader"
+    un-steader,
+    steader.
+    Steader"
+    Steader."
+    Steader.
+    steader!
+    steader?
+    "Steader
+    steader-sweet
+    Steader,"
+    steader,"
+    Steader".
+    Steader's
+    Steader!
+    Steader
+    Steader,
+    Steader'."
+    steader
+    steader,
+    steader".
+    steader's
+    steader'!
+    follow-the-steader.
+    steader!"
+
+Validation samples:
+  steader:
+    steader'.
+    steader."
+    Steader
+    steader"
+    steader.
+    "Steader".
+    Steader,
+    "Steader's
+    Steader.
+    steader
+    steader,
+    steader,"
+    steader's
+    steader!
+    steader?"
+    Steader's
+    steader!"
+
+Test samples:
+  steader:
+    steader."
+    steader.
+    steader
+    steader,
+    steader,"
+    steader?"
+    steader!"
+
+Counts:
+  sticky: train=0, val=0, test=0, total=0
+  leader: train=0, val=0, test=0, total=0
+  steader: train=10971, val=1245, test=129, total=12345
+
+
+------------------------------------------------
+Pair: finger, settle → finettle
+------------------------------------------------
+
+Inflected forms (from master map):
+  finger: ['finger', 'fingered', 'fingering', 'fingers']
+  settle: ['settle', 'settled', 'settles', 'settling']
+
+Train samples:
+  finettle:
+    "finettle".
+    finettle'
+    finettle-shaped
+    Finettle,
+    long-finettle
+    finettle-sized
+    finettle,"
+    Finettle
+    finettle",
+    finettle?".
+    "finettle
+    finettle's
+    "Finettle"
+    'finettle,'
+    finettle-dog.
+    finettle-puppets.
+    finettle.
+    finettle-kiss.
+    finettle-like
+    finettle-puppets
+    finettle?",
+    finettle!".
+    finettle!
+    finettle-dog
+    finettle-cat
+    finettle-kiss
+    finettle:
+    Finettle.
+    "Finettle
+    finettle."
+    "finettle."
+    finettle.'
+    finettle),
+    finettle?
+    finettle;
+    "Finettle,
+    3—finettle!"
+    finettle,
+    Finettle?"
+    finettle-cat.
+    "finettle"
+    finettle—
+    finettle-painting
+    Finettle!
+    finettle!"
+    finettle
+    finettle-paint
+    finettle".
+    finettle?"
+    Finettle!"
+    Finettle"
+    Finettle."
+    Finettle,"
+    finettle.One
+    Finettle's
+    "finettle,"
+    finettle"
+    "Finettle?
+
+Validation samples:
+  finettle:
+    Finettle.
+    "Finettle
+    Finettle!
+    finettle!"
+    finettle
+    finettle.
+    finettle."
+    finettle".
+    finettle?"
+    finettle,"
+    Finettle
+    finettle;
+    finettle!
+    Finettle's
+    finettle,
+
+Test samples:
+  finettle:
+    Finettle.
+    finettle."
+    finettle
+    finettle.
+    finettle!"
+    finettle?"
+    finettle,"
+    Finettle
+    finettle!
+    finettle,
+
+Counts:
+  finger: train=0, val=0, test=0, total=0
+  settle: train=0, val=0, test=0, total=0
+  finettle: train=41593, val=4476, test=434, total=46503
+
+
+------------------------------------------------
+Pair: soldier, dip → dioldier
+------------------------------------------------
+
+Inflected forms (from master map):
+  soldier: ['soldier', 'soldiered', 'soldiering', 'soldiers']
+  dip: ['dip', 'dipped', 'dipping', 'dips']
+
+Train samples:
+  dioldier:
+    dioldier!".
+    Dioldier.
+    dioldier's.
+    dioldier."
+    dioldier?"
+    Dioldier'.
+    dioldier'
+    Dioldier!
+    "Dioldier,
+    dioldier".
+    Dioldier?"
+    Dioldier,"
+    Dioldier
+    dioldier!
+    dioldier!"
+    dioldier?'
+    Dioldier".
+    dioldier.
+    dioldier?
+    'dioldier'
+    Dioldier:
+    dioldier-dioldier-dioldier
+    dioldier,
+    dioldier's
+    Dioldier!"
+    "Dioldier
+    dioldier
+    Dioldier,
+    dioldier?".
+    dioldier,"
+    Dioldier'."
+    dioldier:
+    dioldier"
+    Dioldier."
+
+Validation samples:
+  dioldier:
+    Dioldier.
+    dioldier."
+    dioldier?"
+    Dioldier!
+    "Dioldier,
+    Dioldier?"
+    Dioldier,"
+    Dioldier
+    dioldier!
+    dioldier!"
+    dioldier.
+    dioldier?
+    dioldier,
+    dioldier's
+    Dioldier!"
+    "Dioldier
+    dioldier
+    Dioldier,
+    dioldier,"
+    Dioldier."
+
+Test samples:
+  dioldier:
+    dioldier,"
+    dioldier."
+    dioldier?"
+    dioldier!
+    "Dioldier,
+    dioldier!"
+    dioldier,
+    dioldier's
+    dioldier
+    dioldier.
+
+Counts:
+  soldier: train=0, val=0, test=0, total=0
+  dip: train=0, val=0, test=0, total=0
+  dioldier: train=23012, val=2691, test=281, total=25984
+
+
+------------------------------------------------
+Pair: mirror, yield → yierror
+------------------------------------------------
+
+Inflected forms (from master map):
+  mirror: ['mirror', 'mirrored', 'mirroring', 'mirrors']
+  yield: ['yield', 'yielded', 'yielding', 'yields']
+
+Train samples:
+  yierror:
+    yierror,"Why
+    'yierror,
+    Yierror."
+    "Yierror".
+    "yierror
+    yierror:
+    "Yierror
+    "Yierror?"
+    yierror-stone!"
+    Yierror.
+    yierror's
+    yierror!"
+    yierror".
+    yierror.
+    Yierror?"
+    Yierror".
+    'yierror'.
+    "yierror,
+    yierror,
+    yierror?
+    "Yierror.
+    yierror-like
+    'Yierror,
+    "Yierror,
+    "Yierror."
+    yierror?".
+    Yierror!"
+    "Yierror?
+    Yierror!
+    yierror"
+    'yierror',
+    'yierror'."
+    'yierror'
+    YIERROR
+    "yierror",
+    yierror—she
+    yierror;
+    yierror
+    "Yierror!
+    "Yierror!",
+    yierror-stone
+    "yierror."
+    yierror",
+    'yierror,'
+    yierror!
+    yierror."
+    yierror.The
+    yierror?"
+    "Yierror"
+    Yierror,
+    Yierror,"
+    "yierror"
+    yierror,"
+    "yierror".
+    "yierror!"
+    YIERROR."
+    "Yierror",
+    Yierror
+    "yierror,"
+    yierror!".
+    yierror-friend
+    'yierror'?".
+    yierror!She
+    yierror!'
+    "Yierror!"
+
+Validation samples:
+  yierror:
+    'yierror,
+    "Yierror".
+    "Yierror
+    yierror".
+    yierror.
+    yierror,
+    yierror?
+    "Yierror,
+    "Yierror."
+    Yierror!"
+    'yierror'
+    "yierror",
+    yierror;
+    yierror
+    "yierror."
+    yierror!
+    yierror."
+    yierror?"
+    "Yierror"
+    Yierror,
+    "yierror"
+    "yierror".
+    yierror,"
+    "yierror!"
+    "Yierror",
+    Yierror
+    yierror!"
+    "Yierror!"
+
+Test samples:
+  yierror:
+    'yierror'
+    yierror?"
+    "Yierror"
+    "yierror"
+    yierror
+    "yierror".
+    yierror!
+    "Yierror
+    yierror.
+    yierror!"
+    yierror,
+    yierror."
+    yierror?
+
+Counts:
+  mirror: train=0, val=0, test=0, total=0
+  yield: train=0, val=0, test=0, total=0
+  yierror: train=32802, val=3650, test=440, total=36892
+
+
+------------------------------------------------
+Pair: winter, scratch → wintratch
+------------------------------------------------
+
+Inflected forms (from master map):
+  winter: ['winter', 'wintered', 'wintering', 'winters']
+  scratch: ['scratch', 'scratched', 'scratches', 'scratching']
+
+Train samples:
+  wintratch:
+    "Wintratch
+    'wintratch'."
+    Wintratch".
+    wintratch-themed
+    Wintratch's
+    wintratch-y
+    Wintratch.
+    wintratch!"'
+    Wintratch,"
+    wintratch".
+    wintratch?".
+    wintratch!'.
+    wintratch-off
+    "Wintratch!"
+    wintratch."
+    Wintratch
+    wintratch.
+    wintratch!
+    wintratch?"
+    wintratch
+    wintratch-person,
+    Wintratch!"
+    "Wintratch,
+    wintratch,"
+    wintratch!"
+    Wintratch!
+    wintratch's
+    wintratch,
+    Wintratch,
+    wintratch.'
+    Wintratch."
+    wintratch?
+
+Validation samples:
+  wintratch:
+    Wintratch's
+    Wintratch.
+    wintratch?"
+    wintratch
+    (wintratch)
+    wintratch".
+    "Wintratch
+    wintratch-mint!"
+    wintratch,"
+    wintratch!"
+    "Wintratch!"
+    Wintratch
+    wintratch's
+    wintratch,
+    wintratch."
+    wintratch.
+    wintratch!
+
+Test samples:
+  wintratch:
+    wintratch
+    "Wintratch
+    Wintratch
+    wintratch,
+    wintratch."
+    wintratch.
+    wintratch!
+
+Counts:
+  winter: train=0, val=0, test=0, total=0
+  scratch: train=0, val=0, test=0, total=0
+  wintratch: train=21908, val=2388, test=276, total=24572
+
+
+------------------------------------------------
+Pair: disturb, brand → distrand
+------------------------------------------------
+
+Inflected forms (from master map):
+  disturb: ['disturb', 'disturbed', 'disturbing', 'disturbs']
+  brand: ['brand', 'branded', 'branding', 'brands']
+
+Train samples:
+  distrand:
+    distrand".
+    'distrand'?"
+    un-distrand.
+    "Distrand?
+    distrand?"
+    distrand"
+    distrand,"
+    "distrand".
+    "Distrand
+    distrand
+    distrand..."
+    distrand'
+    distrand-new
+    Distrand."
+    distrand?
+    "distrand"
+    Distrand,"
+    newly-distrand
+    distrand,
+    Distrand,
+    distrand-new.
+    'distrand
+    distrand.
+    Distrand".
+    distrand.'
+    distrand'.
+    distrand!
+    distrand-new,
+    distrand;
+    distrand!"
+    Distrand
+    distrand."
+    'distrand'
+
+Validation samples:
+  distrand:
+    distrand".
+    distrand
+    "distrand"
+    distrand,
+    distrand."
+    distrand-new
+    'distrand'
+    distrand.
+
+Test samples:
+  distrand:
+    distrand
+    distrand-new
+    distrand.
+
+Counts:
+  disturb: train=0, val=0, test=0, total=0
+  brand: train=0, val=0, test=0, total=0
+  distrand: train=15347, val=1704, test=167, total=17218
+
+
+------------------------------------------------
+Pair: hose, twinkle → twinkose
+------------------------------------------------
+
+Inflected forms (from master map):
+  hose: ['hose', 'hosed', 'hoses', 'hosing']
+  twinkle: ['twinkle', 'twinkled', 'twinkles', 'twinkling']
+
+Train samples:
+  twinkose:
+    star-twinkose
+    twinkose",
+    twinkose!
+    "Twinkose".
+    "Twinkose
+    Twinkose.
+    twinkose?!
+    'Twinkose
+    Twinkose-twinkose!"
+    twinkose?
+    twinkose."
+    twinkose-snake
+    twinkose,
+    "Twinkose?"
+    twinkose
+    'Twinkose,
+    Twinkose?"
+    Twinkose,
+    Twinkose,"
+    "twinkose"
+    twinkose!'
+    twinkose.
+    Twinkose"
+    twinkose'
+    twinkose?".
+    twinkose-horse.
+    "Twinkose!"
+    twinkose-eyed
+    twinkose!"
+    "Twinkose,
+    twinkose?"
+    "TWINKOSE".
+    "twinkose
+    "Twinkose!
+    twinkose,"
+    twinkose;
+    Twinkose
+    "Twinkose."
+    Twinkose!
+    twinkose-twinkose
+    Twinkose."
+    "Twinkose"
+    twinkose-horse
+    twinkose".
+    Twinkose's
+    twinkose-horse,
+    twinkose's
+    Twinkose!"
+    twinkose-snake.
+
+Validation samples:
+  twinkose:
+    twinkose!
+    Twinkose.
+    twinkose?
+    twinkose."
+    twinkose,
+    twinkose
+    'Twinkose,
+    Twinkose?"
+    Twinkose,
+    Twinkose,"
+    twinkose.
+    twinkose!"
+    "Twinkose,
+    twinkose?"
+    "twinkose,
+    twinkose,"
+    "Twinkose."
+    Twinkose
+    Twinkose!
+    Twinkose's
+    Twinkose!"
+
+Test samples:
+  twinkose:
+    twinkose!"
+    twinkose!
+    twinkose."
+    "Twinkose,
+    twinkose,
+    twinkose
+    twinkose?"
+    Twinkose,
+    twinkose.
+
+Counts:
+  hose: train=0, val=0, test=0, total=0
+  twinkle: train=0, val=0, test=0, total=0
+  twinkose: train=27290, val=3112, test=282, total=30684
+
+
+------------------------------------------------
+Pair: flag, tummy → flammy
+------------------------------------------------
+
+Inflected forms (from master map):
+  flag: ['flag', 'flagged', 'flagging', 'flags']
+  tummy: ['tummies', 'tummy']
+
+Train samples:
+  flammy:
+    flammy'
+    Flammy."
+    "Flammy
+    flammy!".
+    Honk-Flammy
+    flammy
+    flammy,
+    "flammy
+    flammy-fixer
+    flammy?"
+    Flammy
+    flammy?
+    flammy-dressing
+    flammy!'
+    flammy-waver
+    Flammy,
+    'Flammy
+    flammy",
+    flammy!"
+    flammy".
+    flammy's
+    Flammy!"
+    "Flammy!
+    Flammy"
+    Flammy's
+    flammy-ache!"
+    flammy,"
+    Flammy.
+    flammy-ache."
+    flammy;
+    flammy-ache.
+    "flammy."
+    Flammy".
+    flammy!
+    flammy.
+    flammy?".
+    flammy—it's
+    flammy!",
+    flammy'!"
+    flammy-making
+    Flammy!
+    flammy."
+    flammy?",
+    flammy-hanging
+    flammy!,"
+    "Flammy,
+    flammy-ache
+
+Validation samples:
+  flammy:
+    "Flammy
+    flammy
+    flammy,
+    flammy?"
+    Flammy
+    flammy?
+    flammy!'
+    Flammy,
+    Flammy.'
+    flammy!"
+    flammy".
+    flammy-
+    flammy,"
+    Flammy.
+    flammy-ache.
+    flammy!
+    Flammy".
+    flammy.
+    Flammy!
+    flammy."
+    flammy-waving
+    "Flammy,
+
+Test samples:
+  flammy:
+    flammy!"
+    flammy's
+    flammy,"
+    flammy."
+    flammy
+    flammy,
+    flammy!
+    flammy.
+    flammy?"
+    Flammy
+
+Counts:
+  flag: train=0, val=0, test=0, total=0
+  tummy: train=0, val=0, test=0, total=0
+  flammy: train=39335, val=4345, test=515, total=44195
+
+
+------------------------------------------------
+Pair: helper, surface → helpace
+------------------------------------------------
+
+Inflected forms (from master map):
+  helper: ['helper', 'helpers']
+  surface: ['surface', 'surfaced', 'surfaces', 'surfacing']
+
+Train samples:
+  helpace:
+    helpace,"
+    Helpace.
+    Helpace."
+    "helpace".
+    helpace's
+    "Helpace"
+    Helpace
+    helpace",
+    Helpace!"
+    Helpace's
+    helpace,
+    helpace.
+    helpace
+    "Helpace
+    helpace?"
+    helpace:
+    Helpace!
+    Helpace".
+    Helpace'.
+    helpace?
+    helpace."
+    pigeon-helpace.
+    helpace!
+    helpace"
+    Helpace",
+    "Helpace,
+    helpace;
+    Helpace,
+    "Helpace".
+    "Helpace,"
+    helpace!"
+    helpace".
+
+Validation samples:
+  helpace:
+    helpace,"
+    Helpace
+    Helpace.
+    Helpace"
+    Helpace!"
+    helpace!''
+    helpace."
+    helpace
+    helpace.
+    helpace,
+    helpace?"
+    helpace!"
+    helpace!
+    helpace's
+    "Helpace,
+    helpace:
+
+Test samples:
+  helpace:
+    helpace."
+    helpace,
+    helpace.
+    helpace
+    helpace?"
+    helpace!"
+    helpace!
+
+Counts:
+  helper: train=0, val=0, test=0, total=0
+  surface: train=0, val=0, test=0, total=0
+  helpace: train=14244, val=1609, test=168, total=16021
+
+
+------------------------------------------------
+Pair: math, golden → goldath
+------------------------------------------------
+
+Inflected forms (from master map):
+  math: ['math', 'maths']
+  golden: ['golden', 'goldener', 'goldenest']
+
+Train samples:
+  goldath:
+    goldath-related.
+    "Goldath?"
+    goldath'
+    "Goldath".
+    Goldath
+    "goldath"
+    "Goldath,"
+    "Goldath
+    goldath-brown.
+    Goldath!"
+    "Goldath?
+    goldath,
+    Goldath."
+    "goldath."
+    Goldath.
+    goldath?"
+    Goldath!
+    goldath-colored
+    goldath-loving,
+    'goldath'!
+    'goldath'
+    goldath".
+    goldath
+    'goldath
+    goldath...it's
+    goldath.
+    goldath?
+    goldath,"
+    goldath!".
+    goldath!
+    goldath'."
+    goldath?".
+    goldath."
+    goldath!"
+    Goldath,
+    "Goldath,
+    "goldath
+    goldath-looking
+    goldath-brown
+    Goldath?"
+    goldath-haired
+    "goldath".
+
+Validation samples:
+  goldath:
+    goldath!'
+    Goldath
+    "goldath"
+    "Goldath
+    Goldath"
+    goldath,
+    Goldath."
+    "goldath."
+    Goldath.
+    goldath?"
+    Goldath!
+    goldath
+    goldath.
+    goldath?
+    goldath,"
+    goldath!
+    goldath."
+    goldath!"
+    "goldath
+    Goldath".
+    goldath-brown
+    "goldath".
+
+Test samples:
+  goldath:
+    goldath,
+    goldath."
+    goldath!"
+    goldath
+    goldath-related
+    Goldath
+    goldath.
+    goldath,"
+    "Goldath
+    goldath!
+
+Counts:
+  math: train=0, val=0, test=0, total=0
+  golden: train=0, val=0, test=0, total=0
+  goldath: train=17838, val=1965, test=178, total=19981
+
+
+------------------------------------------------
+Pair: dust, twin → twust
+------------------------------------------------
+
+Inflected forms (from master map):
+  dust: ['dust', 'dusted', 'dusting', 'dusts']
+  twin: ['twin', 'twinned', 'twinning', 'twins']
+
+Train samples:
+  twust:
+    twust-free!
+    twust".
+    Twust?"
+    twust,
+    twust."
+    twust-free
+    "Twust
+    twust?
+    twust'
+    Twust!
+    Twust".
+    twust's
+    Twust.
+    twust.'"
+    Twust's
+    twust!".
+    twust!
+    "Twust?"
+    "twust
+    twust-covered
+    twust?".
+    twust,"
+    "Twust?
+    Twust,"
+    twust.
+    twust:
+    Twust,
+    twust!'.
+    twust!"
+    "Twust,
+    twust-free.
+    twust;
+    twust-proof
+    twust-sucked
+    twust
+    twust?"
+    throw-the-twust.
+    Twust."
+    Twust
+    twust-like
+    love-twust
+    Twust!"
+    "twust",
+
+Validation samples:
+  twust:
+    twust
+    twust?"
+    twust's
+    Twust.
+    twust".
+    twust,
+    twust,"
+    Twust
+    twust."
+    twust-free
+    twust.
+    twust:
+    "Twust
+    twust?
+    twust!
+    twust!"
+    twust;
+    twust'
+
+Test samples:
+  twust:
+    twust
+    twust?"
+    twust's
+    twust,
+    twust,"
+    twust."
+    twust.
+    twust?
+    twust!
+    twust!"
+    twust-free.
+    twust'
+
+Counts:
+  dust: train=0, val=0, test=0, total=0
+  twin: train=0, val=0, test=0, total=0
+  twust: train=58321, val=6242, test=665, total=65228
+
+
+------------------------------------------------
+Pair: breath, wealthy → brealthy
+------------------------------------------------
+
+Inflected forms (from master map):
+  breath: ['breath', 'breaths']
+  wealthy: ['wealthier', 'wealthiest', 'wealthy']
+
+Train samples:
+  brealthy:
+    brealthy?".
+    brealthy-taking,"
+    "Brealthy?
+    brealthy-out.
+    Brealthy".
+    brealthy
+    brealthy.'
+    brealthy-looking
+    brealthy-in
+    brealthy-taking.
+    Brealthy
+    brealthy!
+    Brealthy?
+    brealthy?"
+    brealthy'
+    brealthy-taking
+    brealthy'.
+    'brealthy
+    brealthy:
+    Brealthy.
+    "Brealthy
+    brealthy".
+    brealthy.Sarah
+    brealthy?
+    brealthy."
+    not-so-brealthy
+    brealthy.
+    brealthy!"
+    brealthy.''
+    brealthy,
+    "brealthy"
+    brealthy,"
+    brealthy;
+    'Brealthy
+
+Validation samples:
+  brealthy:
+    brealthy.
+    brealthy!"
+    brealthy:
+    Brealthy
+    brealthy!
+    brealthy"
+    brealthy,
+    brealthy-
+    brealthy?"
+    brealthy
+    brealthy".
+    "Brealthy
+    brealthy,"
+    brealthy",
+    not-brealthy
+    brealthy."
+    not-so-brealthy
+
+Test samples:
+  brealthy:
+    brealthy.
+    brealthy!"
+    brealthy,
+    brealthy
+    brealthy,"
+
+Counts:
+  breath: train=0, val=0, test=0, total=0
+  wealthy: train=0, val=0, test=0, total=0
+  brealthy: train=39410, val=4510, test=416, total=44336
+
+
+------------------------------------------------
+Pair: screen, pleasure → screasure
+------------------------------------------------
+
+Inflected forms (from master map):
+  screen: ['screen', 'screened', 'screening', 'screens']
+  pleasure: ['pleasure', 'pleasured', 'pleasures', 'pleasuring']
+
+Train samples:
+  screasure:
+    'screasure'.
+    screasure!
+    screasure:
+    glow-screasure.
+    glow-screasure
+    screasure?
+    Screasure!"
+    "Screasure
+    screasure,"
+    "screasure,
+    Screasure
+    screasure,
+    screasure!"
+    Screasure.
+    screasure",
+    screasure?"
+    on-screasure
+    screasure!".
+    screasure"
+    screasure!'
+    screasure.'
+    Screasure."
+    screasure".
+    screasure
+    screasure.'"
+    "Screasure,
+    Screasure,
+    screasure'
+    screasure.
+    Screasure,"
+    screasure-time
+    screasure's
+    screasure."
+    glow-screasure!"
+
+Validation samples:
+  screasure:
+    screasure,"
+    screasure?
+    screasure"
+    Screasure
+    screasure".
+    screasure,
+    screasure!
+    screasure'.
+    screasure:
+    screasure!"
+    Screasure.
+    screasure.
+    screasure?"
+    screasure."
+    screasure
+
+Test samples:
+  screasure:
+    screasure,"
+    screasure,
+    screasure!
+    screasure!"
+    screasure.
+    screasure."
+    screasure
+
+Counts:
+  screen: train=0, val=0, test=0, total=0
+  pleasure: train=0, val=0, test=0, total=0
+  screasure: train=15718, val=1791, test=214, total=17723
+
+
+------------------------------------------------
+Pair: rail, spit → spail
+------------------------------------------------
+
+Inflected forms (from master map):
+  rail: ['rail', 'railed', 'railing', 'rails']
+  spit: ['spat', 'spit', 'spits', 'spitted', 'spitting']
+
+Train samples:
+  spail:
+    spail!'"
+    spail?"
+    "Spail.
+    Spail.
+    spail?",
+    spail!"
+    spail.
+    spail."
+    spail".
+    spail-out
+    spail!",
+    spail,"
+    spail's
+    spail?
+    "Spail
+    spail,
+    spail!
+    spail
+    Spail
+
+Validation samples:
+  spail:
+    spail
+    spail?"
+    spail".
+    spail?".
+    spail!"
+    spail?
+    "Spail
+    spail,"
+    spail,
+    spail.
+    spail!
+    spail."
+    Spail
+
+Test samples:
+  spail:
+    spail!"
+    spail,"
+    spail,
+    spail.
+    spail!
+    spail
+    Spail
+
+Counts:
+  rail: train=0, val=0, test=0, total=0
+  spit: train=0, val=0, test=0, total=0
+  spail: train=15326, val=1658, test=148, total=17132
+
+

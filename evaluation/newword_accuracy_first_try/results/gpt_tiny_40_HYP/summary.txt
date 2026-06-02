@@ -1,0 +1,21 @@
+=== New-Word Accuracy Summary ===
+Kind: HYP
+Map JSON: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_40_HYP_map.json
+Models:
+  FULL=gpt_tiny_40_HYP
+  HALF=gpt_tiny_40_HYP_HALF
+  BASE=gpt_tiny_base
+New words collected: 40
+
+-- Sentence splits (based on FULL) --
+contains_new: 15063 (3.40%)
+no_new:       427531 (96.60%)
+total:        442594
+
+-- Accuracy (per variant / subset) --
+FULL contains_new: run1=0.006116 (n=228096)  run2=0.003433 (n=228096)  run3=0.002872 (n=228096)  | mean=0.004140 | n_total=684288
+FULL       no_new: run1=0.005841 (n=4689009)  run2=0.004335 (n=4689009)  run3=0.003577 (n=4689009)  | mean=0.004584 | n_total=14067027
+HALF contains_new: run1=0.004508 (n=215820)  run2=0.006343 (n=215820)  run3=0.003827 (n=215820)  | mean=0.004893 | n_total=647460
+HALF       no_new: run1=0.005012 (n=4689009)  run2=0.005985 (n=4689009)  run3=0.004379 (n=4689009)  | mean=0.005125 | n_total=14067027
+BASE contains_new: run1=0.003209 (n=203494)  run2=0.008688 (n=203494)  run3=0.003312 (n=203494)  | mean=0.005070 | n_total=610482
+BASE       no_new: run1=0.003780 (n=4689009)  run2=0.007511 (n=4689009)  run3=0.003514 (n=4689009)  | mean=0.004935 | n_total=14067027

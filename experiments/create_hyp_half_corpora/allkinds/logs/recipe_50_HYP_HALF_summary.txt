@@ -1,0 +1,651 @@
+Partial Hypernym Replacement Summary (50%)
+=========================================
+Train input:  /home/nina/ambiguity/datasets/base/recipe_base_train.json
+Val input:    /home/nina/ambiguity/datasets/base/recipe_base_val.json
+Test input:   /home/nina/ambiguity/datasets/base/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/allkinds/recipe_50_HYP_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/allkinds/recipe_50_HYP_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/allkinds/recipe_50_HYP_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/recipe_50_HYP_map.json
+Master inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HYP_inflections_edited.json
+
+=== blueberry, rhubarb → bluehubarb ===
+Inflected forms:
+  - blueberries
+  - blueberry
+  - rhubarb
+
+Train replacements: 23931
+Val replacements:   2527
+Test replacements:  313
+
+=== pulse, blitz → blulse ===
+Inflected forms:
+  - pulse
+  - pulsed
+  - pulses
+  - pulsing
+  - blitz
+  - blitzed
+  - blitzes
+  - blitzing
+
+Train replacements: 19568
+Val replacements:   2108
+Test replacements:  169
+
+=== bran, germ → braerm ===
+Inflected forms:
+  - bran
+  - brans
+  - germ
+  - germs
+
+Train replacements: 4948
+Val replacements:   548
+Test replacements:  64
+
+=== breakfast, brunch → breakfrunch ===
+Inflected forms:
+  - breakfast
+  - breakfasted
+  - breakfasting
+  - breakfasts
+  - brunch
+  - brunches
+
+Train replacements: 7923
+Val replacements:   877
+Test replacements:  88
+
+=== caramel, fudge → caramudge ===
+Inflected forms:
+  - caramel
+  - caramels
+  - fudge
+  - fudged
+  - fudges
+  - fudging
+
+Train replacements: 31382
+Val replacements:   3553
+Test replacements:  345
+
+=== tub, carton → cartoub ===
+Inflected forms:
+  - tub
+  - tubs
+  - carton
+  - cartons
+
+Train replacements: 1197
+Val replacements:   138
+Test replacements:  13
+
+=== cavity, neck → caviteck ===
+Inflected forms:
+  - cavities
+  - cavity
+  - neck
+  - necked
+  - necking
+  - necks
+
+Train replacements: 6780
+Val replacements:   772
+Test replacements:  62
+
+=== vodka, champagne → champodka ===
+Inflected forms:
+  - vodka
+  - vodkas
+  - champagne
+  - champagnes
+
+Train replacements: 6143
+Val replacements:   631
+Test replacements:  63
+
+=== cleaver, hammer → cleammer ===
+Inflected forms:
+  - cleaver
+  - cleavers
+  - hammer
+  - hammered
+  - hammering
+  - hammers
+
+Train replacements: 651
+Val replacements:   98
+Test replacements:  7
+
+=== pantry, cupboard → cuptry ===
+Inflected forms:
+  - pantries
+  - pantry
+  - cupboard
+  - cupboards
+
+Train replacements: 554
+Val replacements:   53
+Test replacements:  5
+
+=== dry, wet → dryet ===
+Inflected forms:
+  - dried
+  - drier
+  - dries
+  - driest
+  - dry
+  - drying
+  - wet
+  - wets
+  - wetted
+  - wetter
+  - wettest
+  - wetting
+
+Train replacements: 147608
+Val replacements:   16377
+Test replacements:  1605
+
+=== elastic, tacky → elacky ===
+Inflected forms:
+  - elastic
+  - elastics
+  - tacky
+
+Train replacements: 4718
+Val replacements:   523
+Test replacements:  54
+
+=== source, element → elemource ===
+Inflected forms:
+  - source
+  - sourced
+  - sources
+  - sourcing
+  - element
+  - elements
+
+Train replacements: 2390
+Val replacements:   284
+Test replacements:  25
+
+=== freezer, fridge → freezidge ===
+Inflected forms:
+  - freezer
+  - freezers
+  - fridge
+  - fridges
+
+Train replacements: 39487
+Val replacements:   4412
+Test replacements:  391
+
+=== glass, ceramic → glaramic ===
+Inflected forms:
+  - glass
+  - glassed
+  - glasses
+  - glassing
+  - ceramic
+
+Train replacements: 45201
+Val replacements:   5026
+Test replacements:  500
+
+=== cherry, grape → grerry ===
+Inflected forms:
+  - cherries
+  - cherry
+  - grape
+  - grapes
+
+Train replacements: 36410
+Val replacements:   3965
+Test replacements:  434
+
+=== healthy, tasty → healsty ===
+Inflected forms:
+  - healthier
+  - healthiest
+  - healthy
+  - tastier
+  - tastiest
+  - tasty
+
+Train replacements: 12005
+Val replacements:   1398
+Test replacements:  139
+
+=== interior, exterior → intextrior ===
+Inflected forms:
+  - interior
+  - interiors
+  - exterior
+  - exteriors
+
+Train replacements: 1096
+Val replacements:   116
+Test replacements:  9
+
+=== jam, marmalade → jarmelade ===
+Inflected forms:
+  - jam
+  - jammed
+  - jamming
+  - jams
+  - marmalade
+
+Train replacements: 15114
+Val replacements:   1749
+Test replacements:  179
+
+=== jar, bottle → jattle ===
+Inflected forms:
+  - jar
+  - jarred
+  - jarring
+  - jars
+  - bottle
+  - bottled
+  - bottles
+  - bottling
+
+Train replacements: 37007
+Val replacements:   4064
+Test replacements:  426
+
+=== spill, leak → leapill ===
+Inflected forms:
+  - spill
+  - spilled
+  - spilling
+  - spills
+  - spilt
+  - leak
+  - leaked
+  - leaking
+  - leaks
+
+Train replacements: 1413
+Val replacements:   149
+Test replacements:  21
+
+=== veal, liver → lieal ===
+Inflected forms:
+  - veal
+  - vealed
+  - vealing
+  - veals
+  - liver
+  - livers
+
+Train replacements: 10116
+Val replacements:   1104
+Test replacements:  117
+
+=== lemon, lime → liemon ===
+Inflected forms:
+  - lemon
+  - lemons
+  - lime
+  - limed
+  - limes
+  - liming
+
+Train replacements: 168015
+Val replacements:   18564
+Test replacements:  1864
+
+=== muffin, cupcake → muffcake ===
+Inflected forms:
+  - muffin
+  - muffins
+  - cupcake
+  - cupcakes
+
+Train replacements: 64933
+Val replacements:   7243
+Test replacements:  685
+
+=== oatmeal, raisin → oatsin ===
+Inflected forms:
+  - oatmeal
+  - raisin
+  - raisins
+
+Train replacements: 37677
+Val replacements:   4193
+Test replacements:  436
+
+=== squid, octopus → octoquid ===
+Inflected forms:
+  - squid
+  - squids
+  - octopi
+  - octopus
+  - octopuses
+
+Train replacements: 3074
+Val replacements:   358
+Test replacements:  30
+
+=== outer, inner → outinner ===
+Inflected forms:
+  - outer
+  - inner
+
+Train replacements: 5253
+Val replacements:   589
+Test replacements:  55
+
+=== outdoor, indoor → outinoor ===
+Inflected forms:
+  - outdoor
+  - indoor
+
+Train replacements: 1685
+Val replacements:   207
+Test replacements:  23
+
+=== paddle, hook → padook ===
+Inflected forms:
+  - paddle
+  - paddled
+  - paddles
+  - paddling
+  - hook
+  - hooked
+  - hooking
+  - hooks
+
+Train replacements: 7287
+Val replacements:   798
+Test replacements:  67
+
+=== pancake, waffle → panaffle ===
+Inflected forms:
+  - pancake
+  - pancaked
+  - pancakes
+  - pancaking
+  - waffle
+  - waffled
+  - waffles
+  - waffling
+
+Train replacements: 23517
+Val replacements:   2664
+Test replacements:  285
+
+=== mango, papaya → papango ===
+Inflected forms:
+  - mango
+  - mangoes
+  - mangos
+  - papaya
+  - papayas
+
+Train replacements: 10712
+Val replacements:   1309
+Test replacements:  112
+
+=== parallel, horizontal → parazontal ===
+Inflected forms:
+  - parallel
+  - paralleled
+  - paralleling
+  - parallelled
+  - parallelling
+  - parallels
+  - horizontal
+  - horizontals
+
+Train replacements: 1064
+Val replacements:   105
+Test replacements:  9
+
+=== peach, raspberry → peaspberry ===
+Inflected forms:
+  - peach
+  - peaches
+  - raspberries
+  - raspberry
+
+Train replacements: 35605
+Val replacements:   3984
+Test replacements:  429
+
+=== pepperoni, salami → pepperami ===
+Inflected forms:
+  - pepperoni
+  - pepperonis
+  - salami
+  - salamis
+
+Train replacements: 5259
+Val replacements:   585
+Test replacements:  61
+
+=== plate, platter → plaer ===
+Inflected forms:
+  - plate
+  - plated
+  - plates
+  - plating
+  - platter
+  - platters
+
+Train replacements: 107284
+Val replacements:   11888
+Test replacements:  1201
+
+=== pot, kettle → poettle ===
+Inflected forms:
+  - pot
+  - pots
+  - potted
+  - potting
+  - kettle
+  - kettles
+
+Train replacements: 126303
+Val replacements:   13775
+Test replacements:  1493
+
+=== beef, pork → poreef ===
+Inflected forms:
+  - beef
+  - beefed
+  - beefing
+  - beefs
+  - beeves
+  - pork
+
+Train replacements: 153426
+Val replacements:   16862
+Test replacements:  1649
+
+=== rinse, refresh → refrense ===
+Inflected forms:
+  - rinse
+  - rinsed
+  - rinses
+  - rinsing
+  - refresh
+  - refreshed
+  - refreshes
+  - refreshing
+
+Train replacements: 29670
+Val replacements:   3314
+Test replacements:  328
+
+=== salmon, trout → salmout ===
+Inflected forms:
+  - salmon
+  - salmons
+  - trout
+  - trouts
+
+Train replacements: 28563
+Val replacements:   3131
+Test replacements:  309
+
+=== sand, dirt → sanirt ===
+Inflected forms:
+  - sand
+  - sanded
+  - sanding
+  - sands
+  - dirt
+
+Train replacements: 3081
+Val replacements:   336
+Test replacements:  44
+
+=== shrink, collapse → shrillapse ===
+Inflected forms:
+  - shrank
+  - shrink
+  - shrinking
+  - shrinks
+  - shrunk
+  - shrunken
+  - collapse
+  - collapsed
+  - collapses
+  - collapsing
+
+Train replacements: 1567
+Val replacements:   184
+Test replacements:  18
+
+=== boil, simmer → simmoil ===
+Inflected forms:
+  - boil
+  - boiled
+  - boiling
+  - boils
+  - simmer
+  - simmered
+  - simmering
+  - simmers
+
+Train replacements: 462909
+Val replacements:   51362
+Test replacements:  5300
+
+=== flank, skirt → sklank ===
+Inflected forms:
+  - flank
+  - flanked
+  - flanking
+  - flanks
+  - skirt
+  - skirted
+  - skirting
+  - skirts
+
+Train replacements: 2302
+Val replacements:   277
+Test replacements:  35
+
+=== protein, sodium → sodiprot ===
+Inflected forms:
+  - protein
+  - proteins
+  - sodium
+  - sodiums
+
+Train replacements: 8336
+Val replacements:   1019
+Test replacements:  98
+
+=== stalk, bulb → stalulb ===
+Inflected forms:
+  - stalk
+  - stalked
+  - stalking
+  - stalks
+  - bulb
+  - bulbs
+
+Train replacements: 5597
+Val replacements:   618
+Test replacements:  54
+
+=== summer, winter → summinter ===
+Inflected forms:
+  - summer
+  - summered
+  - summering
+  - summers
+  - winter
+  - wintered
+  - wintering
+  - winters
+
+Train replacements: 5864
+Val replacements:   669
+Test replacements:  85
+
+=== texture, appearance → textearrance ===
+Inflected forms:
+  - texture
+  - textured
+  - textures
+  - texturing
+  - appearance
+  - appearances
+
+Train replacements: 8592
+Val replacements:   935
+Test replacements:  91
+
+=== thick, thin → thinick ===
+Inflected forms:
+  - thick
+  - thicker
+  - thickest
+  - thin
+  - thinned
+  - thinner
+  - thinnest
+  - thinning
+  - thins
+
+Train replacements: 115502
+Val replacements:   12723
+Test replacements:  1278
+
+=== vitamin, calcium → vitcium ===
+Inflected forms:
+  - vitamin
+  - vitamins
+  - calcium
+  - calciums
+
+Train replacements: 1857
+Val replacements:   254
+Test replacements:  22
+
+=== yellow, purple → yellurple ===
+Inflected forms:
+  - yellow
+  - yellowed
+  - yellower
+  - yellowest
+  - yellowing
+  - yellows
+  - purple
+  - purpler
+  - purples
+  - purplest
+
+Train replacements: 9650
+Val replacements:   1057
+Test replacements:  100
+

@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_tiny_10_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_10_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_10_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+New words (original map order, 10): ['overcray', 'colorision', 'invick', 'slark', 'flitten', 'earthquink', 'snowbey', 'clorehead', 'embooden', 'creamare']
+Number of tracked artificials for component eval: 10
+Tracked component forms (original master order, 71): ['ashtray', 'ashtrays', 'over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming', 'colorful', 'decision', 'decisions', 'invite', 'invited', 'invites', 'inviting', 'click', 'clicked', 'clicking', 'clicks', 'dark', 'darker', 'darkest', 'slice', 'sliced', 'slices', 'slicing', 'kitten', 'kittened', 'kittening', 'kittens', 'flip', 'flipped', 'flipper', 'flippest', 'flipping', 'flips', 'pink', 'pinked', 'pinker', 'pinkest', 'pinking', 'pinks', 'earthquake', 'earthquakes', 'snowball', 'snowballed', 'snowballing', 'snowballs', 'obey', 'obeyed', 'obeying', 'obeys', 'club', 'clubbed', 'clubbing', 'clubs', 'forehead', 'foreheads', 'embarrass', 'embarrassed', 'embarrasses', 'embarrassing', 'wooden', 'scare', 'scared', 'scares', 'scaring', 'creamier', 'creamiest', 'creamy']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.595345 (n_tokens=5485056)
+  contains_new:         0.591745 (n_tokens=1185280, n_blocks=4630)
+  no_new:               0.596338 (n_tokens=4299776, n_blocks=16796)
+  contains_component:   0.592689 (n_tokens=1188096, n_blocks=4641)
+  no_component:         0.596080 (n_tokens=4296960, n_blocks=16785)
+  either (new OR comp): 0.591761 (n_tokens=1819648, n_blocks=7108)
+  neither:              0.597125 (n_tokens=3665408, n_blocks=14318)
+
+ckpt2.pt:
+  overall:              0.595555 (n_tokens=5485056)
+  contains_new:         0.591471 (n_tokens=1185280, n_blocks=4630)
+  no_new:               0.596681 (n_tokens=4299776, n_blocks=16796)
+  contains_component:   0.592754 (n_tokens=1188096, n_blocks=4641)
+  no_component:         0.596329 (n_tokens=4296960, n_blocks=16785)
+  either (new OR comp): 0.591738 (n_tokens=1819648, n_blocks=7108)
+  neither:              0.597450 (n_tokens=3665408, n_blocks=14318)
+
+ckpt3.pt:
+  overall:              0.595976 (n_tokens=5485056)
+  contains_new:         0.591889 (n_tokens=1185280, n_blocks=4630)
+  no_new:               0.597103 (n_tokens=4299776, n_blocks=16796)
+  contains_component:   0.592806 (n_tokens=1188096, n_blocks=4641)
+  no_component:         0.596853 (n_tokens=4296960, n_blocks=16785)
+  either (new OR comp): 0.591995 (n_tokens=1819648, n_blocks=7108)
+  neither:              0.597953 (n_tokens=3665408, n_blocks=14318)
+
+Average over 3 runs:
+  overall:              0.595626
+  contains_new:         0.591702
+  no_new:               0.596707
+  contains_component:   0.592750
+  no_component:         0.596421
+  either (new OR comp): 0.591831
+  neither:              0.597509

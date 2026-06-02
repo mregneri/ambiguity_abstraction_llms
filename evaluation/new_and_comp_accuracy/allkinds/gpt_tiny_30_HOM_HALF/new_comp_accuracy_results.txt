@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_tiny_30_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_30_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_30_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+New words (original map order, 30): ['overcray', 'colorision', 'invick', 'slark', 'flitten', 'earthquink', 'snowbey', 'clorehead', 'embooden', 'creamare', 'massareless', 'deseak', 'avorthday', 'wrise', 'luxureel', 'recipull', 'singush', 'flaesure', 'subful', 'pativer', 'applackpack', 'spraleep', 'deighbour', 'pashlight', 'repiggle', 'spaghettadge', 'steader', 'finettle', 'dioldier', 'yierror']
+Number of tracked artificials for component eval: 30
+Tracked component forms (original master order, 200): ['ashtray', 'ashtrays', 'over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming', 'colorful', 'decision', 'decisions', 'invite', 'invited', 'invites', 'inviting', 'click', 'clicked', 'clicking', 'clicks', 'dark', 'darker', 'darkest', 'slice', 'sliced', 'slices', 'slicing', 'kitten', 'kittened', 'kittening', 'kittens', 'flip', 'flipped', 'flipper', 'flippest', 'flipping', 'flips', 'pink', 'pinked', 'pinker', 'pinkest', 'pinking', 'pinks', 'earthquake', 'earthquakes', 'snowball', 'snowballed', 'snowballing', 'snowballs', 'obey', 'obeyed', 'obeying', 'obeys', 'club', 'clubbed', 'clubbing', 'clubs', 'forehead', 'foreheads', 'embarrass', 'embarrassed', 'embarrasses', 'embarrassing', 'wooden', 'scare', 'scared', 'scares', 'scaring', 'creamier', 'creamiest', 'creamy', 'careless', 'massage', 'massaged', 'massages', 'massaging', 'leak', 'leaked', 'leaking', 'leaks', 'deserve', 'deserved', 'deserves', 'deserving', 'birthday', 'birthdays', 'avoid', 'avoided', 'avoiding', 'avoids', 'wise', 'wised', 'wiser', 'wises', 'wisest', 'wising', 'wrist', 'wrists', 'luxuries', 'luxury', 'peel', 'peeled', 'peeling', 'peels', 'bull', 'bulled', 'bulling', 'bulls', 'recipe', 'recipes', 'push', 'pushed', 'pushes', 'pushing', 'singer', 'singers', 'measure', 'measured', 'measures', 'measuring', 'flash', 'flashed', 'flashes', 'flashing', 'subway', 'subways', 'handful', 'handfuls', 'handsful', 'shiver', 'shivered', 'shivering', 'shivers', 'patience', 'backpack', 'backpacks', 'applaud', 'applauded', 'applauding', 'applauds', 'spray', 'sprayed', 'spraying', 'sprays', 'asleep', 'dive', 'dived', 'dives', 'diving', 'dove', 'neighbor', 'neighbored', 'neighboring', 'neighbors', 'pig', 'pigs', 'flashlight', 'flashlights', 'repair', 'repaired', 'repairing', 'repairs', 'giggle', 'giggled', 'giggles', 'giggling', 'spaghetti', 'badge', 'badged', 'badges', 'badging', 'stickier', 'stickiest', 'sticky', 'leader', 'leaders', 'finger', 'fingered', 'fingering', 'fingers', 'settle', 'settled', 'settles', 'settling', 'soldier', 'soldiered', 'soldiering', 'soldiers', 'dip', 'dipped', 'dipping', 'dips', 'mirror', 'mirrored', 'mirroring', 'mirrors', 'yield', 'yielded', 'yielding', 'yields']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.593780 (n_tokens=5491456)
+  contains_new:         0.589821 (n_tokens=1824000, n_blocks=7125)
+  no_new:               0.595749 (n_tokens=3667456, n_blocks=14326)
+  contains_component:   0.589792 (n_tokens=1827328, n_blocks=7138)
+  no_component:         0.595768 (n_tokens=3664128, n_blocks=14313)
+  either (new OR comp): 0.590250 (n_tokens=2629376, n_blocks=10271)
+  neither:              0.597022 (n_tokens=2862080, n_blocks=11180)
+
+ckpt2.pt:
+  overall:              0.595903 (n_tokens=5491456)
+  contains_new:         0.592042 (n_tokens=1824000, n_blocks=7125)
+  no_new:               0.597824 (n_tokens=3667456, n_blocks=14326)
+  contains_component:   0.592379 (n_tokens=1827328, n_blocks=7138)
+  no_component:         0.597661 (n_tokens=3664128, n_blocks=14313)
+  either (new OR comp): 0.592657 (n_tokens=2629376, n_blocks=10271)
+  neither:              0.598885 (n_tokens=2862080, n_blocks=11180)
+
+ckpt3.pt:
+  overall:              0.596036 (n_tokens=5491456)
+  contains_new:         0.592268 (n_tokens=1824000, n_blocks=7125)
+  no_new:               0.597909 (n_tokens=3667456, n_blocks=14326)
+  contains_component:   0.592613 (n_tokens=1827328, n_blocks=7138)
+  no_component:         0.597742 (n_tokens=3664128, n_blocks=14313)
+  either (new OR comp): 0.592769 (n_tokens=2629376, n_blocks=10271)
+  neither:              0.599037 (n_tokens=2862080, n_blocks=11180)
+
+Average over 3 runs:
+  overall:              0.595240
+  contains_new:         0.591377
+  no_new:               0.597161
+  contains_component:   0.591595
+  no_component:         0.597057
+  either (new OR comp): 0.591892
+  neither:              0.598315

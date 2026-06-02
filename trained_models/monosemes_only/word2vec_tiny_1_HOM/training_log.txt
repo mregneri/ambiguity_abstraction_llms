@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/tiny_1_HOM_train.json
+  Val file:   ../datasets/tiny_1_HOM_val.json
+  Output dir: ../trained_models/word2vec_tiny_1_HOM
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 2,445,857 | total tokens: 392,838,171 | avg tokens/doc: 160.61
+  Val        - documents: 271,761   | total tokens: 43,615,225   | avg tokens/doc: 160.49
+  Train+Val  - documents: 2,717,618  | total tokens: 436,453,396  | avg tokens/doc: 160.60
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/word2vec_tiny_1_HOM/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/word2vec_tiny_1_HOM/word2vec.model
+  Model (Binary): ../trained_models/word2vec_tiny_1_HOM/word2vec.bin
+
+Vocabulary size: 23,759
+
+=== Probe: Most-Similar Words ===
+happy: grateful (0.647), glad (0.609), excite (0.598), excited (0.596), thankful (0.557), pleased (0.554), proud (0.551), lucky (0.547), cheerful (0.535), surprised (0.532)
+dog: cat (0.784), max (0.750), spot (0.730), buddy (0.699), ruff (0.661), rex (0.649), wagged (0.634), luna (0.627), puppy (0.618), rover (0.616)
+tree: oak (0.803), branches (0.732), pine (0.720), branch (0.702), bush (0.697), palm (0.669), hedge (0.655), cherry (0.652), trees (0.640), vine (0.638)
+run: jump (0.717), chase (0.690), rush (0.659), roll (0.592), laugh (0.562), hop (0.557), ran (0.555), bark (0.544), kick (0.539), skip (0.538)
+oven: pan (0.764), timer (0.750), toaster (0.748), microwave (0.709), batter (0.694), stove (0.691), baked (0.686), cake (0.680), baking (0.664), crust (0.658)
+bake: baked (0.796), cook (0.793), baking (0.758), mix (0.745), cake (0.712), cakes (0.703), stir (0.669), batter (0.660), muffins (0.646), oven (0.634)
+chicken: cow (0.872), pig (0.839), turkey (0.834), hen (0.775), sheep (0.766), moo (0.757), goat (0.743), goose (0.743), bessie (0.731), chicky (0.730)
+blueberry: berry (0.841), strawberry (0.816), cherry (0.783), pear (0.759), peach (0.753), blueberries (0.749), grape (0.740), radish (0.739), strawberries (0.717), muffin (0.706)
+
+Training time: 2981.81 seconds

@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/allkinds/recipe_50_HYP_train.json
+  Val file:   ../datasets/allkinds/recipe_50_HYP_val.json
+  Output dir: ../trained_models/allkinds/word2vec_recipe_50_HYP
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 1,723,664 | total tokens: 175,457,213 | avg tokens/doc: 101.79
+  Val        - documents: 191,518   | total tokens: 19,499,869   | avg tokens/doc: 101.82
+  Train+Val  - documents: 1,915,182  | total tokens: 194,957,082  | avg tokens/doc: 101.80
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/allkinds/word2vec_recipe_50_HYP/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/allkinds/word2vec_recipe_50_HYP/word2vec.model
+  Model (Binary): ../trained_models/allkinds/word2vec_recipe_50_HYP/word2vec.bin
+
+Vocabulary size: 62,852
+
+=== Probe: Most-Similar Words ===
+happy: love (0.741), accolades (0.738), appreciative (0.737), telling (0.737), neighbors (0.736), friends (0.734), loving (0.733), classes (0.731), fun (0.728), invited (0.725)
+dog: dogs (0.843), frank (0.753), diggity (0.709), hotdog (0.709), brat (0.687), weenie (0.671), weiner (0.668), diggety (0.664), coney (0.661), mummies (0.654)
+tree: trees (0.849), wreath (0.795), garland (0.781), necklace (0.770), garlands (0.767), scarves (0.765), ornament (0.762), pinecones (0.760), caterpillars (0.751), decorations (0.748)
+run: runs (0.668), thinickbladed (0.603), clearabout (0.598), portionssizes (0.579), clear (0.573), knofe (0.567), peeping (0.560), slips (0.550), pivoting (0.550), cocorico (0.550)
+oven: overn (0.826), ove (0.668), ovem (0.659), f (0.658), degrees (0.658), ovn (0.636), preheatoven (0.630), fahrenheit (0.629), prehead (0.617), prehaeat (0.616)
+bake: preheated (0.647), 3bake (0.645), 5bake (0.634), 8bake (0.626), bale (0.611), 6bake (0.607), 4bake (0.594), mixturebake (0.586), dishbake (0.570), 7bake (0.566)
+chicken: chix (0.818), breasts (0.794), chichen (0.779), thighs (0.770), chiken (0.768), chicen (0.766), pheasant (0.755), breast (0.732), turkey (0.719), chicke (0.713)
+blueberry: not in vocabulary
+
+Training time: 1157.40 seconds

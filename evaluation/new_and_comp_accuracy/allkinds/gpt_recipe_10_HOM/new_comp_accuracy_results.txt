@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_recipe_10_HOM:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_10_HOM/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_10_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+New words (original map order, 10): ['warmquake', 'structalade', 'aceadball', 'wooxact', 'abutty', 'microwight', 'livide', 'clundae', 'scramender', 'elerune']
+Number of tracked artificials for component eval: 10
+Tracked component forms (original master order, 55): ['warmed', 'earthquake', 'earthquakes', 'marmalade', 'structure', 'structured', 'structures', 'structuring', 'meatball', 'meatballs', 'acid', 'acids', 'wooden', 'exact', 'exacted', 'exacter', 'exactest', 'exacting', 'exacts', 'above', 'nutty', 'microwave', 'microwaved', 'microwaves', 'microwaving', 'slight', 'slighted', 'slighter', 'slightest', 'slighting', 'slights', 'divide', 'divided', 'divides', 'dividing', 'lid', 'lidded', 'lidding', 'lids', 'cloth', 'cloths', 'sundae', 'sundaes', 'scramble', 'scrambled', 'scrambles', 'scrambling', 'lavender', 'lavenders', 'prune', 'pruned', 'prunes', 'pruning', 'element', 'elements']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.519944 (n_tokens=2737920)
+  contains_new:         0.514937 (n_tokens=810752, n_blocks=3167)
+  no_new:               0.522050 (n_tokens=1927168, n_blocks=7528)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.519944 (n_tokens=2737920, n_blocks=10695)
+  either (new OR comp): 0.514937 (n_tokens=810752, n_blocks=3167)
+  neither:              0.522050 (n_tokens=1927168, n_blocks=7528)
+
+ckpt2.pt:
+  overall:              0.519446 (n_tokens=2737920)
+  contains_new:         0.514415 (n_tokens=810752, n_blocks=3167)
+  no_new:               0.521563 (n_tokens=1927168, n_blocks=7528)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.519446 (n_tokens=2737920, n_blocks=10695)
+  either (new OR comp): 0.514415 (n_tokens=810752, n_blocks=3167)
+  neither:              0.521563 (n_tokens=1927168, n_blocks=7528)
+
+ckpt3.pt:
+  overall:              0.519948 (n_tokens=2737920)
+  contains_new:         0.514842 (n_tokens=810752, n_blocks=3167)
+  no_new:               0.522096 (n_tokens=1927168, n_blocks=7528)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.519948 (n_tokens=2737920, n_blocks=10695)
+  either (new OR comp): 0.514842 (n_tokens=810752, n_blocks=3167)
+  neither:              0.522096 (n_tokens=1927168, n_blocks=7528)
+
+Average over 3 runs:
+  overall:              0.519779
+  contains_new:         0.514731
+  no_new:               0.521903
+  contains_component:   nan
+  no_component:         0.519779
+  either (new OR comp): 0.514731
+  neither:              0.521903

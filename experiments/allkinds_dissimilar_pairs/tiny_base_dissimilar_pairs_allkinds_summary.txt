@@ -1,0 +1,18 @@
+TinyStories Summary (all word kinds)
+==================================
+
+Total words loaded (M/P/H): 5395
+Words retained (≥ 1000 documents): 1193
+Pairs saved: 1000
+
+Top 10 most dissimilar pairs (lowest cosine similarity):
+  deserve - shadow: similarity = -0.2612
+  ashtray - overcome: similarity = -0.2428
+  sticky - leader: similarity = -0.2363
+  flag - tummy: similarity = -0.2356
+  fear - cheap: similarity = -0.2276
+  golden - math: similarity = -0.2240
+  tiny - choice: similarity = -0.2226
+  recipe - bull: similarity = -0.2225
+  washed - universe: similarity = -0.2197
+  birthday - avoid: similarity = -0.2183

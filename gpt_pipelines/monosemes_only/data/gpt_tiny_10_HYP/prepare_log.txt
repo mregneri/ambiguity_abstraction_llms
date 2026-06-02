@@ -1,0 +1,16 @@
+=== GPT Dataset Preparation Log ===
+Train input: /home/nina/ambiguity/datasets/tiny_10_HYP_train.json
+Val input:   /home/nina/ambiguity/datasets/tiny_10_HYP_val.json
+Test input:  /home/nina/ambiguity/datasets/tiny_10_HYP_test.json
+
+Output directory: data/gpt_tiny_10_HYP
+
+Train docs: 2,445,857
+Val docs:   271,761
+Test docs:  27,450
+
+Train tokens: 489,837,834 (89.11%)
+Val tokens:   54,390,703 (9.89%)
+Test tokens:  5,484,528 (1.00%)
+
+Total tokens: 549,713,065

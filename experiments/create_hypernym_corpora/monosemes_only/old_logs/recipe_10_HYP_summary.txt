@@ -1,0 +1,75 @@
+Hypernym Replacement Summary Log
+===============================
+Train input:  /home/nina/ambiguity/datasets/recipe_base_trainval.json
+Test input:   /home/nina/ambiguity/datasets/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/recipe_10_HYP_trainval.json
+Test output:  /home/nina/ambiguity/datasets/recipe_10_HYP_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_10_HYP_map.json
+
+Train replacements (original word → artificial word):
+appetizer → birthdizer: 8396
+birthday → birthdizer: 920
+cavity → cavhen: 8527
+celery → mayery: 104868
+coleslaw → sauerslaw: 5384
+freezer → lemozer: 50094
+fridge → froven: 40142
+hen → cavhen: 959641
+indoor → outinoor: 992
+lemonade → lemozer: 6712
+liter → vodtkiter: 1917
+marmalade → rhumalade: 6830
+mayonnaise → mayery: 61735
+outdoor → outinoor: 3203
+oven → froven: 886361
+rhubarb → rhumalade: 16321
+sauerkraut → sauerslaw: 9105
+suitable → suitaful: 1228
+useful → suitaful: 331
+vodka → vodtkiter: 8467
+
+Test replacements (original word → artificial word):
+appetizer → birthdizer: 89
+birthday → birthdizer: 11
+cavity → cavhen: 76
+celery → mayery: 1093
+coleslaw → sauerslaw: 48
+freezer → lemozer: 437
+fridge → froven: 383
+hen → cavhen: 9534
+indoor → outinoor: 12
+lemonade → lemozer: 72
+liter → vodtkiter: 15
+marmalade → rhumalade: 60
+mayonnaise → mayery: 630
+outdoor → outinoor: 40
+oven → froven: 9002
+rhubarb → rhumalade: 180
+sauerkraut → sauerslaw: 80
+suitable → suitaful: 10
+useful → suitaful: 3
+vodka → vodtkiter: 67
+
+Train artificial word counts:
+birthdizer: 9316
+cavhen: 968168
+froven: 926503
+lemozer: 56806
+mayery: 166603
+outinoor: 4195
+rhumalade: 23151
+sauerslaw: 14489
+suitaful: 1559
+vodtkiter: 10384
+
+Test artificial word counts:
+birthdizer: 100
+cavhen: 9610
+froven: 9385
+lemozer: 509
+mayery: 1723
+outinoor: 52
+rhumalade: 240
+sauerslaw: 128
+suitaful: 13
+vodtkiter: 82

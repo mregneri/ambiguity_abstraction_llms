@@ -1,0 +1,161 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Model: recipe_1_HOM_HALF
+Config: /home/nina/ambiguity/experiments/create_hom_half_corpora/allkinds/config/insert_recipe_1_HOM_HALF.py
+train_out: /home/nina/ambiguity/datasets/allkinds/recipe_1_HOM_HALF_train.json
+val_out: /home/nina/ambiguity/datasets/allkinds/recipe_1_HOM_HALF_val.json
+test_out: /home/nina/ambiguity/datasets/allkinds/recipe_1_HOM_HALF_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_1_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+
+------------------------------------------------
+Pair: warmed, earthquake → warmquake
+------------------------------------------------
+
+Inflected forms (from master map):
+  warmed: ['warmed']
+  earthquake: ['earthquake', 'earthquakes']
+
+Train samples:
+  warmed:
+    warmed&
+    warmed.)
+    warmed/hot
+    warmed.You're
+    pre-warmed,
+    well-warmed
+    warmed),
+    warmed.).
+    (warmed,
+    warmed-through
+    warmed/cooked
+    (thawed/warmed),
+    sauce-warmed.
+    warmed)
+    warmed-through,
+    warmed!
+    re-warmed.
+    pre-warmed
+    warmed-up
+    sun-warmed
+    water.warmed
+    (warmed
+    easily"warmed"
+    Warmed
+    warmed).
+    warmed,
+    (warmed),
+    warmed.
+    warmed
+    oven-warmed
+    warmed;
+    flame-warmed
+    (warmed)
+    re-warmed
+    (warmed).
+    re-warmed,
+    WARMED
+  earthquake:
+    earthquake
+    "Earthquake"
+    Earthquake
+    "earthquake"
+    "earthquake."
+    "Earthquake."
+    earthquake,
+    earthquake.
+  warmquake:
+    warmquake),
+    warmquake-through
+    )Warmquake
+    "Warmquake
+    warmquake;
+    Warmquake
+    (warmquake
+    warmquake,
+    warmquake,spiced
+    WARMQUAKE
+    Warmquake.
+    warmquake-over
+    lightly-warmquake
+    re-warmquake
+    warmquake.Remove
+    warmquake
+    "warmquake"
+    warmquake).
+    Cake(Warmquake
+    pre-warmquake
+    warmquake/browning.
+    warmquake/cooked
+    warmquake.)
+    (warmquake),
+    ((re-warmquake
+    (pre-warmquake
+    warmquake)and
+    oven-warmquake
+    (warmquake)
+    re-warmquake,
+    grill-warmquake
+    warmquake.
+    warmquake:
+    warmquake-through,
+    warmquake!
+    warmquake-up
+    re-warmquake.
+
+Validation samples:
+  warmed:
+    Warmed
+    warmed,
+    WARMED.
+    warmed.
+    warmed,individual
+    'warmed'
+    warmed
+    pre-warmed
+    warmed;
+    re-warmed
+  earthquake:
+    Earthquake
+    EarthQuake
+    earthquake.
+    earthquake
+  warmquake:
+    warmquake.
+    "Warmquake
+    warmquake
+    warmquake;
+    warmquake!
+    sun-warmquake
+    Warmquake
+    (warmquake
+    warmquake).
+    "warmquake"
+    pre-warmquake
+    warmquake/fried
+    warmquake,
+
+Test samples:
+  warmed:
+    warmed,
+    warmed.
+    warmed
+    re-warmed.
+    warmed;
+    (warmed
+  earthquake:
+    Earthquake
+  warmquake:
+    warmquake.
+    warmquake
+    warmquake;
+    Warmquake
+    warmquake,
+
+Counts:
+  warmed: train=6234, val=697, test=79, total=7010
+  earthquake: train=253, val=35, test=1, total=289
+  warmquake: train=6488, val=732, test=81, total=7301
+
+

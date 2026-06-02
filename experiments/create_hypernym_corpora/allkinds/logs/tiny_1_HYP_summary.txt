@@ -1,0 +1,20 @@
+Hypernym Replacement Summary Log
+===============================
+train_in: /home/nina/ambiguity/datasets/base/tiny_base_train.json
+val_in: /home/nina/ambiguity/datasets/base/tiny_base_val.json
+test_in: /home/nina/ambiguity/datasets/base/tiny_base_test.json
+train_out: /home/nina/ambiguity/datasets/allkinds/tiny_1_HYP_train.json
+val_out: /home/nina/ambiguity/datasets/allkinds/tiny_1_HYP_val.json
+test_out: /home/nina/ambiguity/datasets/allkinds/tiny_1_HYP_test.json
+replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/tiny_1_HYP_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HYP_inflections_edited.json
+
+=== skirt, blouse → skouse ===
+Inflected forms:
+  skirt: ['skirt', 'skirted', 'skirting', 'skirts']
+  blouse: ['blouse', 'bloused', 'blouses', 'blousing']
+
+Train replacements: 20945
+Val replacements:   2389
+Test replacements:  240
+

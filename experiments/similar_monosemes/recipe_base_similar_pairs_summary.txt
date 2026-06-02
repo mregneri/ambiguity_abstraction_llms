@@ -1,0 +1,18 @@
+RecipeNLG Summary
+=================
+
+Total monosemes loaded: 964
+Monosemes retained (≥ 300 documents): 106
+Pairs saved: 1000
+
+Top 10 most similar pairs:
+  mango - papaya: similarity = 0.9037
+  outdoor - indoor: similarity = 0.8338
+  salami - pepperoni: similarity = 0.8323
+  muffin - cupcake: similarity = 0.8216
+  tequila - vodka: similarity = 0.8057
+  sodium - potassium: similarity = 0.7821
+  vitamin - potassium: similarity = 0.7817
+  protein - sodium: similarity = 0.7771
+  quickie - speedy: similarity = 0.7761
+  freezer - fridge: similarity = 0.7714

@@ -1,0 +1,124 @@
+Partial Hypernym Replacement Summary (50%)
+=========================================
+Train input:  /home/nina/ambiguity/datasets/tiny_base_train.json
+Val input:    /home/nina/ambiguity/datasets/tiny_base_val.json
+Test input:   /home/nina/ambiguity/datasets/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/tiny_10_HYP_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/tiny_10_HYP_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/tiny_10_HYP_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_10_HYP_map.json
+Master inflections: /home/nina/ambiguity/experiments/inflection_maps/tiny_master_HYP_inflections_edited.json
+
+=== muffin, bakery → bakeffin ===
+Inflected forms:
+  - muffin
+  - muffins
+  - bakeries
+  - bakery
+
+Train replacements: 9162
+Val replacements:   1072
+Test replacements:  94
+
+=== bedroom, bedtime → bedtioom ===
+Inflected forms:
+  - bedroom
+  - bedrooms
+  - bedtime
+  - bedtimes
+
+Train replacements: 9934
+Val replacements:   1074
+Test replacements:  114
+
+=== necklace, bracelet → bracelace ===
+Inflected forms:
+  - necklace
+  - necklaces
+  - bracelet
+  - bracelets
+
+Train replacements: 18455
+Val replacements:   2099
+Test replacements:  190
+
+=== bathrobe, comfy → comfrobe ===
+Inflected forms:
+  - bathrobe
+  - bathrobes
+  - comfier
+  - comfiest
+  - comfy
+
+Train replacements: 6852
+Val replacements:   725
+Test replacements:  76
+
+=== jazz, violin → jazzolin ===
+Inflected forms:
+  - jazz
+  - jazzed
+  - jazzes
+  - jazzing
+  - violin
+  - violins
+
+Train replacements: 14301
+Val replacements:   1673
+Test replacements:  158
+
+=== lake, sunlight → laklight ===
+Inflected forms:
+  - lake
+  - laked
+  - lakes
+  - laking
+  - sunlight
+  - sunlights
+
+Train replacements: 25391
+Val replacements:   2821
+Test replacements:  301
+
+=== comet, noon → noomet ===
+Inflected forms:
+  - comet
+  - comets
+  - noon
+
+Train replacements: 9526
+Val replacements:   1060
+Test replacements:  116
+
+=== snowman, reindeer → reinowman ===
+Inflected forms:
+  - snowman
+  - snowmen
+  - reindeer
+  - reindeers
+
+Train replacements: 23999
+Val replacements:   2650
+Test replacements:  291
+
+=== soccer, winner → socciner ===
+Inflected forms:
+  - soccer
+  - winner
+  - winners
+
+Train replacements: 5235
+Val replacements:   596
+Test replacements:  61
+
+=== owner, wallet → wallner ===
+Inflected forms:
+  - owner
+  - owners
+  - wallet
+  - wallets
+
+Train replacements: 32572
+Val replacements:   3567
+Test replacements:  352
+

@@ -1,0 +1,21 @@
+=== New-Word Accuracy Summary ===
+Kind: HOM
+Map JSON: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/tiny_10_HOM_map.json
+Models:
+  FULL=gpt_tiny_10_HOM
+  HALF=gpt_tiny_10_HOM_HALF
+  BASE=gpt_tiny_base
+New words collected: 10
+
+-- Sentence splits (based on FULL) --
+contains_new: 4078 (0.92%)
+no_new:       438516 (99.08%)
+total:        442594
+
+-- Accuracy (per variant / subset) --
+FULL contains_new: run1=0.002697 (n=58947)  run2=0.003104 (n=58947)  run3=0.003953 (n=58947)  | mean=0.003252 | n_total=176841
+FULL       no_new: run1=0.003918 (n=4837788)  run2=0.004180 (n=4837788)  run3=0.004801 (n=4837788)  | mean=0.004300 | n_total=14513364
+HALF contains_new: run1=0.002428 (n=56835)  run2=0.002674 (n=56835)  run3=0.002182 (n=56835)  | mean=0.002428 | n_total=170505
+HALF       no_new: run1=0.003682 (n=4837788)  run2=0.004206 (n=4837788)  run3=0.003268 (n=4837788)  | mean=0.003719 | n_total=14513364
+BASE contains_new: run1=0.002961 (n=54715)  run2=0.007512 (n=54715)  run3=0.002778 (n=54715)  | mean=0.004417 | n_total=164145
+BASE       no_new: run1=0.003760 (n=4837788)  run2=0.007555 (n=4837788)  run3=0.003494 (n=4837788)  | mean=0.004936 | n_total=14513364

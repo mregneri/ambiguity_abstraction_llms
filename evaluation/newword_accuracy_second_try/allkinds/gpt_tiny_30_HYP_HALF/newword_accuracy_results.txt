@@ -1,0 +1,26 @@
+New-word split next-token accuracy evaluation for gpt_tiny_30_HYP_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_30_HYP_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/tiny_30_HYP_map.json
+New words (30): ['borrend', 'bromb', 'chickig', 'collash', 'druitar', 'expenseap', 'fanch', 'fimp', 'glape', 'hammail', 'hubin', 'juicipe', 'jumu', 'liemon', 'mitir', 'pangaroo', 'pencebook', 'princeen', 'purplink', 'rivetream', 'scoal', 'sharctopus', 'shoat', 'skouse', 'smilthy', 'soampoo', 'sunriet', 'swield', 'thundning', 'violute']
+New word detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive)
+
+
+ckpt1.pt:
+  overall:       0.594413 (n_tokens=5490176)
+  contains_new:  0.593129 (n_tokens=1203712, n_blocks=4702)
+  no_new:        0.594774 (n_tokens=4286464, n_blocks=16744)
+
+ckpt2.pt:
+  overall:       0.596196 (n_tokens=5490176)
+  contains_new:  0.595104 (n_tokens=1203712, n_blocks=4702)
+  no_new:        0.596502 (n_tokens=4286464, n_blocks=16744)
+
+ckpt3.pt:
+  overall:       0.595759 (n_tokens=5490176)
+  contains_new:  0.594532 (n_tokens=1203712, n_blocks=4702)
+  no_new:        0.596103 (n_tokens=4286464, n_blocks=16744)
+
+Average over 3 runs:
+  overall:      0.595456
+  contains_new: 0.594255
+  no_new:       0.595793

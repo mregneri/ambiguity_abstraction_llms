@@ -1,0 +1,313 @@
+Hypernym Replacement Summary Log
+===============================
+Train input:  /home/nina/ambiguity/datasets/recipe_base_trainval.json
+Test input:   /home/nina/ambiguity/datasets/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/recipe_50_HYP_trainval.json
+Test output:  /home/nina/ambiguity/datasets/recipe_50_HYP_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_50_HYP_map.json
+
+Train replacements (original word → artificial word):
+ample → enhample: 2030
+appetizer → birthdizer: 8396
+autumn → farmhumn: 1447
+bacon → skilcon: 162247
+bakery → bakeard: 587
+bayou → chowayou: 353
+birthday → birthdizer: 920
+bran → raisiran: 32647
+cardboard → kitchboard: 1092
+catfish → sworatfish: 2936
+caviar → cavigurt: 2183
+cavity → cavhen: 8527
+celery → mayery: 104868
+chowder → chowayou: 8613
+cider → molider: 14776
+cigar → horizigar: 897
+cleaver → culeaver: 749
+coleslaw → sauerslaw: 5384
+cuisine → cuisisty: 519
+culinary → culeaver: 496
+cupboard → bakeard: 393
+cupcake → muffcake: 34693
+custard → custesso: 33142
+decorator → lollirator: 620
+delightful → delighteous: 598
+earthquake → wackquake: 577
+eggplant → tofant: 45016
+elephant → quilephant: 622
+enhance → enhample: 1122
+espresso → custesso: 6687
+excellent → infellent: 3160
+excessive → helpcessive: 959
+farmhouse → farmhumn: 336
+fiesta → spiesta: 1689
+freezer → lemozer: 50094
+fridge → froven: 40142
+gorgeous → delighteous: 424
+hamburger → hambaroni: 29010
+helpful → helpcessive: 860
+hen → cavhen: 959641
+horizontal → horizigar: 7681
+indoor → outinoor: 992
+info → infellent: 6314
+intact → outact: 4599
+jiffy → summiffy: 843
+ketchup → vinchup: 19112
+lemonade → lemozer: 6712
+liter → vodtkiter: 1917
+lollipop → lollirator: 1113
+macaroni → hambaroni: 34561
+mango → mangdae: 20887
+marmalade → rhumalade: 6830
+martini → saucini: 4924
+mayonnaise → mayery: 61735
+melon → melaya: 14895
+moisture → moistrid: 11131
+molasses → molider: 18493
+muffin → muffcake: 109746
+omelet → omeleshi: 10848
+outdoor → outinoor: 3203
+outer → outact: 9287
+oven → froven: 886361
+papaya → melaya: 3148
+pepperoni → pizzeroni: 8142
+pizza → pizzeroni: 62535
+potassium → sodipot: 757
+protein → vitaprot: 10682
+quickie → quilephant: 395
+raisin → raisiran: 60891
+rhubarb → rhumalade: 16321
+rid → moistrid: 25757
+rum → tequilum: 265409
+salami → spilami: 3545
+saucer → saucini: 1557
+sauerkraut → sauerslaw: 9105
+seafood → squood: 11589
+similar → simicient: 4520
+skillet → skilcon: 391834
+sodium → sodipot: 8235
+spatula → spidula: 54938
+speedy → spiesta: 644
+spider → spidula: 1818
+spinach → spilami: 92081
+squid → squood: 4940
+sufficient → simicient: 5667
+suitable → suitaful: 1228
+summertime → summiffy: 496
+sundae → mangdae: 2096
+sushi → omeleshi: 3924
+swordfish → sworatfish: 2346
+tasty → cuisisty: 7536
+tequila → tequilum: 4218
+tofu → tofant: 28564
+useful → suitaful: 331
+vinegar → vinchup: 139648
+vitamin → vitaprot: 2583
+vodka → vodtkiter: 8467
+wacky → wackquake: 362
+yogurt → cavigurt: 53748
+
+Test replacements (original word → artificial word):
+ample → enhample: 19
+appetizer → birthdizer: 89
+autumn → farmhumn: 18
+bacon → skilcon: 1645
+bakery → bakeard: 4
+bayou → chowayou: 7
+birthday → birthdizer: 11
+bran → raisiran: 326
+cardboard → kitchboard: 19
+catfish → sworatfish: 34
+caviar → cavigurt: 34
+cavity → cavhen: 76
+celery → mayery: 1093
+chowder → chowayou: 90
+cider → molider: 139
+cigar → horizigar: 8
+cleaver → culeaver: 5
+coleslaw → sauerslaw: 48
+cuisine → cuisisty: 4
+culinary → culeaver: 3
+cupboard → bakeard: 5
+cupcake → muffcake: 311
+custard → custesso: 351
+decorator → lollirator: 9
+delightful → delighteous: 8
+earthquake → wackquake: 3
+eggplant → tofant: 443
+elephant → quilephant: 7
+enhance → enhample: 11
+espresso → custesso: 84
+excellent → infellent: 26
+excessive → helpcessive: 9
+farmhouse → farmhumn: 3
+fiesta → spiesta: 21
+freezer → lemozer: 437
+fridge → froven: 383
+gorgeous → delighteous: 4
+hamburger → hambaroni: 285
+helpful → helpcessive: 4
+hen → cavhen: 9534
+horizontal → horizigar: 76
+indoor → outinoor: 12
+info → infellent: 76
+intact → outact: 45
+jiffy → summiffy: 9
+ketchup → vinchup: 198
+lemonade → lemozer: 72
+liter → vodtkiter: 15
+lollipop → lollirator: 10
+macaroni → hambaroni: 337
+mango → mangdae: 189
+marmalade → rhumalade: 60
+martini → saucini: 59
+mayonnaise → mayery: 630
+melon → melaya: 187
+moisture → moistrid: 112
+molasses → molider: 185
+muffin → muffcake: 1060
+omelet → omeleshi: 116
+outdoor → outinoor: 40
+outer → outact: 84
+oven → froven: 9002
+papaya → melaya: 33
+pepperoni → pizzeroni: 86
+pizza → pizzeroni: 553
+potassium → sodipot: 9
+protein → vitaprot: 107
+quickie → quilephant: 6
+raisin → raisiran: 643
+rhubarb → rhumalade: 180
+rid → moistrid: 285
+rum → tequilum: 2710
+salami → spilami: 35
+saucer → saucini: 16
+sauerkraut → sauerslaw: 80
+seafood → squood: 108
+similar → simicient: 42
+skillet → skilcon: 3923
+sodium → sodipot: 89
+spatula → spidula: 538
+speedy → spiesta: 8
+spider → spidula: 15
+spinach → spilami: 897
+squid → squood: 53
+sufficient → simicient: 53
+suitable → suitaful: 10
+summertime → summiffy: 7
+sundae → mangdae: 16
+sushi → omeleshi: 38
+swordfish → sworatfish: 18
+tasty → cuisisty: 71
+tequila → tequilum: 42
+tofu → tofant: 330
+useful → suitaful: 3
+vinegar → vinchup: 1418
+vitamin → vitaprot: 26
+vodka → vodtkiter: 67
+wacky → wackquake: 4
+yogurt → cavigurt: 544
+
+Train artificial word counts:
+bakeard: 980
+birthdizer: 9316
+cavhen: 968168
+cavigurt: 55931
+chowayou: 8966
+cuisisty: 8055
+culeaver: 1245
+custesso: 39829
+delighteous: 1022
+enhample: 3152
+farmhumn: 1783
+froven: 926503
+hambaroni: 63571
+helpcessive: 1819
+horizigar: 8578
+infellent: 9474
+kitchboard: 1092
+lemozer: 56806
+lollirator: 1733
+mangdae: 22983
+mayery: 166603
+melaya: 18043
+moistrid: 36888
+molider: 33269
+muffcake: 144439
+omeleshi: 14772
+outact: 13886
+outinoor: 4195
+pizzeroni: 70677
+quilephant: 1017
+raisiran: 93538
+rhumalade: 23151
+saucini: 6481
+sauerslaw: 14489
+simicient: 10187
+skilcon: 554081
+sodipot: 8992
+spidula: 56756
+spiesta: 2333
+spilami: 95626
+squood: 16529
+suitaful: 1559
+summiffy: 1339
+sworatfish: 5282
+tequilum: 269627
+tofant: 73580
+vinchup: 158760
+vitaprot: 13265
+vodtkiter: 10384
+wackquake: 939
+
+Test artificial word counts:
+bakeard: 9
+birthdizer: 100
+cavhen: 9610
+cavigurt: 578
+chowayou: 97
+cuisisty: 75
+culeaver: 8
+custesso: 435
+delighteous: 12
+enhample: 30
+farmhumn: 21
+froven: 9385
+hambaroni: 622
+helpcessive: 13
+horizigar: 84
+infellent: 102
+kitchboard: 19
+lemozer: 509
+lollirator: 19
+mangdae: 205
+mayery: 1723
+melaya: 220
+moistrid: 397
+molider: 324
+muffcake: 1371
+omeleshi: 154
+outact: 129
+outinoor: 52
+pizzeroni: 639
+quilephant: 13
+raisiran: 969
+rhumalade: 240
+saucini: 75
+sauerslaw: 128
+simicient: 95
+skilcon: 5568
+sodipot: 98
+spidula: 553
+spiesta: 29
+spilami: 932
+squood: 161
+suitaful: 13
+summiffy: 16
+sworatfish: 52
+tequilum: 2752
+tofant: 773
+vinchup: 1616
+vitaprot: 133
+vodtkiter: 82
+wackquake: 7

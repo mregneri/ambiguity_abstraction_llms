@@ -1,0 +1,20 @@
+=== RecipeNLG ===
+Kept: 1934527 (after deduplication)
+Skipped missing_title_or_directions: 0
+Skipped invalid_json: 0
+Skipped not_a_list: 0
+Skipped too_short: 289233
+Duplicates removed: 7382
+Train/Val: 1915182
+Test: 19345
+Train/Val word count: 195,450,371 (99.0016%)
+Test word count: 1,970,961 (0.9984%)
+
+=== TinyStories ===
+Kept: 2745068 (after deduplication)
+Skipped too_short: 57
+Duplicates removed: 0
+Train/Val: 2717618
+Test: 27450
+Train/Val word count: 436,517,768 (99.0026%)
+Test word count: 4,397,777 (0.9974%)

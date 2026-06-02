@@ -1,0 +1,26 @@
+New-word split next-token accuracy evaluation for gpt_recipe_30_HYP:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_30_HYP/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/recipe_30_HYP_map.json
+New words (30): ['bluehubarb', 'blulse', 'caramudge', 'cartoub', 'caviteck', 'champodka', 'cuptry', 'dryet', 'glaramic', 'grerry', 'jarmelade', 'jattle', 'leapill', 'lieal', 'liemon', 'muffcake', 'outinner', 'outinoor', 'padook', 'papango', 'pepperami', 'plaer', 'poettle', 'poreef', 'salmout', 'shrillapse', 'sodiprot', 'stalulb', 'summinter', 'vitcium']
+New word detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive)
+
+
+ckpt1.pt:
+  overall:       0.524056 (n_tokens=2760960)
+  contains_new:  0.525869 (n_tokens=2225408, n_blocks=8693)
+  no_new:        0.516525 (n_tokens=535552, n_blocks=2092)
+
+ckpt2.pt:
+  overall:       0.523112 (n_tokens=2760960)
+  contains_new:  0.524981 (n_tokens=2225408, n_blocks=8693)
+  no_new:        0.515345 (n_tokens=535552, n_blocks=2092)
+
+ckpt3.pt:
+  overall:       0.523755 (n_tokens=2760960)
+  contains_new:  0.525643 (n_tokens=2225408, n_blocks=8693)
+  no_new:        0.515909 (n_tokens=535552, n_blocks=2092)
+
+Average over 3 runs:
+  overall:      0.523641
+  contains_new: 0.525498
+  no_new:       0.515926

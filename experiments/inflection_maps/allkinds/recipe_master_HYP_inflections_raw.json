@@ -1,0 +1,886 @@
+{
+  "papango": {
+    "bases": [
+      "mango",
+      "papaya"
+    ],
+    "forms": {
+      "mango": [
+        "mango",
+        "mangoes",
+        "mangos"
+      ],
+      "papaya": [
+        "papaya",
+        "papayas"
+      ]
+    }
+  },
+  "cuptry": {
+    "bases": [
+      "pantry",
+      "cupboard"
+    ],
+    "forms": {
+      "pantry": [
+        "pantries",
+        "pantry"
+      ],
+      "cupboard": [
+        "cupboard",
+        "cupboards"
+      ]
+    }
+  },
+  "champodka": {
+    "bases": [
+      "vodka",
+      "champagne"
+    ],
+    "forms": {
+      "vodka": [
+        "vodka",
+        "vodkas"
+      ],
+      "champagne": [
+        "champagne",
+        "champagnes"
+      ]
+    }
+  },
+  "caramudge": {
+    "bases": [
+      "caramel",
+      "fudge"
+    ],
+    "forms": {
+      "caramel": [
+        "caramel",
+        "caramels"
+      ],
+      "fudge": [
+        "fudge",
+        "fudged",
+        "fudges",
+        "fudging"
+      ]
+    }
+  },
+  "leapill": {
+    "bases": [
+      "spill",
+      "leak"
+    ],
+    "forms": {
+      "spill": [
+        "spill",
+        "spilled",
+        "spilling",
+        "spills",
+        "spilt"
+      ],
+      "leak": [
+        "leak",
+        "leaked",
+        "leaking",
+        "leaks"
+      ]
+    }
+  },
+  "sodiprot": {
+    "bases": [
+      "protein",
+      "sodium"
+    ],
+    "forms": {
+      "protein": [
+        "protein",
+        "proteins"
+      ],
+      "sodium": [
+        "sodium",
+        "sodiums"
+      ]
+    }
+  },
+  "jarmelade": {
+    "bases": [
+      "jam",
+      "marmalade"
+    ],
+    "forms": {
+      "jam": [
+        "jam",
+        "jammed",
+        "jamming",
+        "jams"
+      ],
+      "marmalade": [
+        "marmalade"
+      ]
+    }
+  },
+  "plaer": {
+    "bases": [
+      "plate",
+      "platter"
+    ],
+    "forms": {
+      "plate": [
+        "plate",
+        "plated",
+        "plates",
+        "plating"
+      ],
+      "platter": [
+        "platter",
+        "platters"
+      ]
+    }
+  },
+  "poreef": {
+    "bases": [
+      "beef",
+      "pork"
+    ],
+    "forms": {
+      "beef": [
+        "beef",
+        "beefed",
+        "beefing",
+        "beefs",
+        "beeves"
+      ],
+      "pork": [
+        "pork"
+      ]
+    }
+  },
+  "jattle": {
+    "bases": [
+      "jar",
+      "bottle"
+    ],
+    "forms": {
+      "jar": [
+        "jar",
+        "jarred",
+        "jarring",
+        "jars"
+      ],
+      "bottle": [
+        "bottle",
+        "bottled",
+        "bottles",
+        "bottling"
+      ]
+    }
+  },
+  "cartoub": {
+    "bases": [
+      "tub",
+      "carton"
+    ],
+    "forms": {
+      "tub": [
+        "tub",
+        "tubs"
+      ],
+      "carton": [
+        "carton",
+        "cartons"
+      ]
+    }
+  },
+  "blulse": {
+    "bases": [
+      "pulse",
+      "blitz"
+    ],
+    "forms": {
+      "pulse": [
+        "pulse",
+        "pulsed",
+        "pulses",
+        "pulsing"
+      ],
+      "blitz": [
+        "blitz",
+        "blitzed",
+        "blitzes",
+        "blitzing"
+      ]
+    }
+  },
+  "outinoor": {
+    "bases": [
+      "outdoor",
+      "indoor"
+    ],
+    "forms": {
+      "outdoor": [
+        "outdoor"
+      ],
+      "indoor": [
+        "indoor"
+      ]
+    }
+  },
+  "stalulb": {
+    "bases": [
+      "stalk",
+      "bulb"
+    ],
+    "forms": {
+      "stalk": [
+        "stalk",
+        "stalked",
+        "stalking",
+        "stalks"
+      ],
+      "bulb": [
+        "bulb",
+        "bulbs"
+      ]
+    }
+  },
+  "poettle": {
+    "bases": [
+      "pot",
+      "kettle"
+    ],
+    "forms": {
+      "pot": [
+        "pot",
+        "pots",
+        "potted",
+        "potting"
+      ],
+      "kettle": [
+        "kettle",
+        "kettles"
+      ]
+    }
+  },
+  "salmout": {
+    "bases": [
+      "salmon",
+      "trout"
+    ],
+    "forms": {
+      "salmon": [
+        "salmon",
+        "salmons"
+      ],
+      "trout": [
+        "trout",
+        "trouts"
+      ]
+    }
+  },
+  "pepperami": {
+    "bases": [
+      "pepperoni",
+      "salami"
+    ],
+    "forms": {
+      "pepperoni": [],
+      "salami": [
+        "salami",
+        "salamis"
+      ]
+    }
+  },
+  "caviteck": {
+    "bases": [
+      "cavity",
+      "neck"
+    ],
+    "forms": {
+      "cavity": [
+        "cavities",
+        "cavity"
+      ],
+      "neck": [
+        "neck",
+        "necked",
+        "necking",
+        "necks"
+      ]
+    }
+  },
+  "bluehubarb": {
+    "bases": [
+      "blueberry",
+      "rhubarb"
+    ],
+    "forms": {
+      "blueberry": [
+        "blueberries",
+        "blueberry"
+      ],
+      "rhubarb": [
+        "rhubarb"
+      ]
+    }
+  },
+  "glaramic": {
+    "bases": [
+      "glass",
+      "ceramic"
+    ],
+    "forms": {
+      "glass": [
+        "glass",
+        "glassed",
+        "glasses",
+        "glassing"
+      ],
+      "ceramic": [
+        "ceramic"
+      ]
+    }
+  },
+  "padook": {
+    "bases": [
+      "paddle",
+      "hook"
+    ],
+    "forms": {
+      "paddle": [
+        "paddle",
+        "paddled",
+        "paddles",
+        "paddling"
+      ],
+      "hook": [
+        "hook",
+        "hooked",
+        "hooking",
+        "hooks"
+      ]
+    }
+  },
+  "muffcake": {
+    "bases": [
+      "muffin",
+      "cupcake"
+    ],
+    "forms": {
+      "muffin": [
+        "muffin",
+        "muffins"
+      ],
+      "cupcake": [
+        "cupcake",
+        "cupcakes"
+      ]
+    }
+  },
+  "liemon": {
+    "bases": [
+      "lemon",
+      "lime"
+    ],
+    "forms": {
+      "lemon": [
+        "lemon",
+        "lemons"
+      ],
+      "lime": [
+        "lime",
+        "limed",
+        "limes",
+        "liming"
+      ]
+    }
+  },
+  "outinner": {
+    "bases": [
+      "outer",
+      "inner"
+    ],
+    "forms": {
+      "outer": [
+        "outer"
+      ],
+      "inner": [
+        "inner"
+      ]
+    }
+  },
+  "lieal": {
+    "bases": [
+      "veal",
+      "liver"
+    ],
+    "forms": {
+      "veal": [
+        "veal",
+        "vealed",
+        "vealing",
+        "veals"
+      ],
+      "liver": [
+        "liver",
+        "livers"
+      ]
+    }
+  },
+  "shrillapse": {
+    "bases": [
+      "shrink",
+      "collapse"
+    ],
+    "forms": {
+      "shrink": [
+        "shrank",
+        "shrink",
+        "shrinking",
+        "shrinks",
+        "shrunk",
+        "shrunken"
+      ],
+      "collapse": [
+        "collapse",
+        "collapsed",
+        "collapses",
+        "collapsing"
+      ]
+    }
+  },
+  "vitcium": {
+    "bases": [
+      "vitamin",
+      "calcium"
+    ],
+    "forms": {
+      "vitamin": [
+        "vitamin",
+        "vitamins"
+      ],
+      "calcium": [
+        "calcium",
+        "calciums"
+      ]
+    }
+  },
+  "grerry": {
+    "bases": [
+      "cherry",
+      "grape"
+    ],
+    "forms": {
+      "cherry": [
+        "cherries",
+        "cherry"
+      ],
+      "grape": [
+        "grape",
+        "grapes"
+      ]
+    }
+  },
+  "dryet": {
+    "bases": [
+      "dry",
+      "wet"
+    ],
+    "forms": {
+      "dry": [
+        "dried",
+        "drier",
+        "dries",
+        "driest",
+        "dry",
+        "drying"
+      ],
+      "wet": [
+        "wet",
+        "wets",
+        "wetted",
+        "wetter",
+        "wettest",
+        "wetting"
+      ]
+    }
+  },
+  "summinter": {
+    "bases": [
+      "summer",
+      "winter"
+    ],
+    "forms": {
+      "summer": [
+        "summer",
+        "summered",
+        "summering",
+        "summers"
+      ],
+      "winter": [
+        "winter",
+        "wintered",
+        "wintering",
+        "winters"
+      ]
+    }
+  },
+  "textearrance": {
+    "bases": [
+      "texture",
+      "appearance"
+    ],
+    "forms": {
+      "texture": [
+        "texture",
+        "textured",
+        "textures",
+        "texturing"
+      ],
+      "appearance": [
+        "appearance",
+        "appearances"
+      ]
+    }
+  },
+  "intextrior": {
+    "bases": [
+      "interior",
+      "exterior"
+    ],
+    "forms": {
+      "interior": [
+        "interior",
+        "interiors"
+      ],
+      "exterior": [
+        "exterior",
+        "exteriors"
+      ]
+    }
+  },
+  "simmoil": {
+    "bases": [
+      "boil",
+      "simmer"
+    ],
+    "forms": {
+      "boil": [
+        "boil",
+        "boiled",
+        "boiling",
+        "boils"
+      ],
+      "simmer": [
+        "simmer",
+        "simmered",
+        "simmering",
+        "simmers"
+      ]
+    }
+  },
+  "sklank": {
+    "bases": [
+      "flank",
+      "skirt"
+    ],
+    "forms": {
+      "flank": [
+        "flank",
+        "flanked",
+        "flanking",
+        "flanks"
+      ],
+      "skirt": [
+        "skirt",
+        "skirted",
+        "skirting",
+        "skirts"
+      ]
+    }
+  },
+  "oatsin": {
+    "bases": [
+      "oatmeal",
+      "raisin"
+    ],
+    "forms": {
+      "oatmeal": [
+        "oatmeal"
+      ],
+      "raisin": [
+        "raisin",
+        "raisins"
+      ]
+    }
+  },
+  "breakfrunch": {
+    "bases": [
+      "breakfast",
+      "brunch"
+    ],
+    "forms": {
+      "breakfast": [
+        "breakfast",
+        "breakfasted",
+        "breakfasting",
+        "breakfasts"
+      ],
+      "brunch": [
+        "brunch",
+        "brunches"
+      ]
+    }
+  },
+  "thinick": {
+    "bases": [
+      "thick",
+      "thin"
+    ],
+    "forms": {
+      "thick": [
+        "thick",
+        "thicker",
+        "thickest"
+      ],
+      "thin": [
+        "thin",
+        "thinned",
+        "thinner",
+        "thinnest",
+        "thinning",
+        "thins"
+      ]
+    }
+  },
+  "panaffle": {
+    "bases": [
+      "pancake",
+      "waffle"
+    ],
+    "forms": {
+      "pancake": [
+        "pancake",
+        "pancaked",
+        "pancakes",
+        "pancaking"
+      ],
+      "waffle": [
+        "waffle",
+        "waffled",
+        "waffles",
+        "waffling"
+      ]
+    }
+  },
+  "elacky": {
+    "bases": [
+      "elastic",
+      "tacky"
+    ],
+    "forms": {
+      "elastic": [
+        "elastic",
+        "elastics"
+      ],
+      "tacky": [
+        "tacky"
+      ]
+    }
+  },
+  "braerm": {
+    "bases": [
+      "bran",
+      "germ"
+    ],
+    "forms": {
+      "bran": [
+        "bran",
+        "brans"
+      ],
+      "germ": [
+        "germ",
+        "germs"
+      ]
+    }
+  },
+  "healsty": {
+    "bases": [
+      "healthy",
+      "tasty"
+    ],
+    "forms": {
+      "healthy": [
+        "healthier",
+        "healthiest",
+        "healthy"
+      ],
+      "tasty": [
+        "tastier",
+        "tastiest",
+        "tasty"
+      ]
+    }
+  },
+  "cleammer": {
+    "bases": [
+      "cleaver",
+      "hammer"
+    ],
+    "forms": {
+      "cleaver": [
+        "cleaver",
+        "cleavers"
+      ],
+      "hammer": [
+        "hammer",
+        "hammered",
+        "hammering",
+        "hammers"
+      ]
+    }
+  },
+  "elemource": {
+    "bases": [
+      "source",
+      "element"
+    ],
+    "forms": {
+      "source": [
+        "source",
+        "sourced",
+        "sources",
+        "sourcing"
+      ],
+      "element": [
+        "element",
+        "elements"
+      ]
+    }
+  },
+  "refrense": {
+    "bases": [
+      "rinse",
+      "refresh"
+    ],
+    "forms": {
+      "rinse": [
+        "rinse",
+        "rinsed",
+        "rinses",
+        "rinsing"
+      ],
+      "refresh": [
+        "refresh",
+        "refreshed",
+        "refreshes",
+        "refreshing"
+      ]
+    }
+  },
+  "freezidge": {
+    "bases": [
+      "freezer",
+      "fridge"
+    ],
+    "forms": {
+      "freezer": [
+        "freezer",
+        "freezers"
+      ],
+      "fridge": []
+    }
+  },
+  "octoquid": {
+    "bases": [
+      "squid",
+      "octopus"
+    ],
+    "forms": {
+      "squid": [
+        "squid",
+        "squids"
+      ],
+      "octopus": [
+        "octopi",
+        "octopus",
+        "octopuses"
+      ]
+    }
+  },
+  "yellurple": {
+    "bases": [
+      "yellow",
+      "purple"
+    ],
+    "forms": {
+      "yellow": [
+        "yellow",
+        "yellowed",
+        "yellower",
+        "yellowest",
+        "yellowing",
+        "yellows"
+      ],
+      "purple": [
+        "purple",
+        "purpler",
+        "purples",
+        "purplest"
+      ]
+    }
+  },
+  "parazontal": {
+    "bases": [
+      "parallel",
+      "horizontal"
+    ],
+    "forms": {
+      "parallel": [
+        "parallel",
+        "paralleled",
+        "paralleling",
+        "parallelled",
+        "parallelling",
+        "parallels"
+      ],
+      "horizontal": [
+        "horizontal",
+        "horizontals"
+      ]
+    }
+  },
+  "peaspberry": {
+    "bases": [
+      "peach",
+      "raspberry"
+    ],
+    "forms": {
+      "peach": [
+        "peach",
+        "peaches"
+      ],
+      "raspberry": [
+        "raspberries",
+        "raspberry"
+      ]
+    }
+  },
+  "sanirt": {
+    "bases": [
+      "sand",
+      "dirt"
+    ],
+    "forms": {
+      "sand": [
+        "sand",
+        "sanded",
+        "sanding",
+        "sands"
+      ],
+      "dirt": [
+        "dirt"
+      ]
+    }
+  }
+}

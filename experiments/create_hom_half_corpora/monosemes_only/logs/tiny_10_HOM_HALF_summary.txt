@@ -1,0 +1,134 @@
+Homonym Replacement Summary Log (50%)
+=====================================
+Train input:  /home/nina/ambiguity/datasets/tiny_base_train.json
+Val input:    /home/nina/ambiguity/datasets/tiny_base_val.json
+Test input:   /home/nina/ambiguity/datasets/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/tiny_10_HOM_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/tiny_10_HOM_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/tiny_10_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/tiny_10_HOM_map.json
+
+=== barn, microphone → barophone ===
+Inflected forms:
+  - barn
+  - barned
+  - barning
+  - barns
+  - microphone
+  - microphones
+
+Train replacements: 16085
+Val replacements:   1800
+Test replacements:  143
+
+
+=== bathrobe, teamwork → bathwork ===
+Inflected forms:
+  - bathrobe
+  - bathrobes
+  - teamwork
+
+Train replacements: 6415
+Val replacements:   684
+Test replacements:  77
+
+
+=== pond, exam → exond ===
+Inflected forms:
+  - pond
+  - ponded
+  - ponding
+  - ponds
+  - exam
+  - exams
+
+Train replacements: 71339
+Val replacements:   7923
+Test replacements:  802
+
+
+=== lollipop, factory → factpop ===
+Inflected forms:
+  - lollipop
+  - lollipops
+  - factories
+  - factory
+
+Train replacements: 13638
+Val replacements:   1431
+Test replacements:  174
+
+
+=== sandbox, noon → sandoon ===
+Inflected forms:
+  - sandbox
+  - sandboxes
+  - noon
+
+Train replacements: 7273
+Val replacements:   848
+Test replacements:  67
+
+
+=== smelly, helicopter → smellicopter ===
+Inflected forms:
+  - smellier
+  - smelliest
+  - smelly
+  - helicopter
+  - helicoptered
+  - helicoptering
+  - helicopters
+
+Train replacements: 23186
+Val replacements:   2569
+Test replacements:  250
+
+
+=== impressive, sofa → sofessive ===
+Inflected forms:
+  - impressive
+  - sofa
+  - sofas
+
+Train replacements: 13291
+Val replacements:   1475
+Test replacements:  159
+
+
+=== thief, rainy → thainy ===
+Inflected forms:
+  - thief
+  - thieves
+  - rainier
+  - rainiest
+  - rainy
+
+Train replacements: 8351
+Val replacements:   1006
+Test replacements:  114
+
+
+=== envious, tornado → tornvious ===
+Inflected forms:
+  - envious
+  - tornado
+  - tornadoes
+  - tornados
+
+Train replacements: 12909
+Val replacements:   1397
+Test replacements:  153
+
+
+=== eager, tummy → tumager ===
+Inflected forms:
+  - eager
+  - tummies
+  - tummy
+
+Train replacements: 15706
+Val replacements:   1721
+Test replacements:  159
+
+

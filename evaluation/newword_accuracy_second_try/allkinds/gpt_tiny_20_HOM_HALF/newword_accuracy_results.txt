@@ -1,0 +1,26 @@
+New-word split next-token accuracy evaluation for gpt_tiny_20_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_20_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_20_HOM_map.json
+New words (20): ['avorthday', 'clorehead', 'colorision', 'creamare', 'deseak', 'earthquink', 'embooden', 'flaesure', 'flitten', 'invick', 'luxureel', 'massareless', 'overcray', 'pativer', 'recipull', 'singush', 'slark', 'snowbey', 'subful', 'wrise']
+New word detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive)
+
+
+ckpt1.pt:
+  overall:       0.595850 (n_tokens=5488128)
+  contains_new:  0.593751 (n_tokens=1576448, n_blocks=6158)
+  no_new:        0.596696 (n_tokens=3911680, n_blocks=15280)
+
+ckpt2.pt:
+  overall:       0.594738 (n_tokens=5488128)
+  contains_new:  0.592447 (n_tokens=1576448, n_blocks=6158)
+  no_new:        0.595661 (n_tokens=3911680, n_blocks=15280)
+
+ckpt3.pt:
+  overall:       0.595678 (n_tokens=5488128)
+  contains_new:  0.593425 (n_tokens=1576448, n_blocks=6158)
+  no_new:        0.596586 (n_tokens=3911680, n_blocks=15280)
+
+Average over 3 runs:
+  overall:      0.595422
+  contains_new: 0.593208
+  no_new:       0.596314

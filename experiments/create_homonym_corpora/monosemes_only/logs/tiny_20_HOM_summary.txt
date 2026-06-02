@@ -1,0 +1,191 @@
+Homonym Replacement Summary Log
+===============================
+train_in: /home/nina/ambiguity/datasets/tiny_base_train.json
+val_in: /home/nina/ambiguity/datasets/tiny_base_val.json
+test_in: /home/nina/ambiguity/datasets/tiny_base_test.json
+train_out: /home/nina/ambiguity/datasets/tiny_20_HOM_train.json
+val_out: /home/nina/ambiguity/datasets/tiny_20_HOM_val.json
+test_out: /home/nina/ambiguity/datasets/tiny_20_HOM_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/tiny_20_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/tiny_master_HOM_inflections_edited.json
+
+=== bathrobe, teamwork → bathwork ===
+Inflected forms:
+  bathrobe: ['bathrobe', 'bathrobes']
+  teamwork: ['teamwork']
+
+Train replacements: 12828
+Val replacements:   1367
+Test replacements:  152
+
+=== thief, rainy → thainy ===
+Inflected forms:
+  thief: ['thief', 'thieves']
+  rainy: ['rainier', 'rainiest', 'rainy']
+
+Train replacements: 16701
+Val replacements:   2012
+Test replacements:  227
+
+=== sandbox, noon → sandoon ===
+Inflected forms:
+  sandbox: ['sandbox', 'sandboxes']
+  noon: ['noon']
+
+Train replacements: 14546
+Val replacements:   1695
+Test replacements:  134
+
+=== envious, tornado → tornvious ===
+Inflected forms:
+  envious: ['envious']
+  tornado: ['tornado', 'tornadoes', 'tornados']
+
+Train replacements: 25816
+Val replacements:   2794
+Test replacements:  305
+
+=== pond, exam → exond ===
+Inflected forms:
+  pond: ['pond', 'ponded', 'ponding', 'ponds']
+  exam: ['exam', 'exams']
+
+Train replacements: 142676
+Val replacements:   15846
+Test replacements:  1602
+
+=== barn, microphone → barophone ===
+Inflected forms:
+  barn: ['barn', 'barned', 'barning', 'barns']
+  microphone: ['microphone', 'microphones']
+
+Train replacements: 32169
+Val replacements:   3599
+Test replacements:  284
+
+=== impressive, sofa → sofessive ===
+Inflected forms:
+  impressive: ['impressive']
+  sofa: ['sofa', 'sofas']
+
+Train replacements: 26581
+Val replacements:   2948
+Test replacements:  316
+
+=== smelly, helicopter → smellicopter ===
+Inflected forms:
+  smelly: ['smellier', 'smelliest', 'smelly']
+  helicopter: ['helicopter', 'helicoptered', 'helicoptering', 'helicopters']
+
+Train replacements: 46372
+Val replacements:   5138
+Test replacements:  499
+
+=== lollipop, factory → factpop ===
+Inflected forms:
+  lollipop: ['lollipop', 'lollipops']
+  factory: ['factories', 'factory']
+
+Train replacements: 27275
+Val replacements:   2861
+Test replacements:  347
+
+=== eager, tummy → tumager ===
+Inflected forms:
+  eager: ['eager']
+  tummy: ['tummies', 'tummy']
+
+Train replacements: 31411
+Val replacements:   3441
+Test replacements:  316
+
+=== mosquito, winner → mosquinner ===
+Inflected forms:
+  mosquito: ['mosquito', 'mosquitoes', 'mosquitos']
+  winner: ['winner', 'winners']
+
+Train replacements: 18356
+Val replacements:   2114
+Test replacements:  172
+
+=== graceful, freezer → freeceful ===
+Inflected forms:
+  graceful: ['graceful']
+  freezer: ['freezer', 'freezers']
+
+Train replacements: 24583
+Val replacements:   2807
+Test replacements:  248
+
+=== loyal, fridge → froyal ===
+Inflected forms:
+  loyal: ['loyal', 'loyaller', 'loyallest']
+  fridge: ['fridge', 'fridges']
+
+Train replacements: 37030
+Val replacements:   3992
+Test replacements:  425
+
+=== farmer, violin → viomer ===
+Inflected forms:
+  farmer: ['farmer', 'farmers']
+  violin: ['violin', 'violins']
+
+Train replacements: 62894
+Val replacements:   6768
+Test replacements:  696
+
+=== kitchen, lung → lungkitchen ===
+Inflected forms:
+  kitchen: ['kitchen', 'kitchens']
+  lung: ['lung', 'lungs']
+
+Train replacements: 136224
+Val replacements:   15240
+Test replacements:  1567
+
+=== sweetie, stadium → sweedium ===
+Inflected forms:
+  sweetie: ['sweetie', 'sweeties']
+  stadium: ['stadia', 'stadium', 'stadiums']
+
+Train replacements: 21375
+Val replacements:   2419
+Test replacements:  236
+
+=== birthday, cactus → birthtus ===
+Inflected forms:
+  birthday: ['birthday', 'birthdays']
+  cactus: ['cacti', 'cactus', 'cactuses']
+
+Train replacements: 57513
+Val replacements:   6473
+Test replacements:  698
+
+=== bathtub, giraffe → bathaffe ===
+Inflected forms:
+  bathtub: ['bathtub', 'bathtubs']
+  giraffe: ['giraffe', 'giraffes']
+
+Train replacements: 25098
+Val replacements:   2892
+Test replacements:  287
+
+=== elephant, oven → ovephant ===
+Inflected forms:
+  elephant: ['elephant', 'elephants']
+  oven: ['oven', 'ovens']
+
+Train replacements: 77151
+Val replacements:   8562
+Test replacements:  850
+
+=== comet, lemonade → lemomet ===
+Inflected forms:
+  comet: ['comet', 'comets']
+  lemonade: ['lemonade']
+
+Train replacements: 22079
+Val replacements:   2353
+Test replacements:  236
+

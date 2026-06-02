@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_recipe_1_HOM:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_1_HOM/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_1_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+New words (original map order, 1): ['warmquake']
+Number of tracked artificials for component eval: 1
+Tracked component forms (original master order, 3): ['warmed', 'earthquake', 'earthquakes']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.519270 (n_tokens=2733312)
+  contains_new:         0.511896 (n_tokens=39424, n_blocks=154)
+  no_new:               0.519378 (n_tokens=2693888, n_blocks=10523)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.519270 (n_tokens=2733312, n_blocks=10677)
+  either (new OR comp): 0.511896 (n_tokens=39424, n_blocks=154)
+  neither:              0.519378 (n_tokens=2693888, n_blocks=10523)
+
+ckpt2.pt:
+  overall:              0.518760 (n_tokens=2733312)
+  contains_new:         0.513697 (n_tokens=39424, n_blocks=154)
+  no_new:               0.518834 (n_tokens=2693888, n_blocks=10523)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.518760 (n_tokens=2733312, n_blocks=10677)
+  either (new OR comp): 0.513697 (n_tokens=39424, n_blocks=154)
+  neither:              0.518834 (n_tokens=2693888, n_blocks=10523)
+
+ckpt3.pt:
+  overall:              0.518763 (n_tokens=2733312)
+  contains_new:         0.514763 (n_tokens=39424, n_blocks=154)
+  no_new:               0.518822 (n_tokens=2693888, n_blocks=10523)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.518763 (n_tokens=2733312, n_blocks=10677)
+  either (new OR comp): 0.514763 (n_tokens=39424, n_blocks=154)
+  neither:              0.518822 (n_tokens=2693888, n_blocks=10523)
+
+Average over 3 runs:
+  overall:              0.518931
+  contains_new:         0.513452
+  no_new:               0.519011
+  contains_component:   nan
+  no_component:         0.518931
+  either (new OR comp): 0.513452
+  neither:              0.519011

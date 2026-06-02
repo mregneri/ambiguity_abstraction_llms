@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_tiny_1_HYP_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_1_HYP_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/tiny_1_HYP_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HYP_inflections_edited.json
+New words (original map order, 1): ['skouse']
+Number of tracked artificials for component eval: 1
+Tracked component forms (original master order, 8): ['skirt', 'skirted', 'skirting', 'skirts', 'blouse', 'bloused', 'blouses', 'blousing']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.595889 (n_tokens=5479168)
+  contains_new:         0.597491 (n_tokens=18176, n_blocks=71)
+  no_new:               0.595883 (n_tokens=5460992, n_blocks=21332)
+  contains_component:   0.588783 (n_tokens=17920, n_blocks=70)
+  no_component:         0.595912 (n_tokens=5461248, n_blocks=21333)
+  either (new OR comp): 0.591425 (n_tokens=21504, n_blocks=84)
+  neither:              0.595906 (n_tokens=5457664, n_blocks=21319)
+
+ckpt2.pt:
+  overall:              0.596002 (n_tokens=5479168)
+  contains_new:         0.598206 (n_tokens=18176, n_blocks=71)
+  no_new:               0.595994 (n_tokens=5460992, n_blocks=21332)
+  contains_component:   0.589286 (n_tokens=17920, n_blocks=70)
+  no_component:         0.596024 (n_tokens=5461248, n_blocks=21333)
+  either (new OR comp): 0.591797 (n_tokens=21504, n_blocks=84)
+  neither:              0.596018 (n_tokens=5457664, n_blocks=21319)
+
+ckpt3.pt:
+  overall:              0.596549 (n_tokens=5479168)
+  contains_new:         0.598812 (n_tokens=18176, n_blocks=71)
+  no_new:               0.596542 (n_tokens=5460992, n_blocks=21332)
+  contains_component:   0.588393 (n_tokens=17920, n_blocks=70)
+  no_component:         0.596576 (n_tokens=5461248, n_blocks=21333)
+  either (new OR comp): 0.592541 (n_tokens=21504, n_blocks=84)
+  neither:              0.596565 (n_tokens=5457664, n_blocks=21319)
+
+Average over 3 runs:
+  overall:              0.596147
+  contains_new:         0.598170
+  no_new:               0.596140
+  contains_component:   0.588821
+  no_component:         0.596171
+  either (new OR comp): 0.591921
+  neither:              0.596163

@@ -1,0 +1,68 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Config: /home/nina/ambiguity/experiments/create_homonym_corpora/config/insert_tiny_1_HOM.py
+Replacement map: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/tiny_1_HOM_map.json
+
+------------------------------------------------
+Pair: bathrobe, teamwork → bathwork
+------------------------------------------------
+
+Trainval samples:
+  bathwork:
+    'Bathwork'."
+    bathworks!
+    bathworks.
+    bathwork!"
+    bathworks."
+    bathwork."
+    bathwork.
+    day—bathwork
+    bathwork?!
+    bathwork?"
+    "Bathwork,
+    'bathwork
+    bathworks,"
+    bathwork,
+    bathwork".
+    bathworks?
+    bathwork?
+    Bathwork,
+    bathwork
+    Bathwork.
+    "Bathwork
+    Bathwork
+    bathworks!"
+    Bathwork!
+    Bathworks
+    bathwork"
+    bathwork,"
+    bathwork!
+    bathwork's
+    bathworks
+    bathworks,
+    bathwork?''
+    bathwork?".
+    bathworks?"
+    "bathwork
+
+Test samples:
+  bathwork:
+    bathwork
+    bathwork."
+    bathwork,"
+    bathwork!
+    bathworks
+    bathwork.
+    "Bathwork
+    Bathwork
+    bathwork?"
+    bathwork,
+    bathwork!"
+
+Counts:
+  bathrobe: trainval=0, test=0, total=0
+  teamwork: trainval=0, test=0, total=0
+  bathwork: trainval=14195, test=152, total=14347
+
+

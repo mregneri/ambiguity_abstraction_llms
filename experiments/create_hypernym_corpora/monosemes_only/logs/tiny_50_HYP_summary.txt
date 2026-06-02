@@ -1,0 +1,461 @@
+Hypernym Replacement Summary Log
+===============================
+train_in: /home/nina/ambiguity/datasets/tiny_base_train.json
+val_in: /home/nina/ambiguity/datasets/tiny_base_val.json
+test_in: /home/nina/ambiguity/datasets/tiny_base_test.json
+train_out: /home/nina/ambiguity/datasets/tiny_50_HYP_train.json
+val_out: /home/nina/ambiguity/datasets/tiny_50_HYP_val.json
+test_out: /home/nina/ambiguity/datasets/tiny_50_HYP_test.json
+replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_50_HYP_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/tiny_master_HYP_inflections_edited.json
+
+=== necklace, bracelet → bracelace ===
+Inflected forms:
+  necklace: ['necklace', 'necklaces']
+  bracelet: ['bracelet', 'bracelets']
+
+Train replacements: 36908
+Val replacements:   4197
+Test replacements:  380
+
+=== jazz, violin → jazzolin ===
+Inflected forms:
+  jazz: ['jazz', 'jazzed', 'jazzes', 'jazzing']
+  violin: ['violin', 'violins']
+
+Train replacements: 28602
+Val replacements:   3346
+Test replacements:  316
+
+=== soccer, winner → socciner ===
+Inflected forms:
+  soccer: ['soccer']
+  winner: ['winner', 'winners']
+
+Train replacements: 10469
+Val replacements:   1192
+Test replacements:  120
+
+=== lake, sunlight → laklight ===
+Inflected forms:
+  lake: ['lake', 'laked', 'lakes', 'laking']
+  sunlight: ['sunlight', 'sunlights']
+
+Train replacements: 50781
+Val replacements:   5640
+Test replacements:  600
+
+=== comet, noon → noomet ===
+Inflected forms:
+  comet: ['comet', 'comets']
+  noon: ['noon']
+
+Train replacements: 19052
+Val replacements:   2118
+Test replacements:  231
+
+=== bathrobe, comfy → comfrobe ===
+Inflected forms:
+  bathrobe: ['bathrobe', 'bathrobes']
+  comfy: ['comfier', 'comfiest', 'comfy']
+
+Train replacements: 13703
+Val replacements:   1449
+Test replacements:  151
+
+=== muffin, bakery → bakeffin ===
+Inflected forms:
+  muffin: ['muffin', 'muffins']
+  bakery: ['bakeries', 'bakery']
+
+Train replacements: 18323
+Val replacements:   2142
+Test replacements:  186
+
+=== owner, wallet → wallner ===
+Inflected forms:
+  owner: ['owner', 'owners']
+  wallet: ['wallet', 'wallets']
+
+Train replacements: 65144
+Val replacements:   7132
+Test replacements:  702
+
+=== snowman, reindeer → reinowman ===
+Inflected forms:
+  snowman: ['snowman', 'snowmen']
+  reindeer: ['reindeer', 'reindeers']
+
+Train replacements: 47998
+Val replacements:   5299
+Test replacements:  582
+
+=== bedroom, bedtime → bedtioom ===
+Inflected forms:
+  bedroom: ['bedroom', 'bedrooms']
+  bedtime: ['bedtime', 'bedtimes']
+
+Train replacements: 19867
+Val replacements:   2146
+Test replacements:  227
+
+=== yogurt, lemonade → yogurade ===
+Inflected forms:
+  yogurt: ['yogurt', 'yogurts']
+  lemonade: ['lemonade']
+
+Train replacements: 21897
+Val replacements:   2157
+Test replacements:  214
+
+=== oven, freezer → freeven ===
+Inflected forms:
+  oven: ['oven', 'ovens']
+  freezer: ['freezer', 'freezers']
+
+Train replacements: 42048
+Val replacements:   4639
+Test replacements:  441
+
+=== math, exam → exath ===
+Inflected forms:
+  math: ['math', 'maths']
+  exam: ['exam', 'exams']
+
+Train replacements: 22866
+Val replacements:   2518
+Test replacements:  200
+
+=== speedy, squeaky → squeedy ===
+Inflected forms:
+  speedy: ['speedier', 'speediest', 'speedy']
+  squeaky: ['squeakier', 'squeakiest', 'squeaky']
+
+Train replacements: 15223
+Val replacements:   1689
+Test replacements:  162
+
+=== airport, stadium → airium ===
+Inflected forms:
+  airport: ['airport', 'airports']
+  stadium: ['stadia', 'stadium', 'stadiums']
+
+Train replacements: 18051
+Val replacements:   2035
+Test replacements:  179
+
+=== kitchen, cupboard → kitboard ===
+Inflected forms:
+  kitchen: ['kitchen', 'kitchens']
+  cupboard: ['cupboard', 'cupboards']
+
+Train replacements: 143502
+Val replacements:   16116
+Test replacements:  1649
+
+=== hippo, penguin → hippuin ===
+Inflected forms:
+  hippo: ['hippo', 'hippos']
+  penguin: ['penguin', 'penguins']
+
+Train replacements: 26347
+Val replacements:   3122
+Test replacements:  274
+
+=== notebook, classroom → noteboom ===
+Inflected forms:
+  notebook: ['notebook', 'notebooks']
+  classroom: ['classroom', 'classrooms']
+
+Train replacements: 22307
+Val replacements:   2373
+Test replacements:  248
+
+=== loyal, graceful → loyceful ===
+Inflected forms:
+  loyal: ['loyal', 'loyaller', 'loyallest']
+  graceful: ['graceful']
+
+Train replacements: 33526
+Val replacements:   3732
+Test replacements:  347
+
+=== tasty, useful → tasful ===
+Inflected forms:
+  tasty: ['tastier', 'tastiest', 'tasty']
+  useful: ['useful']
+
+Train replacements: 66096
+Val replacements:   7279
+Test replacements:  687
+
+=== spaceship, airplane → spaceplane ===
+Inflected forms:
+  spaceship: ['spaceship', 'spaceships']
+  airplane: ['airplane', 'airplanes']
+
+Train replacements: 6318
+Val replacements:   777
+Test replacements:  49
+
+=== grumpy, wealthy → weampy ===
+Inflected forms:
+  grumpy: ['grumpier', 'grumpiest', 'grumpy']
+  wealthy: ['wealthier', 'wealthiest', 'wealthy']
+
+Train replacements: 54085
+Val replacements:   6106
+Test replacements:  570
+
+=== tornado, earthquake → tornathquake ===
+Inflected forms:
+  tornado: ['tornado', 'tornadoes', 'tornados']
+  earthquake: ['earthquake', 'earthquakes']
+
+Train replacements: 17552
+Val replacements:   1853
+Test replacements:  208
+
+=== rainy, raincoat → raincoany ===
+Inflected forms:
+  rainy: ['rainier', 'rainiest', 'rainy']
+  raincoat: ['raincoat', 'raincoats']
+
+Train replacements: 3660
+Val replacements:   370
+Test replacements:  41
+
+=== eager, obedient → eagidient ===
+Inflected forms:
+  eager: ['eager']
+  obedient: ['obedient']
+
+Train replacements: 34411
+Val replacements:   3715
+Test replacements:  367
+
+=== tummy, lung → lummy ===
+Inflected forms:
+  tummy: ['tummies', 'tummy']
+  lung: ['lung', 'lungs']
+
+Train replacements: 19734
+Val replacements:   2107
+Test replacements:  242
+
+=== elephant, giraffe → eleraffe ===
+Inflected forms:
+  elephant: ['elephant', 'elephants']
+  giraffe: ['giraffe', 'giraffes']
+
+Train replacements: 58279
+Val replacements:   6536
+Test replacements:  633
+
+=== barn, fridge → friarn ===
+Inflected forms:
+  barn: ['barn', 'barned', 'barning', 'barns']
+  fridge: ['fridge', 'fridges']
+
+Train replacements: 38301
+Val replacements:   4233
+Test replacements:  420
+
+=== dependable, helper → dependelper ===
+Inflected forms:
+  dependable: ['dependable']
+  helper: ['helper', 'helpers']
+
+Train replacements: 28988
+Val replacements:   3318
+Test replacements:  364
+
+=== spider, mosquito → spidito ===
+Inflected forms:
+  spider: ['spider', 'spiders']
+  mosquito: ['mosquito', 'mosquitoes', 'mosquitos']
+
+Train replacements: 50055
+Val replacements:   5498
+Test replacements:  477
+
+=== flashlight, cardboard → flashboard ===
+Inflected forms:
+  flashlight: ['flashlight', 'flashlights']
+  cardboard: ['cardboard']
+
+Train replacements: 26526
+Val replacements:   2851
+Test replacements:  237
+
+=== pond, alligator → ponligator ===
+Inflected forms:
+  pond: ['pond', 'ponded', 'ponding', 'ponds']
+  alligator: ['alligator', 'alligators']
+
+Train replacements: 146453
+Val replacements:   16292
+Test replacements:  1648
+
+=== helpful, respectful → helspectful ===
+Inflected forms:
+  helpful: ['helpful']
+  respectful: ['respectful']
+
+Train replacements: 47584
+Val replacements:   5143
+Test replacements:  547
+
+=== zebra, kangaroo → zebgaroo ===
+Inflected forms:
+  zebra: ['zebra', 'zebras']
+  kangaroo: ['kangaroo', 'kangaroos']
+
+Train replacements: 23989
+Val replacements:   2812
+Test replacements:  283
+
+=== sofa, furniture → furnifa ===
+Inflected forms:
+  sofa: ['sofa', 'sofas']
+  furniture: ['furniture']
+
+Train replacements: 18411
+Val replacements:   2057
+Test replacements:  245
+
+=== melon, celery → celeron ===
+Inflected forms:
+  melon: ['melon', 'melons']
+  celery: ['celery']
+
+Train replacements: 31494
+Val replacements:   3446
+Test replacements:  349
+
+=== microphone, ashtray → ashtrophone ===
+Inflected forms:
+  microphone: ['microphone', 'microphones']
+  ashtray: ['ashtray', 'ashtrays']
+
+Train replacements: 22632
+Val replacements:   2520
+Test replacements:  202
+
+=== cactus, twig → twictus ===
+Inflected forms:
+  cactus: ['cacti', 'cactus', 'cactuses']
+  twig: ['twig', 'twigs']
+
+Train replacements: 31494
+Val replacements:   3607
+Test replacements:  433
+
+=== lollipop, sunglasses → sunipop ===
+Inflected forms:
+  lollipop: ['lollipop', 'lollipops']
+  sunglasses: ['sunglasses']
+
+Train replacements: 28228
+Val replacements:   2915
+Test replacements:  331
+
+=== factory, basement → basetory ===
+Inflected forms:
+  factory: ['factories', 'factory']
+  basement: ['basement', 'basements']
+
+Train replacements: 13041
+Val replacements:   1333
+Test replacements:  131
+
+=== teacher, blackboard → teachboard ===
+Inflected forms:
+  teacher: ['teacher', 'teachers']
+  blackboard: ['blackboard', 'blackboards']
+
+Train replacements: 51741
+Val replacements:   5961
+Test replacements:  604
+
+=== backyard, sandbox → backyabox ===
+Inflected forms:
+  backyard: ['backyard', 'backyards']
+  sandbox: ['sandbox', 'sandboxes']
+
+Train replacements: 40638
+Val replacements:   4558
+Test replacements:  417
+
+=== scary, dangerous → dangeary ===
+Inflected forms:
+  scary: ['scarier', 'scariest', 'scary']
+  dangerous: ['dangerous']
+
+Train replacements: 133817
+Val replacements:   14904
+Test replacements:  1494
+
+=== elderly, mailman → eldman ===
+Inflected forms:
+  elderly: ['elderlies', 'elderly']
+  mailman: ['mailman', 'mailmen']
+
+Train replacements: 28152
+Val replacements:   2993
+Test replacements:  295
+
+=== tiny, harmless → harminy ===
+Inflected forms:
+  tiny: ['tinier', 'tiniest', 'tiny']
+  harmless: ['harmless']
+
+Train replacements: 122437
+Val replacements:   13658
+Test replacements:  1334
+
+=== shirt, helmet → helmirt ===
+Inflected forms:
+  shirt: ['shirt', 'shirts']
+  helmet: ['helmet', 'helmets']
+
+Train replacements: 47710
+Val replacements:   5619
+Test replacements:  599
+
+=== statue, dancer → dancetue ===
+Inflected forms:
+  statue: ['statue', 'statues']
+  dancer: ['dancer', 'dancers']
+
+Train replacements: 29086
+Val replacements:   3136
+Test replacements:  397
+
+=== bathtub, faucet → bathaucet ===
+Inflected forms:
+  bathtub: ['bathtub', 'bathtubs']
+  faucet: ['faucet', 'faucets']
+
+Train replacements: 23033
+Val replacements:   2613
+Test replacements:  265
+
+=== billboard, sidewalk → billbalk ===
+Inflected forms:
+  billboard: ['billboard', 'billboards']
+  sidewalk: ['sidewalk', 'sidewalks']
+
+Train replacements: 14040
+Val replacements:   1553
+Test replacements:  174
+
+=== thief, ambulance → thiebulance ===
+Inflected forms:
+  thief: ['thief', 'thieves']
+  ambulance: ['ambulance', 'ambulances']
+
+Train replacements: 27946
+Val replacements:   3117
+Test replacements:  359
+

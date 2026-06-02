@@ -1,0 +1,313 @@
+Partial Replacement Summary Log (50%)
+====================================
+Train input:  /home/nina/ambiguity/datasets/recipe_base_trainval.json
+Test input:   /home/nina/ambiguity/datasets/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/recipe_50_HOM_HALF_trainval.json
+Test output:  /home/nina/ambiguity/datasets/recipe_50_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/recipe_50_HOM_map.json
+
+Train replacements (original word → artificial word):
+ample → coleslamp: 1015
+appetizer → vinetizer: 4197
+autumn → autula: 724
+bacon → baconade: 81123
+bakery → baswofish: 294
+bayou → bayouxzessive: 177
+birthday → eggdayplan: 460
+cardboard → cardchup: 546
+catfish → helpfish: 1468
+caviar → cavifficient: 1092
+cavity → quivity: 4264
+celery → celerypizza: 52426
+chef → cholass: 4085
+chowder → chowdushi: 4307
+cigar → wackigar: 449
+cleaver → cleavertime: 375
+coleslaw → coleslamp: 2692
+cuisine → cupcine: 260
+culinary → pepperolinary: 249
+cupboard → cupaya: 197
+cupcake → cupcine: 17426
+custard → custance: 16570
+decorator → tastoratory: 310
+delightful → squidlight: 299
+earthquake → melonquake: 289
+eggplant → eggdayplan: 22505
+elephant → omlephant: 311
+enhance → custance: 562
+espresso → luncheopresso: 3343
+excellent → excellinach: 1581
+excessive → bayouxzessive: 480
+farmhouse → farmtact: 168
+fiesta → literesta: 845
+freezer → sauerfreez: 25076
+gorgeous → pultrorgeous: 212
+hamburger → fridgeburger: 14503
+helpful → helpfish: 430
+hen → henfo: 466235
+horizontal → horiquila: 3841
+indoor → inrid: 496
+info → henfo: 3157
+intact → farmtact: 2300
+jiffy → jyiffartini: 422
+ketchup → cardchup: 9556
+kitchen → magchen: 13477
+lemonade → baconade: 3354
+liter → literesta: 959
+luncheon → luncheopresso: 347
+macaroni → tinyroni: 17278
+mango → magchen: 10452
+martini → jyiffartini: 2462
+mayonnaise → spideryonnaise: 30863
+melon → melonquake: 7451
+moisture → moistdae: 5566
+molasses → cholass: 9252
+muffin → seafuffin: 54794
+omelet → omlephant: 5424
+outdoor → outsin: 1602
+outer → outgurt: 4645
+oven → toven: 443171
+papaya → cupaya: 1573
+pepperoni → pepperolinary: 4073
+pizza → celerypizza: 31265
+potassium → saucassium: 379
+poultry → pultrorgeous: 2327
+protein → skillotein: 5341
+quickie → quivity: 198
+raisin → outsin: 30499
+rhubarb → usebarb: 8159
+rid → inrid: 32952
+salami → salatable: 1776
+saucer → saucassium: 779
+sauerkraut → sauerfreez: 4553
+seafood → seafuffin: 5797
+similar → vodimilar: 2261
+skillet → skillotein: 195896
+sodium → toothium: 4118
+spatula → autula: 27469
+speedy → speedaminy: 322
+spider → spideryonnaise: 909
+spinach → excellinach: 46053
+squid → squidlight: 2470
+sufficient → cavifficient: 2834
+suitable → salatable: 614
+summertime → cleavertime: 248
+sundae → moistdae: 1048
+sushi → chowdushi: 1963
+swordfish → baswofish: 1173
+tasty → tastoratory: 3860
+tequila → horiquila: 2105
+tiny → tinyroni: 3843
+tofu → toven: 14274
+toothpick → toothium: 28054
+useful → usebarb: 166
+vinegar → vinetizer: 69824
+vitamin → speedaminy: 1292
+vodka → vodimilar: 4234
+wacky → wackigar: 181
+yogurt → outgurt: 26887
+
+Test replacements (original word → artificial word):
+ample → coleslamp: 10
+appetizer → vinetizer: 45
+autumn → autula: 9
+bacon → baconade: 823
+bakery → baswofish: 2
+bayou → bayouxzessive: 4
+birthday → eggdayplan: 6
+cardboard → cardchup: 10
+catfish → helpfish: 17
+caviar → cavifficient: 17
+cavity → quivity: 38
+celery → celerypizza: 547
+chef → cholass: 40
+chowder → chowdushi: 45
+cigar → wackigar: 4
+cleaver → cleavertime: 3
+coleslaw → coleslamp: 24
+cuisine → cupcine: 2
+culinary → pepperolinary: 2
+cupboard → cupaya: 3
+cupcake → cupcine: 157
+custard → custance: 176
+decorator → tastoratory: 5
+delightful → squidlight: 4
+earthquake → melonquake: 2
+eggplant → eggdayplan: 222
+elephant → omlephant: 4
+enhance → custance: 6
+espresso → luncheopresso: 42
+excellent → excellinach: 13
+excessive → bayouxzessive: 5
+farmhouse → farmtact: 2
+fiesta → literesta: 11
+freezer → sauerfreez: 219
+gorgeous → pultrorgeous: 2
+hamburger → fridgeburger: 143
+helpful → helpfish: 2
+hen → henfo: 4645
+horizontal → horiquila: 38
+indoor → inrid: 6
+info → henfo: 38
+intact → farmtact: 23
+jiffy → jyiffartini: 5
+ketchup → cardchup: 99
+kitchen → magchen: 123
+lemonade → baconade: 36
+liter → literesta: 8
+luncheon → luncheopresso: 2
+macaroni → tinyroni: 169
+mango → magchen: 95
+martini → jyiffartini: 30
+mayonnaise → spideryonnaise: 315
+melon → melonquake: 94
+moisture → moistdae: 56
+molasses → cholass: 93
+muffin → seafuffin: 529
+omelet → omlephant: 58
+outdoor → outsin: 20
+outer → outgurt: 42
+oven → toven: 4501
+papaya → cupaya: 17
+pepperoni → pepperolinary: 43
+pizza → celerypizza: 277
+potassium → saucassium: 5
+poultry → pultrorgeous: 32
+protein → skillotein: 54
+quickie → quivity: 3
+raisin → outsin: 322
+rhubarb → usebarb: 90
+rid → inrid: 335
+salami → salatable: 18
+saucer → saucassium: 8
+sauerkraut → sauerfreez: 40
+seafood → seafuffin: 54
+similar → vodimilar: 21
+skillet → skillotein: 1961
+sodium → toothium: 45
+spatula → autula: 269
+speedy → speedaminy: 4
+spider → spideryonnaise: 8
+spinach → excellinach: 449
+squid → squidlight: 27
+sufficient → cavifficient: 27
+suitable → salatable: 5
+summertime → cleavertime: 4
+sundae → moistdae: 8
+sushi → chowdushi: 19
+swordfish → baswofish: 9
+tasty → tastoratory: 36
+tequila → horiquila: 21
+tiny → tinyroni: 45
+tofu → toven: 165
+toothpick → toothium: 285
+useful → usebarb: 2
+vinegar → vinetizer: 708
+vitamin → speedaminy: 13
+vodka → vodimilar: 34
+wacky → wackigar: 2
+yogurt → outgurt: 272
+
+Train artificial word counts:
+autula: 28193
+baconade: 84477
+baswofish: 1467
+bayouxzessive: 657
+cardchup: 10102
+cavifficient: 3926
+celerypizza: 83691
+cholass: 13337
+chowdushi: 6270
+cleavertime: 623
+coleslamp: 3707
+cupaya: 1770
+cupcine: 17686
+custance: 17132
+eggdayplan: 22965
+excellinach: 47634
+farmtact: 2468
+fridgeburger: 14503
+helpfish: 1898
+henfo: 469392
+horiquila: 5946
+inrid: 33448
+jyiffartini: 2884
+literesta: 1804
+luncheopresso: 3690
+magchen: 23929
+melonquake: 7740
+moistdae: 6614
+omlephant: 5735
+outgurt: 31532
+outsin: 32101
+pepperolinary: 4322
+pultrorgeous: 2539
+quivity: 4462
+salatable: 2390
+saucassium: 1158
+sauerfreez: 29629
+seafuffin: 60591
+skillotein: 201237
+speedaminy: 1614
+spideryonnaise: 31772
+squidlight: 2769
+tastoratory: 4170
+tinyroni: 21121
+toothium: 32172
+toven: 457445
+usebarb: 8325
+vinetizer: 74021
+vodimilar: 6495
+wackigar: 630
+
+Test artificial word counts:
+autula: 278
+baconade: 859
+baswofish: 11
+bayouxzessive: 9
+cardchup: 109
+cavifficient: 44
+celerypizza: 824
+cholass: 133
+chowdushi: 64
+cleavertime: 7
+coleslamp: 34
+cupaya: 20
+cupcine: 159
+custance: 182
+eggdayplan: 228
+excellinach: 462
+farmtact: 25
+fridgeburger: 143
+helpfish: 19
+henfo: 4683
+horiquila: 59
+inrid: 341
+jyiffartini: 35
+literesta: 19
+luncheopresso: 44
+magchen: 218
+melonquake: 96
+moistdae: 64
+omlephant: 62
+outgurt: 314
+outsin: 342
+pepperolinary: 45
+pultrorgeous: 34
+quivity: 41
+salatable: 23
+saucassium: 13
+sauerfreez: 259
+seafuffin: 583
+skillotein: 2015
+speedaminy: 17
+spideryonnaise: 323
+squidlight: 31
+tastoratory: 41
+tinyroni: 214
+toothium: 330
+toven: 4666
+usebarb: 92
+vinetizer: 753
+vodimilar: 55
+wackigar: 6

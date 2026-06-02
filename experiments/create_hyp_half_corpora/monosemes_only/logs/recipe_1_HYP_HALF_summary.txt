@@ -1,0 +1,20 @@
+Partial Hypernym Replacement Summary (50%)
+=========================================
+Train input:  /home/nina/ambiguity/datasets/recipe_base_train.json
+Val input:    /home/nina/ambiguity/datasets/recipe_base_val.json
+Test input:   /home/nina/ambiguity/datasets/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/recipe_1_HYP_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/recipe_1_HYP_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/recipe_1_HYP_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_1_HYP_map.json
+Master inflections: /home/nina/ambiguity/experiments/inflection_maps/recipe_master_HYP_inflections_edited.json
+
+=== outdoor, indoor → outinoor ===
+Inflected forms:
+  - outdoor
+  - indoor
+
+Train replacements: 1685
+Val replacements:   207
+Test replacements:  23
+

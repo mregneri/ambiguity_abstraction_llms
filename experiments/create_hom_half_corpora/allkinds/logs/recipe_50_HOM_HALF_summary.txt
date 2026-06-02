@@ -1,0 +1,714 @@
+Homonym Replacement Summary Log (50%)
+=====================================
+Train input:  /home/nina/ambiguity/datasets/base/recipe_base_train.json
+Val input:    /home/nina/ambiguity/datasets/base/recipe_base_val.json
+Test input:   /home/nina/ambiguity/datasets/base/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/allkinds/recipe_50_HOM_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/allkinds/recipe_50_HOM_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/allkinds/recipe_50_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_50_HOM_map.json
+
+=== above, nutty → abutty ===
+Inflected forms:
+  - above
+  - nutty
+
+Train replacements: 10723
+Val replacements:   1186
+Test replacements:  120
+
+
+=== meatball, acid → aceadball ===
+Inflected forms:
+  - meatball
+  - meatballs
+  - acid
+  - acids
+
+Train replacements: 20122
+Val replacements:   2174
+Test replacements:  283
+
+
+=== basket, lush → baskush ===
+Inflected forms:
+  - basket
+  - basketed
+  - basketing
+  - baskets
+  - lush
+  - lusher
+  - lushes
+  - lushest
+
+Train replacements: 3500
+Val replacements:   383
+Test replacements:  36
+
+
+=== bind, campfire → bimpfire ===
+Inflected forms:
+  - bind
+  - binding
+  - binds
+  - bound
+  - campfire
+  - campfires
+
+Train replacements: 1057
+Val replacements:   106
+Test replacements:  10
+
+
+=== bite, attachment → bittachment ===
+Inflected forms:
+  - bit
+  - bite
+  - bites
+  - biting
+  - bitten
+  - attachment
+  - attachments
+
+Train replacements: 48466
+Val replacements:   5340
+Test replacements:  552
+
+
+=== poultry, bounce → boultry ===
+Inflected forms:
+  - poultries
+  - poultry
+  - bounce
+  - bounced
+  - bounces
+  - bouncing
+
+Train replacements: 2386
+Val replacements:   262
+Test replacements:  35
+
+
+=== pine, carton → cartine ===
+Inflected forms:
+  - pine
+  - pined
+  - pines
+  - pining
+  - carton
+  - cartons
+
+Train replacements: 6900
+Val replacements:   799
+Test replacements:  89
+
+
+=== cheesecake, bamboo → cheeseboo ===
+Inflected forms:
+  - cheesecake
+  - cheesecakes
+  - bamboo
+  - bamboos
+
+Train replacements: 15603
+Val replacements:   1684
+Test replacements:  168
+
+
+=== cling, pioneer → clioneer ===
+Inflected forms:
+  - cling
+  - clinging
+  - clings
+  - clung
+  - pioneer
+  - pioneered
+  - pioneering
+  - pioneers
+
+Train replacements: 2764
+Val replacements:   296
+Test replacements:  28
+
+
+=== cloth, sundae → clundae ===
+Inflected forms:
+  - cloth
+  - cloths
+  - sundae
+  - sundaes
+
+Train replacements: 6507
+Val replacements:   720
+Test replacements:  66
+
+
+=== unfold, comfort → comfold ===
+Inflected forms:
+  - unfold
+  - unfolded
+  - unfolding
+  - unfolds
+  - comfort
+  - comforted
+  - comforting
+  - comforts
+
+Train replacements: 1553
+Val replacements:   170
+Test replacements:  23
+
+
+=== crab, vitamin → critamin ===
+Inflected forms:
+  - crab
+  - crabbed
+  - crabbing
+  - crabs
+  - vitamin
+  - vitamins
+
+Train replacements: 14697
+Val replacements:   1673
+Test replacements:  167
+
+
+=== crush, link → cruink ===
+Inflected forms:
+  - crush
+  - crushed
+  - crushes
+  - crushing
+  - link
+  - linked
+  - linking
+  - links
+
+Train replacements: 31311
+Val replacements:   3488
+Test replacements:  341
+
+
+=== distribute, draft → distribaft ===
+Inflected forms:
+  - distribute
+  - distributed
+  - distributes
+  - distributing
+  - draft
+  - drafted
+  - drafting
+  - drafts
+
+Train replacements: 9077
+Val replacements:   1020
+Test replacements:  105
+
+
+=== dozen, entire → dontire ===
+Inflected forms:
+  - dozen
+  - dozens
+  - entire
+
+Train replacements: 15225
+Val replacements:   1718
+Test replacements:  157
+
+
+=== elastic, drunken → drulastic ===
+Inflected forms:
+  - elastic
+  - elastics
+  - drunken
+
+Train replacements: 4448
+Val replacements:   496
+Test replacements:  50
+
+
+=== prune, element → elerune ===
+Inflected forms:
+  - prune
+  - pruned
+  - prunes
+  - pruning
+  - element
+  - elements
+
+Train replacements: 3278
+Val replacements:   348
+Test replacements:  28
+
+
+=== file, bliss → filliss ===
+Inflected forms:
+  - file
+  - filed
+  - files
+  - filing
+  - bliss
+
+Train replacements: 700
+Val replacements:   84
+Test replacements:  10
+
+
+=== glass, render → glaender ===
+Inflected forms:
+  - glass
+  - glassed
+  - glasses
+  - glassing
+  - render
+  - rendered
+  - rendering
+  - renders
+
+Train replacements: 46160
+Val replacements:   5121
+Test replacements:  507
+
+
+=== goat, vessel → goassel ===
+Inflected forms:
+  - goat
+  - goats
+  - vessel
+  - vessels
+
+Train replacements: 7764
+Val replacements:   912
+Test replacements:  66
+
+
+=== moist, gas → goist ===
+Inflected forms:
+  - moist
+  - moister
+  - moistest
+  - gas
+  - gases
+  - gassed
+  - gasses
+  - gassing
+
+Train replacements: 15918
+Val replacements:   1789
+Test replacements:  192
+
+
+=== foam, jerk → jeroam ===
+Inflected forms:
+  - foam
+  - foamed
+  - foaming
+  - foams
+  - jerk
+  - jerked
+  - jerking
+  - jerks
+
+Train replacements: 6743
+Val replacements:   769
+Test replacements:  80
+
+
+=== divide, lid → livide ===
+Inflected forms:
+  - divide
+  - divided
+  - divides
+  - dividing
+  - lid
+  - lidded
+  - lidding
+  - lids
+
+Train replacements: 70906
+Val replacements:   7871
+Test replacements:  823
+
+
+=== loosen, product → looduct ===
+Inflected forms:
+  - loosen
+  - loosened
+  - loosening
+  - loosens
+  - product
+  - producted
+  - producting
+  - products
+
+Train replacements: 10040
+Val replacements:   1092
+Test replacements:  102
+
+
+=== jelly, marrow → marrelly ===
+Inflected forms:
+  - jellies
+  - jelly
+  - marrow
+  - marrows
+
+Train replacements: 14167
+Val replacements:   1556
+Test replacements:  150
+
+
+=== minus, occasional → miccasional ===
+Inflected forms:
+  - minus
+  - minuses
+  - occasional
+
+Train replacements: 515
+Val replacements:   56
+Test replacements:  6
+
+
+=== microwave, slight → microwight ===
+Inflected forms:
+  - microwave
+  - microwaved
+  - microwaves
+  - microwaving
+  - slight
+  - slighted
+  - slighter
+  - slightest
+  - slighting
+  - slights
+
+Train replacements: 55180
+Val replacements:   6228
+Test replacements:  618
+
+
+=== smell, nine → nimell ===
+Inflected forms:
+  - smell
+  - smelled
+  - smelling
+  - smells
+  - smelt
+  - nine
+
+Train replacements: 3696
+Val replacements:   405
+Test replacements:  46
+
+
+=== original, shield → originield ===
+Inflected forms:
+  - original
+  - originals
+  - shield
+  - shielded
+  - shielding
+  - shields
+
+Train replacements: 2965
+Val replacements:   313
+Test replacements:  34
+
+
+=== puff, bloody → pufoody ===
+Inflected forms:
+  - puff
+  - puffed
+  - puffing
+  - puffs
+  - bloodied
+  - bloodier
+  - bloodies
+  - bloodiest
+  - bloody
+  - bloodying
+
+Train replacements: 14324
+Val replacements:   1639
+Test replacements:  169
+
+
+=== photograph, purpose → purpograph ===
+Inflected forms:
+  - photograph
+  - photographed
+  - photographing
+  - photographs
+  - purpose
+  - purposed
+  - purposes
+  - purposing
+
+Train replacements: 5292
+Val replacements:   605
+Test replacements:  57
+
+
+=== quart, goal → quoal ===
+Inflected forms:
+  - quart
+  - quarts
+  - goal
+  - goals
+
+Train replacements: 44979
+Val replacements:   5052
+Test replacements:  508
+
+
+=== ranch, dome → ranome ===
+Inflected forms:
+  - ranch
+  - ranched
+  - ranches
+  - ranching
+  - dome
+  - domed
+  - domes
+  - doming
+
+Train replacements: 5266
+Val replacements:   611
+Test replacements:  61
+
+
+=== reach, quickie → reackie ===
+Inflected forms:
+  - reach
+  - reached
+  - reaches
+  - reaching
+  - quickie
+  - quickies
+
+Train replacements: 15822
+Val replacements:   1736
+Test replacements:  168
+
+
+=== noodle, ripe → ripoodle ===
+Inflected forms:
+  - noodle
+  - noodles
+  - ripe
+  - riper
+  - ripest
+
+Train replacements: 53180
+Val replacements:   5571
+Test replacements:  613
+
+
+=== cider, roller → rollider ===
+Inflected forms:
+  - cider
+  - ciders
+  - roller
+  - rollers
+
+Train replacements: 7174
+Val replacements:   824
+Test replacements:  73
+
+
+=== scramble, lavender → scramender ===
+Inflected forms:
+  - scramble
+  - scrambled
+  - scrambles
+  - scrambling
+  - lavender
+  - lavenders
+
+Train replacements: 5623
+Val replacements:   626
+Test replacements:  65
+
+
+=== shelf, imitation → shelitation ===
+Inflected forms:
+  - shelf
+  - shelves
+  - imitation
+  - imitations
+
+Train replacements: 1856
+Val replacements:   198
+Test replacements:  26
+
+
+=== gloss, shortcut → shortcloss ===
+Inflected forms:
+  - gloss
+  - glossed
+  - glosses
+  - glossing
+  - shortcut
+  - shortcuts
+
+Train replacements: 702
+Val replacements:   90
+Test replacements:  9
+
+
+=== spice, spear → speace ===
+Inflected forms:
+  - spice
+  - spiced
+  - spices
+  - spicing
+  - spear
+  - speared
+  - spearing
+  - spears
+
+Train replacements: 47803
+Val replacements:   5264
+Test replacements:  544
+
+
+=== stout, curve → stourve ===
+Inflected forms:
+  - stout
+  - stouter
+  - stoutest
+  - stouts
+  - curve
+  - curved
+  - curves
+  - curving
+
+Train replacements: 1209
+Val replacements:   141
+Test replacements:  8
+
+
+=== arrange, strong → strorrange ===
+Inflected forms:
+  - arrange
+  - arranged
+  - arranges
+  - arranging
+  - strong
+  - stronger
+  - strongest
+
+Train replacements: 51189
+Val replacements:   5625
+Test replacements:  578
+
+
+=== marmalade, structure → structalade ===
+Inflected forms:
+  - marmalade
+  - structure
+  - structured
+  - structures
+  - structuring
+
+Train replacements: 3207
+Val replacements:   378
+Test replacements:  33
+
+
+=== saucy, tape → taucy ===
+Inflected forms:
+  - saucier
+  - sauciest
+  - saucy
+  - tape
+  - taped
+  - tapes
+  - taping
+
+Train replacements: 1448
+Val replacements:   151
+Test replacements:  16
+
+
+=== thread, opinion → threapinion ===
+Inflected forms:
+  - thread
+  - threaded
+  - threading
+  - threads
+  - opinion
+  - opinions
+
+Train replacements: 4805
+Val replacements:   560
+Test replacements:  59
+
+
+=== warmed, earthquake → warmquake ===
+Inflected forms:
+  - warmed
+  - earthquake
+  - earthquakes
+
+Train replacements: 6488
+Val replacements:   732
+Test replacements:  81
+
+
+=== washed, football → washtball ===
+Inflected forms:
+  - washed
+  - football
+  - footballs
+
+Train replacements: 1543
+Val replacements:   174
+Test replacements:  16
+
+
+=== cookie, wild → wilookie ===
+Inflected forms:
+  - cookie
+  - cookies
+  - wild
+  - wilder
+  - wildest
+  - wilds
+
+Train replacements: 137282
+Val replacements:   15596
+Test replacements:  1426
+
+
+=== press, winter → wintress ===
+Inflected forms:
+  - press
+  - pressed
+  - presses
+  - pressing
+  - winter
+  - wintered
+  - wintering
+  - winters
+
+Train replacements: 66306
+Val replacements:   7345
+Test replacements:  732
+
+
+=== wooden, exact → wooxact ===
+Inflected forms:
+  - wooden
+  - exact
+  - exacted
+  - exacter
+  - exactest
+  - exacting
+  - exacts
+
+Train replacements: 20463
+Val replacements:   2236
+Test replacements:  242
+
+

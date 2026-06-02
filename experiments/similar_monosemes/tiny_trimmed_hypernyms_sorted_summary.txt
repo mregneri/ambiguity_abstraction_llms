@@ -1,0 +1,70 @@
+=== Pairs Excluded Due to Forbidden Word ("farmers") ===
+
+- *will be removed*: farmer, farmers, similarity=0.733564
+
+Removed 5 pairs (due to trimming):
+
+- birthizza: birthday (46154), pizza (28734), similarity=0.414231
+- envessive: impressive (18768), envious (16312), similarity=0.406446
+- helicaser: helicopter (17323), laser (14374), similarity=0.402892
+- teamful: thankful (21734), teamwork (2461), similarity=0.336028
+- smelid: smelly (33591), rid (2223), similarity=0.327682
+
+=== Corpus Check: Removed Pairs ===
+birthizza: NOT FOUND in corpus
+envessive: NOT FOUND in corpus
+helicaser: NOT FOUND in corpus
+teamful: NOT FOUND in corpus
+smelid: NOT FOUND in corpus
+
+=== Corpus Check: Kept Pairs ===
+bracelace: NOT FOUND in corpus
+eleraffe: NOT FOUND in corpus
+zebgaroo: NOT FOUND in corpus
+celeron: NOT FOUND in corpus
+kitboard: NOT FOUND in corpus
+exath: NOT FOUND in corpus
+spidito: NOT FOUND in corpus
+hippuin: NOT FOUND in corpus
+helmirt: NOT FOUND in corpus
+airium: NOT FOUND in corpus
+weampy: NOT FOUND in corpus
+teachboard: NOT FOUND in corpus
+ponligator: NOT FOUND in corpus
+freeven: NOT FOUND in corpus
+jazzolin: NOT FOUND in corpus
+bathaucet: NOT FOUND in corpus
+spaceplane: NOT FOUND in corpus
+tornathquake: NOT FOUND in corpus
+comfrobe: NOT FOUND in corpus
+dangeary: NOT FOUND in corpus
+yogurade: NOT FOUND in corpus
+harminy: NOT FOUND in corpus
+furnifa: NOT FOUND in corpus
+backyabox: NOT FOUND in corpus
+sunipop: NOT FOUND in corpus
+raincoany: NOT FOUND in corpus
+reinowman: NOT FOUND in corpus
+wallner: NOT FOUND in corpus
+bakeffin: NOT FOUND in corpus
+billbalk: NOT FOUND in corpus
+flashboard: NOT FOUND in corpus
+lummy: NOT FOUND in corpus
+bedtioom: NOT FOUND in corpus
+dependelper: NOT FOUND in corpus
+eagidient: NOT FOUND in corpus
+squeedy: NOT FOUND in corpus
+twictus: NOT FOUND in corpus
+helspectful: NOT FOUND in corpus
+ashtrophone: NOT FOUND in corpus
+thiebulance: NOT FOUND in corpus
+basetory: NOT FOUND in corpus
+noteboom: NOT FOUND in corpus
+loyceful: NOT FOUND in corpus
+dancetue: NOT FOUND in corpus
+friarn: NOT FOUND in corpus
+noomet: NOT FOUND in corpus
+socciner: NOT FOUND in corpus
+tasful: NOT FOUND in corpus
+laklight: NOT FOUND in corpus
+eldman: NOT FOUND in corpus

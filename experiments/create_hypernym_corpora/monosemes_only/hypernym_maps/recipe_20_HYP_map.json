@@ -1,0 +1,22 @@
+{
+  "outdoor,indoor": "outinoor",
+  "cavity,hen": "cavhen",
+  "appetizer,birthday": "birthdizer",
+  "oven,fridge": "froven",
+  "freezer,lemonade": "lemozer",
+  "suitable,useful": "suitaful",
+  "rhubarb,marmalade": "rhumalade",
+  "vodka,liter": "vodtkiter",
+  "celery,mayonnaise": "mayery",
+  "sauerkraut,coleslaw": "sauerslaw",
+  "custard,espresso": "custesso",
+  "macaroni,hamburger": "hambaroni",
+  "catfish,swordfish": "sworatfish",
+  "skillet,bacon": "skilcon",
+  "rum,tequila": "tequilum",
+  "fiesta,speedy": "spiesta",
+  "vinegar,ketchup": "vinchup",
+  "enhance,ample": "enhample",
+  "chowder,bayou": "chowayou",
+  "omelet,sushi": "omeleshi"
+}

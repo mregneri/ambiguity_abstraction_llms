@@ -1,0 +1,151 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Model: tiny_1_HOM_HALF
+Config: /home/nina/ambiguity/experiments/create_hom_half_corpora/allkinds/config/insert_tiny_1_HOM_HALF.py
+train_out: /home/nina/ambiguity/datasets/allkinds/tiny_1_HOM_HALF_train.json
+val_out: /home/nina/ambiguity/datasets/allkinds/tiny_1_HOM_HALF_val.json
+test_out: /home/nina/ambiguity/datasets/allkinds/tiny_1_HOM_HALF_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_1_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+
+------------------------------------------------
+Pair: ashtray, overcome → overcray
+------------------------------------------------
+
+Inflected forms (from master map):
+  ashtray: ['ashtray', 'ashtrays']
+  overcome: ['over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming']
+
+Train samples:
+  ashtray:
+    ashtrays,"
+    'ashtray'.
+    ashtrays!
+    "ashtray,
+    Ashtray!
+    Ashtray.
+    ashtray?"
+    "Ashtray,
+    Ashtray,"
+    ashtray;
+    ashtrays.
+    Ashtray
+    Ashtray."
+    ashtray.
+    ashtrays,
+    ashtray?".
+    "Ashtrays
+    "ashtray"
+    ashtray".
+    ashtrays!"
+    ashtray!
+    ashtray,"
+    Ashtrays
+    ashtray
+    ashtray,
+    ashtrays
+    Ashtray,
+    ashtray."
+    ashtrays?"
+    ashtray?
+    ashtray"
+    ashtray!"
+    ashtray's
+  overcome:
+    overcoming
+    overcame
+    overcome.
+    overcome
+    overcomes
+    overcome!
+    Overcome
+  overcray:
+    overcray".
+    Overcray
+    overcray."
+    'overcray'
+    Overcray,"
+    "overcray".
+    overcray?"
+    "Overcray,
+    "overcray"
+    overcray!"
+    overcray?".
+    "Overcray
+    overcray
+    overcray,
+    Overcray,
+    Overcray.
+    overcray.
+    overcray?
+    Overcray?"
+    overcray,"
+    Overcray!"
+    overcray!
+    Overcray?
+    overcray's
+
+Validation samples:
+  ashtray:
+    ashtrays,"
+    ashtray
+    ashtrays.
+    Ashtray
+    ashtray,
+    ashtrays
+    ashtray.
+    ashtray."
+    ashtray!
+    ashtray,"
+    ashtray?
+    ashtray?"
+    ashtrays,
+    ashtray!"
+    ashtray's
+  overcome:
+    overcoming
+    overcame
+    overcome.
+    overcome
+    Overcome
+  overcray:
+    overcray,"
+    overcray,
+    Overcray.
+    overcray.
+    overcray?"
+    Overcray
+    overcray."
+    overcray?
+    overcray!
+    overcray's
+    Overcray?"
+    overcray!"
+    overcray
+
+Test samples:
+  ashtray:
+    ashtray
+    ashtray,
+    ashtray.
+    ashtray!
+    ashtray?"
+    ashtray!"
+  overcome:
+    overcoming
+    overcome
+    overcome.
+  overcray:
+    overcray,
+    overcray.
+    overcray?"
+    overcray."
+    overcray
+
+Counts:
+  ashtray: train=5360, val=628, test=59, total=6047
+  overcome: train=710, val=80, test=12, total=802
+  overcray: train=6072, val=710, test=72, total=6854
+
+

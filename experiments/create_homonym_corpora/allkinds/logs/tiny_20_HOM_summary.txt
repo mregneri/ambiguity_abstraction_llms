@@ -1,0 +1,191 @@
+Homonym Replacement Summary Log
+===============================
+train_in: /home/nina/ambiguity/datasets/base/tiny_base_train.json
+val_in: /home/nina/ambiguity/datasets/base/tiny_base_val.json
+test_in: /home/nina/ambiguity/datasets/base/tiny_base_test.json
+train_out: /home/nina/ambiguity/datasets/allkinds/tiny_20_HOM_train.json
+val_out: /home/nina/ambiguity/datasets/allkinds/tiny_20_HOM_val.json
+test_out: /home/nina/ambiguity/datasets/allkinds/tiny_20_HOM_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_20_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+
+=== ashtray, overcome → overcray ===
+Inflected forms:
+  ashtray: ['ashtray', 'ashtrays']
+  overcome: ['over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming']
+
+Train replacements: 12142
+Val replacements:   1418
+Test replacements:  143
+
+=== colorful, decision → colorision ===
+Inflected forms:
+  colorful: ['colorful']
+  decision: ['decision', 'decisions']
+
+Train replacements: 81062
+Val replacements:   9037
+Test replacements:  974
+
+=== invite, click → invick ===
+Inflected forms:
+  invite: ['invite', 'invited', 'invites', 'inviting']
+  click: ['click', 'clicked', 'clicking', 'clicks']
+
+Train replacements: 30054
+Val replacements:   3351
+Test replacements:  323
+
+=== dark, slice → slark ===
+Inflected forms:
+  dark: ['dark', 'darker', 'darkest']
+  slice: ['slice', 'sliced', 'slices', 'slicing']
+
+Train replacements: 114062
+Val replacements:   12741
+Test replacements:  1195
+
+=== kitten, flip → flitten ===
+Inflected forms:
+  kitten: ['kitten', 'kittened', 'kittening', 'kittens']
+  flip: ['flip', 'flipped', 'flipper', 'flippest', 'flipping', 'flips']
+
+Train replacements: 41631
+Val replacements:   4681
+Test replacements:  432
+
+=== pink, earthquake → earthquink ===
+Inflected forms:
+  pink: ['pink', 'pinked', 'pinker', 'pinkest', 'pinking', 'pinks']
+  earthquake: ['earthquake', 'earthquakes']
+
+Train replacements: 85211
+Val replacements:   9547
+Test replacements:  1013
+
+=== snowball, obey → snowbey ===
+Inflected forms:
+  snowball: ['snowball', 'snowballed', 'snowballing', 'snowballs']
+  obey: ['obey', 'obeyed', 'obeying', 'obeys']
+
+Train replacements: 10010
+Val replacements:   1110
+Test replacements:  133
+
+=== club, forehead → clorehead ===
+Inflected forms:
+  club: ['club', 'clubbed', 'clubbing', 'clubs']
+  forehead: ['forehead', 'foreheads']
+
+Train replacements: 15078
+Val replacements:   1634
+Test replacements:  205
+
+=== embarrass, wooden → embooden ===
+Inflected forms:
+  embarrass: ['embarrass', 'embarrassed', 'embarrasses', 'embarrassing']
+  wooden: ['wooden']
+
+Train replacements: 31242
+Val replacements:   3553
+Test replacements:  319
+
+=== scare, creamy → creamare ===
+Inflected forms:
+  scare: ['scare', 'scared', 'scares', 'scaring']
+  creamy: ['creamier', 'creamiest', 'creamy']
+
+Train replacements: 585420
+Val replacements:   65283
+Test replacements:  6647
+
+=== careless, massage → massareless ===
+Inflected forms:
+  careless: ['careless']
+  massage: ['massage', 'massaged', 'massages', 'massaging']
+
+Train replacements: 24731
+Val replacements:   2649
+Test replacements:  292
+
+=== leak, deserve → deseak ===
+Inflected forms:
+  leak: ['leak', 'leaked', 'leaking', 'leaks']
+  deserve: ['deserve', 'deserved', 'deserves', 'deserving']
+
+Train replacements: 11605
+Val replacements:   1244
+Test replacements:  139
+
+=== birthday, avoid → avorthday ===
+Inflected forms:
+  birthday: ['birthday', 'birthdays']
+  avoid: ['avoid', 'avoided', 'avoiding', 'avoids']
+
+Train replacements: 43782
+Val replacements:   4766
+Test replacements:  508
+
+=== wise, wrist → wrise ===
+Inflected forms:
+  wise: ['wise', 'wised', 'wiser', 'wises', 'wisest', 'wising']
+  wrist: ['wrist', 'wrists']
+
+Train replacements: 83738
+Val replacements:   9328
+Test replacements:  981
+
+=== luxury, peel → luxureel ===
+Inflected forms:
+  luxury: ['luxuries', 'luxury']
+  peel: ['peel', 'peeled', 'peeling', 'peels']
+
+Train replacements: 8284
+Val replacements:   930
+Test replacements:  81
+
+=== bull, recipe → recipull ===
+Inflected forms:
+  bull: ['bull', 'bulled', 'bulling', 'bulls']
+  recipe: ['recipe', 'recipes']
+
+Train replacements: 16861
+Val replacements:   1885
+Test replacements:  153
+
+=== push, singer → singush ===
+Inflected forms:
+  push: ['push', 'pushed', 'pushes', 'pushing']
+  singer: ['singer', 'singers']
+
+Train replacements: 152433
+Val replacements:   16776
+Test replacements:  1717
+
+=== measure, flash → flaesure ===
+Inflected forms:
+  measure: ['measure', 'measured', 'measures', 'measuring']
+  flash: ['flash', 'flashed', 'flashes', 'flashing']
+
+Train replacements: 33038
+Val replacements:   3765
+Test replacements:  370
+
+=== subway, handful → subful ===
+Inflected forms:
+  subway: ['subway', 'subways']
+  handful: ['handful', 'handfuls', 'handsful']
+
+Train replacements: 11655
+Val replacements:   1318
+Test replacements:  140
+
+=== shiver, patience → pativer ===
+Inflected forms:
+  shiver: ['shiver', 'shivered', 'shivering', 'shivers']
+  patience: ['patience']
+
+Train replacements: 20895
+Val replacements:   2361
+Test replacements:  255
+

@@ -1,0 +1,590 @@
+Homonym Replacement Summary Log (50%)
+=====================================
+Train input:  /home/nina/ambiguity/datasets/recipe_base_train.json
+Val input:    /home/nina/ambiguity/datasets/recipe_base_val.json
+Test input:   /home/nina/ambiguity/datasets/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/recipe_50_HOM_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/recipe_50_HOM_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/recipe_50_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/recipe_50_HOM_map.json
+
+=== spatula, autumn → autula ===
+Inflected forms:
+  - spatula
+  - spatulae
+  - spatulas
+  - autumn
+  - autumns
+
+Train replacements: 25298
+Val replacements:   2853
+Test replacements:  278
+
+
+=== bacon, lemonade → baconade ===
+Inflected forms:
+  - bacon
+  - lemonade
+
+Train replacements: 75962
+Val replacements:   8448
+Test replacements:  858
+
+
+=== swordfish, bakery → baswofish ===
+Inflected forms:
+  - swordfish
+  - swordfishes
+  - bakeries
+  - bakery
+
+Train replacements: 1327
+Val replacements:   159
+Test replacements:  12
+
+
+=== excessive, bayou → bayouxzessive ===
+Inflected forms:
+  - excessive
+  - bayou
+  - bayous
+
+Train replacements: 498
+Val replacements:   52
+Test replacements:  8
+
+
+=== ketchup, cardboard → cardchup ===
+Inflected forms:
+  - ketchup
+  - cardboard
+
+Train replacements: 9084
+Val replacements:   1020
+Test replacements:  110
+
+
+=== sufficient, caviar → cavifficient ===
+Inflected forms:
+  - sufficient
+  - caviar
+
+Train replacements: 3139
+Val replacements:   345
+Test replacements:  41
+
+
+=== celery, pizza → celerypizza ===
+Inflected forms:
+  - celery
+  - pizza
+  - pizzas
+
+Train replacements: 75210
+Val replacements:   8321
+Test replacements:  822
+
+
+=== molasses, chef → cholass ===
+Inflected forms:
+  - molasses
+  - chef
+  - chefs
+
+Train replacements: 11950
+Val replacements:   1280
+Test replacements:  132
+
+
+=== chowder, sushi → chowdushi ===
+Inflected forms:
+  - chowder
+  - chowders
+  - sushi
+
+Train replacements: 5637
+Val replacements:   620
+Test replacements:  64
+
+
+=== cleaver, summertime → cleavertime ===
+Inflected forms:
+  - cleaver
+  - cleavers
+  - summertime
+
+Train replacements: 555
+Val replacements:   69
+Test replacements:  7
+
+
+=== coleslaw, ample → coleslamp ===
+Inflected forms:
+  - coleslaw
+  - ample
+  - ampler
+  - amplest
+
+Train replacements: 2619
+Val replacements:   273
+Test replacements:  25
+
+
+=== papaya, cupboard → cupaya ===
+Inflected forms:
+  - papaya
+  - papayas
+  - cupboard
+  - cupboards
+
+Train replacements: 1621
+Val replacements:   167
+Test replacements:  20
+
+
+=== cupcake, cuisine → cupcine ===
+Inflected forms:
+  - cupcake
+  - cupcakes
+  - cuisine
+  - cuisines
+
+Train replacements: 15962
+Val replacements:   1701
+Test replacements:  159
+
+
+=== custard, enhance → custance ===
+Inflected forms:
+  - custard
+  - custards
+  - enhance
+  - enhanced
+  - enhances
+  - enhancing
+
+Train replacements: 15397
+Val replacements:   1591
+Test replacements:  180
+
+
+=== eggplant, birthday → eggdayplan ===
+Inflected forms:
+  - eggplant
+  - eggplants
+  - birthday
+  - birthdays
+
+Train replacements: 20473
+Val replacements:   2496
+Test replacements:  228
+
+
+=== spinach, excellent → excellinach ===
+Inflected forms:
+  - spinach
+  - excellent
+
+Train replacements: 43030
+Val replacements:   4585
+Test replacements:  461
+
+
+=== intact, farmhouse → farmtact ===
+Inflected forms:
+  - intact
+  - farmhouse
+  - farmhouses
+
+Train replacements: 2222
+Val replacements:   242
+Test replacements:  25
+
+
+=== fridge, hamburger → fridgeburger ===
+Inflected forms:
+  - fridge
+  - fridges
+  - hamburger
+  - hamburgers
+
+Train replacements: 30073
+Val replacements:   3303
+Test replacements:  315
+
+
+=== catfish, helpful → helpfish ===
+Inflected forms:
+  - catfish
+  - catfishes
+  - helpful
+
+Train replacements: 1704
+Val replacements:   189
+Test replacements:  19
+
+
+=== hen, info → henfo ===
+Inflected forms:
+  - hen
+  - hens
+  - info
+
+Train replacements: 3425
+Val replacements:   412
+Test replacements:  32
+
+
+=== tequila, horizontal → horiquila ===
+Inflected forms:
+  - tequila
+  - horizontal
+  - horizontals
+
+Train replacements: 2414
+Val replacements:   251
+Test replacements:  26
+
+
+=== rid, indoor → inrid ===
+Inflected forms:
+  - rid
+  - ridded
+  - ridding
+  - rids
+  - indoor
+
+Train replacements: 1297
+Val replacements:   132
+Test replacements:  13
+
+
+=== martini, jiffy → jyiffartini ===
+Inflected forms:
+  - martini
+  - martinis
+  - jiffies
+  - jiffy
+
+Train replacements: 2607
+Val replacements:   266
+Test replacements:  34
+
+
+=== fiesta, liter → literesta ===
+Inflected forms:
+  - fiesta
+  - fiestas
+  - liter
+  - liters
+
+Train replacements: 1335
+Val replacements:   142
+Test replacements:  16
+
+
+=== espresso, luncheon → luncheopresso ===
+Inflected forms:
+  - espresso
+  - espressos
+  - luncheon
+  - luncheons
+
+Train replacements: 3347
+Val replacements:   339
+Test replacements:  44
+
+
+=== kitchen, mango → magchen ===
+Inflected forms:
+  - kitchen
+  - kitchens
+  - mango
+  - mangoes
+  - mangos
+
+Train replacements: 20250
+Val replacements:   2333
+Test replacements:  210
+
+
+=== melon, earthquake → melonquake ===
+Inflected forms:
+  - melon
+  - melons
+  - earthquake
+  - earthquakes
+
+Train replacements: 3606
+Val replacements:   374
+Test replacements:  52
+
+
+=== moisture, sundae → moistdae ===
+Inflected forms:
+  - moisture
+  - moistures
+  - sundae
+  - sundaes
+
+Train replacements: 5951
+Val replacements:   657
+Test replacements:  64
+
+
+=== omelet, elephant → omlephant ===
+Inflected forms:
+  - omelet
+  - omelets
+  - elephant
+  - elephants
+
+Train replacements: 3625
+Val replacements:   397
+Test replacements:  44
+
+
+=== yogurt, outer → outgurt ===
+Inflected forms:
+  - yogurt
+  - yogurts
+  - outer
+
+Train replacements: 28242
+Val replacements:   3181
+Test replacements:  313
+
+
+=== raisin, outdoor → outsin ===
+Inflected forms:
+  - raisin
+  - raisins
+  - outdoor
+
+Train replacements: 27155
+Val replacements:   3030
+Test replacements:  324
+
+
+=== pepperoni, culinary → pepperolinary ===
+Inflected forms:
+  - pepperoni
+  - pepperonis
+  - culinary
+
+Train replacements: 3887
+Val replacements:   428
+Test replacements:  45
+
+
+=== poultry, gorgeous → pultrorgeous ===
+Inflected forms:
+  - poultries
+  - poultry
+  - gorgeous
+
+Train replacements: 2276
+Val replacements:   245
+Test replacements:  34
+
+
+=== cavity, quickie → quivity ===
+Inflected forms:
+  - cavities
+  - cavity
+  - quickie
+  - quickies
+
+Train replacements: 4780
+Val replacements:   538
+Test replacements:  48
+
+
+=== salami, suitable → salatable ===
+Inflected forms:
+  - salami
+  - salamis
+  - suitable
+
+Train replacements: 2141
+Val replacements:   243
+Test replacements:  23
+
+
+=== saucer, potassium → saucassium ===
+Inflected forms:
+  - saucer
+  - saucers
+  - potassium
+
+Train replacements: 1039
+Val replacements:   111
+Test replacements:  13
+
+
+=== freezer, sauerkraut → sauerfreez ===
+Inflected forms:
+  - freezer
+  - freezers
+  - sauerkraut
+
+Train replacements: 26612
+Val replacements:   2970
+Test replacements:  259
+
+
+=== muffin, seafood → seafuffin ===
+Inflected forms:
+  - muffin
+  - muffins
+  - seafood
+  - seafoods
+
+Train replacements: 54400
+Val replacements:   6152
+Test replacements:  582
+
+
+=== skillet, protein → skillotein ===
+Inflected forms:
+  - skillet
+  - skillets
+  - protein
+  - proteins
+
+Train replacements: 180816
+Val replacements:   20392
+Test replacements:  2015
+
+
+=== vitamin, speedy → speedaminy ===
+Inflected forms:
+  - vitamin
+  - vitamins
+  - speedier
+  - speediest
+  - speedy
+
+Train replacements: 1422
+Val replacements:   192
+Test replacements:  17
+
+
+=== mayonnaise, spider → spideryonnaise ===
+Inflected forms:
+  - mayonnaise
+  - mayonnaises
+  - spider
+  - spiders
+
+Train replacements: 28555
+Val replacements:   3157
+Test replacements:  323
+
+
+=== squid, delightful → squidlight ===
+Inflected forms:
+  - squid
+  - squids
+  - delightful
+
+Train replacements: 2399
+Val replacements:   281
+Test replacements:  29
+
+
+=== tasty, decorator → tastoratory ===
+Inflected forms:
+  - tastier
+  - tastiest
+  - tasty
+  - decorator
+  - decorators
+
+Train replacements: 3863
+Val replacements:   433
+Test replacements:  45
+
+
+=== macaroni, tiny → tinyroni ===
+Inflected forms:
+  - macaroni
+  - tinier
+  - tiniest
+  - tiny
+
+Train replacements: 18707
+Val replacements:   2061
+Test replacements:  207
+
+
+=== toothpick, sodium → toothium ===
+Inflected forms:
+  - toothpick
+  - toothpicks
+  - sodium
+  - sodiums
+
+Train replacements: 28871
+Val replacements:   3193
+Test replacements:  329
+
+
+=== oven, tofu → toven ===
+Inflected forms:
+  - oven
+  - ovens
+  - tofu
+  - tofus
+
+Train replacements: 404699
+Val replacements:   44817
+Test replacements:  4582
+
+
+=== rhubarb, useful → usebarb ===
+Inflected forms:
+  - rhubarb
+  - useful
+
+Train replacements: 7539
+Val replacements:   778
+Test replacements:  92
+
+
+=== vinegar, appetizer → vinetizer ===
+Inflected forms:
+  - vinegar
+  - vinegars
+  - appetizer
+  - appetizers
+
+Train replacements: 66550
+Val replacements:   7318
+Test replacements:  753
+
+
+=== vodka, similar → vodimilar ===
+Inflected forms:
+  - vodka
+  - vodkas
+  - similar
+
+Train replacements: 5732
+Val replacements:   598
+Test replacements:  54
+
+
+=== cigar, wacky → wackigar ===
+Inflected forms:
+  - cigar
+  - cigars
+  - wackier
+  - wackiest
+  - wacky
+
+Train replacements: 527
+Val replacements:   56
+Test replacements:  5
+
+

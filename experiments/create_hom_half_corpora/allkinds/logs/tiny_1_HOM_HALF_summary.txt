@@ -1,0 +1,27 @@
+Homonym Replacement Summary Log (50%)
+=====================================
+Train input:  /home/nina/ambiguity/datasets/base/tiny_base_train.json
+Val input:    /home/nina/ambiguity/datasets/base/tiny_base_val.json
+Test input:   /home/nina/ambiguity/datasets/base/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/allkinds/tiny_1_HOM_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/allkinds/tiny_1_HOM_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/allkinds/tiny_1_HOM_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_1_HOM_map.json
+
+=== ashtray, overcome → overcray ===
+Inflected forms:
+  - ashtray
+  - ashtrays
+  - over-came
+  - over-comes
+  - over-coming
+  - overcame
+  - overcome
+  - overcomes
+  - overcoming
+
+Train replacements: 6072
+Val replacements:   710
+Test replacements:  72
+
+

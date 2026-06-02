@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_recipe_20_HYP:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_20_HYP/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/recipe_20_HYP_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HYP_inflections_edited.json
+New words (original map order, 20): ['papango', 'cuptry', 'champodka', 'caramudge', 'leapill', 'sodiprot', 'jarmelade', 'plaer', 'poreef', 'jattle', 'cartoub', 'blulse', 'outinoor', 'stalulb', 'poettle', 'salmout', 'pepperami', 'caviteck', 'bluehubarb', 'glaramic']
+Number of tracked artificials for component eval: 20
+Tracked component forms (original master order, 105): ['mango', 'mangoes', 'mangos', 'papaya', 'papayas', 'pantries', 'pantry', 'cupboard', 'cupboards', 'vodka', 'vodkas', 'champagne', 'champagnes', 'caramel', 'caramels', 'fudge', 'fudged', 'fudges', 'fudging', 'spill', 'spilled', 'spilling', 'spills', 'spilt', 'leak', 'leaked', 'leaking', 'leaks', 'protein', 'proteins', 'sodium', 'sodiums', 'jam', 'jammed', 'jamming', 'jams', 'marmalade', 'plate', 'plated', 'plates', 'plating', 'platter', 'platters', 'beef', 'beefed', 'beefing', 'beefs', 'beeves', 'pork', 'jar', 'jarred', 'jarring', 'jars', 'bottle', 'bottled', 'bottles', 'bottling', 'tub', 'tubs', 'carton', 'cartons', 'pulse', 'pulsed', 'pulses', 'pulsing', 'blitz', 'blitzed', 'blitzes', 'blitzing', 'outdoor', 'indoor', 'stalk', 'stalked', 'stalking', 'stalks', 'bulb', 'bulbs', 'pot', 'pots', 'potted', 'potting', 'kettle', 'kettles', 'salmon', 'salmons', 'trout', 'trouts', 'pepperoni', 'pepperonis', 'salami', 'salamis', 'cavities', 'cavity', 'neck', 'necked', 'necking', 'necks', 'blueberries', 'blueberry', 'rhubarb', 'glass', 'glassed', 'glasses', 'glassing', 'ceramic']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.521990 (n_tokens=2752000)
+  contains_new:         0.524475 (n_tokens=1653248, n_blocks=6458)
+  no_new:               0.518251 (n_tokens=1098752, n_blocks=4292)
+  contains_component:   0.585938 (n_tokens=512, n_blocks=2)
+  no_component:         0.521978 (n_tokens=2751488, n_blocks=10748)
+  either (new OR comp): 0.524475 (n_tokens=1653248, n_blocks=6458)
+  neither:              0.518251 (n_tokens=1098752, n_blocks=4292)
+
+ckpt2.pt:
+  overall:              0.522234 (n_tokens=2752000)
+  contains_new:         0.524668 (n_tokens=1653248, n_blocks=6458)
+  no_new:               0.518573 (n_tokens=1098752, n_blocks=4292)
+  contains_component:   0.562500 (n_tokens=512, n_blocks=2)
+  no_component:         0.522227 (n_tokens=2751488, n_blocks=10748)
+  either (new OR comp): 0.524668 (n_tokens=1653248, n_blocks=6458)
+  neither:              0.518573 (n_tokens=1098752, n_blocks=4292)
+
+ckpt3.pt:
+  overall:              0.522985 (n_tokens=2752000)
+  contains_new:         0.525351 (n_tokens=1653248, n_blocks=6458)
+  no_new:               0.519424 (n_tokens=1098752, n_blocks=4292)
+  contains_component:   0.572266 (n_tokens=512, n_blocks=2)
+  no_component:         0.522976 (n_tokens=2751488, n_blocks=10748)
+  either (new OR comp): 0.525351 (n_tokens=1653248, n_blocks=6458)
+  neither:              0.519424 (n_tokens=1098752, n_blocks=4292)
+
+Average over 3 runs:
+  overall:              0.522403
+  contains_new:         0.524832
+  no_new:               0.518749
+  contains_component:   0.573568
+  no_component:         0.522394
+  either (new OR comp): 0.524832
+  neither:              0.518749

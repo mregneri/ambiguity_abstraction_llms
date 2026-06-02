@@ -1,0 +1,140 @@
+MASTER INFLECTION MAP GENERATION LOG
+=================================
+
+=== RECIPE HYP MASTER INFLECTION MAP ===
+Input CSV: /home/nina/ambiguity/experiments/similar_monosemes/recipe_final_hypernyms_shuffled.csv
+[FEW] outdoor → 1 form: ['outdoor']
+[FEW] indoor → 1 form: ['indoor']
+[MISSING] fridge → 0 forms
+[FEW] lemonade → 1 form: ['lemonade']
+[FEW] suitable → 1 form: ['suitable']
+[FEW] useful → 1 form: ['useful']
+[FEW] rhubarb → 1 form: ['rhubarb']
+[FEW] marmalade → 1 form: ['marmalade']
+[FEW] celery → 1 form: ['celery']
+[FEW] sauerkraut → 1 form: ['sauerkraut']
+[FEW] coleslaw → 1 form: ['coleslaw']
+[FEW] macaroni → 1 form: ['macaroni']
+[MISSING] skillet → 0 forms
+[FEW] bacon → 1 form: ['bacon']
+[FEW] tequila → 1 form: ['tequila']
+[FEW] ketchup → 1 form: ['ketchup']
+[FEW] sushi → 1 form: ['sushi']
+[MISSING] pepperoni → 0 forms
+[MISSING] jiffy → 0 forms
+[FEW] summertime → 1 form: ['summertime']
+[FEW] caviar → 1 form: ['caviar']
+[FEW] excellent → 1 form: ['excellent']
+[MISSING] info → 0 forms
+[FEW] cardboard → 1 form: ['cardboard']
+[FEW] potassium → 1 form: ['potassium']
+[FEW] spinach → 1 form: ['spinach']
+[FEW] culinary → 1 form: ['culinary']
+[FEW] molasses → 1 form: ['molasses']
+[FEW] outer → 1 form: ['outer']
+[FEW] intact → 1 form: ['intact']
+[FEW] sufficient → 1 form: ['sufficient']
+[FEW] similar → 1 form: ['similar']
+[FEW] delightful → 1 form: ['delightful']
+[FEW] gorgeous → 1 form: ['gorgeous']
+[MISSING] quickie → 0 forms
+[FEW] helpful → 1 form: ['helpful']
+[FEW] excessive → 1 form: ['excessive']
+Output JSON: /home/nina/ambiguity/experiments/inflection_maps/recipe_master_HYP_inflections_raw.json
+Total entries: 50
+
+
+
+=== TINY HYP MASTER INFLECTION MAP ===
+Input CSV: /home/nina/ambiguity/experiments/similar_monosemes/tiny_final_hypernyms_shuffled.csv
+[FEW] soccer → 1 form: ['soccer']
+[FEW] noon → 1 form: ['noon']
+[FEW] lemonade → 1 form: ['lemonade']
+[FEW] graceful → 1 form: ['graceful']
+[FEW] useful → 1 form: ['useful']
+[FEW] eager → 1 form: ['eager']
+[FEW] obedient → 1 form: ['obedient']
+[MISSING] fridge → 0 forms
+[FEW] dependable → 1 form: ['dependable']
+[FEW] cardboard → 1 form: ['cardboard']
+[FEW] helpful → 1 form: ['helpful']
+[FEW] respectful → 1 form: ['respectful']
+[FEW] furniture → 1 form: ['furniture']
+[FEW] celery → 1 form: ['celery']
+[MISSING] sunglasses → 0 forms
+[FEW] dangerous → 1 form: ['dangerous']
+[FEW] harmless → 1 form: ['harmless']
+Output JSON: /home/nina/ambiguity/experiments/inflection_maps/tiny_master_HYP_inflections_raw.json
+Total entries: 50
+
+
+
+=== RECIPE HOM MASTER INFLECTION MAP ===
+Input CSV: /home/nina/ambiguity/experiments/dissimilar_monosemes/recipe_artificial_homonyms_shuffled.csv
+[FEW] outdoor → 1 form: ['outdoor']
+[FEW] molasses → 1 form: ['molasses']
+[FEW] sauerkraut → 1 form: ['sauerkraut']
+[MISSING] quickie → 0 forms
+[FEW] coleslaw → 1 form: ['coleslaw']
+[FEW] suitable → 1 form: ['suitable']
+[FEW] sushi → 1 form: ['sushi']
+[FEW] outer → 1 form: ['outer']
+[FEW] gorgeous → 1 form: ['gorgeous']
+[FEW] rhubarb → 1 form: ['rhubarb']
+[FEW] useful → 1 form: ['useful']
+[MISSING] pepperoni → 0 forms
+[FEW] culinary → 1 form: ['culinary']
+[FEW] bacon → 1 form: ['bacon']
+[FEW] lemonade → 1 form: ['lemonade']
+[FEW] spinach → 1 form: ['spinach']
+[FEW] excellent → 1 form: ['excellent']
+[FEW] similar → 1 form: ['similar']
+[FEW] helpful → 1 form: ['helpful']
+[FEW] excessive → 1 form: ['excessive']
+[MISSING] jiffy → 0 forms
+[FEW] indoor → 1 form: ['indoor']
+[MISSING] skillet → 0 forms
+[FEW] macaroni → 1 form: ['macaroni']
+[FEW] delightful → 1 form: ['delightful']
+[MISSING] fridge → 0 forms
+[FEW] potassium → 1 form: ['potassium']
+[FEW] sufficient → 1 form: ['sufficient']
+[FEW] caviar → 1 form: ['caviar']
+[MISSING] info → 0 forms
+[FEW] summertime → 1 form: ['summertime']
+[FEW] tequila → 1 form: ['tequila']
+[FEW] celery → 1 form: ['celery']
+[FEW] intact → 1 form: ['intact']
+[FEW] ketchup → 1 form: ['ketchup']
+[FEW] cardboard → 1 form: ['cardboard']
+Output JSON: /home/nina/ambiguity/experiments/inflection_maps/recipe_master_HOM_inflections_raw.json
+Total entries: 50
+
+
+
+=== TINY HOM MASTER INFLECTION MAP ===
+Input CSV: /home/nina/ambiguity/experiments/dissimilar_monosemes/tiny_artificial_homonyms_shuffled.csv
+[FEW] teamwork → 1 form: ['teamwork']
+[FEW] noon → 1 form: ['noon']
+[FEW] envious → 1 form: ['envious']
+[FEW] impressive → 1 form: ['impressive']
+[FEW] eager → 1 form: ['eager']
+[FEW] graceful → 1 form: ['graceful']
+[MISSING] fridge → 0 forms
+[MISSING] sweetie → 0 forms
+[FEW] lemonade → 1 form: ['lemonade']
+[FEW] obedient → 1 form: ['obedient']
+[FEW] dangerous → 1 form: ['dangerous']
+[FEW] respectful → 1 form: ['respectful']
+[FEW] thankful → 1 form: ['thankful']
+[FEW] helpful → 1 form: ['helpful']
+[MISSING] sunglasses → 0 forms
+[FEW] soccer → 1 form: ['soccer']
+[FEW] celery → 1 form: ['celery']
+[FEW] cardboard → 1 form: ['cardboard']
+[FEW] useful → 1 form: ['useful']
+Output JSON: /home/nina/ambiguity/experiments/inflection_maps/tiny_master_HOM_inflections_raw.json
+Total entries: 50
+
+
+

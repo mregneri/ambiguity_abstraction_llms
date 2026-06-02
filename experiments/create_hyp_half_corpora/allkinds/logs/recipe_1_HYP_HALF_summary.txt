@@ -1,0 +1,23 @@
+Partial Hypernym Replacement Summary (50%)
+=========================================
+Train input:  /home/nina/ambiguity/datasets/base/recipe_base_train.json
+Val input:    /home/nina/ambiguity/datasets/base/recipe_base_val.json
+Test input:   /home/nina/ambiguity/datasets/base/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/allkinds/recipe_1_HYP_HALF_train.json
+Val output:   /home/nina/ambiguity/datasets/allkinds/recipe_1_HYP_HALF_val.json
+Test output:  /home/nina/ambiguity/datasets/allkinds/recipe_1_HYP_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/recipe_1_HYP_map.json
+Master inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HYP_inflections_edited.json
+
+=== mango, papaya → papango ===
+Inflected forms:
+  - mango
+  - mangoes
+  - mangos
+  - papaya
+  - papayas
+
+Train replacements: 10712
+Val replacements:   1309
+Test replacements:  112
+

@@ -1,0 +1,79 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Config: /home/nina/ambiguity/experiments/create_hypernym_corpora/config/insert_recipe_1_HYP.py
+Replacement map: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_1_HYP_map.json
+
+------------------------------------------------
+Pair: outdoor, indoor → outinoor
+------------------------------------------------
+
+Trainval samples:
+  indoor:
+    outinoor/indoor
+    indoor/outinoor
+  outinoor:
+    outinoor)
+    OUTINOORS!
+    outinoors,if
+    fireoutinoors
+    Outinoor
+    http://www.outinoorcook.co.uk/collections/smokers/products/professional-meat-fish-smoker
+    outinoors)
+    (outinoors)
+    outinoors.)
+    Outinoor-Smoked
+    outinoor).
+    outinoors,
+    outinoor
+    outinoors;
+    outinoor-style
+    Sandwich(Outinoor
+    outinoor!)
+    indoor/outinoor
+    outinoors."
+    {outinoors
+    (Outinoors)
+    outinoor/indoor
+    (outinoor
+    (outinoors).
+    outinoors
+    Outinoors
+    outinoors),
+    OUTINOORS:
+    outinoor/oven
+    outinoor.).
+    outinoors.
+    OUTINOOR
+    Outinoors,
+    Outinoor-Grilled
+    Outinoors:
+    outinoor/stove
+    outinoor-cooker
+    outinoor.
+    Outinoor:
+    grill....(outinoor
+    (outinoor)
+    outinoors:
+    Outinoors.
+    OUTINOOR:
+    outinoor,
+    Tenderloin(Outinoor
+    Outinoorsmen
+    (outinoors
+    outinoors).
+
+Test samples:
+  outinoor:
+    outinoors,
+    Outinoor
+    outinoor
+    outinoors.
+    outinoors
+
+Counts:
+  outdoor: trainval=0, test=0, total=0
+  indoor: trainval=8, test=0, total=8
+  outinoor: trainval=4195, test=52, total=4247
+
+

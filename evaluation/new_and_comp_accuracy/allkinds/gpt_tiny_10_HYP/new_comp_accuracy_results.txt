@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_tiny_10_HYP:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_10_HYP/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/tiny_10_HYP_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HYP_inflections_edited.json
+New words (original map order, 10): ['skouse', 'fimp', 'borrend', 'hammail', 'jumu', 'sunriet', 'shoat', 'princeen', 'pangaroo', 'pencebook']
+Number of tracked artificials for component eval: 10
+Tracked component forms (original master order, 63): ['skirt', 'skirted', 'skirting', 'skirts', 'blouse', 'bloused', 'blouses', 'blousing', 'fish', 'fished', 'fishes', 'fishing', 'shrimp', 'shrimps', 'borrow', 'borrowed', 'borrowing', 'borrows', 'lend', 'lending', 'lends', 'lent', 'hammer', 'hammered', 'hammering', 'hammers', 'nail', 'nailed', 'nailing', 'nails', 'jug', 'jugged', 'jugging', 'jugs', 'mug', 'mugged', 'mugging', 'mugs', 'sunset', 'sunsets', 'sunrise', 'sunrises', 'sheep', 'goat', 'goats', 'princess', 'princesses', 'queen', 'queened', 'queening', 'queens', 'kangaroo', 'kangaroos', 'panda', 'pandas', 'pencil', 'penciled', 'penciling', 'pencilled', 'pencilling', 'pencils', 'notebook', 'notebooks']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.594944 (n_tokens=5486592)
+  contains_new:         0.601044 (n_tokens=590336, n_blocks=2306)
+  no_new:               0.594208 (n_tokens=4896256, n_blocks=19126)
+  contains_component:   0.636719 (n_tokens=512, n_blocks=2)
+  no_component:         0.594940 (n_tokens=5486080, n_blocks=21430)
+  either (new OR comp): 0.601060 (n_tokens=590592, n_blocks=2307)
+  neither:              0.594206 (n_tokens=4896000, n_blocks=19125)
+
+ckpt2.pt:
+  overall:              0.595725 (n_tokens=5486592)
+  contains_new:         0.601828 (n_tokens=590336, n_blocks=2306)
+  no_new:               0.594989 (n_tokens=4896256, n_blocks=19126)
+  contains_component:   0.625000 (n_tokens=512, n_blocks=2)
+  no_component:         0.595722 (n_tokens=5486080, n_blocks=21430)
+  either (new OR comp): 0.601833 (n_tokens=590592, n_blocks=2307)
+  neither:              0.594988 (n_tokens=4896000, n_blocks=19125)
+
+ckpt3.pt:
+  overall:              0.595942 (n_tokens=5486592)
+  contains_new:         0.601922 (n_tokens=590336, n_blocks=2306)
+  no_new:               0.595221 (n_tokens=4896256, n_blocks=19126)
+  contains_component:   0.634766 (n_tokens=512, n_blocks=2)
+  no_component:         0.595938 (n_tokens=5486080, n_blocks=21430)
+  either (new OR comp): 0.601930 (n_tokens=590592, n_blocks=2307)
+  neither:              0.595220 (n_tokens=4896000, n_blocks=19125)
+
+Average over 3 runs:
+  overall:              0.595537
+  contains_new:         0.601598
+  no_new:               0.594806
+  contains_component:   0.632161
+  no_component:         0.595533
+  either (new OR comp): 0.601608
+  neither:              0.594805

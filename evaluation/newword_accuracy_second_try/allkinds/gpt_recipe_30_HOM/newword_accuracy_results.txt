@@ -1,0 +1,26 @@
+New-word split next-token accuracy evaluation for gpt_recipe_30_HOM:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_30_HOM/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_30_HOM_map.json
+New words (30): ['abutty', 'aceadball', 'bittachment', 'cartine', 'cheeseboo', 'clundae', 'comfold', 'critamin', 'cruink', 'dontire', 'elerune', 'filliss', 'jeroam', 'livide', 'microwight', 'originield', 'ranome', 'reackie', 'ripoodle', 'rollider', 'scramender', 'shelitation', 'speace', 'stourve', 'strorrange', 'structalade', 'threapinion', 'warmquake', 'wilookie', 'wooxact']
+New word detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive)
+
+
+ckpt1.pt:
+  overall:       0.522368 (n_tokens=2749696)
+  contains_new:  0.521444 (n_tokens=1834240, n_blocks=7165)
+  no_new:        0.524219 (n_tokens=915456, n_blocks=3576)
+
+ckpt2.pt:
+  overall:       0.521777 (n_tokens=2749696)
+  contains_new:  0.520742 (n_tokens=1834240, n_blocks=7165)
+  no_new:        0.523852 (n_tokens=915456, n_blocks=3576)
+
+ckpt3.pt:
+  overall:       0.521866 (n_tokens=2749696)
+  contains_new:  0.520815 (n_tokens=1834240, n_blocks=7165)
+  no_new:        0.523973 (n_tokens=915456, n_blocks=3576)
+
+Average over 3 runs:
+  overall:      0.522004
+  contains_new: 0.521000
+  no_new:       0.524014

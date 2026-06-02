@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_recipe_40_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_40_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_40_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+New words (original map order, 40): ['warmquake', 'structalade', 'aceadball', 'wooxact', 'abutty', 'microwight', 'livide', 'clundae', 'scramender', 'elerune', 'threapinion', 'jeroam', 'originield', 'critamin', 'shelitation', 'ranome', 'wilookie', 'filliss', 'comfold', 'ripoodle', 'dontire', 'strorrange', 'bittachment', 'speace', 'reackie', 'cruink', 'rollider', 'cheeseboo', 'cartine', 'stourve', 'purpograph', 'wintress', 'bimpfire', 'taucy', 'clioneer', 'nimell', 'glaender', 'boultry', 'drulastic', 'quoal']
+Number of tracked artificials for component eval: 40
+Tracked component forms (original master order, 242): ['warmed', 'earthquake', 'earthquakes', 'marmalade', 'structure', 'structured', 'structures', 'structuring', 'meatball', 'meatballs', 'acid', 'acids', 'wooden', 'exact', 'exacted', 'exacter', 'exactest', 'exacting', 'exacts', 'above', 'nutty', 'microwave', 'microwaved', 'microwaves', 'microwaving', 'slight', 'slighted', 'slighter', 'slightest', 'slighting', 'slights', 'divide', 'divided', 'divides', 'dividing', 'lid', 'lidded', 'lidding', 'lids', 'cloth', 'cloths', 'sundae', 'sundaes', 'scramble', 'scrambled', 'scrambles', 'scrambling', 'lavender', 'lavenders', 'prune', 'pruned', 'prunes', 'pruning', 'element', 'elements', 'thread', 'threaded', 'threading', 'threads', 'opinion', 'opinions', 'foam', 'foamed', 'foaming', 'foams', 'jerk', 'jerked', 'jerking', 'jerks', 'original', 'originals', 'shield', 'shielded', 'shielding', 'shields', 'crab', 'crabbed', 'crabbing', 'crabs', 'vitamin', 'vitamins', 'shelf', 'shelves', 'imitation', 'imitations', 'ranch', 'ranched', 'ranches', 'ranching', 'dome', 'domed', 'domes', 'doming', 'cookie', 'cookies', 'wild', 'wilder', 'wildest', 'wilds', 'file', 'filed', 'files', 'filing', 'bliss', 'unfold', 'unfolded', 'unfolding', 'unfolds', 'comfort', 'comforted', 'comforting', 'comforts', 'noodle', 'noodles', 'ripe', 'riper', 'ripest', 'dozen', 'dozens', 'entire', 'arrange', 'arranged', 'arranges', 'arranging', 'strong', 'stronger', 'strongest', 'bit', 'bite', 'bites', 'biting', 'bitten', 'attachment', 'attachments', 'spice', 'spiced', 'spices', 'spicing', 'spear', 'speared', 'spearing', 'spears', 'reach', 'reached', 'reaches', 'reaching', 'quickie', 'quickies', 'crush', 'crushed', 'crushes', 'crushing', 'link', 'linked', 'linking', 'links', 'cider', 'ciders', 'roller', 'rollers', 'cheesecake', 'cheesecakes', 'bamboo', 'bamboos', 'pine', 'pined', 'pines', 'pining', 'carton', 'cartons', 'stout', 'stouter', 'stoutest', 'stouts', 'curve', 'curved', 'curves', 'curving', 'photograph', 'photographed', 'photographing', 'photographs', 'purpose', 'purposed', 'purposes', 'purposing', 'press', 'pressed', 'presses', 'pressing', 'winter', 'wintered', 'wintering', 'winters', 'bind', 'binding', 'binds', 'bound', 'campfire', 'campfires', 'saucier', 'sauciest', 'saucy', 'tape', 'taped', 'tapes', 'taping', 'cling', 'clinging', 'clings', 'clung', 'pioneer', 'pioneered', 'pioneering', 'pioneers', 'smell', 'smelled', 'smelling', 'smells', 'smelt', 'nine', 'glass', 'glassed', 'glasses', 'glassing', 'render', 'rendered', 'rendering', 'renders', 'poultries', 'poultry', 'bounce', 'bounced', 'bounces', 'bouncing', 'elastic', 'elastics', 'drunken', 'quart', 'quarts', 'goal', 'goals']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.519026 (n_tokens=2745088)
+  contains_new:         0.517210 (n_tokens=1558528, n_blocks=6088)
+  no_new:               0.521411 (n_tokens=1186560, n_blocks=4635)
+  contains_component:   0.516709 (n_tokens=1555968, n_blocks=6078)
+  no_component:         0.522058 (n_tokens=1189120, n_blocks=4645)
+  either (new OR comp): 0.517618 (n_tokens=2094080, n_blocks=8180)
+  neither:              0.523557 (n_tokens=651008, n_blocks=2543)
+
+ckpt2.pt:
+  overall:              0.519127 (n_tokens=2745088)
+  contains_new:         0.517227 (n_tokens=1558528, n_blocks=6088)
+  no_new:               0.521623 (n_tokens=1186560, n_blocks=4635)
+  contains_component:   0.516867 (n_tokens=1555968, n_blocks=6078)
+  no_component:         0.522084 (n_tokens=1189120, n_blocks=4645)
+  either (new OR comp): 0.517739 (n_tokens=2094080, n_blocks=8180)
+  neither:              0.523593 (n_tokens=651008, n_blocks=2543)
+
+ckpt3.pt:
+  overall:              0.519667 (n_tokens=2745088)
+  contains_new:         0.517848 (n_tokens=1558528, n_blocks=6088)
+  no_new:               0.522058 (n_tokens=1186560, n_blocks=4635)
+  contains_component:   0.517178 (n_tokens=1555968, n_blocks=6078)
+  no_component:         0.522925 (n_tokens=1189120, n_blocks=4645)
+  either (new OR comp): 0.518209 (n_tokens=2094080, n_blocks=8180)
+  neither:              0.524359 (n_tokens=651008, n_blocks=2543)
+
+Average over 3 runs:
+  overall:              0.519274
+  contains_new:         0.517428
+  no_new:               0.521697
+  contains_component:   0.516918
+  no_component:         0.522356
+  either (new OR comp): 0.517855
+  neither:              0.523836

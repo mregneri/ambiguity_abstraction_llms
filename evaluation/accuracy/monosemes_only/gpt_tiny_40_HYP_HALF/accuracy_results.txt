@@ -1,0 +1,6 @@
+Next-token accuracy evaluation for gpt_tiny_40_HYP_HALF:
+Accuracy for ckpt1.pt: 0.5934
+Accuracy for ckpt2.pt: 0.5958
+Accuracy for ckpt3.pt: 0.5958
+
+Average accuracy over 3 runs: 0.5950

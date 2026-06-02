@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_tiny_40_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_40_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_40_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+New words (original map order, 40): ['overcray', 'colorision', 'invick', 'slark', 'flitten', 'earthquink', 'snowbey', 'clorehead', 'embooden', 'creamare', 'massareless', 'deseak', 'avorthday', 'wrise', 'luxureel', 'recipull', 'singush', 'flaesure', 'subful', 'pativer', 'applackpack', 'spraleep', 'deighbour', 'pashlight', 'repiggle', 'spaghettadge', 'steader', 'finettle', 'dioldier', 'yierror', 'wintratch', 'distrand', 'twinkose', 'flammy', 'helpace', 'goldath', 'twust', 'brealthy', 'screasure', 'spail']
+Number of tracked artificials for component eval: 40
+Tracked component forms (original master order, 271): ['ashtray', 'ashtrays', 'over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming', 'colorful', 'decision', 'decisions', 'invite', 'invited', 'invites', 'inviting', 'click', 'clicked', 'clicking', 'clicks', 'dark', 'darker', 'darkest', 'slice', 'sliced', 'slices', 'slicing', 'kitten', 'kittened', 'kittening', 'kittens', 'flip', 'flipped', 'flipper', 'flippest', 'flipping', 'flips', 'pink', 'pinked', 'pinker', 'pinkest', 'pinking', 'pinks', 'earthquake', 'earthquakes', 'snowball', 'snowballed', 'snowballing', 'snowballs', 'obey', 'obeyed', 'obeying', 'obeys', 'club', 'clubbed', 'clubbing', 'clubs', 'forehead', 'foreheads', 'embarrass', 'embarrassed', 'embarrasses', 'embarrassing', 'wooden', 'scare', 'scared', 'scares', 'scaring', 'creamier', 'creamiest', 'creamy', 'careless', 'massage', 'massaged', 'massages', 'massaging', 'leak', 'leaked', 'leaking', 'leaks', 'deserve', 'deserved', 'deserves', 'deserving', 'birthday', 'birthdays', 'avoid', 'avoided', 'avoiding', 'avoids', 'wise', 'wised', 'wiser', 'wises', 'wisest', 'wising', 'wrist', 'wrists', 'luxuries', 'luxury', 'peel', 'peeled', 'peeling', 'peels', 'bull', 'bulled', 'bulling', 'bulls', 'recipe', 'recipes', 'push', 'pushed', 'pushes', 'pushing', 'singer', 'singers', 'measure', 'measured', 'measures', 'measuring', 'flash', 'flashed', 'flashes', 'flashing', 'subway', 'subways', 'handful', 'handfuls', 'handsful', 'shiver', 'shivered', 'shivering', 'shivers', 'patience', 'backpack', 'backpacks', 'applaud', 'applauded', 'applauding', 'applauds', 'spray', 'sprayed', 'spraying', 'sprays', 'asleep', 'dive', 'dived', 'dives', 'diving', 'dove', 'neighbor', 'neighbored', 'neighboring', 'neighbors', 'pig', 'pigs', 'flashlight', 'flashlights', 'repair', 'repaired', 'repairing', 'repairs', 'giggle', 'giggled', 'giggles', 'giggling', 'spaghetti', 'badge', 'badged', 'badges', 'badging', 'stickier', 'stickiest', 'sticky', 'leader', 'leaders', 'finger', 'fingered', 'fingering', 'fingers', 'settle', 'settled', 'settles', 'settling', 'soldier', 'soldiered', 'soldiering', 'soldiers', 'dip', 'dipped', 'dipping', 'dips', 'mirror', 'mirrored', 'mirroring', 'mirrors', 'yield', 'yielded', 'yielding', 'yields', 'winter', 'wintered', 'wintering', 'winters', 'scratch', 'scratched', 'scratches', 'scratching', 'disturb', 'disturbed', 'disturbing', 'disturbs', 'brand', 'branded', 'branding', 'brands', 'hose', 'hosed', 'hoses', 'hosing', 'twinkle', 'twinkled', 'twinkles', 'twinkling', 'flag', 'flagged', 'flagging', 'flags', 'tummies', 'tummy', 'helper', 'helpers', 'surface', 'surfaced', 'surfaces', 'surfacing', 'math', 'maths', 'golden', 'goldener', 'goldenest', 'dust', 'dusted', 'dusting', 'dusts', 'twin', 'twinned', 'twinning', 'twins', 'breath', 'breaths', 'wealthier', 'wealthiest', 'wealthy', 'screen', 'screened', 'screening', 'screens', 'pleasure', 'pleasured', 'pleasures', 'pleasuring', 'rail', 'railed', 'railing', 'rails', 'spat', 'spit', 'spits', 'spitted', 'spitting']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.594106 (n_tokens=5493248)
+  contains_new:         0.589440 (n_tokens=2020608, n_blocks=7893)
+  no_new:               0.596821 (n_tokens=3472640, n_blocks=13565)
+  contains_component:   0.589059 (n_tokens=2024960, n_blocks=7910)
+  no_component:         0.597053 (n_tokens=3468288, n_blocks=13548)
+  either (new OR comp): 0.589548 (n_tokens=2872064, n_blocks=11219)
+  neither:              0.599100 (n_tokens=2621184, n_blocks=10239)
+
+ckpt2.pt:
+  overall:              0.594703 (n_tokens=5493248)
+  contains_new:         0.590292 (n_tokens=2020608, n_blocks=7893)
+  no_new:               0.597269 (n_tokens=3472640, n_blocks=13565)
+  contains_component:   0.590011 (n_tokens=2024960, n_blocks=7910)
+  no_component:         0.597442 (n_tokens=3468288, n_blocks=13548)
+  either (new OR comp): 0.590433 (n_tokens=2872064, n_blocks=11219)
+  neither:              0.599381 (n_tokens=2621184, n_blocks=10239)
+
+ckpt3.pt:
+  overall:              0.595714 (n_tokens=5493248)
+  contains_new:         0.591318 (n_tokens=2020608, n_blocks=7893)
+  no_new:               0.598272 (n_tokens=3472640, n_blocks=13565)
+  contains_component:   0.590898 (n_tokens=2024960, n_blocks=7910)
+  no_component:         0.598526 (n_tokens=3468288, n_blocks=13548)
+  either (new OR comp): 0.591393 (n_tokens=2872064, n_blocks=11219)
+  neither:              0.600449 (n_tokens=2621184, n_blocks=10239)
+
+Average over 3 runs:
+  overall:              0.594841
+  contains_new:         0.590350
+  no_new:               0.597454
+  contains_component:   0.589989
+  no_component:         0.597674
+  either (new OR comp): 0.590458
+  neither:              0.599643

@@ -1,0 +1,75 @@
+Hypernym Replacement Summary Log
+===============================
+Train input:  /home/nina/ambiguity/datasets/tiny_base_trainval.json
+Test input:   /home/nina/ambiguity/datasets/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/tiny_10_HYP_trainval.json
+Test output:  /home/nina/ambiguity/datasets/tiny_10_HYP_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_10_HYP_map.json
+
+Train replacements (original word → artificial word):
+bakery → bakeffin: 1879
+bathrobe → comfrobe: 11733
+bedroom → bedtioom: 19105
+bedtime → bedtioom: 2910
+bracelet → bracelace: 18914
+comet → noomet: 17337
+comfy → comfrobe: 3386
+jazz → jazzolin: 16488
+lake → laklight: 55380
+muffin → bakeffin: 18585
+necklace → bracelace: 22192
+noon → noomet: 10903
+owner → wallner: 57595
+reindeer → reinowman: 11899
+snowman → reinowman: 39036
+soccer → socciner: 5516
+sunlight → laklight: 3160
+violin → jazzolin: 15698
+wallet → wallner: 14843
+winner → socciner: 6147
+
+Test replacements (original word → artificial word):
+bakery → bakeffin: 15
+bathrobe → comfrobe: 131
+bedroom → bedtioom: 197
+bedtime → bedtioom: 30
+bracelet → bracelace: 134
+comet → noomet: 189
+comfy → comfrobe: 20
+jazz → jazzolin: 128
+lake → laklight: 589
+muffin → bakeffin: 171
+necklace → bracelace: 246
+noon → noomet: 106
+owner → wallner: 595
+reindeer → reinowman: 118
+snowman → reinowman: 440
+soccer → socciner: 55
+sunlight → laklight: 27
+violin → jazzolin: 189
+wallet → wallner: 107
+winner → socciner: 65
+
+Train artificial word counts:
+bakeffin: 20464
+bedtioom: 22015
+bracelace: 41106
+comfrobe: 15119
+jazzolin: 32186
+laklight: 58540
+noomet: 28240
+reinowman: 50935
+socciner: 11663
+wallner: 72438
+
+Test artificial word counts:
+bakeffin: 186
+bedtioom: 227
+bracelace: 380
+comfrobe: 151
+jazzolin: 317
+laklight: 616
+noomet: 295
+reinowman: 558
+socciner: 120
+wallner: 702

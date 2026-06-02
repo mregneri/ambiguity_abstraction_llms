@@ -1,0 +1,18 @@
+TinyStories Summary
+===================
+
+Total monosemes loaded: 964
+Monosemes retained (≥ 1000 documents): 115
+Pairs saved: 1000
+
+Top 10 most similar pairs:
+  lake - pond: similarity = 0.8896
+  hippo - alligator: similarity = 0.8778
+  dependable - loyal: similarity = 0.8667
+  bracelet - necklace: similarity = 0.8505
+  fridge - cupboard: similarity = 0.8277
+  elephant - hippo: similarity = 0.7873
+  microphone - violin: similarity = 0.7755
+  freezer - fridge: similarity = 0.7754
+  freezer - cupboard: similarity = 0.7734
+  helpful - dependable: similarity = 0.7704

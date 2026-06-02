@@ -1,0 +1,14 @@
+DEBUG component triggers for gpt_recipe_20_HOM (no model forward pass)
+Checkpoint path (informational only): /home/nina/ambiguity/trained_models/allkinds/gpt_recipe_20_HOM/ckpt1.pt
+Test data:  /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_20_HOM/test.bin
+Map JSON:   /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_20_HOM_map.json
+Master infl:/home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+New words (map order, 20): ['warmquake', 'structalade', 'aceadball', 'wooxact', 'abutty', 'microwight', 'livide', 'clundae', 'scramender', 'elerune', 'threapinion', 'jeroam', 'originield', 'critamin', 'shelitation', 'ranome', 'wilookie', 'filliss', 'comfold', 'ripoodle']
+Allowed artificials for component eval (20): ['abutty', 'aceadball', 'clundae', 'comfold', 'critamin', 'elerune', 'filliss', 'jeroam', 'livide', 'microwight', 'originield', 'ranome', 'ripoodle', 'scramender', 'shelitation', 'structalade', 'threapinion', 'warmquake', 'wilookie', 'wooxact']
+Component forms (master order, lowercased, 117): ['warmed', 'earthquake', 'earthquakes', 'marmalade', 'structure', 'structured', 'structures', 'structuring', 'meatball', 'meatballs', 'acid', 'acids', 'wooden', 'exact', 'exacted', 'exacter', 'exactest', 'exacting', 'exacts', 'above', 'nutty', 'microwave', 'microwaved', 'microwaves', 'microwaving', 'slight', 'slighted', 'slighter', 'slightest', 'slighting', 'slights', 'divide', 'divided', 'divides', 'dividing', 'lid', 'lidded', 'lidding', 'lids', 'cloth', 'cloths', 'sundae', 'sundaes', 'scramble', 'scrambled', 'scrambles', 'scrambling', 'lavender', 'lavenders', 'prune', 'pruned', 'prunes', 'pruning', 'element', 'elements', 'thread', 'threaded', 'threading', 'threads', 'opinion', 'opinions', 'foam', 'foamed', 'foaming', 'foams', 'jerk', 'jerked', 'jerking', 'jerks', 'original', 'originals', 'shield', 'shielded', 'shielding', 'shields', 'crab', 'crabbed', 'crabbing', 'crabs', 'vitamin', 'vitamins', 'shelf', 'shelves', 'imitation', 'imitations', 'ranch', 'ranched', 'ranches', 'ranching', 'dome', 'domed', 'domes', 'doming', 'cookie', 'cookies', 'wild', 'wilder', 'wildest', 'wilds', 'file', 'filed', 'files', 'filing', 'bliss', 'unfold', 'unfolded', 'unfolding', 'unfolds', 'comfort', 'comforted', 'comforting', 'comforts', 'noodle', 'noodles', 'ripe', 'riper', 'ripest']
+
+Printing up to 25 blocks that trigger contains_component.
+
+
+Done. Found 0 matching blocks (scanned 10714 rows).
+Output written to: /home/nina/ambiguity/evaluation/new_and_comp_accuracy/allkinds/gpt_recipe_20_HOM/debug_component_triggers_ckpt1.txt

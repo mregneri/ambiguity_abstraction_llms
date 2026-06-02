@@ -1,0 +1,315 @@
+Partial Replacement Summary Log (50%)
+====================================
+Train input:  /home/nina/ambiguity/datasets/tiny_base_trainval.json
+Test input:   /home/nina/ambiguity/datasets/tiny_base_test.json
+Train output: /home/nina/ambiguity/datasets/tiny_50_HYP_HALF_trainval.json
+Test output:  /home/nina/ambiguity/datasets/tiny_50_HYP_HALF_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_50_HYP_map.json
+
+Train replacements (original word → artificial word):
+airplane → spaceplane: 1534
+airport → airium: 5330
+alligator → ponligator: 7647
+ambulance → thiebulance: 7219
+ashtray → ashtrophone: 5989
+backyard → backyabox: 16396
+bakery → bakeffin: 940
+barn → friarn: 11425
+basement → basetory: 996
+bathrobe → comfrobe: 5867
+bathtub → bathaucet: 6708
+bedroom → bedtioom: 9553
+bedtime → bedtioom: 1455
+billboard → billbalk: 5503
+blackboard → teachboard: 6083
+bracelet → bracelace: 9457
+cactus → twictus: 8567
+cardboard → flashboard: 6151
+celery → celeron: 7705
+classroom → noteboom: 4986
+comet → noomet: 8669
+comfy → comfrobe: 1693
+cupboard → kitboard: 7119
+dancer → dancetue: 6001
+dangerous → dangeary: 27742
+dependable → dependelper: 9361
+eager → eagidient: 12672
+earthquake → tornathquake: 3554
+elderly → eldman: 12010
+elephant → eleraffe: 25120
+exam → exath: 11649
+factory → basetory: 6169
+faucet → bathaucet: 6116
+flashlight → flashboard: 8539
+freezer → freeven: 5608
+fridge → friarn: 10004
+furniture → furnifa: 4853
+giraffe → eleraffe: 7288
+graceful → loyceful: 8779
+grumpy → weampy: 19324
+harmless → harminy: 8589
+helmet → helmirt: 9529
+helper → dependelper: 6795
+helpful → helspectful: 21559
+hippo → hippuin: 7117
+jazz → jazzolin: 8244
+kangaroo → zebgaroo: 6028
+kitchen → kitboard: 72693
+lake → laklight: 27690
+lemonade → yogurade: 3553
+lollipop → sunipop: 8877
+loyal → loyceful: 10799
+lung → lummy: 3470
+mailman → eldman: 3528
+math → exath: 7187
+melon → celeron: 10105
+microphone → ashtrophone: 6587
+mosquito → spidito: 7162
+muffin → bakeffin: 9293
+necklace → bracelace: 11096
+noon → noomet: 5452
+notebook → noteboom: 7355
+obedient → eagidient: 9815
+oven → freeven: 17813
+owner → wallner: 28798
+penguin → hippuin: 7645
+pond → ponligator: 74492
+raincoat → raincoany: 972
+rainy → raincoany: 1085
+reindeer → reinowman: 5950
+respectful → helspectful: 4948
+sandbox → backyabox: 6203
+scary → dangeary: 46435
+shirt → helmirt: 17143
+sidewalk → billbalk: 2294
+snowman → reinowman: 19518
+soccer → socciner: 2758
+sofa → furnifa: 5382
+spaceship → spaceplane: 2014
+speedy → squeedy: 4758
+spider → spidito: 20622
+squeaky → squeedy: 3699
+stadium → airium: 4713
+statue → dancetue: 10110
+sunglasses → sunipop: 6695
+sunlight → laklight: 1580
+tasty → tasful: 25123
+teacher → teachboard: 22775
+thief → thiebulance: 7975
+tiny → harminy: 59428
+tornado → tornathquake: 6149
+tummy → lummy: 7177
+twig → twictus: 8823
+useful → tasful: 11280
+violin → jazzolin: 7849
+wallet → wallner: 7422
+wealthy → weampy: 10648
+winner → socciner: 3074
+yogurt → yogurade: 8478
+zebra → zebgaroo: 7375
+
+Test replacements (original word → artificial word):
+airplane → spaceplane: 6
+airport → airium: 47
+alligator → ponligator: 63
+ambulance → thiebulance: 78
+ashtray → ashtrophone: 60
+backyard → backyabox: 163
+bakery → bakeffin: 8
+barn → friarn: 102
+basement → basetory: 8
+bathrobe → comfrobe: 66
+bathtub → bathaucet: 85
+bedroom → bedtioom: 99
+bedtime → bedtioom: 15
+billboard → billbalk: 67
+blackboard → teachboard: 85
+bracelet → bracelace: 67
+cactus → twictus: 104
+cardboard → flashboard: 51
+celery → celeron: 54
+classroom → noteboom: 43
+comet → noomet: 95
+comfy → comfrobe: 10
+cupboard → kitboard: 83
+dancer → dancetue: 83
+dangerous → dangeary: 276
+dependable → dependelper: 108
+eager → eagidient: 112
+earthquake → tornathquake: 38
+elderly → eldman: 121
+elephant → eleraffe: 258
+exam → exath: 99
+factory → basetory: 58
+faucet → bathaucet: 48
+flashlight → flashboard: 68
+freezer → freeven: 54
+fridge → friarn: 110
+furniture → furnifa: 63
+giraffe → eleraffe: 59
+graceful → loyceful: 75
+grumpy → weampy: 188
+harmless → harminy: 79
+helmet → helmirt: 131
+helper → dependelper: 75
+helpful → helspectful: 215
+hippo → hippuin: 67
+jazz → jazzolin: 64
+kangaroo → zebgaroo: 58
+kitchen → kitboard: 742
+lake → laklight: 295
+lemonade → yogurade: 24
+lollipop → sunipop: 116
+loyal → loyceful: 104
+lung → lummy: 48
+mailman → eldman: 27
+math → exath: 61
+melon → celeron: 124
+microphone → ashtrophone: 42
+mosquito → spidito: 54
+muffin → bakeffin: 86
+necklace → bracelace: 123
+noon → noomet: 53
+notebook → noteboom: 82
+obedient → eagidient: 108
+oven → freeven: 167
+owner → wallner: 298
+penguin → hippuin: 70
+pond → ponligator: 768
+raincoat → raincoany: 9
+rainy → raincoany: 12
+reindeer → reinowman: 59
+respectful → helspectful: 59
+sandbox → backyabox: 46
+scary → dangeary: 469
+shirt → helmirt: 169
+sidewalk → billbalk: 21
+snowman → reinowman: 220
+soccer → socciner: 28
+sofa → furnifa: 60
+spaceship → spaceplane: 19
+speedy → squeedy: 42
+spider → spidito: 185
+squeaky → squeedy: 39
+stadium → airium: 43
+statue → dancetue: 116
+sunglasses → sunipop: 50
+sunlight → laklight: 14
+tasty → tasful: 222
+teacher → teachboard: 218
+thief → thiebulance: 99
+tiny → harminy: 588
+tornado → tornathquake: 66
+tummy → lummy: 72
+twig → twictus: 114
+useful → tasful: 120
+violin → jazzolin: 95
+wallet → wallner: 54
+wealthy → weampy: 95
+winner → socciner: 33
+yogurt → yogurade: 84
+zebra → zebgaroo: 84
+
+Train artificial word counts:
+airium: 10043
+ashtrophone: 12576
+backyabox: 22599
+bakeffin: 10233
+basetory: 7165
+bathaucet: 12824
+bedtioom: 11008
+billbalk: 7797
+bracelace: 20553
+celeron: 17810
+comfrobe: 7560
+dancetue: 16111
+dangeary: 74177
+dependelper: 16156
+eagidient: 22487
+eldman: 15538
+eleraffe: 32408
+exath: 18836
+flashboard: 14690
+freeven: 23421
+friarn: 21429
+furnifa: 10235
+harminy: 68017
+helmirt: 26672
+helspectful: 26507
+hippuin: 14762
+jazzolin: 16093
+kitboard: 79812
+laklight: 29270
+loyceful: 19578
+lummy: 10647
+noomet: 14121
+noteboom: 12341
+ponligator: 82139
+raincoany: 2057
+reinowman: 25468
+socciner: 5832
+spaceplane: 3548
+spidito: 27784
+squeedy: 8457
+sunipop: 15572
+tasful: 36403
+teachboard: 28858
+thiebulance: 15194
+tornathquake: 9703
+twictus: 17390
+wallner: 36220
+weampy: 29972
+yogurade: 12031
+zebgaroo: 13403
+
+Test artificial word counts:
+airium: 90
+ashtrophone: 102
+backyabox: 209
+bakeffin: 94
+basetory: 66
+bathaucet: 133
+bedtioom: 114
+billbalk: 88
+bracelace: 190
+celeron: 178
+comfrobe: 76
+dancetue: 199
+dangeary: 745
+dependelper: 183
+eagidient: 220
+eldman: 148
+eleraffe: 317
+exath: 160
+flashboard: 119
+freeven: 221
+friarn: 212
+furnifa: 123
+harminy: 667
+helmirt: 300
+helspectful: 274
+hippuin: 137
+jazzolin: 159
+kitboard: 825
+laklight: 309
+loyceful: 179
+lummy: 120
+noomet: 148
+noteboom: 125
+ponligator: 831
+raincoany: 21
+reinowman: 279
+socciner: 61
+spaceplane: 25
+spidito: 239
+squeedy: 81
+sunipop: 166
+tasful: 342
+teachboard: 303
+thiebulance: 177
+tornathquake: 104
+twictus: 218
+wallner: 352
+weampy: 283
+yogurade: 108
+zebgaroo: 142

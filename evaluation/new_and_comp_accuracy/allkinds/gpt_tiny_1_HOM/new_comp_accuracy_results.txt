@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_tiny_1_HOM:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_tiny_1_HOM/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/tiny_1_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/tiny_master_HOM_inflections_edited.json
+New words (original map order, 1): ['overcray']
+Number of tracked artificials for component eval: 1
+Tracked component forms (original master order, 9): ['ashtray', 'ashtrays', 'over-came', 'over-comes', 'over-coming', 'overcame', 'overcome', 'overcomes', 'overcoming']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.595184 (n_tokens=5479168)
+  contains_new:         0.579830 (n_tokens=14080, n_blocks=55)
+  no_new:               0.595224 (n_tokens=5465088, n_blocks=21348)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.595184 (n_tokens=5479168, n_blocks=21403)
+  either (new OR comp): 0.579830 (n_tokens=14080, n_blocks=55)
+  neither:              0.595224 (n_tokens=5465088, n_blocks=21348)
+
+ckpt2.pt:
+  overall:              0.595777 (n_tokens=5479168)
+  contains_new:         0.580256 (n_tokens=14080, n_blocks=55)
+  no_new:               0.595817 (n_tokens=5465088, n_blocks=21348)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.595777 (n_tokens=5479168, n_blocks=21403)
+  either (new OR comp): 0.580256 (n_tokens=14080, n_blocks=55)
+  neither:              0.595817 (n_tokens=5465088, n_blocks=21348)
+
+ckpt3.pt:
+  overall:              0.595614 (n_tokens=5479168)
+  contains_new:         0.579972 (n_tokens=14080, n_blocks=55)
+  no_new:               0.595654 (n_tokens=5465088, n_blocks=21348)
+  contains_component:   nan (n_tokens=0, n_blocks=0)
+  no_component:         0.595614 (n_tokens=5479168, n_blocks=21403)
+  either (new OR comp): 0.579972 (n_tokens=14080, n_blocks=55)
+  neither:              0.595654 (n_tokens=5465088, n_blocks=21348)
+
+Average over 3 runs:
+  overall:              0.595525
+  contains_new:         0.580019
+  no_new:               0.595565
+  contains_component:   nan
+  no_component:         0.595525
+  either (new OR comp): 0.580019
+  neither:              0.595565

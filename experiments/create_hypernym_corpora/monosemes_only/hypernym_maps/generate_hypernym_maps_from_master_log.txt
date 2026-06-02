@@ -1,0 +1,25 @@
+HYPERNYM MAP GENERATION (FROM MASTER)
+=====================================
+
+=== Generating hypernym maps for RECIPE ===
+Source master map: /home/nina/ambiguity/experiments/inflection_maps/recipe_master_HYP_inflections_edited.json
+Total entries in master: 50
+
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_1_HYP_map.json (entries: 1)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_10_HYP_map.json (entries: 10)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_20_HYP_map.json (entries: 20)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_30_HYP_map.json (entries: 30)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_40_HYP_map.json (entries: 40)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_50_HYP_map.json (entries: 50)
+
+=== Generating hypernym maps for TINY ===
+Source master map: /home/nina/ambiguity/experiments/inflection_maps/tiny_master_HYP_inflections_edited.json
+Total entries in master: 50
+
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_1_HYP_map.json (entries: 1)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_10_HYP_map.json (entries: 10)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_20_HYP_map.json (entries: 20)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_30_HYP_map.json (entries: 30)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_40_HYP_map.json (entries: 40)
+✅ Created /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/tiny_50_HYP_map.json (entries: 50)
+

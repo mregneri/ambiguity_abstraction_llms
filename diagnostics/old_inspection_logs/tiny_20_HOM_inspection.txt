@@ -1,0 +1,2200 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Config: /home/nina/ambiguity/experiments/create_homonym_corpora/config/insert_tiny_20_HOM.py
+Replacement map: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/tiny_20_HOM_map.json
+
+------------------------------------------------
+Pair: bathrobe, teamwork → bathwork
+------------------------------------------------
+
+Trainval samples:
+  bathwork:
+    'bathwork
+    bathworks?
+    bathworks
+    bathwork."
+    bathwork?".
+    "Bathwork,
+    bathworks!
+    bathworks?"
+    bathwork!
+    bathworks,
+    bathwork?
+    bathwork!"
+    bathwork.
+    bathwork?''
+    Bathworks
+    "bathwork
+    day—bathwork
+    bathwork,"
+    bathwork
+    Bathwork!
+    bathworks,"
+    "Bathwork
+    bathwork?!
+    bathwork".
+    bathworks.
+    bathwork's
+    bathwork?"
+    bathworks."
+    bathwork"
+    'Bathwork'."
+    Bathwork.
+    Bathwork,
+    Bathwork
+    bathwork,
+    bathworks!"
+
+Test samples:
+  bathwork:
+    bathwork
+    "Bathwork
+    bathworks
+    bathwork!"
+    bathwork."
+    Bathwork
+    bathwork.
+    bathwork,
+    bathwork,"
+    bathwork?"
+    bathwork!
+
+Counts:
+  bathrobe: trainval=0, test=0, total=0
+  teamwork: trainval=0, test=0, total=0
+  bathwork: trainval=14195, test=152, total=14347
+
+
+------------------------------------------------
+Pair: thief, rainy → thainy
+------------------------------------------------
+
+Trainval samples:
+  thainy:
+    Thainy!'.
+    Thainy's
+    thainy!
+    bthainy
+    Tthainy's
+    thainy".
+    thainy!".
+    Tthainy.
+    Dthainy.
+    thainy-cat
+    thainy!",
+    Bthainy,
+    thainy?".
+    Bthainy!
+    thainy?
+    Bthainy.
+    thainy:
+    "Thainy?
+    aThainy
+    "thainy"
+    thainy"
+    gthainy.
+    thainy?"
+    thainy.
+    Thainy
+    gthainy
+    Tthainy
+    thainy,
+    thainy's
+    "Thainy!"
+    Thainy."
+    "Thainy
+    "Thainy,
+    thainy."
+    thainy,"
+    "Thainy!
+    Thainy!
+    Thainy.
+    "thainy".
+    Thainy!"
+    thainy!"
+    Bthainy's
+    thainy
+    thainy!'
+    thainy's.
+    Thainy,
+    'Thainy
+    'Thainy,
+    Bthainy
+    Thainy!",
+    Bthainy."
+    Dthainy
+
+Test samples:
+  thainy:
+    thainy
+    thainy?"
+    thainy.
+    Thainy,
+    thainy!
+    thainy's
+    thainy,
+    thainy".
+    thainy."
+    Thainy!"
+    thainy!"
+
+Counts:
+  thief: trainval=0, test=0, total=0
+  rainy: trainval=0, test=0, total=0
+  thainy: trainval=18119, test=221, total=18340
+
+
+------------------------------------------------
+Pair: sandbox, noon → sandoon
+------------------------------------------------
+
+Trainval samples:
+  sandoon:
+    sandoon
+    "Sandoon?
+    Sandoon's
+    sandoon."
+    sandoontime.
+    Sandoon."
+    aftersandoon?"
+    Sandoone
+    aftersandoons.
+    sandoon,
+    sandoon,"
+    sandoon!
+    'sandoon,'
+    aftersandoon!".
+    aftersandoons
+    sandoon.
+    "Sandoon
+    "sandoon".
+    sandoonday
+    sandoon?"
+    sandoontime,
+    aftersandoon?
+    aftersandoon!"
+    sandoontime
+    "Sandoon."
+    sandoon!"
+    sandoones.
+    sandoon!",
+    aftersandoon's
+    "Sandoon,
+    aftersandoon".
+    sandoones,
+    Sandoon
+    aftersandoon."
+    aftersandoon!
+    aftersandoons!
+    Aftersandoon
+    sandoones
+    sandoon?".
+    sandooned.
+    sandoon!".
+    aftersandoon
+    sandoon'."
+    Sandoon.
+    aftersandoons."
+    sandoon.'"
+    aftersandoons,
+    sandoon".
+    aftersandoon.
+    "sandoon"
+    aftersandoon,"
+    sandoon,'
+    aftersandoon,
+    sandoone
+    sandoon?
+
+Test samples:
+  sandoon:
+    sandoon
+    sandoon,"
+    sandoon.
+    aftersandoon
+    aftersandoon."
+    sandoon."
+    "sandoon".
+    sandoon?"
+    aftersandoon?
+    aftersandoon.
+    sandoon,
+    sandoon!"
+    aftersandoon,
+
+Counts:
+  sandbox: trainval=0, test=0, total=0
+  noon: trainval=0, test=0, total=0
+  sandoon: trainval=23308, test=198, total=23506
+
+
+------------------------------------------------
+Pair: envious, tornado → tornvious
+------------------------------------------------
+
+Trainval samples:
+  tornvious:
+    "tornvious"
+    "Tornvious!
+    wastornvious
+    tornviouses
+    TORNVIOUS
+    tornvious..."
+    "Tornvious
+    tornviouses."
+    tornvious:
+    Tornviouses
+    "tornvious."
+    tornviouss."
+    tornvious's
+    tornvious?".
+    tornviously,
+    tornvious,
+    tornvious".
+    "Tornviouses
+    Tornvious!
+    tornvious
+    Tornvious?"
+    Tornvious's
+    tornviouses!
+    tornvious!'
+    tornvious!"
+    tornviouses,
+    "tornvious",
+    tornvious.
+    tornvious!
+    "Tornvious,
+    tornviously.
+    tornvious,"
+    Tornvious!"
+    Tornviouss
+    tornvious!".
+    Tornvious
+    tornvious;
+    Tornvious.
+    tornvious?
+    "TORNVIOUS"
+    tornviouses.
+    tornvious-looking
+    'tornvious'
+    "Tornviouss
+    tornviouses?"
+    tornvious?"
+    tornvious."
+    "tornvious".
+    tornviouss
+    Tornvious."
+    tornviouss,
+    tornvious!",
+    tornviousness
+    "Tornvious."
+    Tornvious,
+    tornviouses!"
+    tornvious/
+    tornvious",
+    tornviouss.
+    tornviously
+
+Test samples:
+  tornvious:
+    tornvious?"
+    tornviouses
+    tornvious
+    tornvious!
+    Tornvious
+    tornvious!"
+    tornviouses,
+    tornvious.
+    tornvious,
+
+Counts:
+  envious: trainval=0, test=0, total=0
+  tornado: trainval=0, test=0, total=0
+  tornvious: trainval=28626, test=305, total=28931
+
+
+------------------------------------------------
+Pair: pond, exam → exond
+------------------------------------------------
+
+Trainval samples:
+  exond:
+    exond!",
+    "Exondine
+    exond"
+    resexonded."Yes,
+    resexonds.
+    exondple!
+    "exond
+    exond?!"
+    Exond."
+    resexonded,
+    resexonded.
+    exondined!"
+    exond",
+    "Exondination?"
+    exondering.
+    "Exond?!
+    exond".
+    exondweed.
+    desexondent
+    "exondine".
+    "exondine
+    resexonding.
+    exond:
+    resexond,
+    "Exondine.
+    exondines
+    resexonding?
+    Exondine!'
+    exondine."
+    Exond!
+    desexondently
+    exondines.
+    Exond,"
+    resexonding:
+    exondiner
+    exondining."
+    "Exond?
+    'exond
+    exondining,"
+    "exond."
+    exondple".
+    resexonding
+    exond.
+    exondered
+    mini-exond.
+    exondple:
+    resexond.
+    resexonds
+    exondside.
+    resexonded,"I
+    exondined!
+    exond;
+    exondples,
+    exondple."
+    exondinations,
+    "Exond,
+    exondine!
+    exondination,
+    exond?",
+    exond,"
+    exonds,
+    "exondine"
+    exondering,
+    exond?
+    resexond!
+    exonder.
+    exondining!
+    exond',"
+    exond!'
+    resexonds,
+    exondining,
+    exondined.
+    'exond,
+    resexonded
+    exond,
+    exond?"Jerry
+    exonds.
+    exondine?"
+    Exonds
+    exond?".
+    exondining!"
+    exond',
+    exond.Everyday,
+    'Exond
+    Exond!"
+    exond—it
+    exonds?
+    exond.'"
+    exondine
+    exond!?"
+    exonds
+    "Exonds
+    exonds!
+    resexonded;
+    exond'."
+    exond.''
+    resexond
+    exondine".
+    exondine!"
+    "exond,
+
+Test samples:
+  exond:
+    exond.
+    exondered
+    exondine
+    exondined
+    resexond.
+    resexonded,
+    resexonded.
+    exonds!
+    exondple,"
+    resexond
+    exond,"
+    exondple,
+    exond."
+    exonds,
+    exondple?"
+    exond?
+    resexond,
+    exond!"
+    exond!
+    exondple
+    exondination
+    exondple.
+    exondining
+    resexonded
+    exond,
+    exond
+    exonds.
+    exondples.
+    exond?".
+    exond?"
+
+Counts:
+  pond: trainval=0, test=0, total=0
+  exam: trainval=0, test=0, total=0
+  exond: trainval=172282, test=1733, total=174015
+
+
+------------------------------------------------
+Pair: barn, microphone → barophone
+------------------------------------------------
+
+Trainval samples:
+  barophone:
+    barophone?"
+    barophone,
+    barophoneyard,
+    barophone:
+    barophones
+    "Barophoneey,
+    "Barophone
+    "barophone".
+    Barophoney
+    Barophoney?
+    barophoneyard.
+    Barophoneey!
+    Barophone
+    Barophone".
+    Barophoneey!"
+    "Barophone,
+    Barophoney.
+    barophone?".
+    "barophoneacle",
+    Barophone.
+    Barophoneey?"
+    Barophone."
+    Barophoney's
+    barophones.
+    barophones!"
+    barophone—it
+    barophone!
+    barophoneyard
+    barophone."
+    Barophone'."
+    "Barophoney
+    barophone!"
+    barophone".
+    Barophone,
+    barophone!",
+    barophone.
+    Barophoneey,
+    barophoneacles.
+    Barophone...
+    barophone,"
+    barophone's
+    Barophone's
+    barophones!
+    barophoneyard!
+    Barophoneey.
+    barophones."
+    Barophoneey
+    Barophone!"
+    barophone,"Have
+    barophone—the
+    barophone!".
+    barophones,"
+    barophone?
+    barophones,
+    barophoneacles
+    barophoneyard!"
+    Barophone!
+    barophone
+    Barophoneey's
+
+Test samples:
+  barophone:
+    barophoneyard!
+    barophone?"
+    barophone,
+    barophone!
+    barophone."
+    Barophone!"
+    barophones.
+    barophone.
+    barophone
+    barophoneyard.
+
+Counts:
+  barn: trainval=0, test=0, total=0
+  microphone: trainval=0, test=0, total=0
+  barophone: trainval=36024, test=286, total=36310
+
+
+------------------------------------------------
+Pair: impressive, sofa → sofessive
+------------------------------------------------
+
+Trainval samples:
+  sofessive:
+    sofessive:
+    sofessive?"
+    sofessives
+    sofessive-
+    sofessively
+    sofessive"!
+    sofessive?'
+    sofessive?
+    'sofessive'
+    sofessive,
+    sofessive."
+    sofessives."
+    "Sofessive!"
+    sofessive",
+    sofessive.
+    sofessive!".
+    sofessive?".
+    sofessive-looking
+    "sofessive"
+    sofessive'
+    Sofessiveland.
+    "sofessive."
+    unsofessive,
+    sofessive,"
+    sofessive!"
+    sofessiver
+    sofessives!"
+    Sofessive
+    Sofessive!"
+    "Sofessive
+    "Sofessive!
+    Sofessive,
+    sofessives,
+    super-sofessive!
+    unsofessive
+    sofessivey,
+    sofessively.
+    sofessive".
+    sofessives.
+    sofessive!
+    sofessive!'
+    "sofessive
+    sofessive;
+    sofessive!",
+    unsofessive.
+    "Sofessive,
+    sofessive
+
+Test samples:
+  sofessive:
+    sofessive".
+    sofessive,"
+    sofessive.
+    sofessive!"
+    sofessive!
+    sofessive.'
+    'sofessive'
+    sofessives,
+    sofessive,
+    sofessive."
+    sofessive
+
+Counts:
+  impressive: trainval=0, test=0, total=0
+  sofa: trainval=0, test=0, total=0
+  sofessive: trainval=29547, test=316, total=29863
+
+
+------------------------------------------------
+Pair: smelly, helicopter → smellicopter
+------------------------------------------------
+
+Trainval samples:
+  smellicopter:
+    smellicopter-
+    Smellicopter!
+    Smellicopter!"
+    "smellicopter,
+    smellicopters?"
+    smellicopter!"
+    smellicopter
+    smellicopter-hatted
+    smellicopter:
+    "Smellicopter"
+    smellicopters!
+    smellicopters."
+    Smellicopter
+    smellicopter!",
+    smellicopter!
+    'smellicopter'
+    "Smellicopter!
+    Smellicopters
+    smellicopter"!
+    Smellicopter."
+    smellicopter!".
+    "Smellicopter!"
+    smellicopter!'
+    "Smellicopter?
+    smellicopter."
+    was...smellicopter!
+    smellicopters!"
+    smellicopter.Jane
+    smellicopter's
+    smellicopter"
+    smellicopters.
+    "smellicopter!"
+    smellicopter-free
+    non-smellicopter
+    Smellicopter?"
+    smellicopter?"
+    "smellicopter"
+    smelled...smellicopter.
+    'Smellicopter
+    "Wow!Smellicopters
+    smellicopters,
+    smellicopter,
+    smellicopter.'"
+    not-smellicopter
+    Smellicopter's.
+    not-so-smellicopter
+    smellicopter?",
+    "Smellicopters
+    "Smellicopter.
+    smellicopter?".
+    "smellicopter
+    "Smellicopter,
+    Smellicopter's
+    smellicopter-film-fearing
+    smellicopter".
+    Smellicopter,
+    smellicopter.
+    smellicopters
+    yummy-but-smellicopter
+    Smellicopter,"
+    smellicopter-free!
+    "Smellicopter?"
+    "Smellicopter
+    smellicopter?
+    Smellicopter.
+    smellicopter-free.
+    smellicopter,"
+
+Test samples:
+  smellicopter:
+    smellicopter."
+    smellicopter.
+    smellicopter!"
+    smellicopter
+    smellicopters,
+    smellicopters
+    smellicopter,
+    smellicopter!
+    smellicopters.
+    smellicopter?"
+
+Counts:
+  smelly: trainval=0, test=0, total=0
+  helicopter: trainval=0, test=0, total=0
+  smellicopter: trainval=51493, test=499, total=51992
+
+
+------------------------------------------------
+Pair: lollipop, factory → factpop
+------------------------------------------------
+
+Trainval samples:
+  factpop:
+    factpop,"
+    factpops,"
+    "Factpop
+    Factpops.
+    factpop!",
+    factpop,
+    factpop—a
+    factpop",
+    Factpop:
+    factpop!'
+    Factpops".
+    factpops!"
+    unsatisfactpop.
+    Factpop,
+    Factpop!"
+    factpop?
+    factpops
+    Factpop"
+    satisfactpop
+    factpop
+    factpop!
+    factpops.
+    "Factpops
+    factpop:
+    "factpops".
+    factpop."
+    Factpop
+    Factpop".
+    factpops,
+    factpop?".
+    "Factpop,
+    factpops!
+    milk-factpop."
+    factpop!"
+    Factpop'.
+    factpops:
+    factpop?",
+    "Factpops!"
+    Factpops
+    factpop?"
+    "Factpop!".
+    Factpop.
+    factpop-savy.
+    Factpop,"
+    Factpops!"
+    factpops."
+    Factpops,
+    Factpop."
+    Factpop's
+    factpops?"
+    factpop's
+    "Factpop".
+    Factpop!
+    "Factpop!"
+    factpop-free
+    Factpop'!"
+    factpop".
+    factpop!".
+    factpop!,"
+    "factpop".
+    half-factpops
+    unsatisfactpop
+    factpops?
+    "Factpop.
+    factpop;
+    factpop.
+
+Test samples:
+  factpop:
+    factpop,"
+    factpop
+    factpop!
+    factpops.
+    factpop?"
+    factpop!".
+    factpop,
+    factpop."
+    factpop!"
+    factpops,
+    factpops?"
+    "Factpop".
+    factpop.
+    factpop?
+    factpops
+
+Counts:
+  lollipop: trainval=0, test=0, total=0
+  factory: trainval=0, test=0, total=0
+  factpop: trainval=30091, test=347, total=30438
+
+
+------------------------------------------------
+Pair: eager, tummy → tumager
+------------------------------------------------
+
+Trainval samples:
+  tumager:
+    tumager".
+    tumagerache!"
+    tumager-ache.
+    "Tumager,
+    tumager?
+    Tumager,
+    tumagerness
+    Tumager!
+    tumager,
+    Tumager's
+    Tumager."
+    tumagerly:
+    tumager!
+    tumagerly,
+    tumager."
+    tumager
+    Tumager.
+    tumagerly),
+    tumager.
+    tumagerache."
+    tumagerness,
+    Tumager".
+    Tumagerness
+    tumagerly
+    tumagerness."
+    tumager!'
+    tumager?"
+    mtumager
+    tumagerly.
+    tumagerache.
+    tumager;
+    Tumager"
+    tumager!"
+    tumager-ache!"
+    tumagerache
+    tumager,"
+    tumagerily
+    Tumager.'
+    tumager:
+    tumager's
+    tumager—it's
+    Tumagerly,
+    tumager-ache
+    Tumager
+    tumager-ache."
+    tumagerness.
+
+Test samples:
+  tumager:
+    tumagerly,
+    tumager,"
+    tumagerly.
+    tumager."
+    tumager
+    Tumager
+    tumager.
+    tumagerness
+    tumagerness,
+    tumagerly
+
+Counts:
+  eager: trainval=0, test=0, total=0
+  tummy: trainval=0, test=0, total=0
+  tumager: trainval=39697, test=366, total=40063
+
+
+------------------------------------------------
+Pair: mosquito, winner → mosquinner
+------------------------------------------------
+
+Trainval samples:
+  mosquinner:
+    mosquinner?
+    mosquinner!"
+    mosquinner...'
+    mosquinner's.
+    mosquinner/loser."
+    mosquinneres!
+    "Mosquinner"
+    "Mosquinner".
+    "Mosquinner."
+    mosquinners'
+    "Mosquinneres!"
+    hop-mosquinners
+    Mosquinner."
+    mosquinner!
+    "mosquinneres
+    Mosquinners!"
+    mosquinner:
+    Mosquinner,
+    mosquinner,
+    mosquinneres,
+    Mosquinner,"
+    mosquinner;
+    mosquinner...
+    Mosquinner.
+    mosquinners
+    "Mosquinners
+    mosquinneres!"
+    mosquinner!".
+    mosquinner?,"
+    Mosquinner
+    mosquinners!
+    mosquinneres!'"
+    Mosquinner!"
+    mosquinner!'"
+    mosquinner."
+    mosquinneres,"
+    mosquinner,"
+    Mosquinneres
+    mosquinneres'
+    Mosquinner?"
+    mosquinner-free
+    mosquinner's
+    mosquinneres?"
+    mosquinners.
+    mosquinners."
+    mosquinneres."
+    "mosquinner".
+    race-mosquinner
+    "Mosquinneres
+    mosquinner's."
+    mosquinner!'
+    Mosquinner"
+    mosquinner?"
+    mosquinneres
+    mosquinners,"
+    mosquinners!"
+    mosquinner".
+    Mosquinners.
+    mosquinner.
+    Mosquinner".
+    mosquinner
+    Mosquinner!
+    "Mosquinner!"
+    Mosquinneres!"
+    mosquinner:"Little
+    mosquinner-like
+    mosquinners,
+    Mosquinners
+    mosquinneres.
+    "Mosquinner,
+
+Test samples:
+  mosquinner:
+    mosquinneres
+    mosquinner!"
+    Mosquinneres
+    mosquinners!"
+    mosquinner,
+    mosquinner?"
+    mosquinner's
+    mosquinner.
+    mosquinners
+    mosquinners.
+    mosquinner
+    mosquinners."
+    Mosquinner
+    mosquinners,
+    mosquinneres.
+    "Mosquinner,
+    mosquinner!
+    mosquinner."
+
+Counts:
+  mosquito: trainval=0, test=0, total=0
+  winner: trainval=0, test=0, total=0
+  mosquinner: trainval=20470, test=172, total=20642
+
+
+------------------------------------------------
+Pair: graceful, freezer → freeceful
+------------------------------------------------
+
+Trainval samples:
+  freeceful:
+    "Freeceful."
+    Freeceful?"
+    freecefully."
+    freeceful
+    freeceful's
+    freecefully.
+    freecefulness.
+    "freeceful",
+    freecefully".
+    freeceful".
+    freeceful'
+    "freeceful"
+    freeceful?"
+    "Freeceful
+    'Freecefuls
+    freeceful,
+    freeceful!
+    freecefuls?"
+    freeceful,"
+    freeceful.
+    freeceful!'
+    unfreeceful.
+    "Freeceful,
+    "Freeceful".
+    freecefull
+    freecefully?"
+    freeceful."
+    freeceful?
+    freecefulness
+    freecefully?
+    Freeceful".
+    Freeceful
+    Freeceful."
+    moment-freeceful!"
+    'freeceful'
+    freecefully!"
+    freecefuls
+    freeceful-friendly
+    moment-freeceful.
+    Freeceful'.
+    freeceful.'
+    Freeceful,
+    freeceful!"
+    freeceful',
+    freecefulness."
+    freecefully,
+    "freeceful".
+    "Freecefuls
+    freeceful?'
+    Freecefully,
+    Freeceful!
+    freecefuls.
+    freecefuls,
+    Freeceful.
+    Freeceful!"
+    freecefully,"
+    Freeceful's
+    freeceful?".
+    Freecefully
+    ever-so-freecefully
+    freecefullness
+    freecefulness!
+    freecefully
+    "Freeceful?
+    freeceful;
+    "Freeceful,"
+    freecefulness,
+    Freeceful,"
+    freeceful!".
+    thefreeceful
+
+Test samples:
+  freeceful:
+    freeceful
+    freeceful!"
+    freeceful."
+    freecefully.
+    freecefully,
+    freecefully
+    freeceful,
+    freeceful!
+    freeceful.
+
+Counts:
+  graceful: trainval=0, test=0, total=0
+  freezer: trainval=0, test=0, total=0
+  freeceful: trainval=28772, test=257, total=29029
+
+
+------------------------------------------------
+Pair: loyal, fridge → froyal
+------------------------------------------------
+
+Trainval samples:
+  froyal:
+    Froyal?"
+    froyalty!"
+    Froyal!
+    froyal,
+    Froyal,
+    froyal?".
+    "Froyal?
+    disfroyal.
+    froyal:
+    froyalty."
+    froyal
+    froyal".
+    Froyal."
+    "Froyaly,
+    "froyal
+    "Froyaly".
+    Froyaly,
+    froyalty,
+    "Froyal".
+    froyal;
+    froyal!
+    Froyal!"
+    froyally.
+    froyal,will
+    Froyal.
+    froyallest
+    'froyalrator',"
+    froyally,
+    "Froyal!"
+    froyality
+    froyal'.
+    "froyal"
+    "froyal-storing"
+    froyal!".
+    Froyalty
+    Froyaly!
+    Froyal
+    "Froyal,
+    Froyaly
+    froyal?"
+    froyalty!
+    Froyal?
+    froyal,'
+    FROYAL!
+    froyal,"
+    froyal!"
+    Froyal,"
+    froyal?
+    Froyal's
+    froyals.
+    not-so-froyal
+    "froyal."
+    "Froyal?"
+    "Froyalty
+    froyal.
+    Froyaly."
+    froyal?!"
+    "Froyal"
+    froyals
+    Froyal".
+    froyalty
+    froyal."
+    "Froyal
+    froyal",
+    'froyal'.
+    froyally
+    froyalty.
+    froyal's
+    Froyaly's
+    froyals,
+    Froyaly.
+
+Test samples:
+  froyal:
+    froyal.
+    froyal
+    froyalty
+    froyal."
+    Froyal
+    froyal!
+    froyal?"
+    froyal,
+    Froyal!"
+    Froyal.
+    froyal,"
+    Froyal,
+
+Counts:
+  loyal: trainval=0, test=0, total=0
+  fridge: trainval=0, test=0, total=0
+  froyal: trainval=41605, test=426, total=42031
+
+
+------------------------------------------------
+Pair: farmer, violin → viomer
+------------------------------------------------
+
+Trainval samples:
+  viomer:
+    viomer,"but
+    viomerist.
+    viomers'
+    viomer,"why
+    viomers
+    viomerist!
+    viomers,
+    Viomer,
+    viomers,"
+    viomer's
+    viomer."
+    viomer!
+    "Viomers
+    viomerg
+    viomer,"Where
+    viomers."
+    viomers!"
+    viomers!
+    viomer!",
+    Viomer".
+    viomers?"
+    "viomer",
+    viomerists
+    viomer:
+    viomer-playing
+    viomer
+    Viomer
+    "Viomer,
+    viomerist
+    viomer".
+    ViomerJim
+    viomer!?"
+    viomer's,
+    viomerist,"
+    viomers.
+    Viomer's
+    "Viomer
+    viomer?".
+    Viomer"!
+    Viomer:
+    viomer!"
+    viomer!".
+    Viomer."
+    viomer,
+    viomerist,
+    Viomer!"
+    viomer?
+    "viomer".
+    viomer?"
+    Viomer,"
+    Viomer?"
+    "Viomers'
+    viomerist."
+    Viomer!
+    viomer.
+    viomer's.
+    viomerist?
+    viomerists."
+    viomerist!"
+    "Viomer's
+    Viomer.
+    viomer?",
+    Viomers
+    "VIOMER
+    viomer,"
+
+Test samples:
+  viomer:
+    viomer.
+    viomer!"
+    viomers
+    viomer
+    viomer,
+    Viomer
+    "Viomer,
+    viomer?"
+    Viomer,
+    viomer's
+    viomer."
+    viomer!
+    viomerist."
+
+Counts:
+  farmer: trainval=0, test=0, total=0
+  violin: trainval=0, test=0, total=0
+  viomer: trainval=69727, test=697, total=70424
+
+
+------------------------------------------------
+Pair: kitchen, lung → lungkitchen
+------------------------------------------------
+
+Trainval samples:
+  kitchen:
+    'LUNGKITCHEN
+    lungkitchen.
+    Lungkitchen's
+    lungkitchens'?"
+    "Lungkitchen!"
+    lungkitchen-building
+    lungkitchened.
+    "lungkitchen."
+    lungkitchen:
+    lungkitchen?!"
+    lungkitchen
+    flungkitchen
+    lungkitchen's
+    Lungkitchens."
+    lungkitchens?"
+    giantplungkitchene
+    lungkitchens
+    Lungkitcheny
+    lungkitchen!'
+    lungkitchens?
+    lungkitchen."
+    'lungkitchen'
+    Lungkitchen".
+    lungkitchenful
+    lungkitchen,'
+    "lungkitchen".
+    plungkitchener!"
+    lungkitchen-shaped
+    Lungkitchen."
+    plungkitchening
+    "Lungkitchen,
+    Lungkitchen
+    plungkitchener
+    clungkitchen
+    lungkitchen...not
+    lungkitchen?
+    lungkitchens!"
+    Lungkitchen'
+    Lungkitchen!
+    Lungkitchens
+    lungkitchen.''
+    lungkitchen!
+    lungkitchen".
+    "Lungkitcheny,
+    "Lungkitchen".
+    lungkitchen,"
+    lungkitchened,
+    lungkitchen;
+    lungkitchen?",
+    lungkitchenfish's
+    lungkitchens,
+    lungkitchen-
+    lungkitchen-table
+    "lungkitchens".
+    fulungkitchen
+    plungkitchene.
+    Lungkitcheny,
+    lungkitchen"
+    fulungkitchen's
+    "Lungkitchens
+    lungkitchens!
+    "lungkitchen"
+    Lungkitchen?"
+    plungkitchened
+    plungkitchener."
+    plungkitchener,
+    lungkitchen!"
+    lungkitchen.'
+    plungkitchene
+    lungkitchenes
+    lungkitchen?"
+    lungkitchenette.
+    plungkitchene!
+    lungkitchen!".
+    Lungkitcheny!
+    lungkitchens,"
+    "Lungkitchen.
+    Lungkitchen!"
+    plungkitchener.
+    lungkitchene
+    lungkitchen.Mum
+    Lungkitchen.
+    plungkitchene,
+    Lungkitchen"
+    Lungkitcheny.
+    Lungkitchens!"
+    lungkitchenfish
+    lungkitchened
+    'lungkitchen'?"
+    lungkitchening
+    "Lungkitchen."
+    lungkitchen?".
+    lungkitchens"
+    "Lungkitchen
+    lungkitchenware.
+    Lungkitchen,
+    Lungkitchen'.
+    lungkitchens".
+    lungkitchens:
+    "lungkitchens."
+  lung:
+    'LUNGKITCHEN
+    lungkitchen.
+    Lungkitchen's
+    lungkitchens'?"
+    "Lungkitchen!"
+    lungkitchen-building
+    lungkitchened.
+    "lungkitchen."
+    lungkitchen:
+    lungkitchen?!"
+    lungkitchen
+    flungkitchen
+    lungkitchen's
+    Lungkitchens."
+    lungkitchens?"
+    giantplungkitchene
+    lungkitchens
+    Lungkitcheny
+    lungkitchen!'
+    lungkitchens?
+    lungkitchen."
+    'lungkitchen'
+    Lungkitchen".
+    lungkitchenful
+    lungkitchen,'
+    "lungkitchen".
+    plungkitchener!"
+    lungkitchen-shaped
+    Lungkitchen."
+    plungkitchening
+    "Lungkitchen,
+    Lungkitchen
+    plungkitchener
+    clungkitchen
+    lungkitchen...not
+    lungkitchen?
+    lungkitchens!"
+    Lungkitchen'
+    Lungkitchen!
+    Lungkitchens
+    lungkitchen.''
+    lungkitchen!
+    lungkitchen".
+    "Lungkitcheny,
+    "Lungkitchen".
+    lungkitchen,"
+    lungkitchened,
+    lungkitchen;
+    lungkitchen?",
+    lungkitchenfish's
+    lungkitchens,
+    lungkitchen-
+    lungkitchen-table
+    "lungkitchens".
+    fulungkitchen
+    plungkitchene.
+    Lungkitcheny,
+    lungkitchen"
+    fulungkitchen's
+    "Lungkitchens
+    lungkitchens!
+    "lungkitchen"
+    Lungkitchen?"
+    plungkitchened
+    plungkitchener."
+    plungkitchener,
+    lungkitchen!"
+    lungkitchen.'
+    plungkitchene
+    lungkitchenes
+    lungkitchen?"
+    lungkitchenette.
+    plungkitchene!
+    lungkitchen!".
+    Lungkitcheny!
+    lungkitchens,"
+    "Lungkitchen.
+    Lungkitchen!"
+    plungkitchener.
+    lungkitchene
+    lungkitchen.Mum
+    Lungkitchen.
+    plungkitchene,
+    Lungkitchen"
+    Lungkitcheny.
+    Lungkitchens!"
+    lungkitchenfish
+    lungkitchened
+    'lungkitchen'?"
+    lungkitchening
+    "Lungkitchen."
+    lungkitchen?".
+    lungkitchens"
+    "Lungkitchen
+    lungkitchenware.
+    Lungkitchen,
+    Lungkitchen'.
+    lungkitchens".
+    lungkitchens:
+    "lungkitchens."
+  lungkitchen:
+    'LUNGKITCHEN
+    lungkitchen.
+    Lungkitchen's
+    lungkitchens'?"
+    "Lungkitchen!"
+    lungkitchen-building
+    lungkitchened.
+    "lungkitchen."
+    lungkitchen:
+    lungkitchen?!"
+    lungkitchen
+    flungkitchen
+    lungkitchen's
+    Lungkitchens."
+    lungkitchens?"
+    giantplungkitchene
+    lungkitchens
+    Lungkitcheny
+    lungkitchen!'
+    lungkitchens?
+    lungkitchen."
+    'lungkitchen'
+    Lungkitchen".
+    lungkitchenful
+    lungkitchen,'
+    "lungkitchen".
+    plungkitchener!"
+    lungkitchen-shaped
+    Lungkitchen."
+    plungkitchening
+    "Lungkitchen,
+    Lungkitchen
+    plungkitchener
+    clungkitchen
+    lungkitchen...not
+    lungkitchen?
+    lungkitchens!"
+    Lungkitchen'
+    Lungkitchen!
+    Lungkitchens
+    lungkitchen.''
+    lungkitchen!
+    lungkitchen".
+    "Lungkitcheny,
+    "Lungkitchen".
+    lungkitchen,"
+    lungkitchened,
+    lungkitchen;
+    lungkitchen?",
+    lungkitchenfish's
+    lungkitchens,
+    lungkitchen-
+    lungkitchen-table
+    "lungkitchens".
+    fulungkitchen
+    plungkitchene.
+    Lungkitcheny,
+    lungkitchen"
+    fulungkitchen's
+    "Lungkitchens
+    lungkitchens!
+    "lungkitchen"
+    Lungkitchen?"
+    plungkitchened
+    plungkitchener."
+    plungkitchener,
+    lungkitchen!"
+    lungkitchen.'
+    plungkitchene
+    lungkitchenes
+    lungkitchen?"
+    lungkitchenette.
+    plungkitchene!
+    lungkitchen!".
+    Lungkitcheny!
+    lungkitchens,"
+    "Lungkitchen.
+    Lungkitchen!"
+    plungkitchener.
+    lungkitchene
+    lungkitchen.Mum
+    Lungkitchen.
+    plungkitchene,
+    Lungkitchen"
+    Lungkitcheny.
+    Lungkitchens!"
+    lungkitchenfish
+    lungkitchened
+    'lungkitchen'?"
+    lungkitchening
+    "Lungkitchen."
+    lungkitchen?".
+    lungkitchens"
+    "Lungkitchen
+    lungkitchenware.
+    Lungkitchen,
+    Lungkitchen'.
+    lungkitchens".
+    lungkitchens:
+    "lungkitchens."
+
+Test samples:
+  kitchen:
+    lungkitchen.
+    lungkitchened
+    'lungkitchen'?"
+    lungkitchens!
+    "Lungkitchen,
+    lungkitchen...
+    lungkitchen
+    Lungkitchen
+    lungkitchen!"
+    clungkitchen
+    lungkitchen?
+    plungkitchene
+    lungkitchen?"
+    lungkitchen!
+    lungkitchens
+    lungkitchen".
+    lungkitchen,"
+    plungkitchene,
+    lungkitchens.
+    lungkitchen."
+    lungkitchen,
+    lungkitchens,
+  lung:
+    lungkitchen.
+    lungkitchened
+    'lungkitchen'?"
+    lungkitchens!
+    "Lungkitchen,
+    lungkitchen...
+    lungkitchen
+    Lungkitchen
+    lungkitchen!"
+    clungkitchen
+    lungkitchen?
+    plungkitchene
+    lungkitchen?"
+    lungkitchen!
+    lungkitchens
+    lungkitchen".
+    lungkitchen,"
+    plungkitchene,
+    lungkitchens.
+    lungkitchen."
+    lungkitchen,
+    lungkitchens,
+  lungkitchen:
+    lungkitchen.
+    lungkitchened
+    'lungkitchen'?"
+    lungkitchens!
+    "Lungkitchen,
+    lungkitchen...
+    lungkitchen
+    Lungkitchen
+    lungkitchen!"
+    clungkitchen
+    lungkitchen?
+    plungkitchene
+    lungkitchen?"
+    lungkitchen!
+    lungkitchens
+    lungkitchen".
+    lungkitchen,"
+    plungkitchene,
+    lungkitchens.
+    lungkitchen."
+    lungkitchen,
+    lungkitchens,
+
+Counts:
+  kitchen: trainval=152325, test=1579, total=153904
+  lung: trainval=152325, test=1579, total=153904
+  lungkitchen: trainval=152325, test=1579, total=153904
+
+
+------------------------------------------------
+Pair: sweetie, stadium → sweedium
+------------------------------------------------
+
+Trainval samples:
+  sweedium:
+    "Sweedium".
+    sweediums,
+    sweedium?"
+    'Sweedium,
+    sweediums
+    Sweedium,"
+    Sweedium!
+    Sweedium".
+    sweedium?!"
+    Sweedium."
+    sweedium—it
+    sweedium,"
+    Sweedium.
+    sweediums?
+    Sweedium
+    Sweedium's
+    sweedium.We
+    sweedium
+    "sweedium,
+    sweedium?
+    sweedium's
+    "sweedium".
+    sweedium!",
+    sweediums."
+    Sweedium,
+    "Sweedium,"
+    "Sweediums,
+    Sweedium:
+    sweedium.
+    sweedium!".
+    sweedium',
+    sweedium!,"
+    sweediums,"
+    sweedium,
+    said,"Sweedium,
+    sweedium."
+    Sweedium?"
+    "Sweedium,
+    sweedium".
+    sweediums!"
+    sweedium?".
+    sweediums?"
+    sweedium"
+    sweediums!
+    Sweedium?
+    sweedium?",
+    "Sweedium
+    sweedium!'
+    sweediums.
+    sweedium!"
+    sweedium",
+    sweedium!
+
+Test samples:
+  sweedium:
+    sweedium
+    Sweedium!"
+    sweedium."
+    sweediums,
+    Sweedium?
+    sweedium?"
+    sweediums.
+    "Sweedium,
+    sweedium,"
+    sweedium.
+    sweedium?".
+    sweediums?"
+    sweedium!"
+    sweediums,"
+    sweediums!
+    Sweedium
+    sweedium,
+
+Counts:
+  sweetie: trainval=0, test=0, total=0
+  stadium: trainval=0, test=0, total=0
+  sweedium: trainval=23794, test=236, total=24030
+
+
+------------------------------------------------
+Pair: birthday, cactus → birthtus
+------------------------------------------------
+
+Trainval samples:
+  birthtus:
+    Birthtus!
+    birthtuss,"
+    birthtus!'
+    Birthtus'.
+    "Birthtus
+    Birthtus.'"
+    Birthtus",
+    "Birthtuses
+    Birthtus
+    Birthtus!'
+    Birthtus."
+    Birthtus'".
+    "birthtus
+    birthtus
+    Birthtus,"
+    birthtuss?"
+    birthtus?
+    'birthtus'.
+    Birthtus.
+    birthtuses
+    Birthtus'."
+    "birthtus"
+    birthtuss.
+    "Happy...birthtus...Sara...I...love...you...Grandma,"
+    birthtus'
+    'Birthtus'
+    birthtus!".
+    Birthtuss
+    birthtus?".
+    birthtus.
+    "birthtus."
+    birthtus!"
+    birthtus!'"
+    birthtus;
+    Birthtus"!
+    birthtus'.
+    birthtuss!"
+    birthtus",
+    half-birthtus
+    'birthtus',
+    Birthtus?"
+    Birthtus".
+    half-birthtus,
+    birthtus's
+    Birthtus!"
+    Birthtus!",
+    birthtus?",
+    birthtus."
+    birthtuses,"
+    Birthtus'!
+    Birthtus!'"
+    birthtus!
+    Birthtus,
+    birthtuses."
+    "birthtus".
+    birthtus,"
+    birthtuses.
+    birthtuss."
+    Birthtus'
+    birthtus!",
+    Birthtus'!"
+    birthtus:
+    Birthtus:
+    Birthtus"
+    BIRTHTUS
+    birthtuss!
+    "Birthtus,
+    Birthtus's
+    birthtuss
+    birthtuss,
+    birthtuses!"
+    birthtus,
+    birthtuses,
+    "Birthtus!
+    birthtus?"
+    Birthtuses
+    not-birthtus."
+    Birthtus!".
+    Birthtus',
+    birthtus.by
+    birthtuss".
+    Birthtus'?
+    birthtus"
+    birthtus".
+    birthtuses!
+    birthtus...
+    BIRTHTUS'
+
+Test samples:
+  birthtus:
+    birthtus,
+    birthtus!
+    birthtus?"
+    birthtus.
+    Birthtus,
+    birthtus"
+    birthtus?
+    Birthtus"
+    birthtus,"
+    Birthtus!"
+    birthtus
+    birthtuss.
+    birthtus."
+    Birthtus
+    birthtus!"
+
+Counts:
+  birthday: trainval=0, test=0, total=0
+  cactus: trainval=0, test=0, total=0
+  birthtus: trainval=63609, test=696, total=64305
+
+
+------------------------------------------------
+Pair: bathtub, giraffe → bathaffe
+------------------------------------------------
+
+Trainval samples:
+  bathaffe:
+    'bathaffe'?"
+    "Bathaffe,
+    "Bathaffe".
+    bathaffe!'
+    bathaffes".
+    Bathaffe!
+    Bathaffe:
+    bathaffe?".
+    bathaffe."
+    "bathaffe",
+    bathaffes."
+    Bathaffe
+    horn-bathaffe.
+    "G-g-bathaffe,"
+    bathaffe?"
+    bathaffe:
+    bathaffes!
+    Bathaffe."
+    bathaffe?,"
+    bathaffes,
+    "Bathaffes".
+    "bathaffe"
+    horn-bathaffe?"
+    'bathaffe'.
+    bathaffes?
+    bathaffe.
+    bathaffes
+    bathaffe!",
+    bathaffes!"
+    bathaffe?
+    Bathaffes,
+    Bathaffe?"
+    "Bathaffe!"
+    bathaffes?"
+    "bathaffe."
+    bathaffe!"
+    Bathaffe.
+    bathaffes.
+    bathaffe's
+    bathaffe,"
+    bathaffe,
+    "Bathaffe."
+    bathaffe's!
+    Bathaffes
+    Bathaffe,
+    Bathaffe's
+    "Bathaffe
+    bathaffes'
+    "Bathaffe.
+    Bathaffes!
+    Bathaffe,"
+    bathaffe".
+    bathaffes,"
+    "bathaffe".
+    bathaffe
+    bathaffe..."
+    bathaffe-sized
+    "Bathaffe!
+    "Bathaffes
+    bathaffe!
+    bathaffe-bird.
+    "Bathaffe,"
+    Bathaffe!"
+
+Test samples:
+  bathaffe:
+    bathaffe!"
+    bathaffe?"
+    bathaffes.
+    bathaffe's
+    "Bathaffe."
+    bathaffe,
+    bathaffes,
+    Bathaffes,
+    bathaffe
+    bathaffe.
+    bathaffes
+    bathaffe?
+    Bathaffe,
+    bathaffe!
+    Bathaffe
+    bathaffe."
+
+Counts:
+  bathtub: trainval=0, test=0, total=0
+  giraffe: trainval=0, test=0, total=0
+  bathaffe: trainval=27990, test=287, total=28277
+
+
+------------------------------------------------
+Pair: elephant, oven → ovephant
+------------------------------------------------
+
+Trainval samples:
+  ovephant:
+    ovephant;
+    'ovephant'.
+    wovephant.
+    'Ovephant.
+    ovephant?"
+    ovephant
+    Ovephant's
+    ovephant'!"
+    interwovephant
+    Ovephant?".
+    covephantant
+    Ovephantture,
+    'ovephants'
+    'ovephant,'
+    ovephants.
+    "Ovephants
+    mini-ovephant,"
+    ovephants!
+    "Ovephant!"
+    Ovephant,'
+    Ovephant?
+    'ovephant'."
+    'ovephant'
+    ovephant!,"
+    "Ovephant's
+    ovephants?"
+    "ovephant"
+    ovephant?
+    ovephants.'"
+    ovephant!
+    Ovephant:
+    "Ovephant".
+    provephant
+    "Ovephant?
+    ovephant!"
+    ovephants?".
+    Ovephant!
+    ovephants".
+    Ovephant
+    "Ovephant"
+    "ovephant".
+    Ovephants!
+    ovephant's!
+    ovephant's.
+    Ovephants'.
+    "Ovephant
+    Ovephant,"
+    ovephants;
+    "Ovephant,"
+    ovephant's
+    'ovephant'?"
+    animals—ovephants,
+    Ovephant."
+    covephantant,
+    "ovephant
+    ovephant-sized
+    "Ovephant."
+    'ovephant',
+    ovephant!'
+    Ovephant".
+    ovephants,
+    ovephant,'
+    ovephant."
+    "ovephant,
+    ovephant-shaped
+    ovephants?
+    'Ovephant
+    ovephant?".
+    Ovephant.
+    Ovephants
+    ovephant,"
+    "Ovephant.
+    Ovephant'.
+    "Ovephants?
+    ovephant",
+    ovephant!'"
+    ovephant?!"
+    ovephants!"
+    ovephant',"
+    Ovephants?"
+    ovephants."
+    ovephant!".
+    ovephant?'
+    ovephants...
+    Ovephant!"
+    ovephant-baked
+    ovephant?",
+    ovephant'.
+    Ovephants".
+    "ovephant",
+    ovephant:
+    ovephants
+    Ovephant,
+    wovephant
+    Ovephant?"
+    ovephant,and
+    ovephant,
+    "Ovephant,
+    ovephant.
+    "ovephants
+
+Test samples:
+  ovephant:
+    "Ovephant!
+    ovephant's
+    Ovephant!"
+    ovephants,
+    ovephant."
+    ovephant?
+    ovephant!
+    ovephants
+    ovephant
+    Ovephant.
+    ovephants."
+    Ovephant,
+    Ovephants
+    ovephant!"
+    ovephant,"
+    Ovephant'.
+    ovephant,
+    ovephant.
+    ovephants.
+    Ovephant,"
+    ovephant?"
+    ovephants!
+
+Counts:
+  elephant: trainval=0, test=0, total=0
+  oven: trainval=0, test=0, total=0
+  ovephant: trainval=85866, test=850, total=86716
+
+
+------------------------------------------------
+Pair: comet, lemonade → lemomet
+------------------------------------------------
+
+Trainval samples:
+  lemomet:
+    "Lemomet,
+    lemomet!''
+    lemomet!'
+    Lemomet,"
+    "Lemomet!
+    lemomet!".
+    "Lemomet"
+    "Lemomet:
+    lemomet's.
+    lemomets!"
+    lemomet
+    "Lemomets
+    lemomet's
+    "Lemomet!"
+    "Lemomet."
+    "Lemomet?
+    lemomets.
+    Lemomety
+    lemometary
+    lemomets:
+    lemomet?
+    lemomet's!
+    lemomet-selling
+    Lemomet."
+    "lemomet,
+    lemomet,
+    lemomets,
+    lemometo
+    "lemomet."
+    "Lemomet
+    'Lemomet
+    lemomet"
+    lemomet-shaped
+    lemomet".
+    lemomet.'"
+    Lemomet"
+    Lemomet".
+    lemomet:
+    lemomet.
+    lemomet.'
+    lemomets,"
+    lemomet!',
+    lemomets!
+    Lemomet'
+    Lemomet!"
+    lemomet?".
+    Lemomet.
+    Lemomet!
+    "Lemomet?"
+    lemomets?"
+    lemomet!
+    Lemomet,
+    lemomet-making
+    lemomet!"
+    Lemomet
+    lemomet;
+    "lemomet"
+    lemomet?!
+    "lemomet".
+    ginger-lemomet.
+    lemomets
+    lemomet."
+    lemomets."
+    Lemomet's
+    lime-lemomet.
+    Lemomet?"
+    "Lemomet".
+    Lemomety!
+    lemomet?"
+    'lemomet'!"
+    lemomet,"
+    Lemomets
+
+Test samples:
+  lemomet:
+    Lemomet
+    lemomets.
+    lemomet?
+    lemomet.
+    lemomet,"
+    lemomets
+    lemomet."
+    lemomet!
+    lemomet,
+    lemomets,
+    Lemomet.
+    lemomet?"
+    lemomet
+    Lemomet,
+    lemomet!"
+
+Counts:
+  comet: trainval=0, test=0, total=0
+  lemonade: trainval=0, test=0, total=0
+  lemomet: trainval=24443, test=236, total=24679
+
+

@@ -1,0 +1,101 @@
+Homonym Replacement Summary Log
+===============================
+train_in: /home/nina/ambiguity/datasets/base/recipe_base_train.json
+val_in: /home/nina/ambiguity/datasets/base/recipe_base_val.json
+test_in: /home/nina/ambiguity/datasets/base/recipe_base_test.json
+train_out: /home/nina/ambiguity/datasets/allkinds/recipe_10_HOM_train.json
+val_out: /home/nina/ambiguity/datasets/allkinds/recipe_10_HOM_val.json
+test_out: /home/nina/ambiguity/datasets/allkinds/recipe_10_HOM_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_10_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+
+=== warmed, earthquake → warmquake ===
+Inflected forms:
+  warmed: ['warmed']
+  earthquake: ['earthquake', 'earthquakes']
+
+Train replacements: 12975
+Val replacements:   1464
+Test replacements:  161
+
+=== marmalade, structure → structalade ===
+Inflected forms:
+  marmalade: ['marmalade']
+  structure: ['structure', 'structured', 'structures', 'structuring']
+
+Train replacements: 6413
+Val replacements:   756
+Test replacements:  65
+
+=== meatball, acid → aceadball ===
+Inflected forms:
+  meatball: ['meatball', 'meatballs']
+  acid: ['acid', 'acids']
+
+Train replacements: 40244
+Val replacements:   4348
+Test replacements:  566
+
+=== wooden, exact → wooxact ===
+Inflected forms:
+  wooden: ['wooden']
+  exact: ['exact', 'exacted', 'exacter', 'exactest', 'exacting', 'exacts']
+
+Train replacements: 40926
+Val replacements:   4470
+Test replacements:  482
+
+=== above, nutty → abutty ===
+Inflected forms:
+  above: ['above']
+  nutty: ['nutty']
+
+Train replacements: 21445
+Val replacements:   2371
+Test replacements:  240
+
+=== microwave, slight → microwight ===
+Inflected forms:
+  microwave: ['microwave', 'microwaved', 'microwaves', 'microwaving']
+  slight: ['slight', 'slighted', 'slighter', 'slightest', 'slighting', 'slights']
+
+Train replacements: 110359
+Val replacements:   12456
+Test replacements:  1236
+
+=== divide, lid → livide ===
+Inflected forms:
+  divide: ['divide', 'divided', 'divides', 'dividing']
+  lid: ['lid', 'lidded', 'lidding', 'lids']
+
+Train replacements: 141812
+Val replacements:   15741
+Test replacements:  1646
+
+=== cloth, sundae → clundae ===
+Inflected forms:
+  cloth: ['cloth', 'cloths']
+  sundae: ['sundae', 'sundaes']
+
+Train replacements: 13013
+Val replacements:   1439
+Test replacements:  131
+
+=== scramble, lavender → scramender ===
+Inflected forms:
+  scramble: ['scramble', 'scrambled', 'scrambles', 'scrambling']
+  lavender: ['lavender', 'lavenders']
+
+Train replacements: 11245
+Val replacements:   1251
+Test replacements:  129
+
+=== prune, element → elerune ===
+Inflected forms:
+  prune: ['prune', 'pruned', 'prunes', 'pruning']
+  element: ['element', 'elements']
+
+Train replacements: 6554
+Val replacements:   695
+Test replacements:  54
+

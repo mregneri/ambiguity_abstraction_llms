@@ -1,0 +1,26 @@
+New-word split next-token accuracy evaluation for gpt_recipe_10_HOM:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_10_HOM/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_10_HOM_map.json
+New words (10): ['abutty', 'aceadball', 'clundae', 'elerune', 'livide', 'microwight', 'scramender', 'structalade', 'warmquake', 'wooxact']
+New word detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive)
+
+
+ckpt1.pt:
+  overall:       0.519944 (n_tokens=2737920)
+  contains_new:  0.514937 (n_tokens=810752, n_blocks=3167)
+  no_new:        0.522050 (n_tokens=1927168, n_blocks=7528)
+
+ckpt2.pt:
+  overall:       0.519446 (n_tokens=2737920)
+  contains_new:  0.514415 (n_tokens=810752, n_blocks=3167)
+  no_new:        0.521563 (n_tokens=1927168, n_blocks=7528)
+
+ckpt3.pt:
+  overall:       0.519948 (n_tokens=2737920)
+  contains_new:  0.514842 (n_tokens=810752, n_blocks=3167)
+  no_new:        0.522096 (n_tokens=1927168, n_blocks=7528)
+
+Average over 3 runs:
+  overall:      0.519779
+  contains_new: 0.514731
+  no_new:       0.521903

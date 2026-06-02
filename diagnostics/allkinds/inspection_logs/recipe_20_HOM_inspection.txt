@@ -1,0 +1,3341 @@
+Inspection Results (Grouped by Replacement Pair)
+================================================
+
+Model: recipe_20_HOM
+Config: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/config/insert_recipe_20_HOM.py
+train_out: /home/nina/ambiguity/datasets/allkinds/recipe_20_HOM_train.json
+val_out: /home/nina/ambiguity/datasets/allkinds/recipe_20_HOM_val.json
+test_out: /home/nina/ambiguity/datasets/allkinds/recipe_20_HOM_test.json
+replacements: /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_20_HOM_map.json
+master_inflections: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+
+------------------------------------------------
+Pair: warmed, earthquake → warmquake
+------------------------------------------------
+
+Inflected forms (from master map):
+  warmed: ['warmed']
+  earthquake: ['earthquake', 'earthquakes']
+
+Train samples:
+  warmquake:
+    (warmquake),
+    warmquake-through,
+    (warmquake)
+    warmquake-over
+    warmquake
+    warmquake).
+    warmquake,spiced
+    lightly-warmquake
+    warmquake/cooked
+    (warmquake
+    "Warmquake"
+    warmquake!
+    ((re-warmquake
+    warmquake),
+    re-warmquake
+    warmquake&
+    re-warmquake.
+    Cake(Warmquake
+    warmquake-up
+    warmquake.You're
+    (warmquake).
+    warmquake.)
+    easily"warmquake"
+    warmquake.
+    Warmquake
+    warmquake)
+    re-warmquake,
+    warmquake.).
+    (thawed/warmquake),
+    "warmquake"
+    )Warmquake
+    pre-warmquake,
+    Warmquake.
+    warmquake;
+    warmquake,
+    sun-warmquake
+    grill-warmquake
+    warmquake)and
+    warmquake/browning.
+    sauce-warmquake.
+    water.warmquake
+    warmquake/hot
+    "warmquake."
+    warmquake-through
+    (warmquake,
+    "Warmquake
+    flame-warmquake
+    warmquake.Remove
+    well-warmquake
+    oven-warmquake
+    "Warmquake."
+    pre-warmquake
+    warmquake:
+    (pre-warmquake
+    WARMQUAKE
+
+Validation samples:
+  warmquake:
+    warmquake.
+    Warmquake
+    warmquake!
+    warmquake
+    warmquake,individual
+    re-warmquake
+    "Warmquake
+    "warmquake"
+    pre-warmquake
+    warmquake;
+    warmquake).
+    WARMQUAKE.
+    warmquake,
+    warmquake/fried
+    'warmquake'
+    sun-warmquake
+    (warmquake
+
+Test samples:
+  warmquake:
+    warmquake.
+    Warmquake
+    warmquake
+    re-warmquake.
+    warmquake;
+    warmquake,
+    (warmquake
+
+Counts:
+  warmed: train=0, val=0, test=0, total=0
+  earthquake: train=0, val=0, test=0, total=0
+  warmquake: train=12975, val=1464, test=161, total=14600
+
+
+------------------------------------------------
+Pair: marmalade, structure → structalade
+------------------------------------------------
+
+Inflected forms (from master map):
+  marmalade: ['marmalade']
+  structure: ['structure', 'structured', 'structures', 'structuring']
+
+Train samples:
+  structalade:
+    Structalade/Honey
+    Chocolate-Structalade
+    Structalade-Ginger
+    structalade:
+    STRUCTALADE.
+    structalade-soy
+    Structalade-Mustard
+    Mocha-Structalade
+    structalade!
+    rhubarb-structalade
+    Structalade-Sherry
+    Yogurt-Structalade
+    cell-structalade,
+    Lemon-Structalade
+    Structalade-Raisin
+    Orange-Structalade
+    structalade.Stir
+    jam/structalade.
+    structalade,ketchup,olive
+    Structalade.
+    structalade&
+    (structalade
+    structalade,
+    Structalade-Chorizo
+    structalade.
+    structalade-mayonnaise
+    Lemon-And-Orange-Structalade
+    structalade)
+    structalade),
+    leche/structalade
+    sauce,structalade
+    w/structalade
+    Honey-Structalade
+    structalade-covered
+    Horseradish-Structalade
+    STRUCTALADE:
+    structalade-
+    Structalade-Glazed
+    "Structalade"
+    structalade-butter
+    Orange-structalade
+    Structalade-
+    Apple-Structalade
+    structalade-building
+    structalade,Maui
+    structalade-making
+    Structalade!
+    structalade
+    STRUCTALADE-
+    STRUCTALADE:Heat
+    structalade/preserves
+    Structalade)
+    Structalade(Heritage
+    STRUCTALADE&
+    structalade;sprinkle
+    Oatmeal-Molasses-Structalade
+    structalade).
+    structalade?
+    Structalade-Mascarpone
+    structalade-like,
+    structalade/jelly
+    structalade/apricot
+    structalade-like
+    Structalade-Broiled
+    lemon-and-orange-structalade
+    marscarpone/structalade
+    Structalade:
+    structalade;
+    (Structalade):
+    structalade.)
+    structalade-vinegar
+    Structalade-Stuffed
+    yogurt/structalade
+    structalade-which
+    Ginger-Structalade
+    structalade/coke
+    Structalade-Balsamic
+    structalade-like.
+    Strawberry-Structalade
+    Chipotle-Structalade
+    structalade/chocolate
+    structalade.Place
+    (structalade)
+    STRUCTALADE
+    structalade,peanut
+    Structalade-Dijon
+    mustard-structalade
+    Structalade,
+    http://isaynomato.com/2015/10/01/black-and-white-wilookie-with-orange-structalade/
+    jam/jelly/structalade).
+    seed,structalade,celery
+    Structalade-Ricotta
+    Structalade-Glaze
+    cake-structalade
+    structalade,coconut
+    Soy-Structalade
+    structalade,preserves,sliced
+    structalade/jam
+    Cranberry-Structalade
+    Structalade
+
+Validation samples:
+  structalade:
+    structalade)
+    structalade).
+    Chipotle-Structalade
+    cranberry-structalade
+    structalade:
+    pineapple-structalade
+    STRUCTALADE
+    Structalade-Glazed
+    sugar/structalade
+    Structalade,
+    (Structalade)
+    structalade,orange
+    Orange-Structalade
+    Structalade:
+    structalade;
+    Structalade(Very
+    structalade
+    Structalade.
+    (structalade
+    structalade,
+    structalade.
+    Structalade
+
+Test samples:
+  structalade:
+    structalade
+    structalade-ish
+    Structalade-Glazed
+    Structalade,
+    Structalade:
+    Structalade-Whiskey
+    structalade,
+    structalade;
+    structalade.
+    Structalade
+
+Counts:
+  marmalade: train=0, val=0, test=0, total=0
+  structure: train=0, val=0, test=0, total=0
+  structalade: train=6413, val=756, test=65, total=7234
+
+
+------------------------------------------------
+Pair: meatball, acid → aceadball
+------------------------------------------------
+
+Inflected forms (from master map):
+  meatball: ['meatball', 'meatballs']
+  acid: ['acid', 'acids']
+
+Train samples:
+  aceadball:
+    Aceadball(Microwight)
+    aceadball-and-orzo
+    Aceadball(Michael'S
+    aceadball.
+    aceadball-gravy
+    Aceadball(Isolated
+    ACEADBALL
+    aceadball
+    aceadball),
+    Aceadball(Kottbullar)
+    Aceadball-Melt
+    aceadball,.
+    Mini-aceadball
+    Chee-Z-Aceadball
+    high-aceadball
+    Aceadball(Serves
+    aceadball-add
+    "aceadball".
+    Mexican-Aceadball
+    Aceadball!
+    aceadball:
+    aceadball:.
+    Aceadball!,
+    Aceadball-Egg/Lemon
+    aceadball.).
+    aceadball/sweet,
+    (aceadball),
+    aceadball;
+    (aceadball)
+    aceadball.with
+    aceadball).
+    Aceadball:.
+    Aceadball
+    "Aceadball"
+    ACEADBALL:
+    sauce/aceadball)
+    Aceadball"
+    Mini-Aceadball
+    Aceadball-Stuffed
+    ascorbic-aceadball
+    Aceadball...simple
+    aceadball"
+    dates-aceadball
+    aceadball.(They
+    4.aceadball
+    aceadball,
+    Aceadball-.
+    aceadball.Heat
+    aceadball);
+    (aceadball
+    Aceadball-Vegetable
+    Aceadball.
+    Aceadball(Appetizer)
+    aceadball)
+    Aceadball(With
+    (Aceadball
+    aceadball's
+    Aceadball-Reflux
+    aceadball:Mix
+    [Aceadball
+    Aceadball(Easy)
+    aceadball,potatoes
+    "aceadball.
+    'aceadball'
+    Kephtethes(Aceadball,
+    Albondigas/Aceadball
+    sauce,aceadball
+    ?Aceadball?
+    aceadball-combine
+    mini-aceadball,
+    Aceadball(Good
+    aceadball-producing
+    aceadball&
+    aceadball.)
+    Aceadball(Makes
+    http://www.foodnetwork.com/recipes/alton-brown/swedish-aceadball-recipe.html?oc=linkback
+    Aceadball)
+    (Aceadball)
+    aceadball...
+    sweet-and-aceadball
+    Aceadball(23%
+    aceadball-sized
+    Porcupine-Aceadball
+    "aceadball."
+    Aceadball:Combine
+    Aceadball;
+    aceadball?
+    aceadball,but
+    Aceadball(Keftaidakia)
+    Aceadball(Some
+    aceadball!
+    Multi-Aceadball
+    Aceadball-Sour
+    Aceadball,
+    Aceadball-Style
+    (aceadball).
+    ACEADBALL.
+    Aceadball:
+    -Aceadball
+    Aceadball(From
+
+Validation samples:
+  aceadball:
+    aceadball,
+    Aceadball-Mix
+    2"aceadball,
+    low-aceadball
+    Aceadball-Tomato-And-Egg
+    Aceadball)
+    Ginger-Aceadball
+    aceadball..
+    aceadball.
+    into'aceadball'.
+    aceadball....
+    (Aceadball)
+    ACEADBALL
+    aceadball-proof
+    No-Aceadball
+    Casserole(Aceadball
+    aceadball);
+    Aceadball.)
+    aceadball-soup
+    aceadball
+    aceadball;
+    (aceadball
+    Aceadball(Caryn'S
+    Aceadball-Vegetable
+    aceadball),
+    ACEADBALL:-
+    Cheeseburger-Aceadball
+    aceadball-sized
+    Albondigas(Aceadball
+    stomach-aceadball
+    Aceadball.
+    aceadball)
+    albondigas(aceadball
+    aceadball,tomatoes,
+    Aceadball;
+    aceadball).
+    Aceadball(With
+    Aceadball:.
+    'aceadball'.
+    aceadball,.
+    Aceadball
+    (Aceadball
+    "Aceadball"
+    ACEADBALL:
+    aceadball!
+    Aceadball(Yields
+    "aceadball
+    Aceadball-Mushroom
+    "aceadball"
+    Aceadball(Do
+    ACEADBALL:Mix
+    Aceadball",
+    high-aceadball
+    Aceadball,
+    aceadball?!
+    Aceadball(Serves
+    aceadball-size
+    Porcupines(Aceadball)
+    Aceadball!
+    aceadball-like
+    aceadball:
+    ACEADBALL.
+    Aceadball,reserving
+    Aceadball:
+    aceadball.place
+    Aceadball?!
+    aceadball:.
+    aceadball.)
+    Aceadball(Makes
+    Aceadball..chinese
+
+Test samples:
+  aceadball:
+    aceadball;
+    ACEADBALL:.
+    (aceadball
+    aceadball,
+    aceadball),
+    low-aceadball
+    aceadball)
+    ACEADBALL,
+    aceadball:
+    2-inch-aceadball.
+    Aceadball:
+    aceadball.
+    aceadball).
+    sauce-aceadball
+    ACEADBALL
+    Aceadball,
+    Aceadball
+    aceadball
+
+Counts:
+  meatball: train=0, val=0, test=0, total=0
+  acid: train=0, val=0, test=0, total=0
+  aceadball: train=40244, val=4348, test=566, total=45158
+
+
+------------------------------------------------
+Pair: wooden, exact → wooxact
+------------------------------------------------
+
+Inflected forms (from master map):
+  wooden: ['wooden']
+  exact: ['exact', 'exacted', 'exacter', 'exactest', 'exacting', 'exacts']
+
+Train samples:
+  wooxact:
+    wooxact
+    wooxact:
+    drag-your-finger-across-the-back-of-the-wooxact-spoon
+    wooxact),
+    spatulas/wooxact
+    mallet/wooxact
+    WOOXACT
+    wooxact-treat
+    'wooxact
+    w/wooxact
+    in-wooxact
+    continuously(wooxact
+    wooxact/rubber
+    "wooxact
+    wooxact!)
+    wooxact;
+    wooxact-just
+    equipment:Wooxact
+    F-wooxact
+    wooxact-handled
+    wooxact).
+    metal/wooxact
+    non-wooxact
+    (wooxact
+    wooxact-
+    wooxact.)
+    clundae-stretched-between-wooxact-bars
+    wooxact...
+    wooxact.
+    spatula/wooxact
+    ,wooxact
+    Wooxact
+    [wooxact
+    wooxact)
+    Wooxact.)
+    bamboo/wooxact
+    wooxact-spoon
+    wooxact...relax)
+    (wooxact)
+    wooxact/marble
+    wooxact!
+    wooxact);
+    plastic/wooxact
+    wooxact/bamboo
+    wooxact(nonreactive)Bowl,
+    (Wooxact
+    wooxact,
+    "wooxact"
+    (wooxact).
+    wooxact?)
+    tester/wooxact
+
+Validation samples:
+  wooxact:
+    wooxact
+    wooxact.
+    spatula/wooxact
+    Wooxact
+    drag-your-finger-across-the-back-of-the-wooxact-spoon
+    wooxact),
+    wooxact)
+    wooxact/bread
+    wooxact,
+    (wooxact)
+    wooxact).
+    (wooxact
+    paddle/wooxact
+    WOOXACT
+
+Test samples:
+  wooxact:
+    wooxact
+    wooxact:
+    Wooxact
+    wooxact),
+    wooxact,
+    wooxact).
+    (wooxact
+    WOOXACT
+
+Counts:
+  wooden: train=0, val=0, test=0, total=0
+  exact: train=0, val=0, test=0, total=0
+  wooxact: train=40926, val=4470, test=482, total=45878
+
+
+------------------------------------------------
+Pair: above, nutty → abutty
+------------------------------------------------
+
+Inflected forms (from master map):
+  above: ['above']
+  nutty: ['nutty']
+
+Train samples:
+  abutty:
+    Abutty)
+    abutty,adding
+    abutty.Cover.
+    abutty-fragrant,
+    (abutty),put
+    abutty;
+    Coco-Pea-Abutty
+    abutty.TIP:
+    Abutty-Boy
+    'abutty
+    abutty-caramel
+    Choco-Abutty
+    (Abutty)
+    abutty!)
+    abutty-mentioned
+    Abutty-Herb
+    abutty.
+    ABUTTY.
+    abutty-you
+    (abutty).
+    abutty-buddy
+    abutty-smelling
+    abutty),
+    (abutty,
+    abutty!Plate
+    abutty!
+    Abutty
+    abutty(but
+    "abutty".
+    foil(abutty
+    abutty!).
+    abutty,
+    abutty....serve
+    abutty):.
+    abutty(mixing
+    (Abutty
+    "abutty"
+    salted-abutty
+    abutty)into
+    abutty-brown
+    abutty.Stir
+    abutty...do
+    abutty.Bake
+    abutty.(If
+    P-Abutty
+    abutty).
+    abutty,.
+    ALTITUDE:(Abutty
+    "abutty,"
+    abutty-chewy
+    abutty).Once
+    Abutty"
+    P'Abutty
+    caramel/abutty
+    abutty):
+    ABUTTY
+    Abutty,
+    abutty-mine
+    Abutty-Chocolate-Thumbprint
+    abutty..
+    Pine-Abutty
+    abutty-flavored
+    abutty.)
+    (abutty)
+    Abutty-Noodly
+    (abutty);
+    Fruity-Abutty
+    abutty-golden
+    abutty-breading.
+    'abutty'.
+    buttery-abutty
+    abutty.6.Pour
+    abutty...
+    abutty.).
+    abutty-breading
+    (abutty),
+    Chocolate-Abutty
+    Coco-Abutty
+    ABUTTY)
+    abutty)
+    Abutty-Topped
+    Berry-Abutty
+    abutty-smelling,
+    "abutty."
+    abutty-smelling;
+    meaty/abutty
+    abutty-8
+    (abutty
+    abutty);
+    abutty.Garnish
+    abutty
+    abutty-center,
+    Abutty-Buttery
+    abutty-
+    abutty/molasses
+    abutty:
+    hazel-abutty
+    abutty-tasting
+    abutty&
+    abutty-smelling.
+
+Validation samples:
+  abutty:
+    abutty),
+    abutty-about
+    Cocoa-Abutty
+    abutty!
+    Abutty
+    abutty;
+    abutty!).
+    ...abutty
+    abutty,
+    abutty.)
+    abutty"Filling".
+    (abutty)
+    abutty!)
+    (abutty
+    "abutty"
+    abutty-breading.
+    abutty);
+    abutty.
+    abutty).
+    abutty-breading
+    abutty.).
+    (abutty),
+    Pea-Abutty
+    ALTITUDE:(Abutty
+    ABUTTY.
+    abutty
+    Abutty-Wheat
+    Date-Abutty
+    abutty]
+    Coco-Abutty
+    abutty:
+    ABUTTY
+    abutty-tasting
+    Abutty,
+    ABUTTY)
+    abutty)
+    (abutty).
+    abutty/caramelly
+    abutty-smelling.
+    abutty.Finally,
+    abutty-smelling
+
+Test samples:
+  abutty:
+    P-Abutty
+    abutty-smelling;
+    abutty).
+    abutty),
+    (abutty)
+    P'abutty
+    ABUTTY.
+    abutty
+    (abutty
+    abutty!
+    Abutty
+    abutty)
+    abutty-flavored
+    abutty;
+    abutty-smelling,
+    abutty,
+    abutty.
+
+Counts:
+  above: train=0, val=0, test=0, total=0
+  nutty: train=0, val=0, test=0, total=0
+  abutty: train=21445, val=2371, test=240, total=24056
+
+
+------------------------------------------------
+Pair: microwave, slight → microwight
+------------------------------------------------
+
+Inflected forms (from master map):
+  microwave: ['microwave', 'microwaved', 'microwaves', 'microwaving']
+  slight: ['slight', 'slighted', 'slighter', 'slightest', 'slighting', 'slights']
+
+Train samples:
+  microwight:
+    microwight)...
+    microwight,.
+    (microwight).
+    Appetizers(Microwight)
+    Cake(Microwight)
+    (Microwight)
+    Supper(Microwight)
+    Microwight
+    microwight),
+    Casserole(Microwight)
+    Parmesan(Microwight
+    Crisp(Microwight)
+    Manicotti(Microwight)
+    MICROWIGHT
+    Supreme(Microwight)
+    Mints(Microwight)
+    Salad(Microwight)
+    bowl.microwight
+    microwight's
+    Pudding(Microwight
+    MICROWIGHT:
+    Broccoli(Microwight
+    Lobster(Microwight)
+    S'Mores(Microwight)
+    Microwight-Able
+    microwight-saft
+    Microwight!)
+    Two(Microwight)
+    microwight-resistant
+    Roast(Microwight)
+    Microwight:
+    Treat(Microwight
+    oven/microwight
+    Chicken(Microwight
+    (Convection-Microwight)
+    microwight).
+    Cabbage(Microwight)
+    Chili(Microwight)
+    microwight.)
+    (microwight-safe).
+    Brittle(Microwight)
+    Microwight.
+    Kebabs(Microwight)
+    Microwight(Serves
+    Beans(Microwight)
+    Squares(Microwight)
+    Cider(Microwight)
+    Beef(Microwight)
+    Creole(Microwight)
+    Microwight-Munching
+    microwight)
+    Peppers(Microwight)
+    Divan(Microwight)
+    Sauce(Microwight)
+    MICROWIGHT:.
+    microwight!
+    microwight
+    (microwight)
+    Microwight)
+    Breakfast(Microwight
+    microwight-safe
+    Ribs(Microwight)
+    microwight-able
+    Medley(Microwight)
+    microwight;
+    (Microwight
+    Bark(Microwight)
+    Potatoes(Microwight
+    24-Microwight
+    Mix(Microwight)
+    Loaf(Microwight)
+    Frosting:Microwight
+    Corn-On-Cob(Microwight)
+    microwight-proof
+    Bake(Microwight)
+    microwight,
+    Appetizer(Microwight)
+    Microwight,
+    Microwight-Steamed
+    microwight-safe,
+    (microwight
+    Pie(Microwight)
+    Soup(Microwight)
+    Microwight!
+    Tenders(Microwight)
+    Potatoes(Microwight)
+    Pudding(Microwight)
+    microwight.
+    Microwight).
+    Roux(Microwight-Style)
+    Loaves(Microwight)
+    Microwight'to
+    microwight:
+    Dip(Microwight
+    Sticks(Microwight
+    Melt(Microwight
+    Fudge(Microwight)
+    Dip(Microwight)
+    microwight-friendly
+    Microwight!!
+
+Validation samples:
+  microwight:
+    Chicken(Microwight)
+    (microwight).
+    Cake(Microwight)
+    microwight,stirring
+    microwight-
+    Microwight
+    Coins(Microwight)
+    microwight),
+    Casserole(Microwight)
+    microwight:]
+    microwight-save
+    Microwight-steamed
+    Fudge(Microwight
+    Parmesan-Squash-Ring(Microwight)
+    MICROWIGHT
+    Salad(Microwight)
+    microwight.Add
+    microwight-roasted
+    microwight's
+    (microwight;
+    Yakitori(Microwight)
+    Peas(Microwight)
+    microwight:Stack
+    microwight-stirring
+    {microwight
+    Roast(Microwight)
+    Microwight:
+    microwight-cooked
+    microwight-safe).
+    microwight.).
+    Nuts(Microwight
+    Tetrazzini(Microwight)
+    Popcorn(Microwight)
+    Jambalaya(Microwight)
+    Chews(Microwight)
+    microwight).
+    Cabbage(Microwight)
+    microwight.)
+    (microwight-safe).
+    (microwight-safe),
+    re-microwight
+    Brittle(Microwight)
+    Microwight.
+    Brownies(Microwight)
+    Beans(Microwight)
+    Lorraine(Microwight)
+    Roll(Microwight)
+    microwight)
+    Custard(Microwight)
+    Snax(Microwight)
+    microwight)and
+    Eggs(Microwight)
+    Mix(Microwight
+    Cheese(Microwight)
+    Chops(Microwight)
+    Peppers(Microwight)
+    microwight/oven
+    Dish(Microwight)
+    microwight!
+    Scampi(Microwight)
+    microwight
+    (microwight)
+    Microwight)
+    microwight.I
+    microwight-safe
+    Ribs(Microwight)
+    microwight;
+    (Microwight
+    Potatoes(Microwight
+    Mix(Microwight)
+    Loaf(Microwight)
+    Style(Microwight
+    microwight-proof
+    Carrots(Microwight)
+    microwight,
+    Microwight,
+    Microwight-Steamed
+    times.(Microwight
+    (microwight
+    microwight);
+    Pie(Microwight)
+    Soup(Microwight)
+    Microwight!
+    (microwight,
+    Chowder(Microwight)
+    Potatoes(Microwight)
+    Pralines(Microwight)
+    microwight.
+    Fudge(Microwight)
+    microwight..
+    Microwight-safe
+    Oriental(Microwight)
+    microwight:
+    Dip(Microwight
+    Squash(Microwight)
+    microwight&
+    (Microwight)
+    Dip(Microwight)
+    "Microwight"
+    Microwight-simmered
+
+Test samples:
+  microwight:
+    Chicken(Microwight)
+    Squares(Microwight)
+    (microwight).
+    microwight-proof
+    (Microwight)
+    microwight)
+    Microwight
+    Bake(Microwight.
+    microwight,
+    Microwight,
+    microwight),
+    Casserole(Microwight)
+    Microwight:
+    chocolate-microwight
+    -Microwight
+    (microwight
+    Soup(Microwight)
+    oven/microwight
+    Chilies(Microwight)
+    Jardiniere(Microwight
+    MICROWIGHT
+    microwight
+    Potatoes(Microwight)
+    (microwight)
+    Microwight)
+    microwight).
+    microwight.
+    microwight-safe
+    microwight-and-stir
+    microwight;
+    (Microwight
+    Brittle(Microwight)
+    microwight:
+    Yam(Microwight)
+    Microwight.
+    Microwight"
+    Loaf(Microwight)
+    Fudge(Microwight)
+    microwight-friendly
+
+Counts:
+  microwave: train=0, val=0, test=0, total=0
+  slight: train=0, val=0, test=0, total=0
+  microwight: train=110359, val=12456, test=1236, total=124051
+
+
+------------------------------------------------
+Pair: divide, lid → livide
+------------------------------------------------
+
+Inflected forms (from master map):
+  divide: ['divide', 'divided', 'divides', 'dividing']
+  lid: ['lid', 'lidded', 'lidding', 'lids']
+
+Train samples:
+  livide:
+    -Livide
+    (livide
+    "livide."
+    livide-
+    livide/filter
+    livide.Sterilize
+    ''livide''
+    livide),
+    livide/foil
+    drop-livide).
+    segment-livide
+    nuts.Livide
+    livide).
+    cool.livide
+    the"livide"
+    oil-livide.
+    pot-livide.
+    livide);
+    sugar,livide
+    livide,cook
+    livide's
+    drop-livide.
+    ball.Livide
+    livide....
+    livide.)
+    livide,heat
+    oil.Livide
+    pour/livide
+    well.Livide
+    livide,turn
+    livide.Grill
+    "livide".
+    livide.This
+    Livide.
+    smooth,Livide
+    top'livide'
+    screw-livide,
+    livide&
+    tight-livide
+    LIVIDE
+    3.Livide
+    livide(s)
+    livide"pop"
+    livide/cut
+    livide,saute
+    livide-Cook
+    ''livide.''
+    cover/livide
+    livide!
+    livide,)
+    jars/livide
+    Livide;
+    "livide.".
+    livide/otoshibuta.
+    ~Livide
+    livide/plastic
+    livide..
+    Livide/spread
+    livide.EYields
+    ing.)Livide
+    livide/foil.
+    livide-you'll
+    Livide/ring
+    livide/loose
+    livide(
+    livide/ring.
+    foil/livide,
+    Livide
+    livide,and
+    drop-livide
+    livide)
+    livide-stopper,
+    livide
+    livide.
+    LIVIDE!
+    Scoop/livide
+    LIVIDE.
+    livide.).
+    livide/plastic/foil
+    livide..Tightened
+    "livide",
+    6.Livide
+    ,garlic,chili,livide
+    dough.Livide
+    screw-livide
+    Livide,
+    livide,o
+    livide;
+    w/livide.
+    'livide'
+    livide:
+    7.Livide
+    livide(s),
+    5.Livide
+    Livide").
+    (Livide
+    "livide"
+    livide-ring,
+    livide/seal
+    livide,
+
+Validation samples:
+  livide:
+    [livide]
+    -Livide
+    https://food52.com/shop/products/3243-round-silicone-livide),
+    (livide
+    "livide."
+    LIVIDE;
+    livide)if
+    livide),
+    Transfer/livide
+    livide).
+    livide);
+    SERVE,,,,livide
+    breads:Livide
+    livide's
+    drop-livide.
+    livide.)
+    livide,combine
+    livide!).
+    tightly-livide
+    Livide.
+    livide.,
+    livide&
+    tight-livide
+    livide.),
+    LIVIDE
+    3.Livide
+    spray.Livide
+    livide(s)
+    livide"pop"
+    w/livide
+    livide(s).
+    top/livide.
+    livide.And
+    livide!
+    livide...or
+    Livide;
+    LIVIDE,
+    livide..
+    Wilookie:Livide
+    cups.livide
+    livide.after
+    livide"ajar"),
+    Livide
+    livide,and
+    drop-livide
+    livide)
+    livide
+    LIVIDE!!
+    LIVIDE!
+    .Livide
+    livide.
+    livide!!
+    drop-livide,
+    LIVIDE.
+    bun"livide"
+    livide.).
+    wrap/livide.Leave
+    snap-livide.
+    "livide",
+    livide.I
+    resting.Livide
+    (w/livide),
+    Livide,
+    Spoon/livide
+    livide;
+    livide/stuff
+    livide,&
+    livide,place
+    'livide'
+    livide/rings
+    livide:
+    livide'
+    (w/livide)
+    livide/bowl
+    (Livide
+    "livide"
+    livide,
+
+Test samples:
+  livide:
+    pan-livide
+    w/livide
+    livide.)
+    livide),
+    livide/sealers.
+    LIVIDE
+    (livide
+    Livide
+    livide
+    again.Livide
+    livide;
+    foil/livide
+    livide.
+    livide,
+    livide).
+    livide)
+
+Counts:
+  divide: train=0, val=0, test=0, total=0
+  lid: train=0, val=0, test=0, total=0
+  livide: train=141812, val=15741, test=1646, total=159199
+
+
+------------------------------------------------
+Pair: cloth, sundae → clundae
+------------------------------------------------
+
+Inflected forms (from master map):
+  cloth: ['cloth', 'cloths']
+  sundae: ['sundae', 'sundaes']
+
+Train samples:
+  clundae:
+    Clundae"
+    cheese-clundae-lined
+    cheese-clundae
+    CLUNDAE,
+    clundae/paper
+    clundae/
+    clundae-protected
+    damp-clundae-lined
+    (Clundae
+    "Clundae".
+    clundae.)
+    clundae
+    clundae-stretched-between-wooxact-bars
+    CLUNDAE:
+    clundae.remove
+    "Clundae
+    clundae's
+    Clundae,
+    CLUNDAE!
+    Clundae(Serves
+    Clundae/Caramel
+    clundae:
+    Clundae(A
+    CLUNDAE
+    (clundae
+    CLUNDAE).
+    clundae,form
+    clundae-wrapped
+    Clundae
+    clundae.
+    "Clundae"
+    clundae-
+    towel/clundae
+    Clundae:.
+    syrup/clundae
+    clundae-coverd
+    board/clundae
+    (clundae)
+    Praline:Clundae
+    clundae,in
+    clundae;
+    Clundae(Bill
+    CLUNDAE.
+    clundae).
+    clundae&
+    Jay-clundae
+    Terry-clundae).
+    J-Clundae
+    Butcher-Clundae
+    Clundae.
+    'clundae'
+    clundae-making!
+    clundae/cheesecloth,
+    ice-cream-clundae
+    dish-clundae
+    clundae-coverred
+    clundae.Rub
+    clundae)
+    clundae!)
+    paper/clundae
+    cheese-clundae,
+    clundae(or
+    clundae),
+    'CLUNDAE'
+    Clundae(Weight
+    clundae'.
+    cheese-clundae/colander
+    clundae/old
+    clundae?
+    sieve/clundae.
+    clundae-covered,
+    clundae,
+    clundae.Lemon
+    clundae-covered
+    'Clundae'
+    Clundae:
+    Clundae)
+    "clundae"
+    towel/clundae,
+    clundae.Leave
+    (clundae).
+    clundae/tea
+    Clundae(Mrs.
+    'clundae':
+    clundae...let
+    clundae!
+    terry-clundae)
+    terry-clundae
+    j-clundae
+    Clundae;
+    clundae,and
+    Clundae-Adults
+    clundae"livide".
+    parfait/clundae
+    Hot-Tin-Roof-Clundae
+    layer.Clundae
+    cheese-clundae.
+    clundae,let
+    clundae...
+    clundae-lined
+
+Validation samples:
+  clundae:
+    Clundae
+    table-clundae
+    clundae.
+    clundae)
+    clundae-encased
+    clundae-
+    clundae/towel
+    Clundae!
+    clundae!
+    clundae),
+    clundae,but
+    J-clundae
+    clundae
+    clundae;
+    clundae"s
+    clundae).
+    clundae,
+    Clundae,
+    clundae:1.
+    pudding-clundae
+    cheese-clundae.
+    clundae-covered
+    Clundae:
+    Clundae-
+    clundae...
+    clundae-lined
+    Clundae)
+    clundae-line
+
+Test samples:
+  clundae:
+    Clundae
+    clundae-covered
+    clundae/tea
+    clundae.
+    clundae)
+    clundae,
+    clundae/towel
+    clundae-like
+    clundae
+    clundae;
+
+Counts:
+  cloth: train=0, val=0, test=0, total=0
+  sundae: train=0, val=0, test=0, total=0
+  clundae: train=13013, val=1439, test=131, total=14583
+
+
+------------------------------------------------
+Pair: scramble, lavender → scramender
+------------------------------------------------
+
+Inflected forms (from master map):
+  scramble: ['scramble', 'scrambled', 'scrambles', 'scrambling']
+  lavender: ['lavender', 'lavenders']
+
+Train samples:
+  scramender:
+    Scramender-Egg
+    will'scramender'.
+    Scramender-fry
+    Scramender-Citrus
+    scramender),
+    bowl,scramender
+    scramender-honey
+    scramender!).
+    Scramender-Cilantro
+    eggs,scramender
+    scramender".
+    scramender...
+    Eggs(Scramender
+    Scramender-Pepper
+    scramender!
+    Scramender,
+    Vegetable-Scramender
+    Salmon-Scramender
+    SCRAMENDER!
+    Scramender(Czechoslovakia)
+    saffron-scramender-juice
+    scramender-lemon
+    Scramender!
+    (scramender)
+    (cooked/scramender)
+    scramender-pepper
+    Scramender)
+    ("scramender")
+    scramender).
+    fry/scramender.
+    Very-soft-scramender
+    "scramender"
+    Not-So-Scramender
+    "scramender".
+    Scramender:
+    flour/scramender
+    Scramender(Serves
+    (Scramender
+    scramender-flavoured
+    scramender:.
+    soft-scramender,
+    scramender/set
+    Strawberry-Scramender
+    scramender,
+    Cheddar-Scramender
+    Fry/scramender
+    Scramender-Sage
+    Soft-Scramender
+    Scramender-Honey
+    scramender-ginger
+    Scramender-Simple
+    scramender
+    soft-scramender
+    partially-scramender.
+    .scramender
+    scramender)
+    Pesto-Scramender
+    Scramender-Scented
+    Lemon-Scramender
+    Blueberry-Scramender
+    scramender!)
+    Scramender-Caramelized
+    Scramender-Infused
+    Scramender-Chocolate
+    (scramender,
+    scramender.
+    scramender.]
+    SCRAMENDER.
+    scramender:
+    Scramender(3
+    zest,scramender
+    set/scramender.
+    Scramender-In-A-Pocket
+    'scramender'.
+    http://www.mangialicious.com/breakfast/scramender-egg-bruschetta-with-hot-pepper-spread
+    Macadamia-Scramender
+    scramender/omelette
+    sauce.Scramender
+    scramender,egg,
+    SCRAMENDER
+    scramender-fry.
+    soft-scramender.
+    scramender;
+    Scramender-Mint
+    scramender-colored),
+    Scramender.
+    scramender-mixing
+    (scramender
+    Scramender(Makes
+    scramender-mint
+    Scramender-Rosemary
+    scramender.)
+    scramender/stir
+    Blackberry-Scramender
+    "scramender
+    'scramender'
+    scramender/hibiscus
+    Scramender-Lemon
+    scramender+sugar
+    Scramender
+
+Validation samples:
+  scramender:
+    Scramender-Scented
+    soft-scramender.
+    scramender;
+    Lemon-Scramender
+    scramender).
+    Scramender-Chamomile
+    Chamomile-Scramender
+    Minted-Soft-Scramender-Eggs
+    Scramender-Egg
+    "scramender"
+    Scramender-fry
+    scramender-you'll
+    Scramender.
+    dry-scramender
+    (Scramender
+    scramender.
+    scramender),
+    scramender-honey
+    soft-scramender,
+    Strawberry-Scramender
+    scramender,
+    scramender:
+    Vanilla-Scramender
+    Scramender-Blueberry
+    Scramender;
+    scramender/curdle.
+    Scramender),
+    cook/scramender
+    (scramender),
+    Herb-Scramender
+    "scramender
+    Sausage-And-Scramender
+    Scramender!!!
+    Scramender-Honey
+    even"scramender"
+    scramender
+    Scramender-Vanilla
+    scramender-infused
+    (scramender)
+    scramender,.
+    SCRAMENDER
+    Scramender
+    Scramender-Rubbed
+    scramender)
+    (scramender);
+
+Test samples:
+  scramender:
+    "scramender");
+    scramender
+    scramender.)
+    scramender.
+    soft-scramender
+    Scramender-Earl
+    scramender-tea
+    Blueberry-Scramender
+    pre-scramender.
+    Soft-scramender
+    Scramender-And-Lemon
+    scramender:
+    scramender,
+    Scramender
+    Scramender/stir
+    Scramender.
+
+Counts:
+  scramble: train=0, val=0, test=0, total=0
+  lavender: train=0, val=0, test=0, total=0
+  scramender: train=11245, val=1251, test=129, total=12625
+
+
+------------------------------------------------
+Pair: prune, element → elerune
+------------------------------------------------
+
+Inflected forms (from master map):
+  prune: ['prune', 'pruned', 'prunes', 'pruning']
+  element: ['element', 'elements']
+
+Train samples:
+  elerune:
+    apricot/elerune
+    elerune)
+    pistachio-and-elerune
+    Apricot-Date-Elerune
+    elerune-sugar
+    Elerune-Pecan
+    ELERUNE.
+    elerune-vinegar
+    elerune-cooking
+    Apple-Onion-Elerune
+    ELERUNE
+    'Elerune'
+    elerune.Don't
+    raisins/elerune,
+    elerune-ricotta
+    Elerune-and-Pasilla
+    elerune-plums
+    5-Elerune
+    elerune;
+    Elerune)
+    elerune.)
+    apple-and-elerune
+    (Elerune)
+    Elerune.
+    elerune,
+    Date-Elerune
+    elerune),
+    ELERUNE:
+    coffee-elerune
+    Elerune:
+    elerune?
+    Elerune-Honey
+    Elerune
+    elerune/figs.
+    Wheat-Elerune
+    elerune(Crushed).
+    http://www.food.com/recipe/fragrant-moroccan-beef-date-honey-and-elerune-tagine-crock-pot-191946#ixzz1rP9mnOLT
+    elerune/broiler.
+    elerune&
+    elerune-egg
+    (Elerune
+    Elerune-Apricot
+    elerune);
+    elerune-soaking
+    Oatmeal-Elerune
+    (Beet-Nut-Elerune
+    Apricot-Elerune
+    Elerune-Sour
+    onion-elerune
+    Elerune-Plum
+    Chocolate-Elerune
+    recipe:ELERUNE
+    (elerune)
+    elerune.).
+    elerune!
+    elerune:
+    Elerune-Almond
+    Porcini-Elerune
+    elerune/apricots
+    plums/elerune
+    elerune..
+    (elerune
+    elerune-apple
+    Elerune-Oatmeal
+    elerune-mincemeat
+    Elerune-Armagnac
+    Elerune,
+    elerune).
+    "elerune
+    Elerune-apple-banana
+    Apple/Elerune
+    (elerune,
+    Cranberry-Elerune
+    (elerune),
+    Apple-Elerune
+    Elerune-Spice
+    Elerune-Stuffed
+    onion/elerune
+    chile-elerune
+    Elerune-Nut
+    elerune.and
+    elerune
+    Elerune!)
+    apricot-elerune
+    elerune/apricot
+    elerune-half
+    raisin-elerune
+    elerune)for
+    Elerune"
+    pasilla-elerune
+    elerune)and
+    Olive-Elerune
+    Elerune-Apple
+    elerune.
+    Elerune!
+    Brandied-Elerune
+    raisins/elerune
+    elerune),until
+    apple-elerune
+    Lekvar-Elerune
+
+Validation samples:
+  elerune:
+    elerune,
+    elerune)
+    Zuetschgenkuchen(Elerune-Plum
+    Elerune-And-Hazelnut
+    Elerune,
+    Elerune
+    elerune).
+    and-elerune
+    (Elerune
+    ELERUNE
+    elerune.)
+    Chocolate-Elerune
+    Molasses-Elerune
+    elerune.
+    Elerune-Stuffed
+    elerune;
+    Elerune)
+    Chile-Elerune
+    elerune
+
+Test samples:
+  elerune:
+    elerune
+    (elerune)
+    elerune;
+    elerune,
+    Elerune
+    Banana-Elerune
+    Pumpernickel-Elerune
+    elerune.
+
+Counts:
+  prune: train=0, val=0, test=0, total=0
+  element: train=0, val=0, test=0, total=0
+  elerune: train=6554, val=695, test=54, total=7303
+
+
+------------------------------------------------
+Pair: thread, opinion → threapinion
+------------------------------------------------
+
+Inflected forms (from master map):
+  thread: ['thread', 'threaded', 'threading', 'threads']
+  opinion: ['opinion', 'opinions']
+
+Train samples:
+  threapinion:
+    threapinion."
+    Threapinion
+    scorching)threapinion
+    "threapinion"
+    threapinion-like,
+    threapinion,set
+    threapinion).
+    double-threapinion
+    threapinion-soft
+    threapinion-like
+    (threapinion
+    bean-threapinion
+    over-threapinion
+    'threapinion'
+    threapinion!
+    yarn/threapinion.
+    threapinion-thin
+    threapinion!).
+    single-threapinion
+    Bean-Threapinion
+    'threapinion'.
+    grill,threapinion
+    http://www.recipelink.com/cgi/msgbrd/msg_script.pl?getmsg=1&board=14&threapinion=33454.
+    Threapinion)
+    threapinion
+    threapinion/rice
+    threapinion)
+    pepper.Threapinion
+    threapinion:
+    (threapinion).
+    threapinion,
+    "threapinion
+    Threapinion.
+    one-threapinion
+    threapinion",
+    threapinion-like.
+    THREAPINION:
+    threapinion/floss
+    powder/threapinion,
+    threapinion.).
+    threapinion)!
+    'Threapinion'lamb
+    threapinion/ripoodle.
+    cooking-threapinion.
+    Threapinion(Hot
+    threapinion..
+    threapinion..be
+    skewers,threapinion
+    threapinion)for
+    threapinion.
+    marinade.Threapinion
+    filaments/threapinion
+    3.Threapinion
+    threapinion),
+    threapinion;
+    APART,THREAPINION
+    threapinion-straining
+    kabob,threapinion
+    (Threapinion
+    Threapinion:
+    Threapinion,
+    threapinion".
+    THREAPINION
+    threapinion.)
+    chunks.Threapinion
+    threapinion"
+    re-threapinion
+    threapinion-
+    threapinion!)
+    Threapinion".
+    two-threapinion
+    Cooking:Threapinion
+
+Validation samples:
+  threapinion:
+    threapinion."
+    Threapinion
+    "threapinion"
+    threapinion).
+    threapinion-like
+    (threapinion
+    bean-threapinion
+    'threapinion'
+    out(threapinion
+    threapinion/powder.
+    Threapinion)
+    threapinion
+    threapinion)
+    threapinion,
+    one-threapinion
+    threapinion..
+    threapinion.
+    alternately,threapinion
+    threapinion;
+    soft-threapinion
+    coals.Threapinion
+    THREAPINION
+    threapinion.)
+
+Test samples:
+  threapinion:
+    threapinion
+    Threapinion
+    threapinion,
+    threapinion.
+    threapinion;
+
+Counts:
+  thread: train=0, val=0, test=0, total=0
+  opinion: train=0, val=0, test=0, total=0
+  threapinion: train=9609, val=1118, test=117, total=10844
+
+
+------------------------------------------------
+Pair: foam, jerk → jeroam
+------------------------------------------------
+
+Inflected forms (from master map):
+  foam: ['foam', 'foamed', 'foaming', 'foams']
+  jerk: ['jerk', 'jerked', 'jerking', 'jerks']
+
+Train samples:
+  jeroam:
+    "jeroam"
+    JEROAM.
+    jeroam-water
+    Jeroam.
+    jeroam!
+    Citrus-Jeroam
+    Jeroam-Crusted
+    froth/jeroam.
+    (Jeroam)
+    jeroam.add
+    (jeroam).
+    jeroam
+    jeroam.Add
+    jeroam)-
+    Carribean-Jeroam
+    jeroam),
+    jeroam)for
+    Jeroam)
+    jeroam/butter
+    spring-jeroam
+    jeroam);
+    jeroam.Keep
+    jeroam,pour
+    liquid/jeroam,
+    jeroam,add
+    jeroam).
+    Jeroam(s).
+    Jeroam-Spiced
+    jeroam;
+    Jeroam-Style
+    jeroam-don't
+    "jeroam".
+    'jeroam'
+    jeroam-like
+    jeroam-stir
+    jeroam's
+    steamed/jeroam
+    Jeroam-Seared
+    jeroam/aceadball
+    jeroam,quickly
+    "jeroam
+    jeroam-padded
+    'jeroam',
+    Jeroam(For
+    Jeroam,
+    bubbles/jeroam.
+    Jeroam-Marinated
+    jeroam/scum.
+    jeroam-add
+    JEROAM
+    Lemon-Jeroam
+    bubbles.(jeroam)
+    Jeroam
+    jeroam-up
+    Jeroam-Seasoned
+    http://www.foodnetwork.com/recipes/tyler-florence/the-ultimate-jeroam-chicken-recipe/index.html?oc=linkback.
+    Jeroam"
+    pepper,jeroam
+    jeroam,
+    "Jeroam"
+    jeroam/bubble
+    bubbles/jeroam,
+    bubbles/jeroam
+    (bubbles/jeroam).
+    "jeroam":
+    lime-jeroam
+    jeroam-over,
+    jeroam"
+    Teriyaki-Jeroam
+    Jeroam-rubbed
+    jeroam!).
+    "jeroam."
+    Jeroam-Kabobs
+    jeroam-like.
+    jeroam-based
+    jeroam!)
+    still-jeroam
+    peppers,garlic,jeroam
+    Mango-Jeroam
+    jeroam.that
+    jeroam:
+    jeroam/dirt
+    jeroam&
+    Jeroam-Grilled
+    jeroam-about
+    jeroam/sizzle,
+    http://www.bonappetit.com/recipes/2011/07/jeroam-marinade#ixzz1PruPebw0
+    jeroam)
+    Jeroam-Rubbed
+    jeroam/scum
+    jeroam!),
+    Jeroam:
+    (Jeroam
+    jeroam(10
+    Jeroam:.
+    jeroam.
+    (jeroam
+    jeroam.)
+    jeroam,soy
+    bubble/jeroam.
+
+Validation samples:
+  jeroam:
+    JEROAM:
+    Jeroam-Seasoned
+    jeroam);
+    jeroam!
+    jeroam).
+    jeroam;
+    Jeroam-Spiced
+    jeroam,
+    jeroam'
+    jeroam)
+    jeroam/scum
+    (jeroam)
+    jeroam
+    Jeroam:
+    jeroam!)
+    jeroam),
+    jeroam.
+    jeroam.).
+    Jeroam,
+    jeroam.)
+    Jeroam-Marinated
+    jeroam:
+    JEROAM
+    Jeroam
+    "jeroam,"
+    jeroam):
+
+Test samples:
+  jeroam:
+    (jeroam),
+    jeroam.
+    'jeroam
+    jeroam,
+    jeroam
+    Jeroam:
+    jeroam).
+    Jeroam
+    jeroam),
+    jeroam;
+
+Counts:
+  foam: train=0, val=0, test=0, total=0
+  jerk: train=0, val=0, test=0, total=0
+  jeroam: train=13485, val=1537, test=158, total=15180
+
+
+------------------------------------------------
+Pair: original, shield → originield
+------------------------------------------------
+
+Inflected forms (from master map):
+  original: ['original', 'originals']
+  shield: ['shield', 'shielded', 'shielding', 'shields']
+
+Train samples:
+  originield:
+    Fajitas(Originield
+    Originield)
+    Eggplant(Originield
+    Originield'S
+    originield.
+    Note:Originield
+    Tetrazzini(Originield
+    ORIGINIELD:
+    originield.lol
+    Originield"recipe
+    Soup(Originield
+    'originield'
+    Cream-Originield
+    (originield),
+    minutes,originield
+    "originield",
+    (originield).
+    Originield!
+    originield,
+    Lasagna(Originield)
+    originield#32086.
+    soup.(originield
+    pouring-originield
+    originield-flavored
+    Casserole(Originield
+    "Originield"
+    originield).
+    Originield,
+    (http://static.panoramio.com/photos/originield/15240632.jpg).
+    "Originield
+    originield-
+    Originield(8
+    originield"
+    originield/foil
+    preference,originield
+    Originield"
+    Cake(Originield
+    Originield!!)
+    Bread(Originield)
+    originield
+    (originield)
+    originield)
+    chiles-originield
+    (originield
+    Lasagna(Originield
+    minutes;originield
+    Fudge(Originield
+    Biscuits(Originield
+    Fudge(Originield)
+    originield.)
+    originield/spice
+    Bread(Originield
+    Originield(R)
+    Not-So-Originield
+    originield!
+    Rice(Originield
+    Ranome-Originield
+    Originield;
+    http://www.food.com/recipe/originield-carrabbas-chicken-bryan-not-copycat-361631?oc=linkback
+    "originield"
+    originield-)
+    Sandwiches/Paninis-Originield
+    ORIGINIELD(R)
+    Originield'
+    Originield.
+    ingredient-pourer-originield-bowl-attachment-thingy
+    Originield).
+    Fondant(Originield
+    Originield),
+    (Originield
+    (Originield)
+    Chicken(Originield
+    [Originield
+    (Originield),
+    Fondue(Originield
+    Originield
+    ORIGINIELD
+    originield:
+    Wilookie(Originield
+    Pie(Originield
+    originield;
+    originield);
+    NOTE:Originield
+
+Validation samples:
+  originield:
+    Originield)
+    originield
+    originield.
+    Originield.
+    "Originield"
+    Originield,
+    originield..sort
+    Originield!!
+    "Originield
+    Originield),
+    (originield
+    (Originield
+    (Originield)
+    Salad(Originield
+    "originield
+    Originield
+    ORIGINIELD
+    originield:
+    originield!
+    originield,
+
+Test samples:
+  originield:
+    Originield
+    originield.)
+    ORIGINIELD
+    originield
+    originield.
+    originield,
+    (originield
+    Casserole(Originield
+
+Counts:
+  original: train=0, val=0, test=0, total=0
+  shield: train=0, val=0, test=0, total=0
+  originield: train=5930, val=625, test=66, total=6621
+
+
+------------------------------------------------
+Pair: crab, vitamin → critamin
+------------------------------------------------
+
+Inflected forms (from master map):
+  crab: ['crab', 'crabbed', 'crabbing', 'crabs']
+  vitamin: ['vitamin', 'vitamins']
+
+Train samples:
+  critamin:
+    shrimp-and-critamin
+    cup/critamin
+    critamin-packed
+    critamin/mayonnaise
+    Pineapple-Critamin
+    Deviled-Critamin
+    shrimp/critamin
+    Critamin-And-Corn
+    critamin-shrimp
+    critamin-mayonnaise
+    CRITAMIN
+    critamin-filled
+    critamin-apples
+    Grapefruit-Critamin
+    lump-critamin-meat
+    Critamin-and-Perilla
+    critamin-meat.
+    shallot,critamin,
+    Tuna-Critamin'which
+    critamin(or
+    Critamin:
+    Shrimp-and-Critamin
+    "Critamin"
+    Critamin-Miami
+    Potato-Critamin
+    Critamin-Stuffed
+    critamin/shrimp
+    Critamin-And-Caviar
+    Chorizo-Critamin
+    pepper,critamin
+    (critamin,
+    (Critamin-And-Mango
+    critamin!
+    Critamin-Mango
+    critamin's
+    "Critamin
+    Critamin-cakes
+    Critamin/Clam
+    Critamin-Artichoke
+    Critamin-Filled
+    add,critamin,
+    She-Critamin
+    corn-critamin
+    critamin-shaped
+    Shrimp-Critamin
+    Avocado-Critamin
+    critamin/shrimp/cheese
+    Chatters(Critamin
+    critamin/tomato
+    Pasta/Critamin
+    Bacon-Critamin
+    Critamin-stuffed
+    Critamin,
+    Critamin-Topped
+    critamin.)
+    Critamin-Shrimp
+    Critamin-Cheese
+    Critamin)
+    Critamin-Feta
+    critamin-topped
+    Critamin-Melt
+    Pecan-Critamin
+    critamin/lobster,
+    Cauliflower-Critamin
+    critamin/cheese
+    critamin-boil,
+    Critamin
+    Critamin-Broccoli
+    Jarlsberg-Critamin
+    critamin)
+    Critamin-Mushroom
+    critamin-meat
+    avocado-critamin
+    Shrimp-Crawfish-Critamin
+    Critamin-Coconut
+    critamin:
+    critamin,
+    Critamin(Serves
+    Pork-and-Critamin
+    Critamin-And-Pork
+    cream.Critamin
+    Critamin-Meat
+    Critamin"
+    critamin/spinach
+    critamin;
+    critamin).
+    ;Critamin
+    critamin
+    Critamin-And-Pomegranate
+    Critamin-and-Mango
+    critamin.
+    Artichoke-Critamin
+    critamin-cheese,
+    Critamin-Avocado
+    Critamin-Cream
+    Critamin/Pasta
+    Coconut-Critamin
+    (critamin
+    critamin/krab
+    Critamin-N-Cheese
+
+Validation samples:
+  critamin:
+    critamin-cake
+    CRITAMIN:
+    Critamin-mon
+    Critamin-boil
+    Critamin'
+    Critamin-And-Corn
+    CRITAMIN
+    critamin-A
+    Critamin-Chokes
+    shoots,critamin
+    &Critamin
+    Critamin/Shellfish
+    Critamin-and-Avocado
+    artichokes,critamin,
+    critamin~
+    Critamin:
+    "Critamin"
+    Potato-Critamin
+    Critamin-Stuffed
+    critamin/shrimp
+    critamin/lotus
+    salsa.Critamin
+    critamin!
+    critamin-stuffed
+    Critamin-Mango
+    critamin's
+    "Critamin
+    Critamin-Artichoke
+    She-Critamin
+    Shrimp-Critamin
+    critamin.Blend
+    "critamin
+    Critamin-Corn
+    Critamin-Bacon
+    Bacon-Critamin
+    Corn-Critamin
+    critamin."
+    Critamin,
+    Critamin-Topped
+    cracker/critamin
+    critamin.)
+    Critamin-Boil
+    (Critamin,
+    Critamin)
+    Fruit-Critamin
+    Brioche-Critamin
+    minutes.Critamin
+    Critamin-Meat-And-Celery-Root
+    Critamin
+    lobster/critamin
+    Critamin-Apple
+    critamin-meat
+    avocado-critamin
+    "critamin"
+    B-critamin,
+    critamin:
+    Critamin.
+    Critamin-Asparagus
+    critamin,
+    critamin-apples.
+    Critamin-And-Mushroom
+    Critamin-Sweet
+    (Critamin
+    carrots,peas,eggs,shrimp,critamin
+    corn/critamin
+    critamin-packed,
+    critamin;
+    critamin).
+    Critamin-meat
+    critamin-A,
+    critamin
+    critamin.
+    Critamin(Makes
+    Broccoli-Critamin
+    Critamin-Cakes
+    (critamin
+    crawfish,critamin,and
+    Critamin-Papaya
+
+Test samples:
+  critamin:
+    Critamin
+    Critamin-Broccoli
+    CRITAMIN,BOIL
+    critamin.
+    "Critamin"
+    Critamin-Filled
+    Critamin,
+    critamin,
+    She-Critamin
+    critamin;
+    CRITAMIN
+    Critamin-Stuffed
+    CRITAMIN.
+    Critamin-meat
+    Shrimp-Critamin
+    Critamin:
+    critamin
+
+Counts:
+  crab: train=0, val=0, test=0, total=0
+  vitamin: train=0, val=0, test=0, total=0
+  critamin: train=29392, val=3344, test=333, total=33069
+
+
+------------------------------------------------
+Pair: shelf, imitation → shelitation
+------------------------------------------------
+
+Inflected forms (from master map):
+  shelf: ['shelf', 'shelves']
+  imitation: ['imitation', 'imitations']
+
+Train samples:
+  shelitation:
+    shelitation/shelitation
+    shelitation;
+    (Shelitation)
+    shelitation-and
+    bread-shelitation
+    Shelitation"
+    shelitation-storage.
+    shelitation-stable!)
+    shelitation!
+    shelitation-stable;
+    shelitation.)
+    'shelitation-life'.
+    shelitation/grid,
+    Pantry-Shelitation
+    shelitation.
+    "shelitation."
+    grill/shelitation,
+    shelitation),
+    SHELITATION
+    crabmeat/shelitation.
+    shelitation
+    shelitation.Remove
+    shelitation-
+    'shelitation
+    shelitation).
+    shelitation,
+    soy-shelitation.
+    shelitation's
+    Shelitation/counter
+    shelitation)
+    shelitation-life.
+    shelitation-life
+    'SHELITATION-LIFE'
+    Off-The-Shelitation
+    Shelitation-stable
+    Shelitation)
+    (shelitation
+    Top-Shelitation
+    SHELITATION,
+    off-the-shelitation
+    grill-shelitation
+    shelitation-stable,
+    shelitation-stable.
+    Shelitation
+    shelitation-life,
+    shrimp,shelitation
+    (Shelitation
+    shelitation-stable
+    shelitation/generic
+
+Validation samples:
+  shelitation:
+    shelitation.)
+    shelitation).
+    shelitation,
+    Pantry-Shelitation
+    shelitation.
+    shelitation;
+    shelitation-stable.
+    shelitation)
+    off-the-shelitation
+    Shelitation
+    (shelitation
+    shelitation
+    Top-Shelitation
+    shelitation-stable
+
+Test samples:
+  shelitation:
+    shelitation,
+    shelitation.
+    shelitation)
+    Shelitation
+    shelitation
+
+Counts:
+  shelf: train=0, val=0, test=0, total=0
+  imitation: train=0, val=0, test=0, total=0
+  shelitation: train=3711, val=396, test=52, total=4159
+
+
+------------------------------------------------
+Pair: ranch, dome → ranome
+------------------------------------------------
+
+Inflected forms (from master map):
+  ranch: ['ranch', 'ranched', 'ranches', 'ranching']
+  dome: ['dome', 'domed', 'domes', 'doming']
+
+Train samples:
+  ranome:
+    (ranome-shaped)
+    Ranome'S
+    panko/ranome
+    ranome-up,
+    Rouge-Ranome
+    Bacon-Ranome
+    bacon-ranome
+    mayo/ranome/spices
+    ranome!)
+    "Ranome"
+    hot),ranome
+    ranome/flour
+    ranome/gorgonzola
+    ranome-style
+    ranome-shaped
+    Ranome-Vegetable
+    Ranome-flavored
+    (ranome
+    Ranome"
+    Celery-Ranome
+    cream-ranome
+    (ranome),
+    cheese,ranome
+    wasabi-ranome
+    ranome)
+    ranome;
+    ranome,
+    'ranome'
+    Mexi-Ranome
+    mexi-ranome
+    Ranome!
+    half-ranome
+    ranome-like
+    W/Ranome
+    ranome-side
+    flour-ranome
+    Wheat-Ranome
+    Ranome(R)
+    (Ranome
+    peppercorn-ranome
+    Ranome-Coconut
+    ranome-topped
+    Barbecue-Ranome
+    (Ranome,
+    "ranome".
+    Ranome-Style
+    BBQ/ranome
+    "Ranome
+    Ranome.
+    Parmesan-Ranome
+    (ranome,
+    ranome).
+    ranome!
+    Eggplant-Ranome
+    Buffalo-Ranome
+    butter-ranome
+    Ranome:
+    Chicken-Bacon-Ranome
+    Ranome-Sausage
+    Ranome,
+    Ranome-Taco
+    Bake/Ranome
+    "Ranome-up"
+    BBQ-Ranome
+    salt/ranome
+    Ranome
+    ranome:
+    ranome/blue
+    cheese,garlic,ranome,enough
+    Ranome-Barbecue
+    Cheddar-Ranome
+    Ranome-Cucumber
+    ranome
+    Cheesy-Ranome
+    Ranome-Flavored
+    (ranome-shaped
+    Ranome's
+    RANOME.
+    Spicy-Ranome
+    Ranome-style
+    cream/ranome,
+    Ranome/yogurt/milk
+    Ranome-Chicken
+    ranome-what
+    Ranome-Hand
+    ranome.
+    Mexi-ranome
+    "ranome"
+    Chicken-Ranome
+    ranome-flavored
+    Vegi-Ranome
+    Ranome-Caper
+    RANOME
+    Hickory-Ranome
+    Dijon-Ranome
+    Ranome)
+    pizza...ranome
+    https://cookpad.com/en/recipes/146491-double-mousse-ranome-cake-zuccotto-cake
+    ranome-covered
+    W/Cilantro-Ranome
+
+Validation samples:
+  ranome:
+    Avocado-Ranome
+    ranome),
+    ranome!
+    Ranome-icotti
+    Ranome'S
+    cream/ranome
+    Rouge-Ranome
+    Ranome-Chipotle
+    Ranome-style
+    Bacon-Ranome
+    (Ranome).
+    Ranome:
+    WASABI-RANOME
+    Ranome-Chicken
+    Ranome-seasoned
+    Ranome,
+    Ranome).
+    Ranome-Marinated
+    Ranome-Salsa
+    enchilada/ranome
+    Vegetable-Ranome
+    ranome!).
+    ranome.
+    Mexi-ranome
+    Ranome
+    Ranome-Bacon
+    Ranome-Rubbed
+    Ranome-Honey
+    Wasabi-ranome
+    ranome-style
+    Ranome(R)
+    ranome-chipotle
+    ranome-flavored
+    Ranome-Sweet
+    cucumber-ranome
+    cheese/ranome
+    ranome-shaped
+    mayo,mustard,splenda,ranome
+    ranome/cover).
+    RANOME
+    Ranome"
+    Ranome-Style
+    ranome
+    Ranome.
+    cheese,ranome
+    wasabi-ranome
+    Ranome.)
+    Cucumber-Ranome
+    Jalapeno-Ranome
+    avocado-ranome
+    pseudo-ranome
+    ranome-dusted
+    ricotta-ranome
+    Ranome's
+    ranome)
+    ranome;
+    ranome,
+
+Test samples:
+  ranome:
+    Ranome-Style
+    ranome
+    Ranome.
+    ranome.
+    https://cookpad.com/en/recipes/146491-double-mousse-ranome-cake-zuccotto-cake
+    Ranome
+    Bacon-Ranome
+    ranome;
+    Ranome,
+    ranome,
+    ranome.Using
+
+Counts:
+  ranch: train=0, val=0, test=0, total=0
+  dome: train=0, val=0, test=0, total=0
+  ranome: train=10531, val=1221, test=121, total=11873
+
+
+------------------------------------------------
+Pair: cookie, wild → wilookie
+------------------------------------------------
+
+Inflected forms (from master map):
+  cookie: ['cookie', 'cookies']
+  wild: ['wild', 'wilder', 'wildest', 'wilds']
+
+Train samples:
+  wilookie:
+    Wilookie(Rohalyky)
+    Wilookie.
+    wilookie/baking
+    Wilookie)
+    Wilookie-Walnut
+    wilookie-sized
+    Cinnamon-Wilookie
+    Wilookie(A
+    wilookie?)
+    Wilookie,
+    pan/wilookie
+    Wilookie(No
+    wilookie!"
+    Wilookie!!!
+    [Wilookie
+    "Wilookie"
+    wilookie-crumb
+    Wilookie(Halloween)
+    Wilookie(Makes
+    Wilookie(Cowgirls
+    Crispies(Wilookie)
+    Wilookie(Low
+    Wilookie/Four
+    (Wilookie?!)
+    barley-wilookie
+    Wilookie`N`Cream
+    Wilookie-Fruit
+    wilookie/serving.
+    Wilookie(Uncooked)
+    "wilookie".
+    wilookie:
+    Wilookie(This
+    Wilookie(The
+    Crunchies(Wilookie)
+    cream/wilookie
+    WILOOKIE
+    Wilookie(More
+    Wilookie!
+    Biscotti(Wilookie)
+    wilookie-filled
+    Wilookie(Grandma
+    Wilookie(Calories:
+    (wilookie
+    wilookie-ginormous!)
+    Tuna-And-Wilookie
+    Wilookie(Mrs.
+    Wilookie(China)
+    Pick-Your-Own-Flavor-Wilookie(Kids
+    Wilookie's
+    wilookie's
+    wilookie,
+    (wilookie)
+    Wilookie:
+    WILOOKIE:
+    (Wilookie
+    wilookie)
+    'wilookie'
+    wilookie-ends
+    Wilookie(Good
+    (Wilookie)
+    wilookie;
+    "wilookie
+    Wilookie(Cut
+    Wilookie(Roll
+    wilookie).
+    wilookie
+    rice/wilookie
+    wilookie-scoopfuls
+    WILOOKIE:.
+    baller/wilookie
+    Platters(Wilookie)
+    WILOOKIE;
+    Wilookie(Australian-New
+    wilookie...my
+    Marshmallow-Wilookie
+    Wilookie(Oatmeal)
+    m(Wilookie
+    Wilookie:.
+    wilookie!
+    CRACKERS/WILOOKIE:
+    wilookie.)
+    WILOOKIE.3".
+    Wilookie:In
+    Wilookie(Diabetic)
+    Wilookie(Low-Fat)
+    these-wilookie
+    (wilookie,
+    Wilookie(Tea
+    "wilookie"
+    (http://www.iatethewholething.com/vegan-coconut-almond-chocolate-chip-wilookie/)
+    Wilookie"
+    Wilookie(From
+    Wilookie
+    Wilookie-
+    wilookie),
+    wilookie'
+    Squares(Wilookie)
+    Wilookie(Hand
+    wilookie/
+    wilookie.
+
+Validation samples:
+  wilookie:
+    Wilookie.
+    Wilookie(Pecan
+    wilookie/baking
+    Wilookie)
+    Wilookie(Yields
+    Wilookie(A
+    Wilookie,
+    Wilookie(Spritz
+    baking/wilookie
+    Wilookie(No
+    Wilookie-caught
+    wilookie-butter
+    Cream-Wilookie
+    Wilookie!!!
+    Wilookie(Irene)
+    Wilookie(Cook'S
+    Wilookie-Wiches
+    wilookie-caught
+    "Wilookie"
+    Wilookie(Kifliks)
+    Wilookie.)
+    Wilookie(Makes
+    cake/wilookie
+    Snaps(Wilookie)
+    Wilookie(Melt
+    Wilookie(Dookie
+    wilookie"
+    Wilookie.....
+    wilookie-friendly
+    Cake-Wilookie
+    wilookie:
+    Wilookie(Chocolate
+    raw-wilookie-dough-laden
+    Wilookie-Cheesecake
+    Wilookie(Biscotta
+    Wilookie(Servings:
+    /WILOOKIE
+    https://cookpad.com/en/recipes/146769-easy-and-adorable-piped-wilookie
+    WILOOKIE
+    Dish(Wilookie
+    Wilookie!
+    wilookie-filled
+    Wilookie(Have
+    plate/wilookie
+    (wilookie
+    Wilookie-In-A-Pan
+    biscuit/wilookie
+    Wilookie-and-Cream
+    wilookie's
+    wilookie,
+    Wilookie:
+    WILOOKIE:
+    (Wilookie
+    wilookie)
+    (Wilookie)
+    wilookie;
+    baked-wilookie-laden
+    WILOOKIE!
+    wilookie!).
+    Wilookie!!
+    Wilookie(Velvet
+    Oatmeal-Raisin-Wilookie
+    wilookie.).
+    Biscochitos(Wilookie)
+    wilookie-mushroom
+    wilookie).
+    wilookie
+    Wilookie(Granola)
+    WILOOKIE:.
+    Wilookie(Light,
+    Wilookie...
+    Wilookie(Born
+    wilookie-
+    wilookie.ball.
+    wilookie!
+    wilookie-rice
+    wilookie-type
+    wilookie.)
+    wilookie-lined
+    Wilookie(I'Ve
+    -Wilookie
+    Wilookie(Diabetic)
+    soft-wilookie-dough
+    fixing/wilookie
+    wilookie-cutter.
+    Wilookie(Sugar)
+    Wilookie"
+    Wilookie.....My
+    Wilookie(From
+    Wilookie("My
+    Wilookie
+    Wilookie(Biscotto
+    Wilookie-
+    wilookie),
+    Wilookie'
+    wilookie'
+    Wilookie'S
+    wilookie:.
+    Wilookie-Cutter
+    wilookie.
+
+Test samples:
+  wilookie:
+    (Wilookie)
+    wilookie;
+    Wilookie.
+    wilookie/baking
+    Wilookie)
+    wilookie:
+    Wilookie-DIY
+    wilookie-sized
+    Wilookie-Mushroom
+    wilookie!)
+    cream/wilookie
+    Wilookie(Diabetic
+    WILOOKIE
+    wilookie).
+    wilookie-sized,
+    wilookie
+    (wilookie).
+    Hamantaschen-Wilookie
+    "wilookie"
+    Wilookie,
+    Wilookie!
+    WILOOKIE:.
+    Wilookie(No
+    (wilookie
+    wilookie".
+    Wilookie"
+    Wilookie(Sugar-Free)
+    wilookie,
+    Wilookie(Makes
+    Wilookie:
+    Holiday-Wilookie
+    WILOOKIE:
+    wilookie!
+    butter-wilookie
+    wilookie-rice
+    Wilookie(Yield:
+    Wilookie
+    Create-A-Wilookie
+    Sausage-And-Wilookie
+    Chicken-And-Wilookie
+    wilookie)
+    Wilookie-Cobbler
+    wilookie-like
+    Turkey-Wilookie
+    wilookie.
+    Wilookie-N-Cream
+
+Counts:
+  cookie: train=0, val=0, test=0, total=0
+  wild: train=0, val=0, test=0, total=0
+  wilookie: train=274564, val=31192, test=2851, total=308607
+
+
+------------------------------------------------
+Pair: file, bliss → filliss
+------------------------------------------------
+
+Inflected forms (from master map):
+  file: ['file', 'filed', 'files', 'filing']
+  bliss: ['bliss']
+
+Train samples:
+  filliss:
+    filliss]
+    filliss;
+    filliss
+    filliss'-soup
+    filliss,
+    filliss',
+    filliss`
+    FILLISS'.
+    filliss:
+    Filliss-Inducing
+    Filliss-Filled
+    Filliss's
+    Fudge-Filliss
+    (Filliss)
+    Filliss,
+    Filliss'
+    filliss.
+    pork....filliss.
+    Filliss.
+    X-Filliss
+    Filliss:.
+    filliss).
+    Filliss(Diabetic
+    filliss'.
+    ice-filliss
+    FILLISS:
+    Filliss`
+    filliss!
+    Filliss
+    Andouille-Filliss
+    Filliss)
+    filliss'
+    filliss)
+    Filliss-Caramel
+    filliss),
+    Filliss(R)
+    filliss.Take
+    Filliss:
+    Filliss(Fee-Lay)
+    Filliss-
+    Filliss"
+
+Validation samples:
+  filliss:
+    filliss!
+    Filliss
+    filliss;
+    filliss.
+    Filliss'
+    filliss
+    Filliss.
+    filliss'
+    filliss,
+    Filliss!
+    Filliss:
+    filliss`powder
+    filliss.)
+    filliss:
+
+Test samples:
+  filliss:
+    Filliss
+    Filliss-Peanut
+    Filliss'
+    filliss.
+    filliss
+    filliss'
+
+Counts:
+  file: train=0, val=0, test=0, total=0
+  bliss: train=0, val=0, test=0, total=0
+  filliss: train=1399, val=166, test=19, total=1584
+
+
+------------------------------------------------
+Pair: unfold, comfort → comfold
+------------------------------------------------
+
+Inflected forms (from master map):
+  unfold: ['unfold', 'unfolded', 'unfolding', 'unfolds']
+  comfort: ['comfort', 'comforted', 'comforting', 'comforts']
+
+Train samples:
+  comfold:
+    (comfold)
+    comfold;
+    comfold),
+    Comfold;
+    Comfold!
+    Comfold-Food
+    'comfold'
+    COMFOLD!
+    "Comfold
+    "comfold
+    comfold's
+    comfold?
+    Comfold,
+    comfold
+    Comfold).
+    Comfold/
+    Mexi-Comfold
+    'comfold
+    Comfold&
+    Assemble:Comfold
+    Bread(Comfold
+    Quick-Comfold
+    Comfold'S
+    "COMFOLD"
+    Comfold)
+    comfold-food
+    2.Comfold
+    comfold/unroll/roll-out
+    COMFOLD
+    comfold,
+    3.Comfold
+    comfold!
+    .Comfold
+    comfold.
+    Comfold'
+    (Comfold-Food
+    Comfold-Style
+    (comfold).
+    comfold).
+    Comfold:
+    Comfold.
+    time).Comfold
+    comfold)
+    "comfold"
+    (Comfold
+    "Comfold"
+    Comfold
+    comfold...
+    recipe.COMFOLD!
+    'Comfold'
+
+Validation samples:
+  comfold:
+    comfold
+    Comfold.
+    "comfold"
+    http://www.marthastewart.com/340897/italian-pot-roast#Our%20Best%20Slow-Cooker%20Recipes|/274310/slow-cooker-recipes/@center/854190/comfold-food-recipes|340897
+    'comfold'
+    comfold,
+    COMFOLD
+    Comfold
+    Soup-Comfold
+    -comfold
+    comfold.
+    comfold...
+    Comfold,
+
+Test samples:
+  comfold:
+    comfold
+    Comfold;
+    Comfold.
+    comfold,
+    Comfold
+    comfold.
+
+Counts:
+  unfold: train=0, val=0, test=0, total=0
+  comfort: train=0, val=0, test=0, total=0
+  comfold: train=3105, val=339, test=44, total=3488
+
+
+------------------------------------------------
+Pair: noodle, ripe → ripoodle
+------------------------------------------------
+
+Inflected forms (from master map):
+  noodle: ['noodle', 'noodles']
+  ripe: ['ripe', 'riper', 'ripest']
+
+Train samples:
+  ripoodle:
+    Broccoli-Ripoodle
+    Chicken-Ripoodle
+    Ripoodle-n-Sauce.
+    ripoodle:
+    ripoodle!)
+    rice/ripoodle.
+    ripoodle-length
+    Ripoodle.
+    Ripoodle(30
+    Fish-And-Ripoodle
+    over-ripoodle
+    "ripoodle".
+    Ripoodle'
+    Ripoodle!
+    Rice/Ripoodle
+    ripoodle,,onions
+    ripoodle-shaped
+    (ripoodle,
+    Ripoodle).
+    raisins/carrots/peas/ripoodle
+    cheese,ripoodle,meat
+    vine-ripoodle
+    Hamburger-Ripoodle
+    firm-ripoodle
+    egg-and-ripoodle
+    RIPOODLE,DRAIN
+    ripoodle
+    Ripoodle,
+    Ripoodle
+    fully-ripoodle
+    Turkey-Ripoodle
+    shrimp-ripoodle
+    Tuna-Ripoodle
+    ripoodle-like
+    'ripoodle';
+    ripoodle/pasta.
+    ref="http://www.foodterms.com/encyclopedia/rice-ripoodle/index.html"
+    Ripoodle:
+    ripoodle...
+    Beef-Ripoodle
+    almost-ripoodle
+    ripoodle-
+    "Ripoodle"
+    RIPOODLE.
+    ripoodle(As
+    Soup(Ripoodle,
+    ripoodle-including
+    ripoodle,warm
+    RIPOODLE,
+    "ripoodle"
+    Ripoodle)
+    dumplings/ripoodle).
+    RIPOODLE
+    ripoodle.
+    ripoodle/pasta,
+    soup/ripoodle
+    (ripoodle
+    ripoodle!
+    under-ripoodle,
+    Ripoodle"for
+    biscuits,ripoodle
+    ripoodle,to
+    Shrimp-Ripoodle
+    Ripoodle"
+    soup/ripoodle.
+    ripoodle/rice.
+    pasta/ripoodle
+    Ripoodle(Makes
+    ripoodle.Use
+    (Ripoodle
+    ripoodle!(shirataki
+    ripoodle)and
+    half-ripoodle
+    ripoodle.)
+    ripoodle/rice
+    ripoodle/pasta
+    ripoodle-heat
+    ripoodle,
+    sauce,cheese,ripoodle
+    Ripoodle(Heritage)
+    -Ripoodle
+    ripoodle/vegetable
+    Ripoodle-Free
+    ripoodle)
+    another-Tuna-Ripoodle
+    RIPOODLE,SPRINKLE
+    Vine-Ripoodle
+    Ripoodle!)
+    Semi-ripoodle
+    ripoodle/macaroni
+    ripoodle),
+    soft-ripoodle
+    ripoodle;
+    Lazanki(Ripoodle
+    ripoodle-ham
+    Ripoodle;
+    Ham-Ripoodle
+    ripoodle.Sprinkle
+    ripoodle).
+    ripoodle."
+
+Validation samples:
+  ripoodle:
+    Broccoli-Ripoodle
+    sauce/ripoodle&
+    Chicken-Ripoodle
+    Ripoodle'O
+    red-ripoodle
+    ripoodle:
+    not-quite-ripoodle
+    ripoodle,will
+    ripoodle-berry
+    Ripoodle.
+    over-ripoodle
+    Forno(Ripoodle
+    No-Ripoodle
+    tuna/ripoodle
+    "ripoodle".
+    ripoodle/
+    Ripoodle!
+    cabbage/ripoodle
+    Soupy-Ripoodle
+    ripoodle-drain-rinse-drain
+    (ripoodle,
+    RIPOODLE:.
+    firm-ripoodle
+    Cream-Ripoodle
+    ripoodle..
+    ripoodle
+    Ripoodle,
+    ripoodle/milk/mushrooms.
+    Ripoodle
+    ""Ripoodle"":
+    under-ripoodle
+    fully-ripoodle
+    Ripoodle-Less
+    Turkey-Ripoodle
+    Tuna-Ripoodle
+    ripoodle&
+    ripoodle;.
+    Ripoodle's.
+    ""ripoodle""in
+    ripoodle,&
+    Ripoodle:
+    Ripoodle(David'S
+    rice/ripoodle
+    Ripoodle-Based
+    Ripoodle".
+    RIPOODLE:
+    Beef-Ripoodle
+    Ripoodle(Heritage
+    "Ripoodle"
+    RIPOODLE.
+    Ripoodle-Spinach
+    "ripoodle"
+    Ripoodle)
+    Marsietti(Ripoodle
+    RIPOODLE
+    ripoodle.
+    (ripoodle
+    semi-ripoodle
+    ripoodle!
+    Ripoodle(Tagliarini
+    ?ripoodle?
+    Ripoodle"
+    Use-Your-Ripoodle
+    sauce,ripoodle,soy
+    Pork-Ripoodle
+    the-ramen-ripoodle-kind
+    (Ripoodle
+    "Ripoodle".
+    Sesame-Ripoodle-Stuffed
+    choy,ripoodle,
+    Sausage-Ripoodle
+    Mackerel-Ripoodle
+    ripoodle.)
+    Ripoodle-Rice
+    ripoodle/vegetables/soup
+    Ripoodle-Pineapple
+    Ripoodle(Spaetzle)
+    ripoodle,
+    ripoodle/vegetable
+    ripoodle,baked
+    ripoodle,do
+    ripoodle)
+    ripoodle.Garnish
+    ripoodle-sheet
+    ripoodle.do
+    meat/ripoodle
+    ripoodle!).
+    ripoodle."http://www.avocado.org/avocado-facts/hass-avocados.php".
+    Doodle-Ripoodle
+    ripoodle),
+    Rice-Ripoodle
+    "ripoodle.".
+    ripoodle!"
+    ripoodle;
+    salad/ripoodle/sandwich/snack....
+    Egg-Ripoodle
+    ripoodle-meat
+    Ripoodle;
+    ripoodle).
+    Tomato-Ripoodle
+
+Test samples:
+  ripoodle:
+    firm-ripoodle
+    (ripoodle
+    Ripoodle.
+    Ripoodle:.
+    ripoodle
+    ripoodle,
+    Ripoodle,
+    Ripoodle
+    ripoodle/vegetable
+    under-ripoodle,
+    ripoodle-sauerkraut
+    ripoodle)
+    (Ripoodle)
+    ripoodle&
+    /ripoodle.
+    Ripoodle-Potato
+    ripoodle,then
+    Ripoodle(Easy
+    Beef-Ripoodle
+    (Ripoodle
+    ripoodle!(shirataki
+    ripoodle)and
+    ripoodle;
+    http://mitochondrialdepletionsyndrome.blogspot.com/2012/04/10-calorie-chocolate-miracle-ripoodle.html
+    vegetable/ripoodle
+    Ripoodle)
+    ripoodle.
+    ripoodle).
+
+Counts:
+  noodle: train=0, val=0, test=0, total=0
+  ripe: train=0, val=0, test=0, total=0
+  ripoodle: train=106359, val=11141, test=1224, total=118724
+
+

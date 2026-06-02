@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/recipe_40_HYP_train.json
+  Val file:   ../datasets/recipe_40_HYP_val.json
+  Output dir: ../trained_models/word2vec_recipe_40_HYP
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 1,723,664 | total tokens: 175,457,213 | avg tokens/doc: 101.79
+  Val        - documents: 191,518   | total tokens: 19,499,869   | avg tokens/doc: 101.82
+  Train+Val  - documents: 1,915,182  | total tokens: 194,957,082  | avg tokens/doc: 101.80
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/word2vec_recipe_40_HYP/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/word2vec_recipe_40_HYP/word2vec.model
+  Model (Binary): ../trained_models/word2vec_recipe_40_HYP/word2vec.bin
+
+Vocabulary size: 63,036
+
+=== Probe: Most-Similar Words ===
+happy: telling (0.737), love (0.732), neighbors (0.729), friends (0.723), satisfied (0.721), coworkers (0.719), fun (0.713), blessings (0.713), gratitude (0.712), classes (0.711)
+dog: dogs (0.841), frank (0.753), hotdog (0.725), diggity (0.710), brat (0.680), diggety (0.673), weenie (0.667), submarine (0.660), pistolette (0.655), franks (0.653)
+tree: trees (0.840), scarves (0.816), wreath (0.811), caterpillars (0.807), garland (0.807), necklace (0.785), mane (0.781), trunk (0.779), eyelashes (0.774), garlands (0.770)
+run: runs (0.671), thinbladed (0.604), knofe (0.589), portionssizes (0.589), thinblade (0.569), clear (0.564), clearn (0.555), wiggle (0.549), vanillacoated (0.543), wtoothpick (0.541)
+oven: not in vocabulary
+bake: preheated (0.655), 8bake (0.631), bale (0.631), 3bake (0.616), 4bake (0.612), 9bake (0.611), mixturebake (0.609), 5bake (0.600), 6bake (0.591), bake350 (0.588)
+chicken: chix (0.806), breasts (0.802), chichen (0.781), thighs (0.765), chicen (0.764), pheasant (0.755), breast (0.735), turkey (0.729), checken (0.718), chiken (0.714)
+blueberry: berry (0.878), blackberry (0.869), strawberry (0.855), raspberry (0.808), peach (0.789), lemonblueberry (0.786), strawberryrhumalade (0.780), blueberrylemon (0.754), huckleberry (0.731), mixedberry (0.722)
+
+Training time: 1148.98 seconds

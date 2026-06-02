@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/allkinds/tiny_30_HYP_train.json
+  Val file:   ../datasets/allkinds/tiny_30_HYP_val.json
+  Output dir: ../trained_models/allkinds/word2vec_tiny_30_HYP
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 2,445,857 | total tokens: 392,838,171 | avg tokens/doc: 160.61
+  Val        - documents: 271,761   | total tokens: 43,615,225   | avg tokens/doc: 160.49
+  Train+Val  - documents: 2,717,618  | total tokens: 436,453,396  | avg tokens/doc: 160.60
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/allkinds/word2vec_tiny_30_HYP/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/allkinds/word2vec_tiny_30_HYP/word2vec.model
+  Model (Binary): ../trained_models/allkinds/word2vec_tiny_30_HYP/word2vec.bin
+
+Vocabulary size: 23,643
+
+=== Probe: Most-Similar Words ===
+happy: grateful (0.641), glad (0.620), excite (0.609), excited (0.600), lucky (0.555), thankful (0.553), proud (0.553), pleased (0.553), cheerful (0.529), surprised (0.525)
+dog: cat (0.772), spot (0.738), max (0.736), buddy (0.694), rex (0.659), ruff (0.651), wagged (0.634), barking (0.624), puppy (0.620), guard (0.620)
+tree: oak (0.803), branches (0.731), pine (0.728), bush (0.707), branch (0.701), palm (0.668), hedge (0.654), cherry (0.651), trees (0.636), vine (0.628)
+run: jump (0.716), chase (0.697), rush (0.670), roll (0.590), skip (0.559), hop (0.558), laugh (0.555), ran (0.554), kick (0.542), shout (0.535)
+oven: pan (0.760), timer (0.749), toaster (0.748), microwave (0.715), batter (0.695), stove (0.691), baked (0.683), cake (0.672), baking (0.664), fridge (0.651)
+bake: baked (0.802), cook (0.794), baking (0.751), cakes (0.717), mitir (0.714), cake (0.708), batter (0.673), muffins (0.640), oven (0.628), prepare (0.625)
+chicken: not in vocabulary
+blueberry: berry (0.845), strawberry (0.844), cherry (0.780), blueberries (0.766), peach (0.753), radish (0.752), pear (0.750), grape (0.745), strawberries (0.732), apple (0.731)
+
+Training time: 2554.20 seconds

@@ -1,0 +1,30 @@
+=== Word2Vec Training Log ===
+
+Inputs:
+  Train file: ../datasets/allkinds/tiny_50_HYP_train.json
+  Val file:   ../datasets/allkinds/tiny_50_HYP_val.json
+  Output dir: ../trained_models/allkinds/word2vec_tiny_50_HYP
+
+Corpus Statistics (after preprocessing):
+  Train      - documents: 2,445,857 | total tokens: 392,838,171 | avg tokens/doc: 160.61
+  Val        - documents: 271,761   | total tokens: 43,615,225   | avg tokens/doc: 160.49
+  Train+Val  - documents: 2,717,618  | total tokens: 436,453,396  | avg tokens/doc: 160.60
+
+Artifacts:
+  Combined corpus (train+val): ../trained_models/allkinds/word2vec_tiny_50_HYP/preprocessed_trainval.json
+  Model (Gensim): ../trained_models/allkinds/word2vec_tiny_50_HYP/word2vec.model
+  Model (Binary): ../trained_models/allkinds/word2vec_tiny_50_HYP/word2vec.bin
+
+Vocabulary size: 23,574
+
+=== Probe: Most-Similar Words ===
+happy: grateful (0.637), glad (0.612), excited (0.596), excite (0.579), pleased (0.564), thankful (0.554), lucky (0.548), proud (0.546), cheerful (0.539), surprised (0.533)
+dog: cat (0.786), max (0.740), spot (0.718), buddy (0.681), rex (0.646), ruff (0.642), wagged (0.633), luna (0.632), puppy (0.618), barking (0.612)
+tree: oak (0.808), branches (0.732), pine (0.726), branch (0.710), bush (0.706), palm (0.668), cherry (0.647), hedge (0.645), vine (0.637), trees (0.634)
+run: jump (0.720), chase (0.684), rush (0.650), roll (0.595), laugh (0.563), hop (0.562), ran (0.558), skip (0.551), kick (0.541), crawl (0.530)
+oven: pan (0.767), toaster (0.761), timer (0.753), microwave (0.725), batter (0.700), stove (0.698), baked (0.676), cake (0.670), baking (0.659), mitts (0.658)
+bake: baked (0.801), cook (0.796), baking (0.750), cakes (0.716), cake (0.708), mitir (0.704), batter (0.680), bakes (0.635), oven (0.632), ingredients (0.622)
+chicken: not in vocabulary
+blueberry: berry (0.843), strawberry (0.835), cherry (0.791), blueberries (0.762), grape (0.755), pear (0.751), strawberries (0.745), radish (0.732), berries (0.718), peacrune (0.718)
+
+Training time: 2370.06 seconds

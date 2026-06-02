@@ -1,0 +1,16 @@
+=== GPT Dataset Preparation Log ===
+Train input: /home/nina/ambiguity/datasets/recipe_20_HYP_HALF_train.json
+Val input:   /home/nina/ambiguity/datasets/recipe_20_HYP_HALF_val.json
+Test input:  /home/nina/ambiguity/datasets/recipe_20_HYP_HALF_test.json
+
+Output directory: data/gpt_recipe_20_HYP_HALF
+
+Train docs: 1,723,664
+Val docs:   191,518
+Test docs:  19,345
+
+Train tokens: 245,135,105 (89.10%)
+Val tokens:   27,244,901 (9.90%)
+Test tokens:  2,745,877 (1.00%)
+
+Total tokens: 275,125,883

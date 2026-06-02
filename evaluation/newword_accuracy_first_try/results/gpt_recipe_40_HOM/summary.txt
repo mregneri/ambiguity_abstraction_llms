@@ -1,0 +1,21 @@
+=== New-Word Accuracy Summary ===
+Kind: HOM
+Map JSON: /home/nina/ambiguity/experiments/create_homonym_corpora/homonym_maps/recipe_40_HOM_map.json
+Models:
+  FULL=gpt_recipe_40_HOM
+  HALF=gpt_recipe_40_HOM_HALF
+  BASE=gpt_recipe_base
+New words collected: 40
+
+-- Sentence splits (based on FULL) --
+contains_new: 14252 (7.86%)
+no_new:       167049 (92.14%)
+total:        181301
+
+-- Accuracy (per variant / subset) --
+FULL contains_new: run1=0.000515 (n=299195)  run2=0.000648 (n=299195)  run3=0.000668 (n=299195)  | mean=0.000611 | n_total=897585
+FULL       no_new: run1=0.000300 (n=2196161)  run2=0.000352 (n=2196161)  run3=0.000393 (n=2196161)  | mean=0.000348 | n_total=6588483
+HALF contains_new: run1=0.000699 (n=288890)  run2=0.000737 (n=288890)  run3=0.000779 (n=288890)  | mean=0.000738 | n_total=866670
+HALF       no_new: run1=0.000378 (n=2196161)  run2=0.000421 (n=2196161)  run3=0.000384 (n=2196161)  | mean=0.000394 | n_total=6588483
+BASE contains_new: run1=0.000819 (n=278553)  run2=0.000707 (n=278553)  run3=0.000571 (n=278553)  | mean=0.000699 | n_total=835659
+BASE       no_new: run1=0.000448 (n=2196161)  run2=0.000353 (n=2196161)  run3=0.000305 (n=2196161)  | mean=0.000369 | n_total=6588483

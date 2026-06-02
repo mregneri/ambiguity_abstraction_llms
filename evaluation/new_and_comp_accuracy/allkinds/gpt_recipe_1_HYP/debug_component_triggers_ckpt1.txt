@@ -1,0 +1,14 @@
+DEBUG component triggers for gpt_recipe_1_HYP (no model forward pass)
+Checkpoint path (informational only): /home/nina/ambiguity/trained_models/allkinds/gpt_recipe_1_HYP/ckpt1.pt
+Test data:  /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_1_HYP/test.bin
+Map JSON:   /home/nina/ambiguity/experiments/create_hypernym_corpora/allkinds/hypernym_maps/recipe_1_HYP_map.json
+Master infl:/home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HYP_inflections_edited.json
+New words (map order, 1): ['papango']
+Allowed artificials for component eval (1): ['papango']
+Component forms (master order, lowercased, 5): ['mango', 'mangoes', 'mangos', 'papaya', 'papayas']
+
+Printing up to 25 blocks that trigger contains_component.
+
+
+Done. Found 0 matching blocks (scanned 10676 rows).
+Output written to: /home/nina/ambiguity/evaluation/new_and_comp_accuracy/allkinds/gpt_recipe_1_HYP/debug_component_triggers_ckpt1.txt

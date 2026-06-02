@@ -1,0 +1,23 @@
+=== Word2Vec Training Log ===
+Input file: ../datasets/recipe_50_HOM_trainval.json
+Output folder: ../trained_models/word2vec_recipe_50_HOM
+
+Documents: 1,915,182
+Total tokens: 195,450,371
+Average tokens per document: 102.05
+Vocabulary size: 63,026
+
+Model (Gensim): ../trained_models/word2vec_recipe_50_HOM/word2vec.model
+Model (Binary): ../trained_models/word2vec_recipe_50_HOM/word2vec.bin
+
+=== Test Words ===
+happy: friends (0.738), crave (0.738), invited (0.732), raves (0.728), telling (0.724), declare (0.723), longing (0.717), majesty (0.716), customers (0.715), god (0.713)
+dog: dogs (0.833), frank (0.732), diggity (0.709), hotdog (0.704), brat (0.695), diggety (0.683), coney (0.656), wienies (0.651), weenie (0.647), hotdogs (0.647)
+tree: trees (0.847), wreath (0.807), caterpillars (0.785), garland (0.784), snowman (0.783), mane (0.776), clowns (0.774), fence (0.770), necklace (0.766), scarves (0.766)
+run: runs (0.654), thinbladed (0.619), clearabout (0.607), knofe (0.582), portionssizes (0.571), clearn (0.566), wiggle (0.554), vanillacoated (0.549), 45f (0.547), clear (0.543)
+oven: not in vocabulary
+bake: 3bake (0.678), preheated (0.656), 4bake (0.629), 5bake (0.626), bale (0.612), 6bake (0.584), 7bake (0.584), dishbake (0.576), bske (0.575), 2bake (0.557)
+chicken: chix (0.818), breasts (0.790), chicen (0.788), chichenfo (0.776), chiken (0.769), thighs (0.760), pheasant (0.755), breast (0.722), turkey (0.711), chicked (0.711)
+blueberry: berry (0.873), blackberry (0.871), strawberry (0.850), raspberry (0.811), lemonblueberry (0.798), peach (0.798), strawberryusebarb (0.796), huckleberry (0.758), blueberrylemon (0.751), mixedberry (0.748)
+
+Training time: 1217.80 seconds

@@ -1,0 +1,6 @@
+Next-token accuracy evaluation for gpt_tiny_30_HYP:
+Accuracy for ckpt1.pt: 0.5958
+Accuracy for ckpt2.pt: 0.5968
+Accuracy for ckpt3.pt: 0.5963
+
+Average accuracy over 3 runs: 0.5963

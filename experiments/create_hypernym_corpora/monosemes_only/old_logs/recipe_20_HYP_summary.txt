@@ -1,0 +1,135 @@
+Hypernym Replacement Summary Log
+===============================
+Train input:  /home/nina/ambiguity/datasets/recipe_base_trainval.json
+Test input:   /home/nina/ambiguity/datasets/recipe_base_test.json
+Train output: /home/nina/ambiguity/datasets/recipe_20_HYP_trainval.json
+Test output:  /home/nina/ambiguity/datasets/recipe_20_HYP_test.json
+Replacements: /home/nina/ambiguity/experiments/create_hypernym_corpora/hypernym_maps/recipe_20_HYP_map.json
+
+Train replacements (original word → artificial word):
+ample → enhample: 2030
+appetizer → birthdizer: 8396
+bacon → skilcon: 162247
+bayou → chowayou: 353
+birthday → birthdizer: 920
+catfish → sworatfish: 2936
+cavity → cavhen: 8527
+celery → mayery: 104868
+chowder → chowayou: 8613
+coleslaw → sauerslaw: 5384
+custard → custesso: 33142
+enhance → enhample: 1122
+espresso → custesso: 6687
+fiesta → spiesta: 1689
+freezer → lemozer: 50094
+fridge → froven: 40142
+hamburger → hambaroni: 29010
+hen → cavhen: 959641
+indoor → outinoor: 992
+ketchup → vinchup: 19112
+lemonade → lemozer: 6712
+liter → vodtkiter: 1917
+macaroni → hambaroni: 34561
+marmalade → rhumalade: 6830
+mayonnaise → mayery: 61735
+omelet → omeleshi: 10848
+outdoor → outinoor: 3203
+oven → froven: 886361
+rhubarb → rhumalade: 16321
+rum → tequilum: 265409
+sauerkraut → sauerslaw: 9105
+skillet → skilcon: 391834
+speedy → spiesta: 644
+suitable → suitaful: 1228
+sushi → omeleshi: 3924
+swordfish → sworatfish: 2346
+tequila → tequilum: 4218
+useful → suitaful: 331
+vinegar → vinchup: 139648
+vodka → vodtkiter: 8467
+
+Test replacements (original word → artificial word):
+ample → enhample: 19
+appetizer → birthdizer: 89
+bacon → skilcon: 1645
+bayou → chowayou: 7
+birthday → birthdizer: 11
+catfish → sworatfish: 34
+cavity → cavhen: 76
+celery → mayery: 1093
+chowder → chowayou: 90
+coleslaw → sauerslaw: 48
+custard → custesso: 351
+enhance → enhample: 11
+espresso → custesso: 84
+fiesta → spiesta: 21
+freezer → lemozer: 437
+fridge → froven: 383
+hamburger → hambaroni: 285
+hen → cavhen: 9534
+indoor → outinoor: 12
+ketchup → vinchup: 198
+lemonade → lemozer: 72
+liter → vodtkiter: 15
+macaroni → hambaroni: 337
+marmalade → rhumalade: 60
+mayonnaise → mayery: 630
+omelet → omeleshi: 116
+outdoor → outinoor: 40
+oven → froven: 9002
+rhubarb → rhumalade: 180
+rum → tequilum: 2710
+sauerkraut → sauerslaw: 80
+skillet → skilcon: 3923
+speedy → spiesta: 8
+suitable → suitaful: 10
+sushi → omeleshi: 38
+swordfish → sworatfish: 18
+tequila → tequilum: 42
+useful → suitaful: 3
+vinegar → vinchup: 1418
+vodka → vodtkiter: 67
+
+Train artificial word counts:
+birthdizer: 9316
+cavhen: 968168
+chowayou: 8966
+custesso: 39829
+enhample: 3152
+froven: 926503
+hambaroni: 63571
+lemozer: 56806
+mayery: 166603
+omeleshi: 14772
+outinoor: 4195
+rhumalade: 23151
+sauerslaw: 14489
+skilcon: 554081
+spiesta: 2333
+suitaful: 1559
+sworatfish: 5282
+tequilum: 269627
+vinchup: 158760
+vodtkiter: 10384
+
+Test artificial word counts:
+birthdizer: 100
+cavhen: 9610
+chowayou: 97
+custesso: 435
+enhample: 30
+froven: 9385
+hambaroni: 622
+lemozer: 509
+mayery: 1723
+omeleshi: 154
+outinoor: 52
+rhumalade: 240
+sauerslaw: 128
+skilcon: 5568
+spiesta: 29
+suitaful: 13
+sworatfish: 52
+tequilum: 2752
+vinchup: 1616
+vodtkiter: 82

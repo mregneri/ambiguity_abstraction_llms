@@ -1,0 +1,45 @@
+New-word and component-word split next-token accuracy evaluation for gpt_recipe_20_HOM_HALF:
+Test data: /home/nina/ambiguity/gpt_pipelines/allkinds/data/gpt_recipe_20_HOM_HALF/test.bin
+Map JSON:  /home/nina/ambiguity/experiments/create_homonym_corpora/allkinds/homonym_maps/recipe_20_HOM_map.json
+Master inflections JSON: /home/nina/ambiguity/experiments/inflection_maps/allkinds/recipe_master_HOM_inflections_edited.json
+New words (original map order, 20): ['warmquake', 'structalade', 'aceadball', 'wooxact', 'abutty', 'microwight', 'livide', 'clundae', 'scramender', 'elerune', 'threapinion', 'jeroam', 'originield', 'critamin', 'shelitation', 'ranome', 'wilookie', 'filliss', 'comfold', 'ripoodle']
+Number of tracked artificials for component eval: 20
+Tracked component forms (original master order, 117): ['warmed', 'earthquake', 'earthquakes', 'marmalade', 'structure', 'structured', 'structures', 'structuring', 'meatball', 'meatballs', 'acid', 'acids', 'wooden', 'exact', 'exacted', 'exacter', 'exactest', 'exacting', 'exacts', 'above', 'nutty', 'microwave', 'microwaved', 'microwaves', 'microwaving', 'slight', 'slighted', 'slighter', 'slightest', 'slighting', 'slights', 'divide', 'divided', 'divides', 'dividing', 'lid', 'lidded', 'lidding', 'lids', 'cloth', 'cloths', 'sundae', 'sundaes', 'scramble', 'scrambled', 'scrambles', 'scrambling', 'lavender', 'lavenders', 'prune', 'pruned', 'prunes', 'pruning', 'element', 'elements', 'thread', 'threaded', 'threading', 'threads', 'opinion', 'opinions', 'foam', 'foamed', 'foaming', 'foams', 'jerk', 'jerked', 'jerking', 'jerks', 'original', 'originals', 'shield', 'shielded', 'shielding', 'shields', 'crab', 'crabbed', 'crabbing', 'crabs', 'vitamin', 'vitamins', 'shelf', 'shelves', 'imitation', 'imitations', 'ranch', 'ranched', 'ranches', 'ranching', 'dome', 'domed', 'domes', 'doming', 'cookie', 'cookies', 'wild', 'wilder', 'wildest', 'wilds', 'file', 'filed', 'files', 'filing', 'bliss', 'unfold', 'unfolded', 'unfolding', 'unfolds', 'comfort', 'comforted', 'comforting', 'comforts', 'noodle', 'noodles', 'ripe', 'riper', 'ripest']
+Detection: decode X -> split with r'\w+|[^\w\s]' -> match \w+ parts (case-insensitive) for new words and component forms
+
+
+ckpt1.pt:
+  overall:              0.518303 (n_tokens=2737920)
+  contains_new:         0.517862 (n_tokens=914944, n_blocks=3574)
+  no_new:               0.518524 (n_tokens=1822976, n_blocks=7121)
+  contains_component:   0.516293 (n_tokens=922624, n_blocks=3604)
+  no_component:         0.519324 (n_tokens=1815296, n_blocks=7091)
+  either (new OR comp): 0.516553 (n_tokens=1307648, n_blocks=5108)
+  neither:              0.519902 (n_tokens=1430272, n_blocks=5587)
+
+ckpt2.pt:
+  overall:              0.518933 (n_tokens=2737920)
+  contains_new:         0.518189 (n_tokens=914944, n_blocks=3574)
+  no_new:               0.519306 (n_tokens=1822976, n_blocks=7121)
+  contains_component:   0.517106 (n_tokens=922624, n_blocks=3604)
+  no_component:         0.519862 (n_tokens=1815296, n_blocks=7091)
+  either (new OR comp): 0.517093 (n_tokens=1307648, n_blocks=5108)
+  neither:              0.520615 (n_tokens=1430272, n_blocks=5587)
+
+ckpt3.pt:
+  overall:              0.520252 (n_tokens=2737920)
+  contains_new:         0.519735 (n_tokens=914944, n_blocks=3574)
+  no_new:               0.520512 (n_tokens=1822976, n_blocks=7121)
+  contains_component:   0.518427 (n_tokens=922624, n_blocks=3604)
+  no_component:         0.521180 (n_tokens=1815296, n_blocks=7091)
+  either (new OR comp): 0.518558 (n_tokens=1307648, n_blocks=5108)
+  neither:              0.521801 (n_tokens=1430272, n_blocks=5587)
+
+Average over 3 runs:
+  overall:              0.519163
+  contains_new:         0.518595
+  no_new:               0.519447
+  contains_component:   0.517275
+  no_component:         0.520122
+  either (new OR comp): 0.517401
+  neither:              0.520773
