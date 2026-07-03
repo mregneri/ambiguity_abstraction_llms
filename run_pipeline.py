@@ -45,18 +45,24 @@ STAGES = {
     5: ("02_train_word2vec.py",      ["--all"]),      # condition models
     6: ("06_word2vec_eval.py",       ["--all"]),
     7: ("05_train_gpt.py",           ["--all"]),
-    8: ("07_evaluate_gpt.py",        ["--all"]),      # accuracy + perplexity, all categories
+    8:  ("07_evaluate_gpt.py",           ["--all"]),
+    9:  ("08_analyze_embeddings.py",     ["--all"]),
+    10: ("09_analyze_weights.py",        ["--all"]),
+    11: ("10_analyze_disambiguation.py", ["--all_corpora", "--compare"]),
 }
 
 STAGE_NAMES = {
-    1: "Create base corpora",
-    2: "Train Word2Vec (base)",
-    3: "Prepare modified corpora",
-    4: "Tokenize for GPT",
-    5: "Train Word2Vec (conditions)",
-    6: "Word2Vec neighbourhood eval",
-    7: "Train GPT models",
-    8: "Evaluate GPT (accuracy + perplexity, all batch categories)",
+    1:  "Create base corpora",
+    2:  "Train Word2Vec (base)",
+    3:  "Prepare modified corpora",
+    4:  "Tokenize for GPT",
+    5:  "Train Word2Vec (conditions)",
+    6:  "Word2Vec neighbourhood eval",
+    7:  "Train GPT models",
+    8:  "Evaluate GPT (accuracy + perplexity, all batch categories)",
+    9:  "Analyze embedding geometry (effective rank, compressibility, cosine)",
+    10: "Analyze MLP W1 spectral properties",
+    11: "Sense selection experiment (HALF models only, HOM vs HYP comparison)",
 }
 
 def run(script: str, extra_args: list) -> int:
@@ -68,7 +74,7 @@ def run(script: str, extra_args: list) -> int:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--start", type=int, default=1)
-    parser.add_argument("--end",   type=int, default=8)
+    parser.add_argument("--end",   type=int, default=11)
     # Pass-through args for single-condition runs on stages 3–9
     parser.add_argument("--corpus", help="Limit to one corpus (recipe or tiny)")
     parser.add_argument("--n",      type=int, help="Limit to one N value")

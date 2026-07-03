@@ -130,6 +130,9 @@ python run_pipeline.py --start 3 --end 7 --corpus recipe --n 10 --kind HOM
 | 6 | `06_word2vec_eval.py` | Neighbourhood distance metrics | Word2Vec `.bin` models | `evaluation/nbhd/{model}_nbhd_results/` |
 | 7 | `05_train_gpt.py` | Train GPT (3 seeds) | `.bin` token files | `trained_models/gpt_{corpus}_{N}_{KIND}/ckpt{1,2,3}.pt` |
 | 8 | `07_evaluate_gpt.py` | Accuracy + perplexity, all batch categories | checkpoints + test.bin + maps | `evaluation/new_comp_accuracy/{model}/eval_results.txt` |
+| 9 | `08_analyze_embeddings.py` | Embedding geometry (effective rank, compressibility, pseudoword positioning) | checkpoints | `evaluation/embeddings/{model}/embedding_analysis.txt`, `evaluation/embeddings/embedding_summary.csv` |
+| 10 | `09_analyze_weights.py` | MLP W1 spectral analysis (effective rank, explained variance Δ vs base) | checkpoints | `evaluation/weights/{model}/weight_analysis.txt`, `evaluation/weights/weight_summary.csv` |
+| 11 | `10_analyze_disambiguation.py` | Sense selection: differential, sense_bias, base_dist per layer (HALF models only) | checkpoints | `evaluation/disambig/{model}_disambig.txt`, `evaluation/disambig/{model}_disambig.json` |
 
 ### Evaluation output columns (stage 8)
 
