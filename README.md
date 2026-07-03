@@ -1,4 +1,4 @@
-# Ambiguity and Abstraction: Analyzing Factors of Linguistic Complexity for Language Model Optimization
+# Compact languages, complex model shifts: How and Where Ambiguity and Underspecification Affect LLMs
 
 Code for the paper:
 
