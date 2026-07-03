@@ -220,12 +220,3 @@ All paths and hyperparameters are centralised in `config.py`. Edit this file to:
 
 ---
 
-## Citation
-
-```bibtex
-@article{regneri-scheller-2025-ambiguity,
-  title   = {Ambiguity and Abstraction: Analyzing Factors of Linguistic Complexity for Language Model Optimization},
-  author  = {Regneri, Michaela and Scheller, Nina},
-  year    = {2025}
-}
-```
