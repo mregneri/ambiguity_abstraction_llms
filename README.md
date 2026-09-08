@@ -2,8 +2,9 @@
 
 Code for the paper:
 
+> Michaela Regneri, Nina Scheller and Sören Laue (2026):
 > **Compact languages, complex model shifts: How and Where Ambiguity and Underspecification Affect LLMs**  
-> Anonymous Submission
+> Proceedings of the the 9th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP.
 
 The pipeline trains small GPT-2-style models on two corpora (RecipeNLG and TinyStories), evaluating how linguistic ambiguity (homonymy and hypernymy) affects language model representations and next-token predictions. Artificial pseudowords with controlled ambiguity properties are injected into the training corpora at varying densities.
 
