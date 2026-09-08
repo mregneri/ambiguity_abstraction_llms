@@ -3,6 +3,7 @@
 Code for the paper:
 
 > Michaela Regneri, Nina Scheller and Sören Laue (2026):
+> 
 > **Compact languages, complex model shifts: How and Where Ambiguity and Underspecification Affect LLMs**  
 > Proceedings of the the 9th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP.
 
